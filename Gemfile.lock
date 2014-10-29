@@ -44,7 +44,6 @@ GEM
       ffi (>= 0.5.0)
     redcarpet (2.3.0)
     safe_yaml (1.0.4)
-    sass (3.4.6)
     toml (0.1.2)
       parslet (~> 1.5.0)
     yajl-ruby (1.1.0)
@@ -56,4 +55,3 @@ DEPENDENCIES
   bundler
   jekyll
   rack-jekyll
-  sass
