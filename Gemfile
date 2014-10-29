@@ -1,3 +1,6 @@
 source 'https://rubygems.org'
-gem 'json'
+
+gem 'bundler'
+gem 'sass'
 gem 'jekyll'
+gem 'rack-jekyll'

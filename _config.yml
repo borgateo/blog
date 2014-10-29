@@ -1,3 +1,59 @@
-name: Your New Jekyll Site
+# Build settings
 markdown: redcarpet
-pygments: true
+highlighter: pygments
+
+# Site settings
+title: "Matteo Borgato Blog"
+description: "Il mondo visto dagli occhi miopi di un programmatore."
+
+email: 
+#blog logo
+logo: "/assets/images/logoMB.gif"
+# blog cover
+cover: "/assets/images/desktop.jpg"
+
+name: "Matteo Borgato"
+author: "Matteo Borgato"
+author_image: "/assets/images/matt.jpg"
+
+paginate:	5
+
+url: "http://localhost:4000" 
+baseurl: ""
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/borteo
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: //www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/borteo
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
+
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']

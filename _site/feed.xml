@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matteo Borgato Blog</title>
+    <description>Il mondo visto dagli occhi miopi di un programmatore.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 29 Oct 2014 18:06:45 +0000</pubDate>
+    <lastBuildDate>Wed, 29 Oct 2014 18:06:45 +0000</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Alla ricerca della felicità</title>
+        <description>&lt;p&gt;Ho trascorso 26 anni della mia vita in Italia. In un paesino di campagna a 35 Km da Venezia. Una vita che definivo normale, tranquilla, sicuramente non intensa o tanto stimolante. Non me ne lamentavo affatto. Mi sentivo fortunato. &lt;/p&gt;
+
+&lt;p&gt;C’erano le serate in giro i fine settimana, i soliti posti di ritrovo, le quattro chiacchiere con le facce note al pub. La sicurezza della routine. Una realtà come tante in Italia.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Poi c’era il lavoro.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Fin da giovane, per guadagnare qualcosa, ho fatto diversi lavori. Tenevo duro. Mi ripetevo che una volta laureato, avrei guadagnato uno stipendio “da laureato”. &lt;/p&gt;
+
+&lt;p&gt;Un bel giorno arriva la laurea e con un po’ di fortuna trovo un lavoro come programmatore: &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Contratto D’Apprendistato: 3 anni. Euro 950 (netti) al mese.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Mentre firmo il contratto mi promettono che anticiperanno il termine dell’apprendistato di un anno.&lt;/p&gt;
+
+&lt;p&gt;Mi ripetevo che non avevo esperienza, non potevo assolutamente pretendere un lavoro ben retribuito. Inoltre nessuno dei miei ex compagni di università prendeva più di 1000 Euro al mese. Ironia della sorte, in quei mesi usciva al cinema “&lt;a href=&quot;http://www.imdb.com/title/tt1272014/&quot;&gt;Generazione 1000 Euro&lt;/a&gt;”.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Posticipo la pretesa di uno stipendio decente&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Passano 2 anni e grazie agli scatti d’anzianità arrivo a guadagnare 1049&amp;euro; al mese. L’apprendistato, che doveva terminare in anticipo, viene esteso per un altro anno. Mi viene spiegato: &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;L’azienda non può permettersi di pagarti interamente lo stipendio. Preferiamo ricevere le agevolazioni contributive dello Stato fino alla fine dell’apprendistato. &amp;Egrave; la soluzione migliore per entrambi.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Peccato che avevo già imparato tutto quello che potevo. &lt;/p&gt;
+
+&lt;p&gt;Decido quindi di cercare qualcos’altro.
+Faccio diversi colloqui, piaccio, ricevo offerte tra i 1000 e 1100 Euro al mese, le rifiuto.&lt;/p&gt;
+
+&lt;p&gt;Un altro anno passa, continuo a fare colloqui nella speranza di trovare qualcosa di meglio retribuito. Un cazzo di niente.&lt;/p&gt;
+
+&lt;p&gt;In azienda iniziano a caricarmi di responsabilità: vado a fare assistenza ai clienti, help-desk, implemento interi progetti. Da un lato sono orgoglioso di cosa faccio, dall’altro, &lt;strong&gt;insoddisfatto dalla paga e del modo in cui vengo considerato in ufficio&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Inizio a lavorare anche alla sera, a contratto.
+&lt;strong&gt;Scopro che all’estero i programmatori sono pagati decentemente&lt;/strong&gt;. Arrivano i primi contatti con olandesi, indiani, inglesi. &lt;/p&gt;
+
+&lt;p&gt;Mi accorgo subito conto che &lt;strong&gt;il mio inglese fa schifo.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I programmatori passano il 90% del loro tempo a leggere. Leggiamo il nostro codice, il codice degli altri, documentazioni, blog. Quindi diciamo che riuscivo anche a leggerlo l’inglese, ma a scriverlo...scriverlo proprio no.&lt;/p&gt;
+
+&lt;p&gt;Rispolvero i vecchi libri di scuola.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Poi succede qualcosa di inaspettato.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Per caso, forse senza volerlo, chiacchiero con un amico che lavora per una startup ad Amsterdam. Mi chiede se voglio fare un colloquio con il capo, tanto per provare. Accetto.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/article_images/2014-11-1-alla-ricerca-della-felicita/colloquio.jpg&quot; alt=&quot;Il primo colloquio in inglese&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Il mio inglese parlato era orribile, ma avevo imparato a memoria tutte le possibili risposte ad un colloquio.  Mi chiamano al telefono e va bene. Ricevo il contratto da firmare. Questa volta:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Contratto a Tempo Determinato: 1 anno. Euro 2249 (netti) al mese.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Mi fermo 5 secondi a pensare:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;esperienza all’estero&lt;/li&gt;
+&lt;li&gt;imparo l’inglese &lt;/li&gt;
+&lt;li&gt;un beneficio per Curriculum Vitae e carriera&lt;/li&gt;
+&lt;li&gt;stipendio doppio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Mi licenzio il giorno stesso.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;La smania dura poco. I primi mesi non sono affatto facili. Non capisco quasi nulla e fatico a parlare. 
+Fatico a comprendere la cultura e la gente. Non sapendomi esprimere, mi sento un’idiota.&lt;/p&gt;
+
+&lt;p&gt;Non mi demoralizzo, ad Amsterdam tutti parlano un ottimo inglese. Decido quindi di studiare seriamente questa lingua. Nel tempo libero vado a meet-up, incontro gente, faccio qualche corso. Mi iscrivo a Couch Surfing e inizio ad ospitare gente dal Canada, Stati Uniti, Germania, Russia, ecc… 
+&lt;strong&gt;Sembrava che tutti sapessero parlare un inglese decente, tranne me&lt;/strong&gt;. Mi convinco che per osmosi, stando vicino a gente che parla questa dannata lingua, prima o poi la imparerò anch’io. E così è stato.&lt;/p&gt;
+
+&lt;p&gt;In ufficio do il massimo, faccio quello che mi viene assegnato. Peccato che qualcosa va storto e la squadra di sviluppo viene ridimensionata. La maggior parte dei programmatori viene gentilmente accompagnata alla porta.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Panico.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Dopo appena 9 mesi sono senza lavoro, lontano dall&amp;#39;Italia, conosco veramente poche persone e non vado ancora molto fiero del mio inglese.&lt;/p&gt;
+
+&lt;p&gt;Istintivamente inizio a guardare i voli per tornare a casa.
+Poi ci penso, e mi convinco che ce la posso fare.&lt;/p&gt;
+
+&lt;p&gt;Mando diversi curricula in giro, partecipo a meetup di JavaScript, Frontend Developers, Hackers and Founders, hackathon e altra roba da nerd. Conosco gente, creo connessioni, &lt;strong&gt;faccio sapere all’Olanda che anch’io esisto e che me la cavo abbastanza bene nel mio lavoro&lt;/strong&gt;.
+Prima ancora che il periodo di licenziamento del precedente lavoro terminasse, trovo un lavoro.
+Fatico a rendermi conto di quanto facile sia stato. Mi sento invincibile.&lt;/p&gt;
+
+&lt;p&gt;Poi il resto è venuto di conseguenza.&lt;/p&gt;
+
+&lt;h2&gt;Tutto questo per dirti (TL;DR)&lt;/h2&gt;
+
+&lt;p&gt;Pensarci la prossima volta che ti lamenti del lavoro!
+Ci sono centinaia, se non migliaia di sviluppatori cazzuti in Italia.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Perché accontentarsi? Perché restare in un Paese che non si rende conto di quanto importante sia l’ITC?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In Italia il programmatore viene trattato come l’ultima ruota del carro. Un bracciante.
+In realtà siamo artisti, poeti, sagome creative! Se lavoriamo in ambienti degradanti, spenti e tristi, ne veniamo intossicati. Perdiamo l’ispirazione, la passione e l’interesse. 
+Ammetto che può succedere anche all’estero. Ma qua, se non ti piace un progetto, prendi laptop e bagagli e in poco tempo trovi qualcosa di più attraente. Di certo non resti a fissare lo schermo odiando il capo, i colleghi e la tua esistenza perché non hai alternative.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nel nostro settore è molto facile fare tutto via Internet&lt;/strong&gt;. Non occorre andare ad Amsterdam, Londra, Berlino per trovare un lavoro.
+Basta mandare una email di presentazione con curriculum in allegato. Semplice e non costa nulla.&lt;/p&gt;
+
+&lt;p&gt;Quindi, se anche tu, come lo ero io, non sei soddisfatto del tuo lavoro, ti senti sotto-pagato e sfruttato; ricordati che in Germania, Svizzera, Olanda, Inghilterra,  Scandinavia (solo per nominarne alcune), ci sono centinaia di posti di lavoro che potrebbero piacerti e farti tornare la voglia di essere un programmatore appassionato e realizzato. Con la stessa passione che hai provato al tuo primo &amp;quot;Hello World&amp;quot; / &amp;quot;Ciao Mondo&amp;quot;.&lt;/p&gt;
+
+&lt;p&gt;Ma questa volta sarai tu a dire: &lt;strong&gt;Hello World!&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Nov 2014 18:34:25 +0000</pubDate>
+        <link>http://localhost:4000/lavoro/2014/11/01/alla-ricerca-della-felicita.html</link>
+        <guid isPermaLink="true">http://localhost:4000/lavoro/2014/11/01/alla-ricerca-della-felicita.html</guid>
+        
+        
+        <category>lavoro</category>
+        
+      </item>
+    
+  </channel>
+</rss>

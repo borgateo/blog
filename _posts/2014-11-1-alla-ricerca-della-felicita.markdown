@@ -1,0 +1,110 @@
+---
+layout: post
+title:  "Alla ricerca della felicità"
+date:   2014-11-1 18:34:25
+categories: lavoro
+tags:
+image: /assets/article_images/2014-11-1-alla-ricerca-della-felicita/adam.jpg
+---
+
+Ho trascorso 26 anni della mia vita in Italia. In un paesino di campagna a 35 Km da Venezia. Una vita che definivo normale, tranquilla, sicuramente non intensa o tanto stimolante. Non me ne lamentavo affatto. Mi sentivo fortunato. 
+
+C’erano le serate in giro i fine settimana, i soliti posti di ritrovo, le quattro chiacchiere con le facce note al pub. La sicurezza della routine. Una realtà come tante in Italia.
+
+__Poi c’era il lavoro.__
+
+Fin da giovane, per guadagnare qualcosa, ho fatto diversi lavori. Tenevo duro. Mi ripetevo che una volta laureato, avrei guadagnato uno stipendio “da laureato”. 
+
+Un bel giorno arriva la laurea e con un po’ di fortuna trovo un lavoro come programmatore: 
+> Contratto D’Apprendistato: 3 anni. Euro 950 (netti) al mese.
+
+ Mentre firmo il contratto mi promettono che anticiperanno il termine dell’apprendistato di un anno.
+
+Mi ripetevo che non avevo esperienza, non potevo assolutamente pretendere un lavoro ben retribuito. Inoltre nessuno dei miei ex compagni di università prendeva più di 1000 Euro al mese. Ironia della sorte, in quei mesi usciva al cinema “[Generazione 1000 Euro]”.
+
+**Posticipo la pretesa di uno stipendio decente**.
+
+Passano 2 anni e grazie agli scatti d’anzianità arrivo a guadagnare 1049&euro; al mese. L’apprendistato, che doveva terminare in anticipo, viene esteso per un altro anno. Mi viene spiegato: 
+> L’azienda non può permettersi di pagarti interamente lo stipendio. Preferiamo ricevere le agevolazioni contributive dello Stato fino alla fine dell’apprendistato. &Egrave; la soluzione migliore per entrambi.
+
+Peccato che avevo già imparato tutto quello che potevo. 
+
+Decido quindi di cercare qualcos’altro.
+Faccio diversi colloqui, piaccio, ricevo offerte tra i 1000 e 1100 Euro al mese, le rifiuto.
+
+Un altro anno passa, continuo a fare colloqui nella speranza di trovare qualcosa di meglio retribuito. Un cazzo di niente.
+
+In azienda iniziano a caricarmi di responsabilità: vado a fare assistenza ai clienti, help-desk, implemento interi progetti. Da un lato sono orgoglioso di cosa faccio, dall’altro, **insoddisfatto dalla paga e del modo in cui vengo considerato in ufficio**.
+
+Inizio a lavorare anche alla sera, a contratto.
+**Scopro che all’estero i programmatori sono pagati decentemente**. Arrivano i primi contatti con olandesi, indiani, inglesi. 
+
+Mi accorgo subito conto che __il mio inglese fa schifo.__
+
+I programmatori passano il 90% del loro tempo a leggere. Leggiamo il nostro codice, il codice degli altri, documentazioni, blog. Quindi diciamo che riuscivo anche a leggerlo l’inglese, ma a scriverlo...scriverlo proprio no.
+
+Rispolvero i vecchi libri di scuola.
+
+__Poi succede qualcosa di inaspettato.__
+
+Per caso, forse senza volerlo, chiacchiero con un amico che lavora per una startup ad Amsterdam. Mi chiede se voglio fare un colloquio con il capo, tanto per provare. Accetto.
+
+![Il primo colloquio in inglese]({{ site.url }}/assets/article_images/2014-11-1-alla-ricerca-della-felicita/colloquio.jpg)
+
+Il mio inglese parlato era orribile, ma avevo imparato a memoria tutte le possibili risposte ad un colloquio.  Mi chiamano al telefono e va bene. Ricevo il contratto da firmare. Questa volta:
+
+> Contratto a Tempo Determinato: 1 anno. Euro 2249 (netti) al mese.
+
+Mi fermo 5 secondi a pensare:
+
+- esperienza all’estero
+- imparo l’inglese 
+- un beneficio per Curriculum Vitae e carriera
+- stipendio doppio
+
+**Mi licenzio il giorno stesso.**
+
+La smania dura poco. I primi mesi non sono affatto facili. Non capisco quasi nulla e fatico a parlare. 
+Fatico a comprendere la cultura e la gente. Non sapendomi esprimere, mi sento un’idiota.
+
+Non mi demoralizzo, ad Amsterdam tutti parlano un ottimo inglese. Decido quindi di studiare seriamente questa lingua. Nel tempo libero vado a meet-up, incontro gente, faccio qualche corso. Mi iscrivo a Couch Surfing e inizio ad ospitare gente dal Canada, Stati Uniti, Germania, Russia, ecc… 
+**Sembrava che tutti sapessero parlare un inglese decente, tranne me**. Mi convinco che per osmosi, stando vicino a gente che parla questa dannata lingua, prima o poi la imparerò anch’io. E così è stato.
+
+In ufficio do il massimo, faccio quello che mi viene assegnato. Peccato che qualcosa va storto e la squadra di sviluppo viene ridimensionata. La maggior parte dei programmatori viene gentilmente accompagnata alla porta.
+
+__Panico.__
+
+Dopo appena 9 mesi sono senza lavoro, lontano dall'Italia, conosco veramente poche persone e non vado ancora molto fiero del mio inglese.
+
+Istintivamente inizio a guardare i voli per tornare a casa.
+Poi ci penso, e mi convinco che ce la posso fare.
+
+Mando diversi curricula in giro, partecipo a meetup di JavaScript, Frontend Developers, Hackers and Founders, hackathon e altra roba da nerd. Conosco gente, creo connessioni, **faccio sapere all’Olanda che anch’io esisto e che me la cavo abbastanza bene nel mio lavoro**.
+Prima ancora che il periodo di licenziamento del precedente lavoro terminasse, trovo un lavoro.
+Fatico a rendermi conto di quanto facile sia stato. Mi sento invincibile.
+
+Poi il resto è venuto di conseguenza.
+
+## Tutto questo per dirti (TL;DR)
+Pensarci la prossima volta che ti lamenti del lavoro!
+Ci sono centinaia, se non migliaia di sviluppatori cazzuti in Italia.
+
+>Perché accontentarsi? Perché restare in un Paese che non si rende conto di quanto importante sia l’ITC?
+
+In Italia il programmatore viene trattato come l’ultima ruota del carro. Un bracciante.
+In realtà siamo artisti, poeti, sagome creative! Se lavoriamo in ambienti degradanti, spenti e tristi, ne veniamo intossicati. Perdiamo l’ispirazione, la passione e l’interesse. 
+Ammetto che può succedere anche all’estero. Ma qua, se non ti piace un progetto, prendi laptop e bagagli e in poco tempo trovi qualcosa di più attraente. Di certo non resti a fissare lo schermo odiando il capo, i colleghi e la tua esistenza perché non hai alternative.
+
+**Nel nostro settore è molto facile fare tutto via Internet**. Non occorre andare ad Amsterdam, Londra, Berlino per trovare un lavoro.
+Basta mandare una email di presentazione con curriculum in allegato. Semplice e non costa nulla.
+
+Quindi, se anche tu, come lo ero io, non sei soddisfatto del tuo lavoro, ti senti sotto-pagato e sfruttato; ricordati che in Germania, Svizzera, Olanda, Inghilterra,  Scandinavia (solo per nominarne alcune), ci sono centinaia di posti di lavoro che potrebbero piacerti e farti tornare la voglia di essere un programmatore appassionato e realizzato. Con la stessa passione che hai provato al tuo primo "Hello World" / "Ciao Mondo".
+
+Ma questa volta sarai tu a dire: **Hello World!**
+
+
+
+
+[Generazione 1000 Euro]:  http://www.imdb.com/title/tt1272014/
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
