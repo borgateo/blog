@@ -2,31 +2,7 @@ mediator
 ========
 
 A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](http://blog.base68.com).
-
-Screenshots
---------
-![screenshot](/assets/images/screenshot1.jpg)
-![screenshot](/assets/images/screenshot2.jpg)
-![screenshot](/assets/images/screenshot3.jpg)
-
-Features
--------
-* Fully Responsive layout
-* Use header images in articles, if you want to (add tag "image" and url to the image in the front matter section of a post)
-* Minimal design
-* Featured article support
-* FontAwesome implemented for easy use of icons fonts
-* Free & Open Source Font usage
-
-Getting Started
----
-- [Fork this repository](https://github.com/dirkfabisch/mediator)
-- Clone it: `git clone https://github.com/YOUR-USER/mediator`
-- Install the [GitHub Pages gem](https://github.com/github/pages-gem) (includes Jekyll): `bundle install`
-- Run the jekyll server: `jekyll serve`
-
-You should have a server up and running locally at <http://localhost:4000>.
+[Readium 2.0](http://www.svenread.com/readium-ghost-theme/)
 
 Configuration
 -----
@@ -46,7 +22,6 @@ Main settings for the site
 * **email**: mail address of the site owner
 * **author**: author name
 * **author_image**: small image of author (300x * 300px)
-
  
 ### Social 
 
