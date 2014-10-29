@@ -1,5 +1,6 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'bundler'
+gem 's3_website'
 gem 'jekyll'
-gem 'rack-jekyll'
+gem 'redcarpet'
+gem 'travis'

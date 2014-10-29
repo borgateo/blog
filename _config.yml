@@ -1,6 +1,5 @@
 # Build settings
 markdown: redcarpet
-highlighter: pygments
 
 # Site settings
 title: "Matteo Borgato Blog"
