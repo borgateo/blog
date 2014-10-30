@@ -17,7 +17,7 @@ author_image: "/assets/images/matt.jpg"
 
 paginate:	5
 
-url: "http://localhost:4000" 
+url: "http://blog.matteoborgato.com" 
 baseurl: ""
 
 # social icons and sharing options
