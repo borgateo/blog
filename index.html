@@ -50,12 +50,19 @@ layout: default
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
      <div class="article-item">
       <header class="post-header">
-       <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+        <h2 class="post-title" itemprop="name">
+          <a href="{{ post.url }}" itemprop="url">{{ post.title }}</a>
+        </h2>
       </header>
       <section class="post-excerpt" itemprop="description">
-       <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-      </section>
-      <div class="post-meta">
+        <a href="{{ post.url }}" itemprop="url">
+          <div class="thumbnail-image" style="background-image: url({{ post.image-thumbnail }})"></div>
+        </a>
+        <p>
+          {{ post.subtitle }}
+          <!-- {{ post.content | strip_html | truncatewords: 50 }} -->
+        </p>
+        <div class="post-meta">
         <time datetime="{{ post.date | date: "%F %R" }}">
           <!-- Whitespace added for readability -->
           {% assign m = post.date | date: "%-m" %}
@@ -78,6 +85,7 @@ layout: default
         </time>
 <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
       </div>
+      </section>
      <div>
     </article>
    {% endfor %}
@@ -87,7 +95,7 @@ layout: default
    {% if paginator.next_page %}
     <a class="newer-posts" href="/page{{paginator.next_page}}">&larr; Vecchi pensieri</a>
    {% endif %}
-   <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+   <span class="page-number">Pagina {{ paginator.page }} di {{ paginator.total_pages }}</span>
    {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
      <a class="older-posts" href="/">Nuovi pensieri &rarr;</a>

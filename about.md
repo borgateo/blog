@@ -6,7 +6,7 @@ permalink: /about/
 
 ###Formalmente
 
-Lead UI Engineer per [StreamHub] - [Londra] Gran Bretagna
+Lead UI Engineer per [StreamHub], [Londra], Gran Bretagna
 
 ###inFormalmente
 

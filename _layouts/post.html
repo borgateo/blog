@@ -1,7 +1,8 @@
 ---
 ---
 <!DOCTYPE html>
-<html>
+<html lang="it">
+
   {% include head.html %}
 
   <body itemscope itemtype="http://schema.org/Article">
@@ -13,7 +14,6 @@
         <section class="article-image">
           <div class="post-image" style="background-image: url({{ page.image }})"></div>
           <div class="post-meta">
-            <h1 class="post-title">{{ page.title }}</h1>
             <div class="cf post-meta-text">
               <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} -->
             </div>
@@ -42,6 +42,8 @@
             <span class="post-reading-time"></span> read
           </div>
           <a name="topofpage"></a>
+          <h2 class="post-title">{{ page.title }}</h2>
+          <h3 class="post-subtitle">{{ page.subtitle }}</h3>
           {{content}}
         </section>
         <footer class="post-footer">

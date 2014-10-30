@@ -1,17 +1,19 @@
 ---
-layout: post
-title:  "Alla ricerca della felicità"
-date:   2014-11-1 18:34:25
+layout:     post
+title:      "Alla ricerca della Felicità"
+subtitle:   "Dicono che il lavoro nobilita l'uomo. Sinceramente preferisco non diventare simile ad una bestia."
+date:       2014-11-1 18:34:25
 categories: lavoro
 tags:
 image: /assets/article_images/2014-11-1-alla-ricerca-della-felicita/adam.jpg
+image-thumbnail: /assets/article_images/2014-11-1-alla-ricerca-della-felicita/baloon.jpg
 ---
 
 Ho trascorso 26 anni della mia vita in Italia. In un paesino di campagna a 35 Km da Venezia. Una vita che definivo normale, tranquilla, sicuramente non intensa o tanto stimolante. Non me ne lamentavo affatto. Mi sentivo fortunato. 
 
 C’erano le serate in giro i fine settimana, i soliti posti di ritrovo, le quattro chiacchiere con le facce note al pub. La sicurezza della routine. Una realtà come tante in Italia.
 
-__Poi c’era il lavoro.__
+##### Poi c’era il lavoro
 
 Fin da giovane, per guadagnare qualcosa, ho fatto diversi lavori. Tenevo duro. Mi ripetevo che una volta laureato, avrei guadagnato uno stipendio “da laureato”. 
 
@@ -22,7 +24,7 @@ Un bel giorno arriva la laurea e con un po’ di fortuna trovo un lavoro come pr
 
 Mi ripetevo che non avevo esperienza, non potevo assolutamente pretendere un lavoro ben retribuito. Inoltre nessuno dei miei ex compagni di università prendeva più di 1000 Euro al mese. Ironia della sorte, in quei mesi usciva al cinema “[Generazione 1000 Euro]”.
 
-**Posticipo la pretesa di uno stipendio decente**.
+##### Posticipo la pretesa di uno stipendio decente
 
 Passano 2 anni e grazie agli scatti d’anzianità arrivo a guadagnare 1049&euro; al mese. L’apprendistato, che doveva terminare in anticipo, viene esteso per un altro anno. Mi viene spiegato: 
 > L’azienda non può permettersi di pagarti interamente lo stipendio. Preferiamo ricevere le agevolazioni contributive dello Stato fino alla fine dell’apprendistato. &Egrave; la soluzione migliore per entrambi.
@@ -34,18 +36,20 @@ Faccio diversi colloqui, piaccio, ricevo offerte tra i 1000 e 1100 Euro al mese,
 
 Un altro anno passa, continuo a fare colloqui nella speranza di trovare qualcosa di meglio retribuito. Un cazzo di niente.
 
-In azienda iniziano a caricarmi di responsabilità: vado a fare assistenza ai clienti, help-desk, implemento interi progetti. Da un lato sono orgoglioso di cosa faccio, dall’altro, **insoddisfatto dalla paga e del modo in cui vengo considerato in ufficio**.
+In azienda iniziano a caricarmi di responsabilità: vado a fare assistenza ai clienti, help-desk, implemento interi progetti. Da un lato sono orgoglioso di cosa faccio, dall’altro, **insoddisfatto dalla paga** e dal modo in cui vengo considerato in ufficio.
 
-Inizio a lavorare anche alla sera, a contratto.
-**Scopro che all’estero i programmatori sono pagati decentemente**. Arrivano i primi contatti con olandesi, indiani, inglesi. 
+Grazie ad un amico che aveva contatti con clienti esteri, inizio a lavorare anche alla sera.
 
+**Scopro che all’estero i programmatori sono pagati decentemente**.
+
+Arrivano i primi contatti con olandesi, indiani, inglesi.
 Mi accorgo subito conto che __il mio inglese fa schifo.__
 
-I programmatori passano il 90% del loro tempo a leggere. Leggiamo il nostro codice, il codice degli altri, documentazioni, blog. Quindi diciamo che riuscivo anche a leggerlo l’inglese, ma a scriverlo...scriverlo proprio no.
+>I programmatori passano il 90% del loro tempo a leggere. Leggiamo il nostro codice, il codice degli altri, documentazioni, blog. Quindi diciamo che riuscivo anche a leggerlo l’inglese, ma a scriverlo...scriverlo proprio no.
 
-Rispolvero i vecchi libri di scuola.
+Riprendo in mano i libri delle superiori cercando di ricordare il poco inglese che avevo imparato.
 
-__Poi succede qualcosa di inaspettato.__
+##### Quindi succede qualcosa di inaspettato
 
 Per caso, forse senza volerlo, chiacchiero con un amico che lavora per una startup ad Amsterdam. Mi chiede se voglio fare un colloquio con il capo, tanto per provare. Accetto.
 
@@ -72,7 +76,7 @@ Non mi demoralizzo, ad Amsterdam tutti parlano un ottimo inglese. Decido quindi 
 
 In ufficio do il massimo, faccio quello che mi viene assegnato. Peccato che qualcosa va storto e la squadra di sviluppo viene ridimensionata. La maggior parte dei programmatori viene gentilmente accompagnata alla porta.
 
-__Panico.__
+##### Panico
 
 Dopo appena 9 mesi sono senza lavoro, lontano dall'Italia, conosco veramente poche persone e non vado ancora molto fiero del mio inglese.
 
@@ -85,7 +89,7 @@ Fatico a rendermi conto di quanto facile sia stato. Mi sento invincibile.
 
 Poi il resto è venuto di conseguenza.
 
-## Tutto questo per dirti (TL;DR)
+#### Tutto questo per dirti (TL;DR)
 Pensarci la prossima volta che ti lamenti del lavoro!
 Ci sono centinaia, se non migliaia di sviluppatori cazzuti in Italia.
 
