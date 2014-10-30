@@ -1,10 +1,11 @@
-language: ruby
-rvm:
-- 2.1.2
-script: bundle exec jekyll build
-install: bundle install
-after_success: bundle exec s3_website push --headless
 env:
   global:
   - secure: JOIyXAI5Fg65+bR0if9B1V96cvg9uNCLRLZtfSLS1mrU27HJYxLruE5TFvFiR8uHdQV4FKRPgcYuKy/C8/+/d0NOVq2aC7gxRegOEJPVYFHheU38gRm/ZLAxNp5ZcfvxO1VUtWB95lBtp1C7tiMTtM/0xoDJ1R5IUys+jWvGYsU=
   - secure: M7l2GF3eL8TTjXnjADRzFVF2hJ3Hte/Q8S1+6R4wWrAQI7caqbSle44V7+e56yU+LULqM/V5b9gdln1SPUtCxR+A1k1K6QJH5G3BhtmTNvI7GWympaU9Qh83TrzDjlJcrSXLQJ5JSrM16q2CzA4yUjusksMju20dqu644ASPcs8=
+  - S3_BUCKET_NAME=blog-matteoborgato
+language: ruby
+rvm:
+  - 2.1.2
+script: bundle exec jekyll build
+install: bundle install
+after_success: bundle exec s3_website push
