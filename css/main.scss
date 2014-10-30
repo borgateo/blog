@@ -438,9 +438,6 @@ body {
       -moz-hyphens: auto;
       hyphens: auto;
     }
-    & > p:first-of-type::first-letter {
-      font-size: 4em;
-    }
     a {
       color: #333;
       text-decoration: underline;
@@ -505,6 +502,9 @@ body {
     ol li {
       list-style-type: decimal;
     }
+  }
+  .post > p:first-of-type::first-letter {
+    font-size: 4em;
   }
   .bottom-teaser {
     padding: 50px 0;

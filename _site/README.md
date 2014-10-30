@@ -1,32 +1,8 @@
-mediator
+Matteo Borgato Blog
 ========
 
 A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](http://blog.base68.com).
-
-Screenshots
---------
-![screenshot](/assets/images/screenshot1.jpg)
-![screenshot](/assets/images/screenshot2.jpg)
-![screenshot](/assets/images/screenshot3.jpg)
-
-Features
--------
-* Fully Responsive layout
-* Use header images in articles, if you want to (add tag "image" and url to the image in the front matter section of a post)
-* Minimal design
-* Featured article support
-* FontAwesome implemented for easy use of icons fonts
-* Free & Open Source Font usage
-
-Getting Started
----
-- [Fork this repository](https://github.com/dirkfabisch/mediator)
-- Clone it: `git clone https://github.com/YOUR-USER/mediator`
-- Install the [GitHub Pages gem](https://github.com/github/pages-gem) (includes Jekyll): `bundle install`
-- Run the jekyll server: `jekyll serve`
-
-You should have a server up and running locally at <http://localhost:4000>.
+[Readium 2.0](http://www.svenread.com/readium-ghost-theme/)
 
 Configuration
 -----
@@ -46,7 +22,6 @@ Main settings for the site
 * **email**: mail address of the site owner
 * **author**: author name
 * **author_image**: small image of author (300x * 300px)
-
  
 ### Social 
 
@@ -65,15 +40,4 @@ The Liquid template engine will magical combine the different parts to a share u
 ```
 http://twitter.com/share?text=post_title&amp;url=post_url
 ````
-
-See [_config.yml](https://github.com/dirkfabisch/mediator/blob/master/_config.yml) for more examples. 
-
-Licensing
----------
-
-[MIT](https://github.com/dirkfabisch/madiator/blob/master/LICENSE) with no added caveats, so feel free to use this on your site without linking back to me or using a disclaimer or anything silly like that.
-
-Contact
--------
-I'd love to hear from you at [@dirkfabisch](https://twitter.com/dirkfabisch). Feel free to open issues if you run into trouble or have suggestions. Pull Requests always welcome.
 

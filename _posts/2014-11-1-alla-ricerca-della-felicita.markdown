@@ -49,7 +49,7 @@ __Poi succede qualcosa di inaspettato.__
 
 Per caso, forse senza volerlo, chiacchiero con un amico che lavora per una startup ad Amsterdam. Mi chiede se voglio fare un colloquio con il capo, tanto per provare. Accetto.
 
-![Il primo colloquio in inglese]({{ site.url }}/assets/article_images/2014-11-1-alla-ricerca-della-felicita/colloquio.jpg)
+![Il primo colloquio in inglese](/assets/article_images/2014-11-1-alla-ricerca-della-felicita/colloquio.jpg)
 
 Il mio inglese parlato era orribile, ma avevo imparato a memoria tutte le possibili risposte ad un colloquio.  Mi chiamano al telefono e va bene. Ricevo il contratto da firmare. Questa volta:
 
@@ -103,8 +103,4 @@ Quindi, se anche tu, come lo ero io, non sei soddisfatto del tuo lavoro, ti sent
 Ma questa volta sarai tu a dire: **Hello World!**
 
 
-
-
 [Generazione 1000 Euro]:  http://www.imdb.com/title/tt1272014/
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help

@@ -3,10 +3,10 @@
   <channel>
     <title>Matteo Borgato Blog</title>
     <description>Il mondo visto dagli occhi miopi di un programmatore.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 29 Oct 2014 18:06:45 +0000</pubDate>
-    <lastBuildDate>Wed, 29 Oct 2014 18:06:45 +0000</lastBuildDate>
+    <link>http://blog.matteoborgato.com/</link>
+    <atom:link href="http://blog.matteoborgato.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 30 Oct 2014 19:54:55 +0000</pubDate>
+    <lastBuildDate>Thu, 30 Oct 2014 19:54:55 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -59,7 +59,7 @@ Faccio diversi colloqui, piaccio, ricevo offerte tra i 1000 e 1100 Euro al mese,
 
 &lt;p&gt;Per caso, forse senza volerlo, chiacchiero con un amico che lavora per una startup ad Amsterdam. Mi chiede se voglio fare un colloquio con il capo, tanto per provare. Accetto.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/article_images/2014-11-1-alla-ricerca-della-felicita/colloquio.jpg&quot; alt=&quot;Il primo colloquio in inglese&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/article_images/2014-11-1-alla-ricerca-della-felicita/colloquio.jpg&quot; alt=&quot;Il primo colloquio in inglese&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;Il mio inglese parlato era orribile, ma avevo imparato a memoria tutte le possibili risposte ad un colloquio.  Mi chiamano al telefono e va bene. Ricevo il contratto da firmare. Questa volta:&lt;/p&gt;
 
@@ -120,8 +120,8 @@ Basta mandare una email di presentazione con curriculum in allegato. Semplice e 
 &lt;p&gt;Ma questa volta sarai tu a dire: &lt;strong&gt;Hello World!&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Nov 2014 18:34:25 +0000</pubDate>
-        <link>http://localhost:4000/lavoro/2014/11/01/alla-ricerca-della-felicita.html</link>
-        <guid isPermaLink="true">http://localhost:4000/lavoro/2014/11/01/alla-ricerca-della-felicita.html</guid>
+        <link>http://blog.matteoborgato.com/lavoro/2014/11/01/alla-ricerca-della-felicita.html</link>
+        <guid isPermaLink="true">http://blog.matteoborgato.com/lavoro/2014/11/01/alla-ricerca-della-felicita.html</guid>
         
         
         <category>lavoro</category>

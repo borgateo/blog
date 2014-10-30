@@ -55,4 +55,7 @@ sass:
   sass_dir: _sass
   style: :compressed
 
+gems:
+  - jekyll-sitemap
+
 exclude: [Gemfile, Gemfile.lock, README.markdown, s3_website.yml]
