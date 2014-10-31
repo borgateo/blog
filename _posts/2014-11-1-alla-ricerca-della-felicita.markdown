@@ -1,12 +1,12 @@
 ---
 layout:     post
 title:      "Alla ricerca della Felicità"
-subtitle:   "Dicono che il lavoro nobilita l'uomo. Sinceramente preferisco non diventare simile ad una bestia."
+subtitle:   "Magari è vero che il lavoro nobilita l'uomo. Ma preferei non diventare simile ad una bestia."
 date:       2014-11-1 18:34:25
 categories: lavoro
 tags:
 image: /assets/article_images/2014-11-1-alla-ricerca-della-felicita/adam.jpg
-image-thumbnail: /assets/article_images/2014-11-1-alla-ricerca-della-felicita/baloon.jpg
+image-thumbnail: /assets/article_images/2014-11-1-alla-ricerca-della-felicita/baloon-thumb.jpg
 ---
 
 Ho trascorso 26 anni della mia vita in Italia. In un paesino di campagna a 35 Km da Venezia. Una vita che definivo normale, tranquilla, sicuramente non intensa o tanto stimolante. Non me ne lamentavo affatto. Mi sentivo fortunato. 
@@ -20,23 +20,23 @@ Fin da giovane, per guadagnare qualcosa, ho fatto diversi lavori. Tenevo duro. M
 Un bel giorno arriva la laurea e con un po’ di fortuna trovo un lavoro come programmatore: 
 > Contratto D’Apprendistato: 3 anni. Euro 950 (netti) al mese.
 
- Mentre firmo il contratto mi promettono che anticiperanno il termine dell’apprendistato di un anno.
+Mentre firmo il contratto mi promettono che anticiperanno il termine dell’apprendistato di un anno.
 
-Mi ripetevo che non avevo esperienza, non potevo assolutamente pretendere un lavoro ben retribuito. Inoltre nessuno dei miei ex compagni di università prendeva più di 1000 Euro al mese. Ironia della sorte, in quei mesi usciva al cinema “[Generazione 1000 Euro]”.
+Mi ripeto che non ho esperienza, non posso assolutamente pretendere un lavoro ben retribuito. Inoltre, come consolazione, nessuno dei miei ex compagni d'università prende più di 1000&euro; al mese. Ironia della sorte, in quei mesi usciva al cinema “[Generazione 1000 Euro]”.
 
 ##### Posticipo la pretesa di uno stipendio decente
 
-Passano 2 anni e grazie agli scatti d’anzianità arrivo a guadagnare 1049&euro; al mese. L’apprendistato, che doveva terminare in anticipo, viene esteso per un altro anno. Mi viene spiegato: 
-> L’azienda non può permettersi di pagarti interamente lo stipendio. Preferiamo ricevere le agevolazioni contributive dello Stato fino alla fine dell’apprendistato. &Egrave; la soluzione migliore per entrambi.
+Passano 2 anni e grazie agli scatti d’anzianità arrivo a guadagnare la bellezza di 1049&euro; al mese. L’apprendistato, che doveva terminare in anticipo, viene esteso per un altro anno. Mi viene spiegato: 
+> L’azienda non può permettersi di pagarti interamente lo stipendio. Preferiamo ricevere le agevolazioni contributive dello Stato fino al termine dell’apprendistato. &Egrave; la soluzione migliore per entrambi.
 
 Peccato che avevo già imparato tutto quello che potevo. 
 
 Decido quindi di cercare qualcos’altro.
-Faccio diversi colloqui, piaccio, ricevo offerte tra i 1000 e 1100 Euro al mese, le rifiuto.
+Faccio diversi colloqui, piaccio, ricevo offerte tra i 1000 e 1100 Euro al mese. Le rifiuto.
 
 Un altro anno passa, continuo a fare colloqui nella speranza di trovare qualcosa di meglio retribuito. Un cazzo di niente.
 
-In azienda iniziano a caricarmi di responsabilità: vado a fare assistenza ai clienti, help-desk, implemento interi progetti. Da un lato sono orgoglioso di cosa faccio, dall’altro, **insoddisfatto dalla paga** e dal modo in cui vengo considerato in ufficio.
+In azienda iniziano a caricarmi di responsabilità: vado a fare assistenza ai clienti, help-desk, implemento interi progetti. Da un lato sono orgoglioso di cosa faccio, dall’altro, **insoddisfatto dalla paga** e dal modo in cui vengo, anzi, **non vengo considerato** in ufficio.
 
 Grazie ad un amico che aveva contatti con clienti esteri, inizio a lavorare anche alla sera.
 
@@ -51,9 +51,9 @@ Riprendo in mano i libri delle superiori cercando di ricordare il poco inglese c
 
 ##### Quindi succede qualcosa di inaspettato
 
-Per caso, forse senza volerlo, chiacchiero con un amico che lavora per una startup ad Amsterdam. Mi chiede se voglio fare un colloquio con il capo, tanto per provare. Accetto.
+Per caso, forse senza volerlo, chiacchiero con un amico che lavora per una [startup] ad Amsterdam. Mi chiede se voglio fare un colloquio con il capo, tanto per provare. Accetto.
 
-![Il primo colloquio in inglese](/assets/article_images/2014-11-1-alla-ricerca-della-felicita/colloquio.jpg)
+![Il primo colloquio in inglese: emozionante](/assets/article_images/2014-11-1-alla-ricerca-della-felicita/colloquio.jpg)
 
 Il mio inglese parlato era orribile, ma avevo imparato a memoria tutte le possibili risposte ad un colloquio.  Mi chiamano al telefono e va bene. Ricevo il contratto da firmare. Questa volta:
 
@@ -71,7 +71,7 @@ Mi fermo 5 secondi a pensare:
 La smania dura poco. I primi mesi non sono affatto facili. Non capisco quasi nulla e fatico a parlare. 
 Fatico a comprendere la cultura e la gente. Non sapendomi esprimere, mi sento un’idiota.
 
-Non mi demoralizzo, ad Amsterdam tutti parlano un ottimo inglese. Decido quindi di studiare seriamente questa lingua. Nel tempo libero vado a meet-up, incontro gente, faccio qualche corso. Mi iscrivo a Couch Surfing e inizio ad ospitare gente dal Canada, Stati Uniti, Germania, Russia, ecc… 
+Non mi demoralizzo, ad Amsterdam tutti parlano un ottimo inglese. Decido quindi di studiare seriamente questa lingua. Nel tempo libero vado a [meetup], incontro gente, faccio qualche corso. Mi iscrivo a [couch surfing] e inizio ad ospitare gente dal Canada, Stati Uniti, Germania, Russia, ecc… 
 **Sembrava che tutti sapessero parlare un inglese decente, tranne me**. Mi convinco che per osmosi, stando vicino a gente che parla questa dannata lingua, prima o poi la imparerò anch’io. E così è stato.
 
 In ufficio do il massimo, faccio quello che mi viene assegnato. Peccato che qualcosa va storto e la squadra di sviluppo viene ridimensionata. La maggior parte dei programmatori viene gentilmente accompagnata alla porta.
@@ -97,14 +97,20 @@ Ci sono centinaia, se non migliaia di sviluppatori cazzuti in Italia.
 
 In Italia il programmatore viene trattato come l’ultima ruota del carro. Un bracciante.
 In realtà siamo artisti, poeti, sagome creative! Se lavoriamo in ambienti degradanti, spenti e tristi, ne veniamo intossicati. Perdiamo l’ispirazione, la passione e l’interesse. 
-Ammetto che può succedere anche all’estero. Ma qua, se non ti piace un progetto, prendi laptop e bagagli e in poco tempo trovi qualcosa di più attraente. Di certo non resti a fissare lo schermo odiando il capo, i colleghi e la tua esistenza perché non hai alternative.
+Ammetto che può succedere anche all’estero. Ma qua, se non ti piace un progetto, prendi *laptop e bagagli* e in poco tempo trovi qualcosa di più attraente. Di certo non resti a fissare lo schermo odiando il capo, i colleghi e la tua esistenza perché non hai alternative.
 
 **Nel nostro settore è molto facile fare tutto via Internet**. Non occorre andare ad Amsterdam, Londra, Berlino per trovare un lavoro.
 Basta mandare una email di presentazione con curriculum in allegato. Semplice e non costa nulla.
 
-Quindi, se anche tu, come lo ero io, non sei soddisfatto del tuo lavoro, ti senti sotto-pagato e sfruttato; ricordati che in Germania, Svizzera, Olanda, Inghilterra,  Scandinavia (solo per nominarne alcune), ci sono centinaia di posti di lavoro che potrebbero piacerti e farti tornare la voglia di essere un programmatore appassionato e realizzato. Con la stessa passione che hai provato al tuo primo "Hello World" / "Ciao Mondo".
+![Alla scoperta di nuove realtà (Olanda)](/assets/article_images/2014-11-1-alla-ricerca-della-felicita/baloon.jpg)
 
-Ma questa volta sarai tu a dire: **Hello World!**
+Quindi, se anche tu, come lo ero io, non sei soddisfatto del tuo lavoro, ti senti sotto-pagato e sfruttato; ricordati che in Germania, Svizzera, Olanda, Inghilterra,  Scandinavia (solo per nominarne alcune), ci sono centinaia di posti di lavoro che potrebbero piacerti e farti tornare la passione e farti sentire realizzato. Con la stessa felicità ed entusiamo che avevi al tuo primo ["Hello, World!"]
+
+Ma questa volta, sarai tu a dire: **Hello World!**
 
 
 [Generazione 1000 Euro]:  http://www.imdb.com/title/tt1272014/
+[startup]: http://it.wikipedia.org/wiki/Startup_%28economia%29
+[meetup]: http://www.meetup.com/
+[couch surfing]: https://www.couchsurfing.org/
+["Hello, World!"]: http://it.wikipedia.org/wiki/Hello_world

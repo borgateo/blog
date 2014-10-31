@@ -492,6 +492,7 @@ body {
     figure {
       margin: 0;
       padding: 0 0 30px;
+      text-align: center;
     }
     figcaption {
       font-weight: 400;
@@ -548,6 +549,9 @@ body {
   }
   .post > p:first-of-type::first-letter {
     font-size: 4em;
+  }
+  .post > p:first-of-type {
+    margin-top: 1.8em; 
   }
   .bottom-teaser {
     padding: 50px 0;
