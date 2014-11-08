@@ -50,6 +50,10 @@ social:
 #    share_title:
 #    share_link:
 
+# Outputting
+permalink:     /:categories/:title
+paginate_path: /page:num
+
 
 sass:
   sass_dir: _sass

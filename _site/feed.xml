@@ -5,9 +5,148 @@
     <description>Il mondo visto dagli occhi miopi di un programmatore.</description>
     <link>http://blog.matteoborgato.com/</link>
     <atom:link href="http://blog.matteoborgato.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 31 Oct 2014 14:54:08 +0000</pubDate>
-    <lastBuildDate>Fri, 31 Oct 2014 14:54:08 +0000</lastBuildDate>
+    <pubDate>Sat, 08 Nov 2014 18:23:10 +0000</pubDate>
+    <lastBuildDate>Sat, 08 Nov 2014 18:23:10 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Il colloquio di lavoro</title>
+        <description>&lt;p&gt;In Italia un programmatore viene definito &lt;strong&gt;Senior&lt;/strong&gt; all’ottavo anno di esperienza nel settore. Per quanto uno possa sforzarsi, impegnarsi e far vedere quanto vale, non c’è modo di uscire da questa &amp;quot;casta di anzianità&amp;quot;. La gente ti prende sul serio solamente quando hai compiuto 35-40 anni.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“Ormai siamo troppo giovani” &amp;mdash; cit. Dimartino&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4&gt;Fortunatamente all’estero tutto ciò non esiste, anzi&lt;/h4&gt;
+
+&lt;p&gt;Nei Paesi dove esiste la meritocrazia &amp;mdash;non gli scatti d’anzianità o ancor peggio le raccomandazioni&amp;mdash; le etichette vengono attribuite in base ad altre unità di misura.&lt;/p&gt;
+
+&lt;p&gt;Ecco perché, &lt;strong&gt;sapersi vendere&lt;/strong&gt; e &lt;strong&gt;fare una buona impressione&lt;/strong&gt; di fronte ai potenziali datori di lavoro, è fondamentale.&lt;/p&gt;
+
+&lt;p&gt;Affrontare un colloquio di lavoro non è per niente facile. 
+Le cose si complicano maggiormente se devi farlo in inglese. &lt;/p&gt;
+
+&lt;h4&gt;Nessuno nasce “imparato”&lt;/h4&gt;
+
+&lt;p&gt;L’arte di fare un’ottima impressione ad un colloquio è qualcosa che va studiato, applicato, analizzato e quindi ripetuto.&lt;/p&gt;
+
+&lt;p&gt;Negli ultimi tempi ho avuto la fortuna di vestire i panni de “&lt;em&gt;il tizio che sta dall’altra parte&lt;/em&gt;” e fa le domande ai candidati. 
+Questo mi ha aperto gli occhi a molti aspetti che prima mi sembravano scontati o irrilevanti.&lt;/p&gt;
+
+&lt;p&gt;Ecco quindi alcune dritte. Non sto dicendo che seguendole passerai ogni colloquio. Ma sono sicuro che ti potranno essere d’aiuto.&lt;/p&gt;
+
+&lt;h5&gt;I programmatori mentono nel CV, e tutti già lo sanno&lt;/h5&gt;
+
+&lt;p&gt;Nell’80% dei casi, chi ti intervista scopre gli altarini in poco tempo.
+Se invece sei fortunato e cadi nell’altro 20%, ci sono alte probabilità che hai fatto il colloquio in un’azienda dove il personale non è molto competente. 
+Un ambiente simile ti annoierebbe in pochi mesi. &lt;/p&gt;
+
+&lt;p&gt;Quindi evitare &lt;em&gt;balle spaziali&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h5&gt;Atteggiamento&lt;/h5&gt;
+
+&lt;p&gt;In nord Europa la gente sorride veramente poco. Per noi italiani invece, è naturale.&lt;/p&gt;
+
+&lt;p&gt;Ho notato che sorridere, fare qualche battuta, e alleggerire l’atmosfera è un’arma vincente.  &lt;/p&gt;
+
+&lt;p&gt;Ovviamente dev’essere sapientemente &lt;strong&gt;bilanciato&lt;/strong&gt;.
+Se &lt;em&gt;troppo seri&lt;/em&gt;, si rimane anonimi e piatti. Se &lt;em&gt;troppo piacioni&lt;/em&gt;, non veniamo presi seriamente. &lt;/p&gt;
+
+&lt;p&gt;In entrambi i casi, l’azienda non si farà risentire. Quindi cerca di avere una buona attitudine.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Statisticamente, un datore di lavoro capisce se ti vuole assumere nei primi 90 secondi. Se ti presenti sorridente, composto, educato e professionale, sei già a metà strada.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Mantenere il &lt;strong&gt;contatto degli occhi&lt;/strong&gt; è molto importante. Guardare sempre per terra dimostra insicurezza, guardare fuori dalla finestra, disinteresse. Guarda negli occhi le persone che hai davanti.&lt;/p&gt;
+
+&lt;p&gt;Io sono &lt;em&gt;timido&lt;/em&gt;, e ho sempre avuto difficoltà a parlare fissando negli occhi. Ho sperimentato un paio di trucchi:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;fissare le sopracciglia o la base del naso;&lt;/li&gt;
+&lt;li&gt;se ci sono 2 o 3 persone davanti, guardare negli occhi una persona per 20-30 secondi e poi passare ad un’altra. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Anche quando devi fare &lt;a href=&quot;http://it.wikipedia.org/wiki/Pair_programming&quot;&gt;pair programming&lt;/a&gt;, scrivere codice alla lavagna, o altre attività, cerca di guardare in faccia la persona che ti sta parlando.&lt;/p&gt;
+
+&lt;p&gt;Un candidato &lt;strong&gt;rilassato, sicuro di sé, sveglio e brillante&lt;/strong&gt; è sempre il primo nella lista dei possibili assunti.&lt;/p&gt;
+
+&lt;h4&gt;Inglese&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Mai scusarsi&lt;/strong&gt; per il pessimo inglese. Ho incontrato qualcuno che l’ha fatto. 
+Si sono posti subito in posizione di inferiorità. Da sfigati.&lt;/p&gt;
+
+&lt;p&gt;Ricordarti la regola dei primi 90 secondi.&lt;/p&gt;
+
+&lt;p&gt;Se fai qualche errore, scherzaci sopra o ignoralo continuando con il discorso.&lt;/p&gt;
+
+&lt;p&gt;Per migliorare, ho trovato molto utile &lt;strong&gt;registrare la mia voce&lt;/strong&gt; rispondendo alle probabili domande. Oppure, &lt;strong&gt;farmi intervistare da un amica/o&lt;/strong&gt; finché non mi sento sicuro e a mio agio.&lt;/p&gt;
+
+&lt;h4&gt;Educazione&lt;/h4&gt;
+
+&lt;p&gt;Ho carpito un semplice ed efficace atto di gentilezza da alcuni imprenditori inglesi:
+scrivere &lt;strong&gt;un’e-mail o SMS di ringraziamento&lt;/strong&gt; 15-30 minuti dopo il colloquio. È molto apprezzato e dimostra un grande interesse per il lavoro offerto.&lt;/p&gt;
+
+&lt;p&gt;Ho anche notato che molta gente, quando decide di cambiare lavoro, manda decine e decine di Curricula in giro. Poi, quando va a fare i colloqui, sembra disinteressata e poco coinvolta. Poco professionale.&lt;/p&gt;
+
+&lt;p&gt;Quindi, quando si affronta un colloquio, è indispensabile &lt;strong&gt;informarsi&lt;/strong&gt; in anticipo sull’azienda, su cosa fa e come lo fa. 
+Fare qualche ricerca anche sui dipendenti e su chi ti farà il colloquio. In internet si trova sempre tutto.&lt;/p&gt;
+
+&lt;h4&gt;La fama ti precede&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Imbianchino : edifici dipinti = Programmatore : codice&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Per valutare il lavoro di un imbianchino, guardiamo come ha dipindinto.
+La stessa regola vale per i programmatori: il codice scritto è l&amp;#39;unico modo per determinare le capacità.&lt;/p&gt;
+
+&lt;p&gt;Cerca quindi di curare un account in &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt;, &lt;a href=&quot;http://stackoverflow.com/&quot;&gt;Stack Overflow&lt;/a&gt;, &lt;a href=&quot;http://codepen.io/&quot;&gt;Codepen&lt;/a&gt;, ecc.
+Crea e partecipa a progetti, librerie, framework. Pubblica un portfolio con i lavori che hai fatto, partecipa ad eventi, magari come speaker, scrivi in un blog, registra &lt;a href=&quot;http://it.wikipedia.org/wiki/Screencast&quot;&gt;screencast&lt;/a&gt;, mostra al Mondo cosa sai fare.&lt;/p&gt;
+
+&lt;p&gt;Credi nell&amp;#39;open source, ma non lavorare &lt;strong&gt;mai gratuitamente&lt;/strong&gt; per arricchire il tuo portfolio o farti notare. È controproducente per te e per gli altri programmatori.&lt;/p&gt;
+
+&lt;h4&gt;Dress code&lt;/h4&gt;
+
+&lt;p&gt;Un dettaglio da non sottovalutare: &lt;strong&gt;il vestito fa il monaco&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Da programmatori siamo spesso abituati a vestirci “comodi”. Per un colloquio è bene essere eleganti o &lt;a href=&quot;http://www.pinterest.com/search/pins/?q=man%20smart%20casual&quot;&gt;smart casual&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4&gt;Allenamento&lt;/h4&gt;
+
+&lt;p&gt;Come accennavo all’inizio, è importante allenarsi a fare colloqui. Anche se i recruiter (o come amano farsi chiamare: head hunter) odiano questo comportamento, è fondamentale testare le tue abilità comunicative facendo ogni tanto qualche colloquio.&lt;/p&gt;
+
+&lt;p&gt;Ci sono sempre nuove domande, esercizi e sfide da affrontare che ti possono trovare impreparato.&lt;/p&gt;
+
+&lt;p&gt;Quando poi arriverà il momento, sarai pronto ad affrontare stress, domande e timidezza.&lt;/p&gt;
+
+&lt;p&gt;Ovviamente bisogna sempre rispettare il punto “educazione” e, anche se il lavoro ti interessa relativamente poco, porta sempre rispetto a chi hai davanti.&lt;/p&gt;
+
+&lt;p&gt;Può sempre succedere che cambi idea durante il colloquio e il lavoro si rivela interessante.&lt;/p&gt;
+
+&lt;h4&gt;Conclusione&lt;/h4&gt;
+
+&lt;p&gt;Spero che questi consigli possano aiutarti a trovare il lavoro a cui aspiri. 
+Ho fatto colloqui in Italia, Olanda, Inghilterra, Australia, Germania e Stati Uniti proponendomi come programmatore.&lt;/p&gt;
+
+&lt;p&gt;Penso che in linea di massima, tali dritte, si possano applicare a tutti i settori.&lt;/p&gt;
+
+&lt;p&gt;Ricorda che una volta raggiunto un certo grado di confidenza ed esperienza, &lt;strong&gt;sarai tu a fare il colloquio all’azienda&lt;/strong&gt; :)&lt;/p&gt;
+</description>
+        <pubDate>Sat, 08 Nov 2014 10:30:00 +0000</pubDate>
+        <link>http://blog.matteoborgato.com/lavoro/il-colloquio-di-lavoro</link>
+        <guid isPermaLink="true">http://blog.matteoborgato.com/lavoro/il-colloquio-di-lavoro</guid>
+        
+        <category>cambiare</category>
+        
+        <category>lavoro,</category>
+        
+        <category>colloquio</category>
+        
+        
+        <category>lavoro</category>
+        
+      </item>
     
       <item>
         <title>Alla ricerca della Felicità</title>
@@ -15,7 +154,7 @@
 
 &lt;p&gt;C’erano le serate in giro i fine settimana, i soliti posti di ritrovo, le quattro chiacchiere con le facce note al pub. La sicurezza della routine. Una realtà come tante in Italia.&lt;/p&gt;
 
-&lt;h5&gt;Poi c’era il lavoro&lt;/h5&gt;
+&lt;h4&gt;Poi c’era il lavoro&lt;/h4&gt;
 
 &lt;p&gt;Fin da giovane, per guadagnare qualcosa, ho fatto diversi lavori. Tenevo duro. Mi ripetevo che una volta laureato, avrei guadagnato uno stipendio “da laureato”. &lt;/p&gt;
 
@@ -27,9 +166,9 @@
 
 &lt;p&gt;Mentre firmo il contratto mi promettono che anticiperanno il termine dell’apprendistato di un anno.&lt;/p&gt;
 
-&lt;p&gt;Mi ripeto che non ho esperienza, non posso assolutamente pretendere un lavoro ben retribuito. Inoltre, come consolazione, nessuno dei miei ex compagni d&amp;#39;università prende più di 1000&amp;euro; al mese. Ironia della sorte, in quei mesi usciva al cinema “&lt;a href=&quot;http://www.imdb.com/title/tt1272014/&quot;&gt;Generazione 1000 Euro&lt;/a&gt;”.&lt;/p&gt;
+&lt;p&gt;Mi ripeto che non ho esperienza, non posso assolutamente pretendere un lavoro ben retribuito. Inoltre, come consolazione, nessuno dei miei ex compagni d’università prende più di 1000&amp;euro; al mese. Ironia della sorte, in quei mesi usciva al cinema “&lt;a href=&quot;http://www.imdb.com/title/tt1272014/&quot;&gt;Generazione 1000 Euro&lt;/a&gt;”.&lt;/p&gt;
 
-&lt;h5&gt;Posticipo la pretesa di uno stipendio decente&lt;/h5&gt;
+&lt;h4&gt;Posticipo la pretesa di uno stipendio decente&lt;/h4&gt;
 
 &lt;p&gt;Passano 2 anni e grazie agli scatti d’anzianità arrivo a guadagnare la bellezza di 1049&amp;euro; al mese. L’apprendistato, che doveva terminare in anticipo, viene esteso per un altro anno. Mi viene spiegato: &lt;/p&gt;
 
@@ -59,11 +198,11 @@ Mi accorgo subito conto che &lt;strong&gt;il mio inglese fa schifo.&lt;/strong&g
 
 &lt;p&gt;Riprendo in mano i libri delle superiori cercando di ricordare il poco inglese che avevo imparato.&lt;/p&gt;
 
-&lt;h5&gt;Quindi succede qualcosa di inaspettato&lt;/h5&gt;
+&lt;h4&gt;Quindi succede qualcosa di inaspettato&lt;/h4&gt;
 
 &lt;p&gt;Per caso, forse senza volerlo, chiacchiero con un amico che lavora per una &lt;a href=&quot;http://it.wikipedia.org/wiki/Startup_%28economia%29&quot;&gt;startup&lt;/a&gt; ad Amsterdam. Mi chiede se voglio fare un colloquio con il capo, tanto per provare. Accetto.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/article_images/2014-11-1-alla-ricerca-della-felicita/colloquio.jpg&quot; alt=&quot;Il primo colloquio in inglese: emozionante&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/article_images/2014-11-01-alla-ricerca-della-felicita/colloquio.jpg&quot; alt=&quot;Il primo colloquio in inglese: emozionante&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;Il mio inglese parlato era orribile, ma avevo imparato a memoria tutte le possibili risposte ad un colloquio.  Mi chiamano al telefono e va bene. Ricevo il contratto da firmare. Questa volta:&lt;/p&gt;
 
@@ -90,9 +229,9 @@ Fatico a comprendere la cultura e la gente. Non sapendomi esprimere, mi sento un
 
 &lt;p&gt;In ufficio do il massimo, faccio quello che mi viene assegnato. Peccato che qualcosa va storto e la squadra di sviluppo viene ridimensionata. La maggior parte dei programmatori viene gentilmente accompagnata alla porta.&lt;/p&gt;
 
-&lt;h5&gt;Panico&lt;/h5&gt;
+&lt;h4&gt;Panico&lt;/h4&gt;
 
-&lt;p&gt;Dopo appena 9 mesi sono senza lavoro, lontano dall&amp;#39;Italia, conosco veramente poche persone e non vado ancora molto fiero del mio inglese.&lt;/p&gt;
+&lt;p&gt;Dopo appena 9 mesi sono senza lavoro, lontano dall’Italia, conosco veramente poche persone e non vado ancora molto fiero del mio inglese.&lt;/p&gt;
 
 &lt;p&gt;Istintivamente inizio a guardare i voli per tornare a casa.
 Poi ci penso, e mi convinco che ce la posso fare.&lt;/p&gt;
@@ -119,15 +258,27 @@ Ammetto che può succedere anche all’estero. Ma qua, se non ti piace un proget
 &lt;p&gt;&lt;strong&gt;Nel nostro settore è molto facile fare tutto via Internet&lt;/strong&gt;. Non occorre andare ad Amsterdam, Londra, Berlino per trovare un lavoro.
 Basta mandare una email di presentazione con curriculum in allegato. Semplice e non costa nulla.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/article_images/2014-11-1-alla-ricerca-della-felicita/baloon.jpg&quot; alt=&quot;Alla scoperta di nuove realtà (Olanda)&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/article_images/2014-11-01-alla-ricerca-della-felicita/baloon.jpg&quot; alt=&quot;Alla scoperta di nuove realtà (Olanda)&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;Quindi, se anche tu, come lo ero io, non sei soddisfatto del tuo lavoro, ti senti sotto-pagato e sfruttato; ricordati che in Germania, Svizzera, Olanda, Inghilterra,  Scandinavia (solo per nominarne alcune), ci sono centinaia di posti di lavoro che potrebbero piacerti e farti tornare la passione e farti sentire realizzato. Con la stessa felicità ed entusiamo che avevi al tuo primo &lt;a href=&quot;http://it.wikipedia.org/wiki/Hello_world&quot;&gt;&amp;quot;Hello, World!&amp;quot;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Ma questa volta, sarai tu a dire: &lt;strong&gt;Hello World!&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Nov 2014 18:34:25 +0000</pubDate>
-        <link>http://blog.matteoborgato.com/lavoro/2014/11/01/alla-ricerca-della-felicita.html</link>
-        <guid isPermaLink="true">http://blog.matteoborgato.com/lavoro/2014/11/01/alla-ricerca-della-felicita.html</guid>
+        <link>http://blog.matteoborgato.com/lavoro/alla-ricerca-della-felicita</link>
+        <guid isPermaLink="true">http://blog.matteoborgato.com/lavoro/alla-ricerca-della-felicita</guid>
+        
+        <category>lavorare</category>
+        
+        <category>all’estero,</category>
+        
+        <category>felicità,</category>
+        
+        <category>corraggio</category>
+        
+        <category>di</category>
+        
+        <category>cambiare</category>
         
         
         <category>lavoro</category>
