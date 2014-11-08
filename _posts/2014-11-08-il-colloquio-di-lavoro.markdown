@@ -33,7 +33,7 @@ Ecco quindi alcune dritte. Non sto dicendo che seguendole passerai ogni colloqui
 
 ![Il primo impatto](/assets/article_images/2014-11-08-il-colloquio-di-lavoro/omino.jpg)
 
-##### I programmatori mentono nel CV, e tutti già lo sanno
+#### I programmatori mentono nel CV, e tutti già lo sanno
 
 Nell’80% dei casi, chi ti intervista scopre gli altarini in poco tempo.
 Se invece sei fortunato e cadi nell’altro 20%, ci sono alte probabilità che hai fatto il colloquio in un’azienda dove il personale non è molto competente. 
@@ -42,7 +42,7 @@ Un ambiente simile ti annoierebbe in pochi mesi.
 Quindi evitare _balle spaziali_.
 
 
-##### Atteggiamento
+#### Atteggiamento
 In nord Europa la gente sorride veramente poco. Per noi italiani invece, è naturale.
 
 Ho notato che sorridere, fare qualche battuta, e alleggerire l’atmosfera è un’arma vincente.  
