@@ -31,6 +31,8 @@ Questo mi ha aperto gli occhi a molti aspetti che prima mi sembravano scontati o
 
 Ecco quindi alcune dritte. Non sto dicendo che seguendole passerai ogni colloquio. Ma sono sicuro che ti potranno essere d’aiuto.
 
+![Il primo impatto](/assets/article_images/2014-11-08-il-colloquio-di-lavoro/omino.jpg)
+
 ##### I programmatori mentono nel CV, e tutti già lo sanno
 
 Nell’80% dei casi, chi ti intervista scopre gli altarini in poco tempo.
