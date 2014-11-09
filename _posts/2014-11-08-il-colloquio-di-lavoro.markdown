@@ -96,7 +96,7 @@ La stessa regola vale per i programmatori: il codice scritto è l'unico modo per
 Cerca quindi di curare un account in [GitHub], [Stack Overflow], [Codepen], ecc.
 Crea e partecipa a progetti, librerie, framework. Pubblica un portfolio con i lavori che hai fatto, partecipa ad eventi, magari come speaker, scrivi in un blog, registra [screencast], mostra al Mondo cosa sai fare.
 
-Credi nell'open source, ma non lavorare __mai gratuitamente__ per arricchire il tuo portfolio o farti notare. È controproducente per te e per gli altri programmatori.
+Credi nell'open source, ma non lavorare __mai gratuitamente__ per arricchire il tuo portfolio o farti notare. È controproducente per te e per gli altri programmatori: comunichi che non vali niente.
 
 
 #### Dress code
@@ -118,11 +118,11 @@ Può sempre succedere che cambi idea durante il colloquio e il lavoro si rivela 
 #### Conclusione
 
 Spero che questi consigli possano aiutarti a trovare il lavoro a cui aspiri. 
-Ho fatto colloqui in Italia, Olanda, Inghilterra, Australia, Germania e Stati Uniti proponendomi come programmatore.
 
-Penso che in linea di massima, tali dritte, si possano applicare a tutti i settori.
+Penso che in linea di massima, tali dritte, si possano applicare a tutti i settori, non solo all'ITC.
 
-Ricorda che una volta raggiunto un certo grado di confidenza ed esperienza, **sarai tu a fare il colloquio all’azienda** :)
+In bocca al lupo, e ricorda che una volta raggiunto un certo grado di confidenza ed esperienza, **sarai tu a fare il colloquio all’azienda** :)
+
 
 
 [pair programming]: http://it.wikipedia.org/wiki/Pair_programming
