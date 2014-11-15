@@ -125,11 +125,17 @@
     <script type="text/javascript">
       "use strict";
       
-      (function ($) {
+      (function( $ ) {
         var disqus_shortname  = 'blogmatteoborgatocom';
         var disqus_identifier = '{{ page.title }}';
+        var triggered         = false;
         
         var initDisqus = function() {
+          if ( triggered ) {
+           return;
+          }
+          triggered = true;
+
           var dsq = document.createElement('script'); 
           dsq.type = 'text/javascript'; 
           dsq.async = true;
@@ -138,8 +144,9 @@
         }
 
         $(document).ready(function(){
-            var $window = $(window),
-                $image = $('.post-image');
+            var $window = $(window);
+            var $image = $('.post-image');
+            var showComments = false;
 
             // disqus event
             var el = document.getElementById("show-comments");
@@ -150,8 +157,7 @@
 
                 if (top < 0 || top > 1500) { return; }
                 $image
-                    .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
-                    .css('opacity', 1-Math.max(top/700, 0));
+                    .css('transform', 'translate3d(0px, '+top/2.5+'px, 0px)')
             });
             $window.trigger('scroll');
 

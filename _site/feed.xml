@@ -5,9 +5,128 @@
     <description>Il mondo visto dagli occhi miopi di un programmatore.</description>
     <link>http://blog.matteoborgato.com/</link>
     <atom:link href="http://blog.matteoborgato.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 10 Nov 2014 21:25:36 +0000</pubDate>
-    <lastBuildDate>Mon, 10 Nov 2014 21:25:36 +0000</lastBuildDate>
+    <pubDate>Sat, 15 Nov 2014 01:35:51 +0000</pubDate>
+    <lastBuildDate>Sat, 15 Nov 2014 01:35:51 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Le fatiche del cercatore di lavoro</title>
+        <description>&lt;p&gt;Tutti conoscono grandi nomi come Google, Facebook, Apple, Twitter.&lt;/p&gt;
+
+&lt;p&gt;Per mantenere uno standard così elevato, queste aziende hanno escogitato un intricato percorso di reclutamento. I pochi candidati che arrivano al traguardo, hanno sicuramente capacità al di sopra della media.&lt;/p&gt;
+
+&lt;h4&gt;Il piccolo segue il grande&lt;/h4&gt;
+
+&lt;p&gt;Il metodo sembra funzionare. Piccole startup e aziende “senza nome” hanno quindi iniziato ad adottare un simile approccio.&lt;/p&gt;
+
+&lt;p&gt;Vediamo in dettaglio come si divide:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Colloquio conoscitivo:&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;faccia a faccia&lt;/li&gt;
+&lt;li&gt;video-conversazione in Skype&lt;/li&gt;
+&lt;li&gt;telefonata&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compito per casa da completare entro N giorni&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Colloquio tecnico faccia a faccia:&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;domande tecniche&lt;/li&gt;
+&lt;li&gt;scrivere codice o pseudo-codice alla lavagna e analizzarlo&lt;/li&gt;
+&lt;li&gt;pair programming&lt;/li&gt;
+&lt;li&gt;lavorare qualche ora in azienda come se fossi assunto&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Colloquio pre-offerta&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Offerta lavoro e contrattazione stipendio/benefici&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4&gt;Colloquio conoscitivo&lt;/h4&gt;
+
+&lt;p&gt;Solitamente è una conversazione che varia dai 15 ai 60 minuti.&lt;/p&gt;
+
+&lt;p&gt;Ti introducono l&amp;#39;azienda, la loro missione e cercano di trasmetterti la passione per il prodotto che offrono.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Variante:&lt;/strong&gt; Per vedere se sei veramente interessato, come primo approccio, ti potrebbero domandare quanto sai dell’azienda. Tu ovviamente hai già letto il post sul &lt;a href=&quot;/lavoro/il-colloquio-di-lavoro&quot;&gt;colloquio di lavoro&lt;/a&gt; e li stupisci recitando a memoria la descrizione dell&amp;#39;azienda che hai trovato nel loro sito.&lt;/p&gt;
+
+&lt;p&gt;Successivamente ti chiedono di parlare un po’ delle tue esperienze, dei progetti a cui hai collaborato, dei precedenti lavori e di cosa ne pensi del ruolo offerto.&lt;/p&gt;
+
+&lt;p&gt;La domanda di rito: &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Perché lasci il tuo corrente impiego?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Puoi dire che vorresti fare una &lt;strong&gt;nuova esperienza&lt;/strong&gt; e che hai visto in loro una &lt;strong&gt;grande opportunità di carriera&lt;/strong&gt;. Che stai cercando un lavoro con maggiori responsabilità e sfide. E che vuoi migliorare te stesso.&lt;/p&gt;
+
+&lt;p&gt;Mai parlare male delle aziende o dei capi precedenti!&lt;/p&gt;
+
+&lt;p&gt;A volte sondano il terreno con domandine tecniche semplici e d’informatica di base.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Consiglio&lt;/strong&gt;: in questa fase sei &lt;strong&gt;tu quello che deve intervistare l&amp;#39;azienda&lt;/strong&gt;. Ti serve per trovare la motivazione per affrontare la seconda fase. Non aver paura. Chiedi tutto quello che ti passa per la testa. Almeno non hai sprecato, e fatto sprecare, tempo per qualcosa che non ti potrebbe interessare.&lt;/p&gt;
+
+&lt;h4&gt;Il compito per casa&lt;/h4&gt;
+
+&lt;p&gt;La prova è solitamente un progettino da 4-8 ore, nella quale devi dimostrare le tue abilità. Non è mai troppo complessa, ma richiede tempo. È in linea con il ruolo offerto.&lt;/p&gt;
+
+&lt;p&gt;Oppure è un test in &lt;a href=&quot;https://codility.com&quot;&gt;Codility&lt;/a&gt;, &lt;a href=&quot;https://www.codeeval.com/&quot;&gt;CodeEval&lt;/a&gt; o altre piattaforme di valutazione. Richiede 30-45 minuti. Generalmente più complesso della precedente soluzione. Lo usano per esaminare le fondamenta della tua abilità di programmazione. A volte esaminano anche la complessità (O) del codice.&lt;/p&gt;
+
+&lt;p&gt;Se non gli sei piaciuto molto al primo colloquio, ti chiedono comunque di completare il mini-progretto. Lo fanno per vedere se sei realmente interessato. Potresti impressionarli con le tue abilità.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Consiglio&lt;/strong&gt;: Non farti aiutare da nessuno, altrimenti alla fase successiva non sapresti come rispondere. 
+Convinciti che non è tempo sprecato. C’è &lt;strong&gt;sempre qualcosa da imparare&lt;/strong&gt; e puoi &lt;strong&gt;testare le tue abilità&lt;/strong&gt;. Dai il tuo meglio.&lt;/p&gt;
+
+&lt;h4&gt;Colloquio tecnico&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;La parte più difficile.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Solitamente iniziano parlando della prova che hai completato. Ti chiedono chiarimenti sulla tua soluzione al problema.&lt;/p&gt;
+
+&lt;p&gt;Poi varia molto da azienda ad azienda. Se non sai una risposta non fare scena muta, cerca di far vedere che hai iniziativa. Potresti per esempio dire che non sai la risposta, ma che sapresti trovare la soluzione.&lt;/p&gt;
+
+&lt;p&gt;Ricordati che il colloquio &lt;strong&gt;non dev’essere a senso unico&lt;/strong&gt;. Dalle domande poste, puoi capire il livello di preparazione dei tuoi futuri colleghi e superiori. Ma nulla ti impedisce di fare qualche domanda a tua volta. Anche tecnica, per testare le loro conoscenze.&lt;/p&gt;
+
+&lt;p&gt;A tutti capita di dover gestire un cliente rompi palle. Ecco perché alcune aziende adottano un atteggiamento molto ostile e antipatico in questa fase. Lo fanno per &lt;strong&gt;valutare come reagisci sotto stress&lt;/strong&gt;. Non perdere la pazienza e mantieni sempre la tua professionalità.&lt;/p&gt;
+
+&lt;h4&gt;Colloquio pre-offerta&lt;/h4&gt;
+
+&lt;p&gt;Spesso incontri il CEO, qualcuno dell&amp;#39;HR o del marketing.&lt;/p&gt;
+
+&lt;p&gt;Il più è fatto. Gli sei piaciuto. Vogliono vedere se riescono ad instaurare una buona connessione e se hai le qualità (comunicative, manageriali, gestionali) che stanno cercando.&lt;/p&gt;
+
+&lt;p&gt;Parla con disinvoltura e rimani rilassato. Stai andando alla grande.&lt;/p&gt;
+
+&lt;h4&gt;Offerta lavoro e contrattazione&lt;/h4&gt;
+
+&lt;p&gt;Questa è la parte nella quale devi essere forte. Tanta gente, dopo aver investito così tanto tempo, ha paura di contrattare e accetta lo stipendio minimo che l’azienda offre.&lt;/p&gt;
+
+&lt;p&gt;Ricordati che ti sei guadagnato questo traguardo e &lt;strong&gt;l&amp;#39;azienda ti vuole assumere&lt;/strong&gt;. &lt;/p&gt;
+
+&lt;p&gt;Arriva preparato. Se nell&amp;#39;offerta di lavoro non c&amp;#39;era indicato il salario, chiedi ai recruiter, ad altre persone che coprono un ruolo simile o cerca in Internet.&lt;/p&gt;
+
+&lt;p&gt;Fortunatamente nell&amp;#39;ITC &amp;mdash;uno dei pochi settori che non sentono la crisi&amp;mdash; c’é &lt;strong&gt;moltissima domanda e una discreta offerta&lt;/strong&gt;. Puoi anche permetterti di puntare ad un salario più alto dello standard se sei sicuro del valore che offri all&amp;#39;azienda.&lt;/p&gt;
+
+&lt;h4&gt;Completa il puzzle&lt;/h4&gt;
+
+&lt;p&gt;Le reazioni a questo metodo di reclutamento sono discordanti. I &lt;em&gt;contrari&lt;/em&gt;, dicono che è esagerato e insensato dover affrontare una serie così lunga di colloqui. I &lt;em&gt;favorevoli&lt;/em&gt;, affermano che ogni azienda ha diritto di assumere persone qualificate ed evitare i cazzoni.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/article_images/2014-11-15-le-fatiche-del-cercatore-di-lavoro/puzzle.jpg&quot; alt=&quot;Fatti notare. Esci dal coro.&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;A prescindere dal fatto che questo metodo sia giusto o sbagliato, ricordati che l’azienda lo sta facendo per cercare il tassello che si &lt;strong&gt;incastri perfettamente nel loro puzzle&lt;/strong&gt;. &lt;/p&gt;
+
+&lt;p&gt;Perciò, come prima cosa, devi capire se quel disegno che andrai a completare ti piace e soddisfa.  Quindi, fare del tuo meglio perché &lt;strong&gt;l’azienda ti noti&lt;/strong&gt; tra gli altri tasselli e &lt;strong&gt;ti raccolga&lt;/strong&gt;. &lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Nov 2014 11:30:00 +0000</pubDate>
+        <link>http://blog.matteoborgato.com/lavoro/le-fatiche-del-cercatore-di-lavoro</link>
+        <guid isPermaLink="true">http://blog.matteoborgato.com/lavoro/le-fatiche-del-cercatore-di-lavoro</guid>
+        
+        <category>colloquio</category>
+        
+        
+        <category>lavoro</category>
+        
+      </item>
     
       <item>
         <title>Il colloquio di lavoro</title>

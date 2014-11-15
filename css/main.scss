@@ -526,8 +526,13 @@ body {
         padding-bottom: 3px;
       }
     }
-    ul, ol {
-      padding: 0 0 30px;
+    ul {
+      margin: 0;
+      padding: 10px 0 0 0;
+    }
+    & > ul, 
+    & > ol {
+      padding: 0 0 10px;
       margin: 0;
       li {
         padding: 0;
@@ -543,7 +548,7 @@ body {
         }
       }
     }
-    ol li {
+    ol > li {
       list-style-type: decimal;
     }
   }
