@@ -5,8 +5,8 @@ subtitle:   "Magari è vero che il lavoro nobilita l’uomo. Ma preferei non div
 date:       2014-11-1 18:34:25
 categories: lavoro
 tags: lavorare all’estero, felicità, corraggio di cambiare
-image: /assets/article_images/2014-11-01-alla-ricerca-della-felicita/adam.jpg
-image-thumbnail: /assets/article_images/2014-11-01-alla-ricerca-della-felicita/baloon-thumb.jpg
+image: /assets/article_images/2014-11-01-alla-ricerca-della-felicita/viaggiare.gif
+image-thumbnail: /assets/article_images/2014-11-01-alla-ricerca-della-felicita/viaggiare-thumb.gif
 ---
 
 Ho trascorso 26 anni della mia vita in Italia. In un paesino di campagna a 35 Km da Venezia. Una vita che definivo normale, tranquilla, sicuramente non intensa o tanto stimolante. Non me ne lamentavo affatto. Mi sentivo fortunato. 
@@ -93,7 +93,7 @@ Poi il resto è venuto di conseguenza.
 Pensarci la prossima volta che ti lamenti del lavoro!
 Ci sono centinaia, se non migliaia di sviluppatori cazzuti in Italia.
 
->Perché accontentarsi? Perché restare in un Paese che non si rende conto di quanto importante sia l’ITC?
+>Perché accontentarsi? Perché restare in un Paese che non si rende conto di quanto importante sia l’[ICT]?
 
 In Italia il programmatore viene trattato come l’ultima ruota del carro. Un bracciante.
 In realtà siamo artisti, poeti, sagome creative! Se lavoriamo in ambienti degradanti, spenti e tristi, ne veniamo intossicati. Perdiamo l’ispirazione, la passione e l’interesse. 
@@ -108,7 +108,7 @@ Quindi, se anche tu, come lo ero io, non sei soddisfatto del tuo lavoro, ti sent
 
 Ma questa volta, sarai tu a dire: **Hello World!**
 
-
+[ICT]: http://it.wikipedia.org/wiki/Tecnologie_dell%27informazione_e_della_comunicazione
 [Generazione 1000 Euro]:  http://www.imdb.com/title/tt1272014/
 [startup]: http://it.wikipedia.org/wiki/Startup_%28economia%29
 [meetup]: http://www.meetup.com/

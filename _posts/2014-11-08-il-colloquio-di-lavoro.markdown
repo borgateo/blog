@@ -119,7 +119,7 @@ Può sempre succedere che cambi idea durante il colloquio e il lavoro si rivela 
 
 Spero che questi consigli possano aiutarti a trovare il lavoro a cui aspiri. 
 
-Penso che in linea di massima, tali dritte, si possano applicare a tutti i settori, non solo all'ITC.
+Penso che in linea di massima, tali dritte, si possano applicare a tutti i settori, non solo all’ICT.
 
 In bocca al lupo, e ricorda che una volta raggiunto un certo grado di confidenza ed esperienza, **sarai tu a fare il colloquio all’azienda** :)
 

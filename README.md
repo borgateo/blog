@@ -15,13 +15,13 @@ Main settings for the site
 
 * **title**: name of your site
 * **description**: description of your site
-* **logo**: small logo for the site (300x * 300x)
+* **logo**: small logo for the site (300px * 300px)
 * **cover**: large background image on the index page 
 
 * **name**: name site owner
 * **email**: mail address of the site owner
 * **author**: author name
-* **author_image**: small image of author (300x * 300px)
+* **author_image**: small image of author (300px * 300px)
  
 ### Social 
 

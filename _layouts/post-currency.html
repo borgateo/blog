@@ -1,0 +1,198 @@
+---
+---
+<!DOCTYPE html>
+<html lang="it">
+
+  {% include head.html %}
+
+  <body itemscope itemtype="http://schema.org/Article">
+    {% include header.html %}
+
+    <main class="content" role="main">
+      <article class="post">
+        {% if page.image %}
+        <section class="article-image">
+          <div class="post-image" style="background-image: url({{ page.image }})"></div>
+          <div class="post-meta">
+            <div class="cf post-meta-text">
+              <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} -->
+            </div>
+            <div style="text-align:center">
+              <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
+            </div>
+          </div>
+        </section>
+        {% else %}
+        <section class="noarticleimage">
+          <div class="post-meta">
+            <h1 class="post-title">{{ page.title }}</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url({{ site.author_image }})">Blog Logo</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ page.author }}</h4>
+              on
+              <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+              <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} -->
+            </div>
+          </div>
+        </section>
+        {% endif %}
+
+        <section class="post post-content">
+          <div class="post-reading">
+            <span class="post-reading-time"></span> read
+          </div>
+          <a name="topofpage"></a>
+          <h2 class="post-title">{{ page.title }}</h2>
+          <h3 class="post-subtitle">{{ page.subtitle }}</h3>
+          {{content}}
+        </section>
+        <footer class="post-footer">
+          <section class="share">
+            {% for social in site.social %}
+              {% if social.share_url != null %}
+                <a class="icon-{{ social.icon }}" href="{{ social.share_url }}{{ social.share_title }}{{page.title | cgi_escape}}{{ social.share_link }}{{site.url}}{{page.id}}"
+                  onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+                <i class="fa fa-{{ social.icon }}"></i><span class="hidden">{{ social.icon }}</span>
+                </a>
+              {% endif %}
+            {% endfor %}
+          </section>
+        </footer>
+        <div class="bottom-teaser cf">
+          <div class="isLeft">
+            <h5 class="index-headline featured"><span>Scritto da</span></h5>
+            <section class="author">
+              <div class="author-image" style="background-image: url({{site.author_image}})">Blog Logo</div>
+              <h4>{{ site.author }}</h4>
+              <p class="bio">{{author.bio}}</p>
+              <hr>
+              <p class="published">Pubblicato il
+                <time datetime="{{ page.date | date: "%F %R" }}">
+                  <!-- Whitespace added for readability -->
+                  {% assign m = page.date | date: "%-m" %}
+                  {{ page.date | date: "%-d" }}
+                  {% case m %}
+                    {% when '1' %}Gennaio
+                    {% when '2' %}Febbraio
+                    {% when '3' %}Marzo
+                    {% when '4' %}Aprile
+                    {% when '5' %}Maggio
+                    {% when '6' %}Giugno
+                    {% when '7' %}Luglio
+                    {% when '8' %}Agosto
+                    {% when '9' %}Settembre
+                    {% when '10' %}Ottobre
+                    {% when '11' %}Novembre
+                    {% when '12' %}Dicembre
+                  {% endcase %}
+                  {{ page.date | date: "%Y" }}
+                </time>
+              </p>
+            </section>
+          </div>
+          {{/post}}
+          <div class="isRight">
+            <h5 class="index-headline featured"><span>Supportato da</span></h5>
+            <footer class="site-footer">
+              <section class="poweredby">Pubblicato con <a href="http://jekyllrb.com"> Jekyll</a></section>
+              <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Iscriverti al mio feed.</span></a>
+              <div class="inner">
+                <section class="copyright">Copyright <a href="{{@blog.url}}/">{{site.author}}</a> &copy; 2014<br>Tutti i diritti riservati.</section>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </article>
+      
+      <div>
+        <button id="show-comments">Mostra i commenti</button>
+      </div>
+
+      <div id="disqus_thread"></div>
+
+
+    </main>
+
+    <div class="bottom-closer">
+      <div class="background-closer-image"></div>
+      <div class="inner">
+        <h1 class="blog-title">{{ site.title }}</h1>
+        <h2 class="blog-description">{{ site.description }}</h2>
+        <a href="/" class="btn">Torna all'Indice</a>
+      </div>
+    </div>
+    
+    <script type="text/javascript">
+      "use strict";
+      
+      (function( $ ) {
+        var disqus_shortname  = 'blogmatteoborgatocom';
+        var disqus_identifier = '{{ page.title }}';
+        var triggered         = false;
+        
+        var initDisqus = function() {
+          if ( triggered ) {
+           return;
+          }
+          triggered = true;
+
+          var dsq = document.createElement('script'); 
+          dsq.type = 'text/javascript'; 
+          dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }
+
+        $(document).ready(function(){
+          var $window      = $(window);
+          var $image       = $('.post-image');
+          var currency;
+
+          // disqus event
+          var el = document.getElementById("show-comments");
+          el.addEventListener("click", initDisqus, false);
+
+          $window.on('scroll', function() {
+            var top = $window.scrollTop();
+
+            if ( top < 0 || top > 1500 ) { return; }
+            $image.css('transform', 'translate3d(0px, '+top/2.5+'px, 0px)')
+          });
+          $window.trigger('scroll');
+
+          var height = $('.article-image').height();
+          $('.post-content').css('padding-top', height + 'px');
+
+          
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 500);
+                return false;
+              }
+            }
+          });
+
+          function reqListener () {
+            currency = JSON.parse( this.responseText );
+            console.log( currency.data[ 0 ][ 1 ] )
+          }
+
+          var oReq = new XMLHttpRequest();
+          oReq.onload = reqListener;
+          oReq.open("get", "http://www.quandl.com/api/v1/datasets/BOE/XUDLSER", true);
+          oReq.send();
+        });
+
+      }(jQuery));
+    </script>
+
+    {% include post-footer.html %}
+    {% include analytics.html %}
+
+  </body>
+</html>
