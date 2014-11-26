@@ -5,8 +5,8 @@ subtitle:   "Qualche dritta per passare con successo il prossimo colloquio in in
 date:       2014-11-08 10:30:00
 categories: lavoro
 tags: cambiare lavoro, colloquio
-image: /assets/article_images/2014-11-08-il-colloquio-di-lavoro/colloqui.jpg
-image-thumbnail: /assets/article_images/2014-11-08-il-colloquio-di-lavoro/colloqui-thumb.jpg
+image: /assets/article_images/2014-11-08-il-colloquio-di-lavoro/colloquio.gif
+image-thumbnail: /assets/article_images/2014-11-08-il-colloquio-di-lavoro/colloquio-thumb.gif
 ---
 
 In Italia un programmatore viene definito **Senior** all’ottavo anno di esperienza nel settore. Per quanto uno possa sforzarsi, impegnarsi e far vedere quanto vale, non c’è modo di uscire da questa "casta di anzianità". La gente ti prende sul serio solamente quando hai compiuto 35-40 anni.
