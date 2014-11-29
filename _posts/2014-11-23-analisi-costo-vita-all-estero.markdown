@@ -5,6 +5,7 @@ subtitle:   "Scappare dall’Italia sta diventando una moda. Se sei un programma
 date:       2014-11-23 19:30:00
 categories: lavoro
 tags: colloquio
+eta: "4:24"
 image: /assets/article_images/2014-11-23-analisi-costo-vita-all-estero/costo-vita.gif
 image-thumbnail: /assets/article_images/2014-11-23-analisi-costo-vita-all-estero/costo-vita-thumb.gif
 ---

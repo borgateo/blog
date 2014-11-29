@@ -5,6 +5,7 @@ subtitle:   "Magari è vero che il lavoro nobilita l’uomo. Ma preferei non div
 date:       2014-11-1 18:34:25
 categories: lavoro
 tags: lavorare all’estero, felicità, corraggio di cambiare
+eta: "5:20"
 image: /assets/article_images/2014-11-01-alla-ricerca-della-felicita/viaggiare.gif
 image-thumbnail: /assets/article_images/2014-11-01-alla-ricerca-della-felicita/viaggiare-thumb.gif
 ---

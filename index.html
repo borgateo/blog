@@ -9,84 +9,52 @@ layout: default
   <h1 class="blog-title">{{ site.title }}</h1>
   <h2 class="blog-description">{{ site.description }}</h2>
   <div class="custom-links">
-    {% for social in site.social %}
-      <a class="icon-{{ social.icon }}" href="{{ social.url }}">
-        <i class="fa fa-{{ social.icon }}"></i>
-      </a>
-      &nbsp;&nbsp;·&nbsp;&nbsp;
-    {% endfor %}
-    <a href="/about/">About</a>
+    <a href="/about">About</a>
   </div>
 </header>
-
-<script>
-  (function ($) {
-    "use strict";
-
-    $(document).ready(function(){
-
-      var $window = $(window),
-        $image = $('.teaserimage-image');
-
-      $window.on('scroll', function() {
-        var top = $window.scrollTop();
-
-        if (top < 0 || top > 1500) { return; }
-        $image
-          .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
-          .css('opacity', 1-Math.max(top/700, 0));
-      });
-      $window.trigger('scroll');
-
-    });
-
-  }(jQuery));
-</script>
 
 <main class="content" role="main">
 
   <div class="cf frame">
    {% for post in paginator.posts %}
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-     <div class="article-item">
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name">
-          <a href="{{ post.url }}" itemprop="url">{{ post.title }}</a>
-        </h2>
-      </header>
-      <section class="post-excerpt" itemprop="description">
-        <a href="{{ post.url }}" itemprop="url">
-          <div class="thumbnail-image" style="background-image: url({{ post.image-thumbnail }})"></div>
-        </a>
-        <p>
-          {{ post.subtitle }}
-          <!-- {{ post.content | strip_html | truncatewords: 50 }} -->
-        </p>
+      <a href="{{ post.url }}" itemprop="url">
         <div class="post-meta">
-        <time datetime="{{ post.date | date: "%F %R" }}">
-          <!-- Whitespace added for readability -->
-          {% assign m = post.date | date: "%-m" %}
-          {{ post.date | date: "%-d" }}
-          {% case m %}
-            {% when '1' %}Gennaio
-            {% when '2' %}Febbraio
-            {% when '3' %}Marzo
-            {% when '4' %}Aprile
-            {% when '5' %}Maggio
-            {% when '6' %}Giugno
-            {% when '7' %}Luglio
-            {% when '8' %}Agosto
-            {% when '9' %}Settembre
-            {% when '10' %}Ottobre
-            {% when '11' %}Novembre
-            {% when '12' %}Dicembre
-          {% endcase %}
-          {{ post.date | date: "%Y" }}
-        </time>
-<!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
-      </div>
-      </section>
-     <div>
+          <time datetime="{{ post.date | date: "%F %R" }}">
+            <!-- Whitespace added for readability -->
+            {% assign m = post.date | date: "%-m" %}
+            {{ post.date | date: "%-d" }}
+            {% case m %}
+              {% when '1' %}Gennaio
+              {% when '2' %}Febbraio
+              {% when '3' %}Marzo
+              {% when '4' %}Aprile
+              {% when '5' %}Maggio
+              {% when '6' %}Giugno
+              {% when '7' %}Luglio
+              {% when '8' %}Agosto
+              {% when '9' %}Settembre
+              {% when '10' %}Ottobre
+              {% when '11' %}Novembre
+              {% when '12' %}Dicembre
+            {% endcase %}
+            {{ post.date | date: "%Y" }}
+          </time>
+  <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
+        </div>
+        <header class="post-header">
+          <div class="thumbnail-image" style="background-image: url({{ post.image-thumbnail }})"></div>
+          <h2 class="post-title" itemprop="name">
+            {{ post.title }}
+          </h2>
+        </header>
+        <section class="post-excerpt" itemprop="description">
+          <p class="post-subtitle">
+            {{ post.subtitle }}
+            <!-- {{ post.content | strip_html | truncatewords: 50 }} -->
+          </p>
+        </section>
+      </a>
     </article>
    {% endfor %}
   </div>

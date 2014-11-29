@@ -5,6 +5,7 @@ subtitle:   "Qualche dritta per passare con successo il prossimo colloquio in in
 date:       2014-11-08 10:30:00
 categories: lavoro
 tags: cambiare lavoro, colloquio
+eta: "4:53"
 image: /assets/article_images/2014-11-08-il-colloquio-di-lavoro/colloquio.gif
 image-thumbnail: /assets/article_images/2014-11-08-il-colloquio-di-lavoro/colloquio-thumb.gif
 ---

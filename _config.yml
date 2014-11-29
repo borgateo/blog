@@ -51,7 +51,7 @@ social:
 #    share_link:
 
 # Outputting
-permalink:     /:categories/:title
+permalink:     /:title
 paginate_path: /page:num
 
 
@@ -62,4 +62,4 @@ sass:
 gems:
   - jekyll-sitemap
 
-exclude: [Gemfile, Gemfile.lock, README.markdown, s3_website.yml]
+exclude: ["Gemfile", "Gemfile.lock", "README.markdown", "s3_website.yml", "node_modules", "gulpfile.js", "package.json"]
