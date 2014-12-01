@@ -25,7 +25,7 @@ Il celebre economista [Joseph Stiglitz] afferma che **ICT, finanza e settore far
 
 Quindi se sei un programmatore, ti consiglio di andartene dall’Italia. Almeno per qualche anno. 
 
-Londra, Berlino, Amsterdam, Stoccolma &mdash;e sembra che Parigi ci stia arrivando&mdash; sono importanti *poli informatici in Europea*. Potresti puntare ad una di queste.
+Londra, Berlino, Amsterdam, Stoccolma &mdash;e sembra che Parigi ci stia arrivando&mdash; sono importanti *poli informatici in Europa*. Potresti puntare ad una di queste.
 
 #### Il tuo capo sa che non hai le palle
 Gli italiani, anche se si lamentano continuamente del proprio Paese, lo amano.

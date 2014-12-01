@@ -32,6 +32,9 @@ Passano 2 anni e grazie agli scatti d’anzianità arrivo a guadagnare la bellez
 
 Peccato che avevo già imparato tutto quello che potevo. 
 
+![Sentirsi in trappola svilisce la passione per il tuo lavoro](/assets/article_images/2014-11-01-alla-ricerca-della-felicita/sfruttato.gif)
+
+
 Decido quindi di cercare qualcos’altro.
 Faccio diversi colloqui, piaccio, ricevo offerte tra i 1000 e 1100 Euro al mese. Le rifiuto.
 

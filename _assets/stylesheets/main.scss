@@ -39,20 +39,20 @@ body {
 
 .logo-readium {
   position: fixed;
-  left: 10px;
-  top: 10px;
-  width: $rs * 3;
-  height: $rs * 3;
-  background-color: black;
+  left: 0;
+  top: 0;
+  width: $rs * 4;
+  height: $rs * 4;
   overflow: hidden;
   z-index: 99;
+  background-color: transparent;
   .logo {
     display: block;
     position: absolute;
     top: $rs / 2;
     left: $rs / 2;
-    width: $rs * 2;
-    height: $rs * 2;
+    width: $rs * 3;
+    height: $rs * 3;
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -536,14 +536,14 @@ body {
         padding-bottom: 3px;
       }
     }
-    ul {
-      margin: 0;
-      padding: 10px 0 0 0;
-    }
     & > ul, 
     & > ol {
-      padding: 0 0 10px;
       margin: 0;
+      padding: 10px 0 0 0;
+      margin: 0 auto;
+      padding: 0 0 10px;
+      text-align: left;
+      width: 90%;
       li {
         padding: 0;
         font-weight: 400;

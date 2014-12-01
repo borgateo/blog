@@ -9,7 +9,7 @@ layout: default
   <h1 class="blog-title">{{ site.title }}</h1>
   <h2 class="blog-description">{{ site.description }}</h2>
   <div class="custom-links">
-    <a href="/about">About</a>
+    <a href="/chi-sono">Chi sono</a>
   </div>
 </header>
 
@@ -18,7 +18,7 @@ layout: default
   <div class="cf frame">
    {% for post in paginator.posts %}
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-      <a href="{{ post.url }}" itemprop="url">
+      <a href="{{ post.url }}" itemprop="url" class="article-link">
         <div class="post-meta">
           <time datetime="{{ post.date | date: "%F %R" }}">
             <!-- Whitespace added for readability -->
