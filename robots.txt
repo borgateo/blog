@@ -1,8 +1,6 @@
-User-agent: *
-Disallow:
- 
-User-agent: Mediapartners-Google*
-Disallow:
- 
+
 User-agent: *
 Disallow: /css
+
+User-agent: *
+Allow: /

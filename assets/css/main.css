@@ -192,8 +192,7 @@ body {
   width: 64px;
   height: 64px;
   overflow: hidden;
-  z-index: 99;
-  background-color: transparent; }
+  z-index: 99; }
   .logo-readium .logo {
     display: block;
     position: absolute;
@@ -202,7 +201,8 @@ body {
     width: 48px;
     height: 48px;
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-color: transparent; }
 
 .teaserimage {
   height: 450px;

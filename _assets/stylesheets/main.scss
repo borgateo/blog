@@ -3,7 +3,6 @@
 
 @import "print";
 
-
 .cf {
   @include clearfix;
 }
@@ -45,7 +44,6 @@ body {
   height: $rs * 4;
   overflow: hidden;
   z-index: 99;
-  background-color: transparent;
   .logo {
     display: block;
     position: absolute;
@@ -55,6 +53,7 @@ body {
     height: $rs * 3;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: transparent;
   }
 }
 
