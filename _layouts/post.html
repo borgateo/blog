@@ -44,7 +44,7 @@
           <h3 class="post-subtitle">{{ page.subtitle }}</h3>
           {{content}}
         </section>
-        <footer class="post-footer">
+        <!--footer class="post-footer">
           <section class="share">
             {% for social in site.social %}
               {% if social.share_url != null %}
@@ -55,7 +55,7 @@
               {% endif %}
             {% endfor %}
           </section>
-        </footer>
+        </footer-->
         <div class="bottom-teaser cf">
           <div class="isLeft">
             <h5 class="index-headline featured"><span>Scritto da</span></h5>
@@ -92,9 +92,11 @@
             <h5 class="index-headline featured"><span>Pubblicato con</span></h5>
             <footer class="site-footer">
               <section class="poweredby"><a href="http://jekyllrb.com">Jekyll</a></section>
-              <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Iscriverti al mio feed.</span></a>
+              <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> 
+                <span class="tooltip">Iscriverti al mio feed.
+              </a>
               <div class="inner">
-                <section class="copyright">Copyright <a href="{{@blog.url}}/">{{site.author}}</a> &copy; 2014<br>Tutti i diritti riservati.</section>
+                <section class="copyright">Copyright {{site.author}} 2014<br>Tutti i diritti riservati.</section>
               </div>
             </footer>
           </div>

@@ -12,7 +12,7 @@ image-thumbnail: /assets/article_images/2014-11-01-alla-ricerca-della-felicita/v
 
 Ho trascorso 26 anni della mia vita in Italia. In un paesino di campagna a 35 Km da Venezia. Una vita che definivo normale, tranquilla, sicuramente non intensa o tanto stimolante. Non me ne lamentavo affatto. Mi sentivo fortunato. 
 
-C’erano le serate in giro i fine settimana, i soliti posti di ritrovo, le quattro chiacchiere con le facce note al pub. La sicurezza della routine. Una realtà come tante in Italia.
+C’erano le serate con gli amici, i soliti posti di ritrovo, le quattro chiacchiere con le facce note al bar. La sicurezza della routine. Una realtà come tante in Italia.
 
 #### Poi c’era il lavoro
 
@@ -23,7 +23,7 @@ Un bel giorno arriva la laurea e con un po’ di fortuna trovo un lavoro come pr
 
 Mentre firmo il contratto mi promettono che anticiperanno il termine dell’apprendistato di un anno.
 
-Mi ripeto che non ho esperienza, non posso assolutamente pretendere un lavoro ben retribuito. Inoltre, come consolazione, nessuno dei miei ex compagni d’università prende più di 1000&euro; al mese. Ironia della sorte, in quei mesi usciva al cinema “[Generazione 1000 Euro]”.
+Mi ripeto che non ho esperienza, non posso assolutamente pretendere un lavoro ben retribuito. Inoltre, come consolazione, nessuno dei miei ex compagni d’università prende più di 1000&euro; al mese. Ironia della sorte, in quei mesi esce al cinema “[Generazione 1000 Euro]”.
 
 #### Posticipo la pretesa di uno stipendio decente
 
@@ -32,7 +32,7 @@ Passano 2 anni e grazie agli scatti d’anzianità arrivo a guadagnare la bellez
 
 Peccato che avevo già imparato tutto quello che potevo. 
 
-![Sentirsi in trappola svilisce la passione per il tuo lavoro](/assets/article_images/2014-11-01-alla-ricerca-della-felicita/sfruttato.gif)
+![Sentirsi in trappola svilisce la passione e l'entusiamo per il lavoro](/assets/article_images/2014-11-01-alla-ricerca-della-felicita/sfruttato.gif)
 
 
 Decido quindi di cercare qualcos’altro.
@@ -73,7 +73,7 @@ Mi fermo 5 secondi a pensare:
 **Mi licenzio il giorno stesso.**
 
 La smania dura poco. I primi mesi non sono affatto facili. Non capisco quasi nulla e fatico a parlare. 
-Fatico a comprendere la cultura e la gente. Non sapendomi esprimere, mi sento un’idiota.
+Fatico a comprendere la cultura e la gente. Non sapendomi esprimere, *mi sento un’idiota*.
 
 Non mi demoralizzo, ad Amsterdam tutti parlano un ottimo inglese. Decido quindi di studiare seriamente questa lingua. Nel tempo libero vado a [meetup], incontro gente, faccio qualche corso. Mi iscrivo a [couch surfing] e inizio ad ospitare gente dal Canada, Stati Uniti, Germania, Russia, ecc… 
 **Sembrava che tutti sapessero parlare un inglese decente, tranne me**. Mi convinco che per osmosi, stando vicino a gente che parla questa dannata lingua, prima o poi la imparerò anch’io. E così è stato.
@@ -89,9 +89,9 @@ Poi ci penso, e mi convinco che ce la posso fare.
 
 Mando diversi curricula in giro, partecipo a meetup di JavaScript, Frontend Developers, Hackers and Founders, hackathon e altra roba da nerd. Conosco gente, creo connessioni, **faccio sapere all’Olanda che anch’io esisto e che me la cavo abbastanza bene nel mio lavoro**.
 Prima ancora che il periodo di licenziamento del precedente lavoro terminasse, trovo un lavoro.
-Fatico a rendermi conto di quanto facile sia stato. Mi sento invincibile.
+Fatico a rendermi conto di quanto facile sia stato. *Mi sento invincibile*.
 
-Poi il resto è venuto di conseguenza.
+Poi il resto è venuto di conseguenza...
 
 #### Tutto questo per dirti (TL;DR)
 Pensarci la prossima volta che ti lamenti del lavoro!
@@ -100,7 +100,7 @@ Ci sono centinaia, se non migliaia di sviluppatori cazzuti in Italia.
 >Perché accontentarsi? Perché restare in un Paese che non si rende conto di quanto importante sia l’[ICT]?
 
 In Italia il programmatore viene trattato come l’ultima ruota del carro. Un bracciante.
-In realtà siamo artisti, poeti, sagome creative! Se lavoriamo in ambienti degradanti, spenti e tristi, ne veniamo intossicati. Perdiamo l’ispirazione, la passione e l’interesse. 
+In realtà siamo *artisti*, *poeti*, *sagome creative*! Se lavoriamo in ambienti degradanti, spenti e tristi, ne veniamo intossicati. Perdiamo l’ispirazione, la passione e l’interesse. 
 Ammetto che può succedere anche all’estero. Ma qua, se non ti piace un progetto, prendi *laptop e bagagli* e in poco tempo trovi qualcosa di più attraente. Di certo non resti a fissare lo schermo odiando il capo, i colleghi e la tua esistenza perché non hai alternative.
 
 **Nel nostro settore è molto facile fare tutto via Internet**. Non occorre andare ad Amsterdam, Londra, Berlino per trovare un lavoro.
@@ -110,7 +110,7 @@ Basta mandare una email di presentazione con curriculum in allegato. Semplice e 
 
 Quindi, se anche tu, come lo ero io, non sei soddisfatto del tuo lavoro, ti senti sotto-pagato e sfruttato; ricordati che in Germania, Svizzera, Olanda, Inghilterra,  Scandinavia (solo per nominarne alcune), ci sono centinaia di posti di lavoro che potrebbero piacerti e farti tornare la passione e farti sentire realizzato. Con la stessa felicità ed entusiamo che avevi al tuo primo ["Hello, World!"]
 
-Ma questa volta, sarai tu a dire: **Hello World!**
+Ma questa volta sarai tu, con il sorriso sulle labbra, a dire: &laquo;Hello World!&raquo;
 
 [ICT]: http://it.wikipedia.org/wiki/Tecnologie_dell%27informazione_e_della_comunicazione
 [Generazione 1000 Euro]:  http://www.imdb.com/title/tt1272014/

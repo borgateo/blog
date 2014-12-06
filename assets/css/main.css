@@ -157,17 +157,15 @@ input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   padding: 0; }
 
-.article-image {
-  page-break-after: never; }
-
-.post-content, .bottom-teaser.cf {
-  padding-top: 0 !important; }
-
-.bottom-teaser.cf {
-  margin: 0; }
-
-.post-reading, .bottom-teaser.cf .isRight, .cf.post-meta-text, .post-meta center, .post-image-image, .bottom-closer, .share, .home-template .post-meta .post-tags-set, .pagination, .author-image, .subscribe icon-feed {
-  display: none; }
+@media print {
+  .article-image {
+    page-break-after: never; }
+  .post-content, .bottom-teaser.cf {
+    padding-top: 0 !important; }
+  .bottom-teaser.cf {
+    margin: 0; }
+  .post-reading, .bottom-teaser.cf .isRight, .cf.post-meta-text, .post-meta center, .post-image-image, .bottom-closer, .share, .home-template .post-meta .post-tags-set, .pagination, .author-image, .subscribe icon-feed {
+    display: none; } }
 
 .cf:after {
   content: "";
@@ -185,6 +183,11 @@ body {
   -webkit-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig"; }
 
+a {
+  color: #333;
+  text-decoration: none;
+  background-color: rgba(0, 204, 255, 0.65); }
+
 .logo-readium {
   position: fixed;
   left: 0;
@@ -192,7 +195,8 @@ body {
   width: 64px;
   height: 64px;
   overflow: hidden;
-  z-index: 99; }
+  z-index: 99999;
+  background-color: transparent; }
   .logo-readium .logo {
     display: block;
     position: absolute;
@@ -202,7 +206,9 @@ body {
     height: 48px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: transparent; }
+    background-color: #333;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0.25em rgba(255, 255, 255, 0.3); }
 
 .teaserimage {
   height: 450px;
@@ -265,13 +271,7 @@ body {
     font-weight: 400; }
   .blog-header .custom-links {
     margin: 0 0 50px;
-    text-align: center;
-    color: #CCC; }
-    .blog-header .custom-links a {
-      text-decoration: none;
-      color: #999; }
-      .blog-header .custom-links a:hover {
-        color: #333; }
+    text-align: center; }
 
 .content {
   width: 100%;
@@ -379,19 +379,23 @@ body {
   text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 1px rgba(0, 0, 0, 0.5); }
 
 .site-footer {
-  margin: 0 auto;
-  padding: 48px 0;
-  width: 100%;
-  max-width: 640px;
-  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  color: #333;
   text-align: center;
-  color: #999;
-  line-height: 17.6px; }
+  font-size: 14px;
+  line-height: 1.3;
+  color: #999; }
   .site-footer a {
-    color: #666;
+    color: #333;
     text-decoration: none; }
     .site-footer a:hover {
-      color: #333; }
+      text-decoration: underline; }
+  .site-footer .poweredby {
+    display: block;
+    padding-bottom: 18px;
+    font-weight: 700;
+    color: #333; }
 
 .post .article-image {
   position: absolute;
@@ -569,9 +573,6 @@ body {
     -moz-hyphens: auto;
     -ms-hyphens: auto;
         hyphens: auto; }
-  .post .post-content a {
-    color: #333;
-    text-decoration: underline; }
   .post .post-content img {
     max-width: 100%;
     margin: 0 auto; }
@@ -691,24 +692,6 @@ body {
         width: 100%; } }
     .post .bottom-teaser .isRight .index-headline {
       padding-bottom: 32px; }
-    .post .bottom-teaser .isRight .site-footer {
-      margin: 0;
-      padding: 0;
-      color: #333;
-      text-align: left;
-      font-size: 14px;
-      line-height: 1.3;
-      color: #999; }
-      .post .bottom-teaser .isRight .site-footer a {
-        color: #333;
-        text-decoration: none; }
-        .post .bottom-teaser .isRight .site-footer a:hover {
-          text-decoration: underline; }
-      .post .bottom-teaser .isRight .site-footer .poweredby {
-        display: block;
-        padding-bottom: 18px;
-        font-weight: 700;
-        color: #333; }
 
 .share {
   text-align: right;
@@ -846,3 +829,25 @@ pre {
   font-size: 0.8em;
   position: relative;
   top: -1.7em; }
+
+.single-post .entry-content {
+  right: 0; }
+
+.flare[data-flare-skin="modern"][data-orientation="vertical"][data-position="edge"][data-align="right"] {
+  right: 0 !important; }
+
+.friends-link {
+  background-color: #eee;
+  border-top: 1px solid white;
+  border-top-left-radius: 0.2em;
+  border-top-right-radius: 0.2em;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+  font-size: 0.75rem;
+  margin: 50px 0 0;
+  padding: 1em 0;
+  text-align: center; }
+  .friends-link p {
+    margin: 0;
+    color: #777; }
+  .friends-link a {
+    color: #555; }
