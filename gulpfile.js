@@ -67,7 +67,7 @@ gulp.task('js', function() {
     .pipe(gulp.dest('assets/js'));
 
   gulp.src('_assets/javascript/post.js')
-    .pipe(uglify())
+    // .pipe(uglify())  // - Don't uglify it, disquss uses specific variable names 
     .pipe(gulp.dest('_site/assets/js/'))
     .pipe(browserSync.reload({stream:true}))
     .pipe(gulp.dest('assets/js'));

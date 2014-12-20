@@ -52,6 +52,7 @@ layout: default
           <p class="post-subtitle">
             {{ post.subtitle }}
             <!-- {{ post.content | strip_html | truncatewords: 50 }} -->
+            <!--span class="disqus-comment-count" data-disqus-identifier="{{ post.title }}"></span-->
           </p>
         </section>
       </a>
@@ -78,10 +79,24 @@ layout: default
 
   <div class="friends-link">
   <p>Blog Amici:</p>
-  <a href="http://www.andreabarbon.it/">Il Blog di Andrea Barbon</a>
+  <a href="http://www.andreabarbon.it">Il Blog di Andrea Barbon</a> &middot;
+  <a href="http://www.ilminimalista.net">Il Minimalista</a>
   </div>
 
 </main>
 
 <!-- {{!! Filament }} -->
-<script data-cfasync="false" type="text/javascript" src="//filamentapp.s3.amazonaws.com/b4ccd30c33d52de8cae804e1333a7f8c.js" async="async"></script>
+<script type="text/javascript" data-cfasync="false"  src="//filamentapp.s3.amazonaws.com/b4ccd30c33d52de8cae804e1333a7f8c.js" async="async"></script>
+
+<!-- {{!! Count messages disqus }} -->
+<script type="text/javascript">
+var disqus_shortname = 'blogmatteoborgatocom';
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+  var s = document.createElement('script'); s.async = true;
+  s.type = 'text/javascript';
+  s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script> 

@@ -1,1 +1,21 @@
-"use strict";Zepto(function(a){var b="blogmatteoborgatocom",c=!1,d=function(){if(!c){c=!0;var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="//"+b+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}},e=a("#show-comments");e.on("click",d)});
+"use strict";
+
+Zepto(function( $ ) {
+  var triggered  = false;
+  var initDisqus = function() {
+    if ( triggered ) {
+     return;
+    }
+    triggered = true;
+
+    var dsq = document.createElement('script'); 
+    dsq.type = 'text/javascript'; 
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  }
+
+  // disqus event
+  var el = $("#show-comments");
+  el.on("click", initDisqus);
+});

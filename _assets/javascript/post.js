@@ -1,11 +1,7 @@
 "use strict";
 
 Zepto(function( $ ) {
-  
-  var disqus_shortname  = 'blogmatteoborgatocom';
-  var disqus_identifier = '{{ page.title }}';
-  var triggered         = false;
-  
+  var triggered  = false;
   var initDisqus = function() {
     if ( triggered ) {
      return;
@@ -22,5 +18,4 @@ Zepto(function( $ ) {
   // disqus event
   var el = $("#show-comments");
   el.on("click", initDisqus);
-  
 });
