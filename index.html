@@ -17,7 +17,7 @@ layout: default
 
   <div class="cf frame">
    {% for post in paginator.posts %}
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+    <article class="post-index" itemscope itemtype="http://schema.org/BlogPosting" role="article">
       <a href="{{ post.url }}" itemprop="url" class="article-link">
         <div class="post-meta">
           <time datetime="{{ post.date | date: "%F %R" }}">
@@ -42,6 +42,7 @@ layout: default
           </time>
   <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
         </div>
+        <div class="disqus-comment-count" title="commenti" data-disqus-url="http://blog.matteoborgato.com{{ post.url }}/">0</div>
         <header class="post-header">
           <div class="thumbnail-image" style="background-image: url({{ post.image-thumbnail }})"></div>
           <h2 class="post-title" itemprop="name">
@@ -51,8 +52,7 @@ layout: default
         <section class="post-excerpt" itemprop="description">
           <p class="post-subtitle">
             {{ post.subtitle }}
-            <!-- {{ post.content | strip_html | truncatewords: 50 }} -->
-            <!--span class="disqus-comment-count" data-disqus-identifier="{{ post.title }}"></span-->
+            <!-- {{ post.content | strip_html | truncatewords: 50 }} -->            
           </p>
         </section>
       </a>
@@ -75,7 +75,7 @@ layout: default
   </nav>
 
   <!-- {{!! After all the posts, we have the previous/next pagination links }}
-  {{pagination}} -->
+  {{pagination}} -->  
 
   <div class="friends-link">
   <p>Blog Amici:</p>
@@ -92,7 +92,6 @@ layout: default
 <script type="text/javascript">
 var disqus_shortname = 'blogmatteoborgatocom';
 
-/* * * DON'T EDIT BELOW THIS LINE * * */
 (function () {
   var s = document.createElement('script'); s.async = true;
   s.type = 'text/javascript';

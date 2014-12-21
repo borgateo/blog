@@ -1,12 +1,12 @@
-/**
+/*
  * Main JS file for Casper behaviours
  */
 
 Zepto(function( $ ) {
 
-    
-  var $window = $(window);
-  var $image  = $('.post-image');
+  var $window    = $(window);
+  var $image     = $('.post-image');
+  var triggered  = false;
 
   $window.on('scroll', function() {
     var top = $window.scrollTop();
@@ -29,5 +29,22 @@ Zepto(function( $ ) {
       $(this).wrap('<figure class="image"></figure>')
       .after('<figcaption>'+$(this).attr("alt")+'</figcaption>');
   });
+
+  var initDisqus = function() {
+    if ( triggered ) {
+     return;
+    }
+    triggered = true;
+
+    var dsq = document.createElement('script'); 
+    dsq.type = 'text/javascript'; 
+    dsq.async = true;
+    dsq.src = '//blogmatteoborgatocom.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  }
+
+  // disqus event
+  var el = $("#show-comments");
+  el.on("click", initDisqus);
 
 });

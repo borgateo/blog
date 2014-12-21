@@ -281,6 +281,8 @@ a {
   @media only screen and (max-width: 800px) {
     .content {
       padding: 0 32px; } }
+  .content .post-index {
+    position: relative; }
   .content article {
     padding: 10px 0;
     border-top: 1px solid #e2e2e0;
@@ -316,19 +318,35 @@ a {
       background-size: cover;
       background-color: #EDEDED;
       background-position: center;
-      border: 1px solid #BBB;
+      box-shadow: 0px 1px 2px #333;
       width: 150px;
       height: 150px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      border-radius: 0.2em; }
     .content article .post-meta {
       font-size: 14px;
-      color: #b3b3b1;
-      line-height: 30px; }
-      .content article .post-meta a {
-        color: #b3b3b1;
-        text-decoration: none; }
-        .content article .post-meta a:hover {
-          text-decoration: underline; }
+      color: #c8c8c8;
+      position: absolute; }
+    .content article .disqus-comment-count {
+      height: 1.8em;
+      width: 2em;
+      line-height: 1.8;
+      font-size: 14px;
+      background: rgba(200, 200, 200, 0.8);
+      position: absolute;
+      right: 0;
+      border-radius: 0.2em;
+      color: #FFF; }
+    .content article .disqus-comment-count::after {
+      border-left: 0 none;
+      border-right: 10px solid transparent;
+      border-top: 10px solid rgba(200, 200, 200, 0.8);
+      content: "";
+      height: 0;
+      left: 7px;
+      position: absolute;
+      top: 24px;
+      width: 0; }
 
 .container.featured {
   padding-bottom: 40px; }

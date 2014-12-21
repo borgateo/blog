@@ -148,6 +148,9 @@ a {
     padding: 0 $rs * 2;
   }
 
+  .post-index {
+    position: relative;
+  }
   article {
     padding: 10px 0;
     border-top: 1px solid #e2e2e0;
@@ -190,24 +193,40 @@ a {
       background-size: cover;
       background-color: #EDEDED;
       background-position: center;
-      border: 1px solid #BBB;
+      box-shadow: 0px 1px 2px #333;
       width: 150px;
       height: 150px;
       margin: 0 auto;
+      border-radius: .2em;
     }
 
     .post-meta {
       font-size: 14px;
-      color: #b3b3b1;
-      line-height: 30px;
-      a {
-        color: #b3b3b1;
-        text-decoration: none;
-        &:hover {
-          text-decoration: underline;
-        }
-      }
+      color: rgb(200, 200, 200);
+      position: absolute;
     }
+    .disqus-comment-count {
+      height: 1.8em;
+      width: 2em;
+      line-height: 1.8;
+      font-size: 14px;
+      background: rgba(200, 200, 200, .8);
+      position: absolute;
+      right: 0;
+      border-radius: .2em;
+      color: #FFF;
+    }
+    .disqus-comment-count::after {
+      border-left: 0 none;
+      border-right: 10px solid transparent;
+      border-top: 10px solid rgba(200, 200, 200, .8);
+      content: "";
+      height: 0;
+      left: 7px;
+      position: absolute;
+      top: 24px;
+      width: 0;
+      }
   }
 }
 
