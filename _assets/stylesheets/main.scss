@@ -202,8 +202,10 @@ a {
 
     .post-meta {
       font-size: 14px;
-      color: rgb(200, 200, 200);
+    }
+    .post-meta-index {
       position: absolute;
+      color: rgb(200, 200, 200);
     }
     .disqus-comment-count {
       height: 1.8em;

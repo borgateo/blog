@@ -5,9 +5,101 @@
     <description>Il mondo visto dagli occhi miopi di un programmatore.</description>
     <link>http://blog.matteoborgato.com/</link>
     <atom:link href="http://blog.matteoborgato.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Dec 2014 02:49:29 +0000</pubDate>
-    <lastBuildDate>Sun, 21 Dec 2014 02:49:29 +0000</lastBuildDate>
+    <pubDate>Wed, 24 Dec 2014 16:23:31 +0000</pubDate>
+    <lastBuildDate>Wed, 24 Dec 2014 16:23:31 +0000</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
+    
+      <item>
+        <title>Il tao del programmatore</title>
+        <description>&lt;p&gt;Vedo spesso attriti e situazioni difficili in ufficio, dissidi e dispetti tra colleghi. 
+&lt;strong&gt;Persone stressate&lt;/strong&gt;, alle strette con date di scadenza vicine, &lt;strong&gt;che perdono la pazienza facilmente&lt;/strong&gt;. Si comportano in modo infantile per sottigliezze e futilità.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Capita a tutti&lt;/strong&gt; di perdere la pazienza. Ogni giorno dobbiamo affrontare problemi fuori e dentro l&amp;#39;ufficio. &lt;em&gt;Non siamo automi&lt;/em&gt;. &lt;/p&gt;
+
+&lt;p&gt;D&amp;#39;altro canto, &lt;strong&gt;penso che certe situazioni si possano evitare&lt;/strong&gt;. 
+Il primo, semplice passo per essere felici, è &lt;strong&gt;accettare le nostre imperfezioni&lt;/strong&gt;. Rendersi conto che &lt;em&gt;gli alti e bassi accadono&lt;/em&gt; e, accettarlo.&lt;/p&gt;
+
+&lt;h4&gt;Shit happens&lt;/h4&gt;
+
+&lt;p&gt;Un disfemismo molto comune in inglese. 
+Forzare il ciclo naturale degli eventi, per evitare i momenti negativi è anti-costruttivo e stressante. Si finisce per accumulare troppo, per poi esplodere. &lt;strong&gt;Prendere le cose come vengono non è facile, ma è meno doloroso&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;È come &lt;em&gt;un&amp;#39;iniezione&lt;/em&gt; dal medico. Se restiamo rilassati e gestiamo la paura, l&amp;#39;ago entra ed esce con facilità senza causare troppo dolore. Se ci irrigidiamo, questo punglione diventa una tortura.&lt;/p&gt;
+
+&lt;h4&gt;Sentirsi bene con se stessi&lt;/h4&gt;
+
+&lt;p&gt;Ognuno di noi ha un &lt;strong&gt;modo speciale e unico di vedere il Mondo&lt;/strong&gt;. Scegliamo, o a volte ci imponiamo, certe priorità, obiettivi o ambizioni nella vita.&lt;/p&gt;
+
+&lt;p&gt;La &lt;strong&gt;felicità è uno stato d&amp;#39;animo&lt;/strong&gt; così &lt;strong&gt;fugace e sfuggevole&lt;/strong&gt;. Appena percepiamo la sensazione d&amp;#39;essere felici, questa svanisce in poco tempo. 
+In realtà la felicità non è veramente quello stato d&amp;#39;animo che proviamo quando raggiungiamo un importante obiettivo che c&amp;#39;eravamo prefissati o compriamo qualcosa che desideravamo tanto. Queste sono illusioni, &lt;em&gt;sensazioni superficiali e passeggere&lt;/em&gt;. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Alan_Watts&quot;&gt;Alan Watts&lt;/a&gt; ha dedicato l&amp;#39;esistenza nel provare a confrontare la cultura occidentale con quella orientale. &lt;strong&gt;Sembra che la nostra società spesso remi contro il vero concetto di vera felicità&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Non sto dicendo che dovremmo isolarci in un tempio per meditare e raggiungere l&amp;#39;illuminazione.&lt;/p&gt;
+
+&lt;p&gt;Penso solamente che &lt;strong&gt;raggiungere un benessere interiore&lt;/strong&gt;, sia fondamentale per &lt;strong&gt;vivere bene con sé stessi e gli altri&lt;/strong&gt;. Affrontando ogni giorno con energia e voglia di fare. Tutto questo sta dentro di noi, non fuori. Non in cose, successi lavorativi o denaro.&lt;/p&gt;
+
+&lt;p&gt;È qualcosa che va &amp;quot;praticato&amp;quot; quotidianamente, senza troppe pretese.&lt;/p&gt;
+
+&lt;h4&gt;Qualche regola da tenere a mente&lt;/h4&gt;
+
+&lt;p&gt;Ho pensato di scrivere qualche punto che quotidianamente cerco &amp;mdash;e molto spesso fallisco&amp;mdash; di seguire.
+Con l&amp;#39;augurio che possano essere utili ad altri programmatori per affrontare con positività la ruotine quotidiana.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sarò vecchio solamente quando smetterò di imparare.&lt;/li&gt;
+&lt;li&gt;Non cambio il modo di pensare degli altri. So che molti non lo accettano.&lt;/li&gt;
+&lt;li&gt;Non cancello o modifico il codice dei colleghi, chiedo sempre al proprietario. Potrebbe esserci un&amp;#39;ottima ragione dietro alla sua scelta.&lt;/li&gt;
+&lt;li&gt;Se sto parlando con qualcuno che non conosco bene, questa persona potrebbe saperne molto di più di me sull&amp;#39;argomento. Non sottovaluto nessuno.&lt;/li&gt;
+&lt;li&gt;Le soluzioni troppo dispendiose o facili/economiche sono solitamente cattivi affari.&lt;/li&gt;
+&lt;li&gt;Cerco di arrivare al succo del discorso velocemente. Pragmaticità.&lt;/li&gt;
+&lt;li&gt;Quando mi preoccupa cosa gli altri pensano di me, in realtà sento che sono preoccupato di cosa io penso di me stesso.&lt;/li&gt;
+&lt;li&gt;Ogni problema che mi tocca (in)direttamente è una mia responsabilità, indipendentemente da chi l&amp;#39;ha causato.&lt;/li&gt;
+&lt;li&gt;Multitasking è pericoloso. Cerco di focalizzarmi su una sola attività e sul presente.&lt;/li&gt;
+&lt;li&gt;Esamino spesso il mio modo di pensare, provo a mettermi in gioco e accettare il punto di vista degli altri.&lt;/li&gt;
+&lt;li&gt;Se odio qualcosa, quella cosa mi odierà di conseguenza: persone, situazioni, codice.&lt;/li&gt;
+&lt;li&gt;Reazioni di rabbia e stress rivelano debolezza di carattere.&lt;/li&gt;
+&lt;li&gt;Evito di lamentarmi. Quelli che si lamentano di più, sono quelli che fanno di meno. &lt;/li&gt;
+&lt;li&gt;La più grande scoperta nella storia dell&amp;#39;umanità è il linguaggio. Poi c&amp;#39;è quello di programmazione :)&lt;/li&gt;
+&lt;li&gt;Incolpare è l&amp;#39;hobby preferito di chi evita responsabilità.&lt;/li&gt;
+&lt;li&gt;Tengo in mente che chiunque incontro è migliore di me in qualcosa.&lt;/li&gt;
+&lt;li&gt;L&amp;#39;organizzazione può migliore di molto la vita. In tutti i settori.&lt;/li&gt;
+&lt;li&gt;Qualità è piú conveniente di quantità. In esperienze, amici e progetti.&lt;/li&gt;
+&lt;li&gt;Anche se qualcosa non costa soldi, se richiede tempo, non è veramente gratis.&lt;/li&gt;
+&lt;li&gt;La postura e il modo di vestire cambiano profondamente il mio modo di essere. E come gli altri mi vedono.&lt;/li&gt;
+&lt;li&gt;Ogni tanto riprovo un linguaggio o framework che non m&amp;#39;era piaciuto in precedenza.&lt;/li&gt;
+&lt;li&gt;Problemi e bug, quando arrivano, sono raramente dolorosi quanto l&amp;#39;esperienza di temerli.&lt;/li&gt;
+&lt;li&gt;Nulla capita esattamente come l&amp;#39;avevo pianificata.&lt;/li&gt;
+&lt;li&gt;90% delle cose brutte che mi preoccupano non succedono. 90% delle cose brutte che accadono non c&amp;#39;avevo neanche pensato.&lt;/li&gt;
+&lt;li&gt;Einstein era piú saggio che intelligente, ed era considerato un genio.&lt;/li&gt;
+&lt;li&gt;Quando non so cosa fare, leggo un libro. Non mi delude mai.&lt;/li&gt;
+&lt;li&gt;Sperare che le cose fossero diverse, è un bel modo per torturarmi.&lt;/li&gt;
+&lt;li&gt;L&amp;#39;abilità di essere felice non è altro che l&amp;#39;abilità di accettare i termini dei cambiamenti.&lt;/li&gt;
+&lt;li&gt;Ammazzare il tempo è un&amp;#39;attrocità. Il tempo è l&amp;#39;unica cosa che non puoi avere indietro.&lt;/li&gt;
+&lt;li&gt;Codice semplice da leggere è difficile da scrivere.&lt;/li&gt;
+&lt;li&gt;Ci sono molti modi di risolvere lo stesso problema. &lt;/li&gt;
+&lt;li&gt;La prima soluzione non è quasi mai la migliore.&lt;/li&gt;
+&lt;li&gt;Correzioni in &amp;quot;una riga di codice&amp;quot; non esistono.&lt;/li&gt;
+&lt;li&gt;Cerco di desiderare il successo piú che temere il fallimento.&lt;/li&gt;
+&lt;li&gt;Leggo la documentazione prima di fare domande.&lt;/li&gt;
+&lt;li&gt;Cerco di sbagliare senza timore e imparare dagli errori.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Come dicevo, sono semplici osservazioni. Ogni tanto le rileggo per rinfrescarmi la memoria.
+Aiutano a non distrarmi da problemi o situazioni che conducono a stress e a stati d&amp;#39;animo negativi.&lt;/p&gt;
+
+&lt;p&gt;Sarei ben lieto di sapere quali sono i tuoi punti, concetti o linee guida che segui per affrontare la vita.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Dec 2014 22:34:11 +0000</pubDate>
+        <link>http://blog.matteoborgato.com/il-tao-del-programmatore</link>
+        <guid isPermaLink="true">http://blog.matteoborgato.com/il-tao-del-programmatore</guid>
+        
+        <category>suggerimenti</category>
+        
+        
+        <category>vita</category>
+        
+      </item>
     
       <item>
         <title>Un’analisi sul costo della vita all’estero</title>

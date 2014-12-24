@@ -324,9 +324,10 @@ a {
       margin: 0 auto;
       border-radius: 0.2em; }
     .content article .post-meta {
-      font-size: 14px;
-      color: #c8c8c8;
-      position: absolute; }
+      font-size: 14px; }
+    .content article .post-meta-index {
+      position: absolute;
+      color: #c8c8c8; }
     .content article .disqus-comment-count {
       height: 1.8em;
       width: 2em;

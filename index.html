@@ -19,7 +19,7 @@ layout: default
    {% for post in paginator.posts %}
     <article class="post-index" itemscope itemtype="http://schema.org/BlogPosting" role="article">
       <a href="{{ post.url }}" itemprop="url" class="article-link">
-        <div class="post-meta">
+        <div class="post-meta-index">
           <time datetime="{{ post.date | date: "%F %R" }}">
             <!-- Whitespace added for readability -->
             {% assign m = post.date | date: "%-m" %}

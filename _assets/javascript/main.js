@@ -3,10 +3,14 @@
  */
 
 Zepto(function( $ ) {
+  console.log('.....INIT......');
 
   var $window    = $(window);
   var $image     = $('.post-image');
-  var triggered  = false;
+
+  var disqus_shortname = 'blogmatteoborgatocom';
+  var el               = $("#show-comments");
+  var triggered        = false;
 
   $window.on('scroll', function() {
     var top = $window.scrollTop();
@@ -36,15 +40,16 @@ Zepto(function( $ ) {
     }
     triggered = true;
 
+    console.log('DISQ');
+
     var dsq = document.createElement('script'); 
     dsq.type = 'text/javascript'; 
     dsq.async = true;
-    dsq.src = '//blogmatteoborgatocom.disqus.com/embed.js';
+    dsq.src = '//'+ disqus_shortname +'.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   }
 
   // disqus event
-  var el = $("#show-comments");
   el.on("click", initDisqus);
 
 });
