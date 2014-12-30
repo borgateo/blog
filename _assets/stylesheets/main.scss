@@ -39,7 +39,7 @@ body {
 a {
   color: #333;
   text-decoration: none;
-  background-color: rgba(0, 204, 255, 0.65);
+  background-color: rgba(90, 207, 245, 0.40);
 }
 
 .logo-readium {
@@ -115,12 +115,12 @@ a {
   .blog-title {
     margin: 0;
     padding: $rs * 5.25 $rs $rs / 2;
-    font-size: 50px;
+    font-size: 3.9em;
     text-align: center;
     font-weight: 700;
     letter-spacing: -2px;
     outline: 0;
-    line-height: 50px;
+    line-height: 1;
     word-break: break-word;
     color: #333;
   }
@@ -206,28 +206,45 @@ a {
     .post-meta-index {
       position: absolute;
       color: rgb(200, 200, 200);
+      padding: 0 .4em .2em .4em;
+      background-color: #FFF;
+      line-height: 1;
+      border-radius: .2em;
+      border: 1px solid #f2f2f0;
+      text-align: center;
+      font-family: Linux Libertine;
+      color: rgba(90, 207, 245, 0.5);
+      span {
+        display: block;
+      }
+      .day {
+        font-size: 2.5em;
+        border-bottom: 1px solid #f2f2f0;
+      }
     }
-    .disqus-comment-count {
-      height: 1.8em;
-      width: 2em;
-      line-height: 1.8;
-      font-size: 14px;
-      background: rgba(200, 200, 200, .8);
+
+    .comments-bubble {
+      line-height: 1;
+      background: rgba(90, 207, 245, 0.5);
       position: absolute;
       right: 0;
+      padding: .7em 1.2em;
       border-radius: .2em;
       color: #FFF;
+      span {
+        font-size: 1.3em;
+      }
     }
-    .disqus-comment-count::after {
+    .comments-bubble::after {
       border-left: 0 none;
       border-right: 10px solid transparent;
-      border-top: 10px solid rgba(200, 200, 200, .8);
+      border-top: 10px solid rgba(90, 207, 245, 0.5);
       content: "";
-      height: 0;
-      left: 7px;
       position: absolute;
-      top: 24px;
+      height: 0;
       width: 0;
+      left: .7em;
+      top: 2.7em;
       }
   }
 }
@@ -598,8 +615,8 @@ a {
       border: 0;
       padding: 0;
       display: block;
-      width: 15%;
-      margin: 16px 0 16px 100px;
+      width: 18%;
+      margin: 16px auto;
       border: 0px solid #DDD;
       border-top: 1px solid #DDD;
     }
@@ -697,7 +714,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('/assets/images/desktop.jpg');
+    background-image: url('/assets/images/lavorando.jpg');
   }
   .inner {
     width: 100%;

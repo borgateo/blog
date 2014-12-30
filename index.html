@@ -21,28 +21,30 @@ layout: default
       <a href="{{ post.url }}" itemprop="url" class="article-link">
         <div class="post-meta-index">
           <time datetime="{{ post.date | date: "%F %R" }}">
-            <!-- Whitespace added for readability -->
             {% assign m = post.date | date: "%-m" %}
-            {{ post.date | date: "%-d" }}
-            {% case m %}
-              {% when '1' %}Gennaio
-              {% when '2' %}Febbraio
-              {% when '3' %}Marzo
-              {% when '4' %}Aprile
-              {% when '5' %}Maggio
-              {% when '6' %}Giugno
-              {% when '7' %}Luglio
-              {% when '8' %}Agosto
-              {% when '9' %}Settembre
-              {% when '10' %}Ottobre
-              {% when '11' %}Novembre
-              {% when '12' %}Dicembre
-            {% endcase %}
-            {{ post.date | date: "%Y" }}
+            <span class="day">{{ post.date | date: "%-d" }}</span>
+            <span>{% case m %}
+                {% when '1' %}Gen
+                {% when '2' %}Feb
+                {% when '3' %}Mar
+                {% when '4' %}Apr
+                {% when '5' %}Mag
+                {% when '6' %}Giu
+                {% when '7' %}Lug
+                {% when '8' %}Ago
+                {% when '9' %}Set
+                {% when '10' %}Ott
+                {% when '11' %}Nov
+                {% when '12' %}Dic
+              {% endcase %}
+              '{{ post.date | date: "%y" }}
+            </span>
           </time>
   <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
         </div>
-        <div class="disqus-comment-count" title="commenti" data-disqus-url="http://blog.matteoborgato.com{{ post.url }}/">0</div>
+        <div title="commenti" class="comments-bubble">
+          <span class="disqus-comment-count" data-disqus-url="http://blog.matteoborgato.com{{ post.url }}/">0</span>
+        </div>
         <header class="post-header">
           <div class="thumbnail-image" style="background-image: url({{ post.image-thumbnail }})"></div>
           <h2 class="post-title" itemprop="name">

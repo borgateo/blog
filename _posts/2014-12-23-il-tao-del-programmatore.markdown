@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Il tao del programmatore"
-subtitle:   "Qualche semplice regola da tenere a mente per vivere meglio dentro e fuori l'ufficio"
+subtitle:   "Qualche semplice regola da tenere a mente per vivere meglio dentro e fuori l'ufficio."
 date:       2014-12-23 22:34:11
 categories: vita
 tags: suggerimenti
@@ -29,20 +29,22 @@ Forzare il ciclo naturale degli eventi, per evitare i momenti negativi è anti-c
 Ognuno di noi ha un **modo speciale e unico di vedere il Mondo**. Scegliamo, o a volte ci imponiamo, certe priorità, obiettivi o ambizioni nella vita.
 
 La **felicità è uno stato d'animo** così **fugace e sfuggevole**. Appena percepiamo la sensazione d'essere felici, questa svanisce in poco tempo. 
-In realtà la felicità non è veramente quello stato d'animo che proviamo quando raggiungiamo un importante obiettivo che c'eravamo prefissati o compriamo qualcosa che desideravamo tanto. Queste sono illusioni, *sensazioni superficiali e passeggere*. 
 
-[Alan Watts] ha dedicato l'esistenza nel provare a confrontare la cultura occidentale con quella orientale. **Sembra che la nostra società spesso remi contro il vero concetto di vera felicità**.
+In realtà, la felicità non è veramente quello stato d'animo che proviamo quando raggiungiamo un importante obiettivo che c'eravamo prefissati o compriamo qualcosa che desideravamo tanto. Queste sono *illusioni, sensazioni superficiali e passeggere*. 
+
+[Alan Watts] ha dedicato l'esistenza nel provare a confrontare la cultura occidentale con quella orientale. 
+> La nostra società spesso ci fa remare contro il vero concetto di felicità.
 
 Non sto dicendo che dovremmo isolarci in un tempio per meditare e raggiungere l'illuminazione.
 
-Penso solamente che **raggiungere un benessere interiore**, sia fondamentale per **vivere bene con sé stessi e gli altri**. Affrontando ogni giorno con energia e voglia di fare. Tutto questo sta dentro di noi, non fuori. Non in cose, successi lavorativi o denaro.
+Penso solamente che **raggiungere un benessere interiore**, sia fondamentale per **vivere bene con sé stessi e gli altri**. Affrontando ogni giorno con energia e voglia di fare. *Tutto questo sta dentro di noi*, non fuori. Non in cose, successi lavorativi o denaro. Specialmente quando si passa la giornata di fronte ad uno schermo. Interagendo con una macchina.
 
 È qualcosa che va "praticato" quotidianamente, senza troppe pretese.
 
 
 #### Qualche regola da tenere a mente
 Ho pensato di scrivere qualche punto che quotidianamente cerco &mdash;e molto spesso fallisco&mdash; di seguire.
-Con l'augurio che possano essere utili ad altri programmatori per affrontare con positività la ruotine quotidiana.
+Con l'augurio che possano essere utili ad altri programmatori, per affrontare con positività la ruotine quotidiana.
 
 * Sarò vecchio solamente quando smetterò di imparare.
 * Non cambio il modo di pensare degli altri. So che molti non lo accettano.
@@ -66,8 +68,8 @@ Con l'augurio che possano essere utili ad altri programmatori per affrontare con
 * La postura e il modo di vestire cambiano profondamente il mio modo di essere. E come gli altri mi vedono.
 * Ogni tanto riprovo un linguaggio o framework che non m'era piaciuto in precedenza.
 * Problemi e bug, quando arrivano, sono raramente dolorosi quanto l'esperienza di temerli.
-* Nulla capita esattamente come l'avevo pianificata.
-* 90% delle cose brutte che mi preoccupano non succedono. 90% delle cose brutte che accadono non c'avevo neanche pensato.
+* Nulla capita esattamente come avevo pianificato.
+* 90% delle cose brutte che mi preoccupano non succedono. 90% delle cose brutte che accadono non le avevo neanche considerate.
 * Einstein era piú saggio che intelligente, ed era considerato un genio.
 * Quando non so cosa fare, leggo un libro. Non mi delude mai.
 * Sperare che le cose fossero diverse, è un bel modo per torturarmi.

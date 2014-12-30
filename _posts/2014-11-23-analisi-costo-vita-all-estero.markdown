@@ -54,9 +54,12 @@ Sappiamo che i **programmatori sono molto ricercati**. E sappiamo che solitament
 
 Il motivo è molto semplice e te lo spiego con un confronto:
 
+![In Italia arrivi a fine mese con pochi spiccioli](/assets/article_images/2014-11-23-analisi-costo-vita-all-estero/comparazione.gif)
+
 Se in Italia prendi 1500&euro; al mese, e spendi ipoteticamente il 50% per viverci, a fine mese metti da parte 750&euro;.
 
-Ma se a Londra prendi 4000&euro; al mese, e ne spendi 50% per gli stessi bisogni (che solitamente sono più cari) hai comunque un netto di 2000&euro;.
+Ma se all'estero prendi 4000&euro; al mese, e ne spendi 50% per gli stessi bisogni (che solitamente sono più cari) hai comunque un netto di 2000&euro;.
+
 
 Quindi **la vita costerà anche il doppio**, ma ricorda che **guadagni più del doppio**!
 
@@ -64,6 +67,8 @@ Quindi **la vita costerà anche il doppio**, ma ricorda che **guadagni più del 
 Uno stipendio medio per un programmatore Junior è di 1900&pound; (2400&euro;) e Senior 3000&pound; (3800&euro;).
 
 Quindi come reddito mensile: 2400-3800&euro;
+
+![Rapporto Stipendi (Italia - Inghilterra)](/assets/article_images/2014-11-23-analisi-costo-vita-all-estero/stipendi-barchart.gif)
 
 ##### Trasporti
 La **macchina non ti serve**. Bollo, assicurazione, benzina, revisioni, ecc… non li devi pagare. 
@@ -96,13 +101,16 @@ Molto costosi, 30-50&pound; a testa. Evitabili.
 
 Io amo cucinare a casa con mia moglie e raramente mangiamo fuori. Sinceramente non la considero una spesa primaria. L’ho messa perché molti miei colleghi single non mangiano mai a casa.
 
+![Costo vita Londra vs Città Italiane ~ fonte: http://www.expatistan.com](/assets/article_images/2014-11-23-analisi-costo-vita-all-estero/citta.gif)
+
 
 #### Conclusione
 L’**affitto è quindi la spesa più pesante da affrontare**. Ma questo vale solamente per Londra. Per esempio Berlino ed Amsterdam hanno affitti molto più accessibili, e il lavoro è comunque retribuito molto bene.
 
 Vivere all'estero vale sicuramente la pena. Sia per **te stesso come singolo, ma anche per la comunità dei programmatori**. 
 
-Se mostriamo all'Italia che *non abbiamo paura di andarcene dove ci pagano meglio*, magari qualcosa cambierà...e se non cambia? Rispondetegli: &laquo;Eh…c’è la crisi!&raquo;
+Se mostriamo all'Italia che *non abbiamo paura di andarcene dove ci pagano meglio*, magari qualcosa cambierà...e se non cambia? 
+Noi rispondiamo: &laquo;Eh...c’è la crisi!&raquo;
 
 
 
