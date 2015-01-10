@@ -1,12 +1,14 @@
 /*
- * Main JS file for Casper behaviours
- */
+** Main JS file for:
+** - scrolling parallax effect
+** - setting margin-top according to the header height
+** - creating the caption for every image if there's attribute 'alt"
+** - showing disquss comments when a user clicks on the call-to-action
+*/
 
 Zepto(function( $ ) {
-  console.log('.....INIT......');
-
-  var $window    = $(window);
-  var $image     = $('.post-image');
+  var $window = $(window);
+  var $image  = $('.post-image');
 
   var disqus_shortname = 'blogmatteoborgatocom';
   var el               = $("#show-comments");

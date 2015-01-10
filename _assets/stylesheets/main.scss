@@ -483,6 +483,7 @@ a {
     }
   }
   .post-content {
+    margin-top: 600px;  /* will be overridden by JS */
     font-size: 1rem;
     width: 100%;
     font-family: $font-serif;
