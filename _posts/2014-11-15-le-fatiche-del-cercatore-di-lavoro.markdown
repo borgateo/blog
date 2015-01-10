@@ -12,11 +12,11 @@ image-thumbnail: /assets/article_images/2014-11-15-le-fatiche-del-cercatore-di-l
 
 Tutti conoscono grandi nomi come Google, Facebook, Apple, Twitter.
 
-Per mantenere uno standard così elevato, queste aziende hanno escogitato un intricato percorso di reclutamento. I pochi candidati che arrivano al traguardo, hanno sicuramente capacità al di sopra della media.
+Per mantenere uno standard così elevato, queste aziende hanno escogitato un _intricato percorso di reclutamento_. I pochi candidati che arrivano al traguardo, hanno sicuramente capacità al di sopra della media.
 
 #### Il piccolo segue il grande
 
-Il metodo sembra funzionare. Piccole startup e aziende “senza nome” hanno quindi iniziato ad adottare un simile approccio.
+Il metodo sembra funzionare. Piccole startup e aziende “senza nome” hanno iniziato ad adottare un simile approccio. Sta diventando uno standard.
 
 Vediamo in dettaglio come si divide:
 
@@ -76,7 +76,14 @@ Poi varia molto da azienda ad azienda. Se non sai una risposta non fare scena mu
 
 Ricordati che il colloquio **non dev’essere a senso unico**. Dalle domande poste, puoi capire il livello di preparazione dei tuoi futuri colleghi e superiori. Ma nulla ti impedisce di fare qualche domanda a tua volta. Anche tecnica, per testare le loro conoscenze.
 
-A tutti capita di dover gestire un cliente rompi palle. Ecco perché alcune aziende adottano un atteggiamento molto ostile e antipatico in questa fase. Lo fanno per **valutare come reagisci sotto stress**. Non perdere la pazienza e mantieni sempre la tua professionalità.
+A seconda del ruolo, ti possono chiedere di risolvere un ticket/storia facendo [pair programming] con qualche sviluppatore. 
+Disegnare [scatoline] o scrivere del codice alla lavagna. 
+
+Non focalizzarti su “il fare bella figura”. 
+Cerca piuttosto di essere _razionale_. Commenta in modo costruttivo e critico le loro architetture e scelte.
+Un parere esterno e sincero è sempre apprezzato.
+
+A tutti capita di dover gestire un cliente rompi palle. Ecco perché alcune aziende _adottano un atteggiamento ostile e antipatico_ in questa fase. Lo fanno per **valutare come reagisci allo stress**. Non perdere la pazienza e sii sempre professionale.
 
 #### Colloquio pre-offerta
 Spesso incontri il CEO, qualcuno dell'HR o del marketing.
@@ -85,9 +92,10 @@ Il più è fatto. Gli sei piaciuto. Vogliono vedere se riescono ad instaurare un
 
 Parla con disinvoltura e rimani rilassato. Stai andando alla grande.
 
-
 #### Offerta lavoro e contrattazione
-Questa è la parte nella quale devi essere forte. Tanta gente, dopo aver investito così tanto tempo, ha paura di contrattare e accetta lo stipendio minimo che l’azienda offre.
+A volte questa fase è unita alla precedente in una sessione unica.
+
+Qui **devi essere forte e tenace**. Tanta gente, dopo aver investito così tanto tempo, ha _paura di contrattare_ e accetta lo stipendio minimo che l’azienda offre.
 
 Ricordati che ti sei guadagnato questo traguardo e **l'azienda ti vuole assumere**. 
 
@@ -110,3 +118,4 @@ Perciò, come prima cosa, devi capire se quel disegno che andrai a completare ti
 [CodeEval]: https://www.codeeval.com/
 [pair programming]: http://it.wikipedia.org/wiki/Pair_programming
 [colloquio di lavoro]: {% post_url 2014-11-08-il-colloquio-di-lavoro %}
+[scatoline]: http://it.wikipedia.org/wiki/Diagramma_a_blocchi

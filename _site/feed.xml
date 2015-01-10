@@ -5,8 +5,8 @@
     <description>Il mondo visto dagli occhi miopi di un programmatore.</description>
     <link>http://blog.matteoborgato.com/</link>
     <atom:link href="http://blog.matteoborgato.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 30 Dec 2014 16:49:20 +0000</pubDate>
-    <lastBuildDate>Tue, 30 Dec 2014 16:49:20 +0000</lastBuildDate>
+    <pubDate>Sat, 10 Jan 2015 12:51:13 +0000</pubDate>
+    <lastBuildDate>Sat, 10 Jan 2015 12:51:13 +0000</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -235,11 +235,11 @@ Noi rispondiamo: &amp;laquo;Eh...c’è la crisi!&amp;raquo;&lt;/p&gt;
         <title>Le fatiche del cercatore di lavoro</title>
         <description>&lt;p&gt;Tutti conoscono grandi nomi come Google, Facebook, Apple, Twitter.&lt;/p&gt;
 
-&lt;p&gt;Per mantenere uno standard così elevato, queste aziende hanno escogitato un intricato percorso di reclutamento. I pochi candidati che arrivano al traguardo, hanno sicuramente capacità al di sopra della media.&lt;/p&gt;
+&lt;p&gt;Per mantenere uno standard così elevato, queste aziende hanno escogitato un &lt;em&gt;intricato percorso di reclutamento&lt;/em&gt;. I pochi candidati che arrivano al traguardo, hanno sicuramente capacità al di sopra della media.&lt;/p&gt;
 
 &lt;h4&gt;Il piccolo segue il grande&lt;/h4&gt;
 
-&lt;p&gt;Il metodo sembra funzionare. Piccole startup e aziende “senza nome” hanno quindi iniziato ad adottare un simile approccio.&lt;/p&gt;
+&lt;p&gt;Il metodo sembra funzionare. Piccole startup e aziende “senza nome” hanno iniziato ad adottare un simile approccio. Sta diventando uno standard.&lt;/p&gt;
 
 &lt;p&gt;Vediamo in dettaglio come si divide:&lt;/p&gt;
 
@@ -309,7 +309,14 @@ Convinciti che non è tempo sprecato. C’è &lt;strong&gt;sempre qualcosa da im
 
 &lt;p&gt;Ricordati che il colloquio &lt;strong&gt;non dev’essere a senso unico&lt;/strong&gt;. Dalle domande poste, puoi capire il livello di preparazione dei tuoi futuri colleghi e superiori. Ma nulla ti impedisce di fare qualche domanda a tua volta. Anche tecnica, per testare le loro conoscenze.&lt;/p&gt;
 
-&lt;p&gt;A tutti capita di dover gestire un cliente rompi palle. Ecco perché alcune aziende adottano un atteggiamento molto ostile e antipatico in questa fase. Lo fanno per &lt;strong&gt;valutare come reagisci sotto stress&lt;/strong&gt;. Non perdere la pazienza e mantieni sempre la tua professionalità.&lt;/p&gt;
+&lt;p&gt;A seconda del ruolo, ti possono chiedere di risolvere un ticket/storia facendo &lt;a href=&quot;http://it.wikipedia.org/wiki/Pair_programming&quot;&gt;pair programming&lt;/a&gt; con qualche sviluppatore. 
+Disegnare &lt;a href=&quot;http://it.wikipedia.org/wiki/Diagramma_a_blocchi&quot;&gt;scatoline&lt;/a&gt; o scrivere del codice alla lavagna. &lt;/p&gt;
+
+&lt;p&gt;Non focalizzarti su “il fare bella figura”. 
+Cerca piuttosto di essere &lt;em&gt;razionale&lt;/em&gt;. Commenta in modo costruttivo e critico le loro architetture e scelte.
+Un parere esterno e sincero è sempre apprezzato.&lt;/p&gt;
+
+&lt;p&gt;A tutti capita di dover gestire un cliente rompi palle. Ecco perché alcune aziende &lt;em&gt;adottano un atteggiamento ostile e antipatico&lt;/em&gt; in questa fase. Lo fanno per &lt;strong&gt;valutare come reagisci allo stress&lt;/strong&gt;. Non perdere la pazienza e sii sempre professionale.&lt;/p&gt;
 
 &lt;h4&gt;Colloquio pre-offerta&lt;/h4&gt;
 
@@ -321,7 +328,9 @@ Convinciti che non è tempo sprecato. C’è &lt;strong&gt;sempre qualcosa da im
 
 &lt;h4&gt;Offerta lavoro e contrattazione&lt;/h4&gt;
 
-&lt;p&gt;Questa è la parte nella quale devi essere forte. Tanta gente, dopo aver investito così tanto tempo, ha paura di contrattare e accetta lo stipendio minimo che l’azienda offre.&lt;/p&gt;
+&lt;p&gt;A volte questa fase è unita alla precedente in una sessione unica.&lt;/p&gt;
+
+&lt;p&gt;Qui &lt;strong&gt;devi essere forte e tenace&lt;/strong&gt;. Tanta gente, dopo aver investito così tanto tempo, ha &lt;em&gt;paura di contrattare&lt;/em&gt; e accetta lo stipendio minimo che l’azienda offre.&lt;/p&gt;
 
 &lt;p&gt;Ricordati che ti sei guadagnato questo traguardo e &lt;strong&gt;l&amp;#39;azienda ti vuole assumere&lt;/strong&gt;. &lt;/p&gt;
 

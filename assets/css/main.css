@@ -187,6 +187,8 @@ a {
   color: #333;
   text-decoration: none;
   background-color: rgba(90, 207, 245, 0.4); }
+  a:active, a:hover {
+    background-color: rgba(90, 207, 245, 0.6); }
 
 .logo-readium {
   position: fixed;
@@ -260,18 +262,28 @@ a {
     outline: 0;
     line-height: 1;
     word-break: break-word;
-    color: #333; }
+    color: #333;
+    -webkit-animation: fade-in-down 0.6s;
+    animation: fade-in-down 0.6s;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s; }
   .blog-header .blog-description {
     margin: 0 0 20px;
-    padding: 0 32px;
-    font-size: 18px;
-    line-height: 1.5;
+    padding: 0.35em 32px;
+    font-size: 20px;
+    line-height: 1.3;
     color: #666;
     text-align: center;
-    font-weight: 400; }
+    font-weight: 400;
+    -webkit-animation: fade-in-down 0.6s;
+    animation: fade-in-down 0.6s;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s; }
   .blog-header .custom-links {
     margin: 0 0 50px;
     text-align: center; }
+    .blog-header .custom-links a {
+      padding: 0.08em 0.45em; }
 
 .content {
   width: 100%;
@@ -300,14 +312,14 @@ a {
       margin: 0;
       text-align: center;
       margin: 0.5em 0 0.5em 0;
-      color: #333332; }
+      color: #333; }
     .content article .post-subtitle {
       letter-spacing: -0.02em;
       font-weight: 300;
       font-style: normal;
       line-height: 1.2;
       font-size: 1.2rem;
-      color: #666665;
+      color: #666;
       margin: 5px 0 10px 0; }
     .content article .post-excerpt {
       position: relative;
@@ -542,9 +554,13 @@ a {
   white-space: nowrap;
   text-overflow: ellipsis; }
 .post .post-content {
+  font-size: 1rem;
   width: 100%;
   font-family: Linux Libertine;
   color: #333; }
+  @media only screen and (max-width: 800px) {
+    .post .post-content {
+      font-size: 0.8rem; } }
   .post .post-content h1, .post .post-content h2 {
     font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
     text-shadow: 2px 2px 0 #FFF; }
@@ -560,12 +576,12 @@ a {
   .post .post-content h3 {
     color: rgba(0, 0, 0, 0.44);
     text-shadow: 1px 1px 0 #FFF;
-    font-size: 32px;
+    font-size: 1.63em;
     font-style: normal;
     font-weight: 300;
     text-align: center;
-    padding-top: 0.2em;
-    padding-bottom: 1.2em; }
+    line-height: 1.25;
+    padding-bottom: 1em; }
   .post .post-content h4 {
     padding-top: 0.5em;
     padding-bottom: 0.2em;
@@ -580,24 +596,19 @@ a {
     font-family: Linux Libertine;
     text-align: center; }
   .post .post-content h2, .post .post-content h1 {
-    font-size: 60px;
+    font-size: 3.8em;
     font-style: normal;
     font-weight: 700;
     letter-spacing: -0.04em;
-    line-height: 1;
-    margin-bottom: 8px;
-    letter-spacing: -0.02em;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 60px;
-    line-height: 1;
-    margin-bottom: 4px;
+    line-height: 0.9;
+    margin-bottom: 0.4em;
     text-align: center; }
   .post .post-content p {
     font-weight: 400;
     font-style: normal;
-    font-size: 22px;
-    line-height: 30px;
+    /* font-size: 22px; */
+    font-size: 1.62em;
+    line-height: 1.35em;
     margin: 0;
     padding-bottom: 30px;
     color: #333;
@@ -641,20 +652,16 @@ a {
       margin-left: -26px;
       padding-bottom: 3px; }
   .post .post-content > ul, .post .post-content > ol {
-    margin: 0;
-    padding: 10px 0 0 0;
+    padding: 0;
     margin: 0 auto;
-    padding: 0 0 10px;
     text-align: left;
-    width: 90%; }
+    width: 90%;
+    font-weight: 400;
+    line-height: 1.35em;
+    font-size: 1.62em; }
     .post .post-content > ul li, .post .post-content > ol li {
       padding: 0;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 23px;
-      line-height: 30px;
-      margin-left: 30px;
-      margin-bottom: 12px;
+      margin-bottom: 0.1em;
       padding-top: 2px; }
       .post .post-content > ul li p, .post .post-content > ol li p {
         padding: 0 0 1.618rem; }
@@ -761,23 +768,22 @@ a {
     text-align: center;
     margin: 0 auto; }
     .bottom-closer .inner .blog-title {
+      color: #EFEFEF;
       margin: 0;
-      padding: 0 0 10px;
-      font-size: 50px;
+      font-size: 3.8em;
       text-align: center;
       font-weight: 700;
       letter-spacing: -2px;
       outline: 0;
-      line-height: 50px;
+      line-height: 1.5;
       word-break: break-word;
-      color: white;
       text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5); }
     .bottom-closer .inner .blog-description {
+      color: #EFEFEF;
       margin: 0 0 50px;
       padding: 0 32px;
-      font-size: 18px;
+      font-size: 22px;
       line-height: 1.5;
-      color: white;
       text-align: center;
       font-weight: 400;
       text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5); }
@@ -883,3 +889,26 @@ pre {
     color: #777; }
   .friends-link a {
     color: #555; }
+
+/**** Animations ****/
+@-webkit-keyframes fade-in-down {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes fade-in-down {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }

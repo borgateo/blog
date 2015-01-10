@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Il tao del programmatore"
-subtitle:   "Qualche semplice regola da tenere a mente per vivere meglio dentro e fuori l'ufficio."
+subtitle:   "Qualche semplice regola da tenere a mente, per vivere meglio dentro e fuori l'ufficio."
 date:       2014-12-23 22:34:11
 categories: vita
 tags: suggerimenti
