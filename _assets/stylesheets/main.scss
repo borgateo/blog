@@ -46,7 +46,7 @@ a {
   }
 }
 
-.logo-readium {
+.logo-mb {
   position: fixed;
   left: 0;
   top: 0;
@@ -55,6 +55,10 @@ a {
   overflow: hidden;
   z-index: 99999;
   background-color: transparent;
+  &:active,
+  &:hover {
+    background-color: transparent;
+  }
   .logo {
     display: block;
     position: absolute;
