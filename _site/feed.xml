@@ -5,9 +5,130 @@
     <description>Il mondo visto dagli occhi miopi di un programmatore.</description>
     <link>http://blog.matteoborgato.com/</link>
     <atom:link href="http://blog.matteoborgato.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 10 Jan 2015 15:43:19 +0000</pubDate>
-    <lastBuildDate>Sat, 10 Jan 2015 15:43:19 +0000</lastBuildDate>
+    <pubDate>Sat, 31 Jan 2015 20:02:14 +0000</pubDate>
+    <lastBuildDate>Sat, 31 Jan 2015 20:02:14 +0000</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
+    
+      <item>
+        <title>Attenti al lup...reclutatore</title>
+        <description>&lt;p&gt;&lt;em&gt;Criticare&lt;/em&gt;. La maggior parte delle volte produce l’effetto contrario a quello sperato. &lt;/p&gt;
+
+&lt;p&gt;Eppure sento troppo il desiderio di fare un’osservazione ad un sistema che sta prendendo una brutta piega. &lt;strong&gt;Lo faccio per sollevare un problema e consigliare una possibile soluzione&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4&gt;Una situazione che sta mutando lentamente&lt;/h4&gt;
+
+&lt;p&gt;Le mele marce ci sono in tutti gli ambienti e realtà. Ma cosa succede se questa piccola percentuale cresce a macchia d’olio e diventa la normalità?&lt;/p&gt;
+
+&lt;p&gt;È come la storia della rana nella pentola, di &lt;a href=&quot;http://it.wikipedia.org/wiki/Daniel_Quinn&quot;&gt;Daniel Quinn&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Prendi una pentola d’acqua e mettila a scaldare a fuoco lento.
+Se immergi una rana quando l’acqua bolle, questa salterà fuori per salvarsi. Se la immergi quando l’acqua è tiepida, l’animaletto si farà bollire lentamente e morirà.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Meglio non farsi cucinare.&lt;/p&gt;
+
+&lt;h4&gt;Il bosco perfetto per il lupo&lt;/h4&gt;
+
+&lt;p&gt;A Londra c’è una vasta richiesta di “manodopera” informatica. Si cercano figure di ogni tipo. Ultimamente il termine &lt;code&gt;big-data&lt;/code&gt; è il piú gettonato e i data scientist “merce” ambita.&lt;/p&gt;
+
+&lt;p&gt;Il ciclo di vita di un programmatore è in media di un paio d’anni. Anche meno nelle startup.&lt;/p&gt;
+
+&lt;p&gt;Situazione che crea un &lt;strong&gt;continuo riciclo di ruoli e opportunità&lt;/strong&gt;. &lt;em&gt;Cosa sicuramente positiva&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Un’esigenza da soddisfare, risolvibile con &lt;em&gt;poco sforzo e molto guadagno&lt;/em&gt;. L’habitat ideale per il nostro anti-eroe.&lt;/p&gt;
+
+&lt;p&gt;Ecco quindi che sono nate come funghi, decine e decine di agenzie interinali. Auto-proclamate espertissime dell’informatica, in grado di scovare professionisti per ogni esigenza.&lt;/p&gt;
+
+&lt;p&gt;In realtà, la maggior parte, è formata da gente che ieri vendeva case o assicurazioni, e che oggi s’inventa iOS expert o big data head hunter.
+Figuri che non sanno neanche cosa significi big data. Ti rispondono che è una grande banca data.&lt;/p&gt;
+
+&lt;h4&gt;Embè?&lt;/h4&gt;
+
+&lt;p&gt;Tu dirai. &lt;/p&gt;
+
+&lt;p&gt;Bene. Mettiti nei panni di una startup o un’azienda che sta cercando un valido 
+candidato da inserire nella squadra di sviluppo.
+Sei una realtà con pochi dipendenti e non puoi permetterti una sezione di reclutamento interno. Pensi bene di affidarti ai valenti reclutatori, nella speranza di filtrare qualche candidato e farti risparmiare il tempo e la fatica di cercare.&lt;/p&gt;
+
+&lt;p&gt;Il &lt;em&gt;machiavellico reclutatore&lt;/em&gt; &amp;mdash;interessato solo a portarsi a casa la commissione&amp;mdash; pensa bene di &lt;strong&gt;concentrarsi sulla quantità piuttosto che sulla qualità&lt;/strong&gt;. &lt;/p&gt;
+
+&lt;p&gt;Passa il giorno a spammare usando piattaforme dedicate (come LinkedIn o Monster), e meno (come Facebook o Twitter).&lt;/p&gt;
+
+&lt;p&gt;Legge i profili, accoppia qualche parola chiave con la descrizione del lavoro offerto. Manda messaggi identici a un centinaio di programmatori a caso. Lo ripete tutto il santo giorno. &lt;/p&gt;
+
+&lt;p&gt;Altri, più esperti, ti inseriscono in mailing list automatiche e ti assillano al telefono. Ti chiamano almeno 4-5 volte al giorno finché non rispondi o scaraventi il telefonino per terra mandandoli affanculo. &lt;/p&gt;
+
+&lt;p&gt;Quando ti contattano &lt;strong&gt;non ti fanno alcuna domanda tecnica&lt;/strong&gt; di screening. Testano solo il tuo inglese, cosa stai cercando (ma poi se ne fregano allegramente) e la tua disponibilità.&lt;/p&gt;
+
+&lt;p&gt;Sono insistenti fino allo sfinimento sia con i candidati, nel spingerli ad andare a fare il colloquio, che con le aziende, nel farle incontrare con i programmatori.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ogni lavoro che offrono è l’opportunità della tua vita, un’esperienza irripetibile, il paradiso in terra.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ormai non imposto più la sveglia alla mattina. So che alle 8.10 mi chiama sempre lo stesso reclutatore con l’offerta di lavoro del millennio, in esclusiva solo per me.&lt;/p&gt;
+
+&lt;p&gt;Infine, il modo...il modo è così odioso! Ti parlano come se foste amici di vecchia data, usano diminutivi, scherzano allegramente, leccandoti copiosamente il culo.&lt;/p&gt;
+
+&lt;p&gt;E come arrivano con tutto l’amore dell’universo, poi scompaiono nell’ombra quando non gli servi più.&lt;/p&gt;
+
+&lt;p&gt;Tristi.&lt;/p&gt;
+
+&lt;h4&gt;Embé?&lt;/h4&gt;
+
+&lt;p&gt;Continuerai a dire.&lt;/p&gt;
+
+&lt;p&gt;Allora immagina di nuovo la tua azienda. Pensavi di poter incontrare solamente la crème de la crème. Invece &lt;em&gt;ti trovi a parlare con gente che non pensava di saper programmare o che che passava da quelle parti&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Raramente ti trovi la persona giusta davanti.&lt;/p&gt;
+
+&lt;p&gt;Ma se la fortuna non gira &amp;mdash;perché solo di fortuna si parla&amp;mdash; e la persona giusta non si presenta dopo 3 - 4 mesi, l’azienda perde la fiducia nel sistema e s’incazza. 
+Pensa erroneamente che ci sono solamente programmatori idioti al mondo.&lt;/p&gt;
+
+&lt;h4&gt;La situazione attuale&lt;/h4&gt;
+
+&lt;p&gt;Si è creato un’ambiente di diffidenza tra datore e programmatore. &lt;/p&gt;
+
+&lt;p&gt;Il datore di lavoro non vuole neanche parlare al telefono con i candidati. Ti manda il compito per casa da fare e, solamente se lo passi, ti contatta.&lt;/p&gt;
+
+&lt;p&gt;Non sono contrario al compito per casa. Ma il messaggio che manda è sbagliato!&lt;/p&gt;
+
+&lt;p&gt;In pratica &lt;strong&gt;ti considera un demente&lt;/strong&gt;, non si fida di te, e si degna di considerarti solamente dopo il test.&lt;/p&gt;
+
+&lt;p&gt;Ma stiamo scherzando?&lt;/p&gt;
+
+&lt;p&gt;Inizialmente me la prendevo con loro. Poi mi sono reso conto che è solamente colpa del lupo se siamo giunti a questo scenario assurdo.&lt;/p&gt;
+
+&lt;h4&gt;La soluzione&lt;/h4&gt;
+
+&lt;p&gt;Evitali. Se proprio vuoi affidarti ai reclutatori, prima scopri di che razza sono. Se trovi il professionista, tienitelo stretto perché é raro.&lt;/p&gt;
+
+&lt;p&gt;Puoi contattare direttamete le aziende che cercano. O affidarti ad aggregatori che raccolgono offerte di lavoro ordinate per settore e tipo.&lt;/p&gt;
+
+&lt;p&gt;Ecco alcuni siti utili:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://hired.co.uk&quot;&gt;hired.co.uk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.underdog.io/&quot;&gt;underdog.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://unicornhunt.io&quot;&gt;unicornhunt.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Disclaimer&lt;/h4&gt;
+
+&lt;p&gt;Vorrei precisare che non tutti i reclutatori si comportano così malignamente.
+Qualcuno di onesto c’é ancora la fuori. Ma in 2 anni a Londra e 2 ad Amsterdam…ne ho trovati pochi! Fai un po’ te.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Jan 2015 18:34:25 +0000</pubDate>
+        <link>http://blog.matteoborgato.com/Attenti-al-lupo</link>
+        <guid isPermaLink="true">http://blog.matteoborgato.com/Attenti-al-lupo</guid>
+        
+        <category>agenzie</category>
+        
+        <category>interinali</category>
+        
+        
+        <category>lavoro</category>
+        
+      </item>
     
       <item>
         <title>Il tao del programmatore</title>
