@@ -10,7 +10,7 @@ image: /assets/article_images/2014-11-08-il-colloquio-di-lavoro/colloquio.gif
 image-thumbnail: /assets/article_images/2014-11-08-il-colloquio-di-lavoro/colloquio-thumb.gif
 ---
 
-In Italia un programmatore viene definito **Senior** all’ottavo anno di esperienza nel settore. Per quanto uno possa sforzarsi, impegnarsi e far vedere quanto vale, non c’è modo di uscire da questa "casta di anzianità". La gente ti prende sul serio solamente quando hai compiuto 35-40 anni.
+In Italia un programmatore viene definito **Senior** all’ottavo anno di esperienza nel settore. Per quanto uno possa sforzarsi, impegnarsi e far vedere quanto vale, non c’è modo di uscire da questa “casta di anzianità”. La gente ti prende sul serio solamente quando hai compiuto 35-40 anni.
 
 > “Ormai siamo troppo giovani” &mdash; cit. Dimartino
 
@@ -123,7 +123,6 @@ Spero che questi consigli possano aiutarti a trovare il lavoro a cui aspiri.
 Penso che in linea di massima, tali dritte, si possano applicare a tutti i settori, non solo all’ICT.
 
 In bocca al lupo, e ricorda che una volta raggiunto un certo grado di confidenza ed esperienza, **sarai tu a fare il colloquio all’azienda** :)
-
 
 
 [pair programming]: http://it.wikipedia.org/wiki/Pair_programming

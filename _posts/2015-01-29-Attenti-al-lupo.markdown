@@ -35,7 +35,7 @@ Un’esigenza da soddisfare, risolvibile con _poco sforzo e molto guadagno_. L�
 Ecco quindi che sono nate come funghi, decine e decine di agenzie interinali. Auto-proclamate espertissime dell’informatica, in grado di scovare professionisti per ogni esigenza.
 
 In realtà, la maggior parte, è formata da gente che ieri vendeva case o assicurazioni, e che oggi s’inventa iOS expert o big data head hunter.
-Figuri che non sanno neanche cosa significi big data. Ti rispondono che è una grande banca data.
+Figuri che non sanno neanche cosa significi big data. Ti rispondono che sono dati grandi.
 
 #### Embè?
 Tu dirai. 
@@ -69,15 +69,15 @@ Tristi.
 #### Embé?
 Continuerai a dire.
 
-Allora immagina di nuovo la tua azienda. Pensavi di poter incontrare solamente la crème de la crème. Invece _ti trovi a parlare con gente che non pensava di saper programmare o che che passava da quelle parti_.
+Allora immagina di nuovo la tua azienda. Pensavi di poter incontrare solamente la crème de la crème. Invece _ti trovi a parlare con gente che non pensava di saper programmare o che passava per caso da quelle parti_.
 
-Raramente ti trovi la persona giusta davanti.
+Quasi mai ricevi la persona giusta.
 
-Ma se la fortuna non gira &mdash;perché solo di fortuna si parla&mdash; e la persona giusta non si presenta dopo 3 - 4 mesi, l’azienda perde la fiducia nel sistema e s’incazza. 
+Ma se la fortuna non gira &mdash;perché solo di fortuna si parla&mdash; e quello/a che cercavi non si presenta dopo 3 - 4 mesi, __l’azienda perde la fiducia nel sistema e s’incazza__. 
 Pensa erroneamente che ci sono solamente programmatori idioti al mondo.
 
 #### La situazione attuale 
-Si è creato un’ambiente di diffidenza tra datore e programmatore. 
+Si è creato un’ambiente di _diffidenza_ tra datore e programmatore. 
 
 Il datore di lavoro non vuole neanche parlare al telefono con i candidati. Ti manda il compito per casa da fare e, solamente se lo passi, ti contatta.
 
@@ -90,18 +90,20 @@ Ma stiamo scherzando?
 Inizialmente me la prendevo con loro. Poi mi sono reso conto che è solamente colpa del lupo se siamo giunti a questo scenario assurdo.
 
 #### La soluzione
-Evitali. Se proprio vuoi affidarti ai reclutatori, prima scopri di che razza sono. Se trovi il professionista, tienitelo stretto perché é raro.
+_Evitali_. Se proprio vuoi affidarti ai reclutatori, prima scopri di che razza sono. __Se trovi il professionista, tienitelo stretto__ perché é raro.
 
-Puoi contattare direttamete le aziende che cercano. O affidarti ad aggregatori che raccolgono offerte di lavoro ordinate per settore e tipo.
+Puoi contattare direttamete le aziende che stanno cercando. 
+Affidarti ad aggregatori sul Web che raccolgono offerte di lavoro, ordinate per settore, salario e tipo. 
+Oppure iscriverti a siti dove ti “espongono in vetrina” per 1 - 2 settimane, e le aziende ti chiamano se gli interessi.
 
-Ecco alcuni siti utili:
+Ecco alcuni link:
 
-- [hired.co.uk](https://hired.co.uk)
-- [underdog.io](https://www.underdog.io/)
 - [unicornhunt.io](https://unicornhunt.io)
+- [underdog.io](https://www.underdog.io/)
+- [hired.co.uk](https://hired.co.uk)
 
 
 #### Disclaimer
-Vorrei precisare che non tutti i reclutatori si comportano così malignamente.
+Ovviamente non tutti i reclutatori si comportano così malignamente.
 Qualcuno di onesto c’é ancora la fuori. Ma in 2 anni a Londra e 2 ad Amsterdam…ne ho trovati pochi! Fai un po’ te.
 
