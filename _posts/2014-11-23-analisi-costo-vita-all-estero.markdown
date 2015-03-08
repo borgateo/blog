@@ -15,7 +15,7 @@ Sembra che l’unica metrica per valutare una persona, sia il conto che ha in ba
 
 Una tale pressione, ci ha condotti a dedicare la nostra esistenza al vano *scopo di diventare ricchi*.
 
-Diciamolo pure, è un sistema malato.  Volenti o nolenti però, se vogliamo sopravvivere, dobbiamo seguirlo. È un'ambizione imposta.
+Diciamolo pure, è un sistema malato. Sapientemente cucito  Volenti o nolenti però, se vogliamo sopravvivere, dobbiamo seguirlo. È un'ambizione imposta.
 
 Visto che dobbiamo tutti *pedalare*, ti vorrei mostrare **quanto costa vivere nella [città più cara del mondo]** e se ne vale la pena.
 
@@ -31,26 +31,26 @@ Londra, Berlino, Amsterdam, Stoccolma &mdash;e sembra che Parigi ci stia arrivan
 Gli italiani, anche se si lamentano continuamente del proprio Paese, lo amano.
 
 La famiglia, gli amici, il bar e le abitudini sono spesso radici difficili da tagliare.
-Per giunta, **la mentalità provinciale** di giudicare chi se ne va, come lo sfigato che abbandona il proprio Paese, non aiuta.
+Per giunta, **la mentalità ottusa** di giudicare chi se ne va, come lo sfigato che abbandona il proprio Paese, non aiuta.
 
-**Il tuo datore di lavoro italiano lo sa molto bene**. Lui sa che all’estero saresti pagato molto di più e trattato molto meglio.
+**Il tuo datore di lavoro italiano lo sa molto bene**. Lui sa che all’estero saresti pagato molto di più e trattato meglio.
 
 Ma semplicemente se ne **frega** allegramente. E continua a sfruttarti.
 
 Del resto, lui pensa:
->Io imprenditore ho una famiglia da mantenere. Non sono mica qua per regalare i guadagni della mia impresa ai dipendenti. Sono io, io, io che rischio tutto ogni giorno.
-
->…E poi perché dovrei essere io lo scemo che paga di più i dipendenti? Gli stipendi sono così in Italia.
+>Io imprenditore sono quello che rischia tutto, ogni giorno.
+>Gli stipendi sono così in Italia. Perché dovrei svuotarmi le tasce per pagare i dipendenti?
+>Trovo sempre il neo-laureto senza esperienza che accetta queste condizioni. I programmatori sono gli operai moderni: intercambiabili.
 
 Quindi, per chiudere in bellezza con la frase fatta degli ultimi anni:
 > Eh…anche perché c’è la crisi!
 
 **È il sistema che è rotto**. Mostragli che hai le palle di *ribellarti*.
-Quando vedranno che tutti i cervelli se ne scappano, magari inizieranno a pagare decentemente.
+Quando vedranno che tutti i cervelli se ne sono scappati, magari qualcosa cambierà.
 
 
 #### La proporzione
-Sappiamo che i **programmatori sono molto ricercati**. E sappiamo che solitamente le città “care” retribuiscono bene. Ragion per cui, se un programmatore vuole **fare soldi velocemente, dovrebbe vivere in una di queste città**.
+Sappiamo che i **programmatori sono sempre più ricercati**. E possiamo intuire che le città “care” retribuiscono bene. Ragion per cui, se un programmatore vuole **mettere da parte qualcosa, dovrebbe vivere in una di queste città**.
 
 Il motivo è molto semplice e te lo spiego con un confronto:
 

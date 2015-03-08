@@ -20,7 +20,7 @@ Il primo, semplice passo per essere felici, è **accettare le nostre imperfezion
 
 #### Shit happens
 Un disfemismo molto comune in inglese. 
-Forzare il ciclo naturale degli eventi, per evitare i momenti negativi è anti-costruttivo e stressante. Si finisce per accumulare troppo, per poi esplodere. **Prendere le cose come vengono non è facile, ma è meno doloroso**.
+Forzare il ciclo naturale degli eventi, per evitare i momenti negativi, è anti-costruttivo e stressante. Si finisce per accumulare troppo, per poi esplodere. **Prendere le cose come vengono non è facile, ma è meno doloroso**.
 
 È come *un'iniezione* dal medico. Se restiamo rilassati e gestiamo la paura, l'ago entra ed esce con facilità senza causare troppo dolore. Se ci irrigidiamo, questo punglione diventa una tortura.
 
@@ -52,7 +52,7 @@ Con l'augurio che possano essere utili ad altri programmatori, per affrontare co
 * Se sto parlando con qualcuno che non conosco bene, questa persona potrebbe saperne molto di più di me sull'argomento. Non sottovaluto nessuno.
 * Le soluzioni troppo dispendiose o facili/economiche sono solitamente cattivi affari.
 * Cerco di arrivare al succo del discorso velocemente. Pragmaticità.
-* Quando mi preoccupa cosa gli altri pensano di me, in realtà sento che sono preoccupato di cosa io penso di me stesso.
+* Quando mi preoccupa cosa gli altri pensano di me, in realtà sono preoccupato di cosa io penso di me stesso.
 * Ogni problema che mi tocca (in)direttamente è una mia responsabilità, indipendentemente da chi l'ha causato.
 * Multitasking è pericoloso. Cerco di focalizzarmi su una sola attività e sul presente.
 * Esamino spesso il mio modo di pensare, provo a mettermi in gioco e accettare il punto di vista degli altri.
@@ -61,7 +61,7 @@ Con l'augurio che possano essere utili ad altri programmatori, per affrontare co
 * Evito di lamentarmi. Quelli che si lamentano di più, sono quelli che fanno di meno. 
 * La più grande scoperta nella storia dell'umanità è il linguaggio. Poi c'è quello di programmazione :)
 * Incolpare è l'hobby preferito di chi evita responsabilità.
-* Tengo in mente che chiunque incontro è migliore di me in qualcosa.
+* Chiunque incontro è migliore di me in qualcosa.
 * L'organizzazione può migliore di molto la vita. In tutti i settori.
 * Qualità è piú conveniente di quantità. In esperienze, amici e progetti.
 * Anche se qualcosa non costa soldi, se richiede tempo, non è veramente gratis.
@@ -69,7 +69,7 @@ Con l'augurio che possano essere utili ad altri programmatori, per affrontare co
 * Ogni tanto riprovo un linguaggio o framework che non m'era piaciuto in precedenza.
 * Problemi e bug, quando arrivano, sono raramente dolorosi quanto l'esperienza di temerli.
 * Nulla capita esattamente come avevo pianificato.
-* 90% delle cose brutte che mi preoccupano non succedono. 90% delle cose brutte che accadono non le avevo neanche considerate.
+* 90% delle cose brutte che mi preoccupano non succedono. 90% delle cose brutte che accadono non le avevo neanche considerate. Preoccuparsi è inutile.
 * Einstein era piú saggio che intelligente, ed era considerato un genio.
 * Quando non so cosa fare, leggo un libro. Non mi delude mai.
 * Sperare che le cose fossero diverse, è un bel modo per torturarmi.
@@ -83,6 +83,8 @@ Con l'augurio che possano essere utili ad altri programmatori, per affrontare co
 * Leggo la documentazione prima di fare domande.
 * Cerco di sbagliare senza timore e imparare dagli errori.
 
+
+#### Conclusione
 Come dicevo, sono semplici osservazioni. Ogni tanto le rileggo per rinfrescarmi la memoria.
 Aiutano a non distrarmi da problemi o situazioni che conducono a stress e a stati d'animo negativi.
 

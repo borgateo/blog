@@ -10,7 +10,7 @@ image: /assets/article_images/2014-11-08-il-colloquio-di-lavoro/colloquio.gif
 image-thumbnail: /assets/article_images/2014-11-08-il-colloquio-di-lavoro/colloquio-thumb.gif
 ---
 
-In Italia un programmatore viene definito **Senior** all’ottavo anno di esperienza nel settore. Per quanto uno possa sforzarsi, impegnarsi e far vedere quanto vale, non c’è modo di uscire da questa “casta di anzianità”. La gente ti prende sul serio solamente quando hai compiuto 35-40 anni.
+In Italia la gente ti prende sul serio solamente quando hai compiuto 35-40 anni.
 
 > “Ormai siamo troppo giovani” &mdash; cit. Dimartino
 
@@ -18,7 +18,7 @@ In Italia un programmatore viene definito **Senior** all’ottavo anno di esperi
 
 Nei Paesi dove esiste la meritocrazia &mdash;non gli scatti d’anzianità o ancor peggio le raccomandazioni&mdash; le etichette vengono attribuite in base ad altre unità di misura.
 
-Ecco perché, **sapersi vendere** e **fare una buona impressione** di fronte ai potenziali datori di lavoro, è fondamentale.
+Ecco perché, **sapersi vendere** e **fare una buona impressione** di fronte ai potenziali datori di lavoro, è importante.
 
 Affrontare un colloquio di lavoro non è per niente facile. 
 Le cose si complicano maggiormente se devi farlo in inglese. 
@@ -37,7 +37,7 @@ Ecco quindi alcune dritte. Non sto dicendo che seguendole passerai ogni colloqui
 #### I programmatori mentono nel CV, e tutti già lo sanno
 
 Nell’80% dei casi, chi ti intervista scopre gli altarini in poco tempo.
-Se invece sei fortunato e cadi nell’altro 20%, ci sono alte probabilità che hai fatto il colloquio in un’azienda dove il personale non è molto competente. 
+Se invece sei (s)fortunato e cadi nell’altro 20%, ci sono alte probabilità che hai fatto il colloquio in un’azienda dove il personale non è molto competente. 
 Un ambiente simile ti annoierebbe in pochi mesi. 
 
 Quindi evitare _balle spaziali_.
@@ -97,8 +97,7 @@ La stessa regola vale per i programmatori: il codice scritto è l'unico modo per
 Cerca quindi di curare un account in [GitHub], [Stack Overflow], [Codepen], ecc.
 Crea e partecipa a progetti, librerie, framework. Pubblica un portfolio con i lavori che hai fatto, partecipa ad eventi, magari come speaker, scrivi in un blog, registra [screencast], mostra al Mondo cosa sai fare.
 
-Credi nell'open source, ma non lavorare __mai gratuitamente__ per arricchire il tuo portfolio o farti notare. È controproducente per te e per gli altri programmatori: comunichi che non vali niente.
-
+Credi nell'open source, ma non lavorare __mai gratuitamente__ per arricchire il tuo portfolio o farti notare. È controproducente per te e per gli altri programmatori: _comunichi che non vali niente_.
 
 #### Dress code
 Un dettaglio da non sottovalutare: **il vestito fa il monaco**.
@@ -106,7 +105,7 @@ Un dettaglio da non sottovalutare: **il vestito fa il monaco**.
 Da programmatori siamo spesso abituati a vestirci “comodi”. Per un colloquio è bene essere eleganti o [smart casual].
 
 #### Allenamento
-Come accennavo all’inizio, è importante allenarsi a fare colloqui. Anche se i recruiter (o come amano farsi chiamare: head hunter) odiano questo comportamento, è fondamentale testare le tue abilità comunicative facendo ogni tanto qualche colloquio.
+Come accennavo all’inizio, è importante allenarsi a fare colloqui. Anche se i recruiter (o come amano farsi chiamare: head hunter) odiano questo comportamento, è fondamentale _testare le tue abilità comunicative facendo ogni tanto qualche colloquio_.
 
 Ci sono sempre nuove domande, esercizi e sfide da affrontare che ti possono trovare impreparato.
 
@@ -114,7 +113,7 @@ Quando poi arriverà il momento, sarai pronto ad affrontare stress, domande e ti
 
 Ovviamente bisogna sempre rispettare il punto “educazione” e, anche se il lavoro ti interessa relativamente poco, porta sempre rispetto a chi hai davanti.
 
-Può sempre succedere che cambi idea durante il colloquio e il lavoro si rivela interessante.
+Può sempre succedere che cambi idea e il lavoro si rivela interessante.
 
 #### Conclusione
 

@@ -1,11 +1,11 @@
 ---
 layout:     post
 title:      "Attenti al lup...reclutatore"
-subtitle:   "Una critica contro questo intermediario e qualche possibile soluzione"
+subtitle:   "Una critica contro questo intermediario e qualche possibile soluzione."
 date:       2015-01-29 18:34:25
 categories: lavoro
-tags: agenzie interinali
-eta: "5:45"
+tags: agenzie per il lavoro
+eta: "4:46"
 image: /assets/article_images/2015-01-29-Attenti-al-lupo/attenti-al-lupo.gif
 image-thumbnail: /assets/article_images/2015-01-29-Attenti-al-lupo/attenti-al-lupo-thumb.gif
 ---
@@ -32,7 +32,7 @@ Situazione che crea un __continuo riciclo di ruoli e opportunità__. _Cosa sicur
 
 Un’esigenza da soddisfare, risolvibile con _poco sforzo e molto guadagno_. L’habitat ideale per il nostro anti-eroe.
 
-Ecco quindi che sono nate come funghi, decine e decine di agenzie interinali. Auto-proclamate espertissime dell’informatica, in grado di scovare professionisti per ogni esigenza.
+Ecco quindi che sono nate come funghi, decine e decine di agenzie per il lavoro. Auto-proclamate espertissime dell’informatica, in grado di scovare professionisti per ogni esigenza.
 
 In realtà, la maggior parte, è formata da gente che ieri vendeva case o assicurazioni, e che oggi s’inventa iOS expert o big data head hunter.
 Figuri che non sanno neanche cosa significi big data. Ti rispondono che sono dati grandi.
@@ -42,29 +42,29 @@ Tu dirai.
 
 Bene. Mettiti nei panni di una startup o un’azienda che sta cercando un valido 
 candidato da inserire nella squadra di sviluppo.
-Sei una realtà con pochi dipendenti e non puoi permetterti una sezione di reclutamento interno. Pensi bene di affidarti ai valenti reclutatori, nella speranza di filtrare qualche candidato e farti risparmiare il tempo e la fatica di cercare.
+Sei una realtà con pochi dipendenti e non puoi permetterti di dedicare troppo tempo in questo processo. Pensi bene di affidarti ai valenti reclutatori.
 
 Il _machiavellico reclutatore_ &mdash;interessato solo a portarsi a casa la commissione&mdash; pensa bene di __concentrarsi sulla quantità piuttosto che sulla qualità__. 
 
-Passa il giorno a spammare usando piattaforme dedicate (come LinkedIn o Monster), e meno (come Facebook o Twitter).
+Passa il giorno a spammare in Rete, usando piattaforme dedicate ([LinkedIn](https://www.linkedin.com/) o [Monster](http://www.monster.com/)), e meno (Facebook o Twitter).
 
-Legge i profili, accoppia qualche parola chiave con la descrizione del lavoro offerto. Manda messaggi identici a un centinaio di programmatori a caso. Lo ripete tutto il santo giorno. 
+Legge i profili, accoppia qualche parola chiave con la descrizione del lavoro offerto. Manda messaggi identici a un fottio di programmatori a caso.
 
 Altri, più esperti, ti inseriscono in mailing list automatiche e ti assillano al telefono. Ti chiamano almeno 4-5 volte al giorno finché non rispondi o scaraventi il telefonino per terra mandandoli affanculo. 
 
-Quando ti contattano __non ti fanno alcuna domanda tecnica__ di screening. Testano solo il tuo inglese, cosa stai cercando (ma poi se ne fregano allegramente) e la tua disponibilità.
+Quando ti contattano __non ti fanno alcuna domanda tecnica__ di screening. Testano solo il tuo inglese, cosa stai cercando (ma poi se ne fregano) e la tua disponibilità.
 
 Sono insistenti fino allo sfinimento sia con i candidati, nel spingerli ad andare a fare il colloquio, che con le aziende, nel farle incontrare con i programmatori.
 
 **Ogni lavoro che offrono è l’opportunità della tua vita, un’esperienza irripetibile, il paradiso in terra.**
 
-Ormai non imposto più la sveglia alla mattina. So che alle 8.10 mi chiama sempre lo stesso reclutatore con l’offerta di lavoro del millennio, in esclusiva solo per me.
+Ormai non imposto più la sveglia alla mattina. So che alle 8.10 mi chiama sempre lo stesso reclutatore con l’offerta di lavoro del millennio, in esclusiva, solo per me.
 
 Infine, il modo...il modo è così odioso! Ti parlano come se foste amici di vecchia data, usano diminutivi, scherzano allegramente, leccandoti copiosamente il culo.
 
-E come arrivano con tutto l’amore dell’universo, poi scompaiono nell’ombra quando non gli servi più.
+E come arrivano con tutto l’amore dell’universo, scompaiono nell’ombra quando non gli servi più.
 
-Tristi.
+Che personaggio tristo.
 
 #### Embé?
 Continuerai a dire.
@@ -73,26 +73,27 @@ Allora immagina di nuovo la tua azienda. Pensavi di poter incontrare solamente l
 
 Quasi mai ricevi la persona giusta.
 
-Ma se la fortuna non gira &mdash;perché solo di fortuna si parla&mdash; e quello/a che cercavi non si presenta dopo 3 - 4 mesi, __l’azienda perde la fiducia nel sistema e s’incazza__. 
-Pensa erroneamente che ci sono solamente programmatori idioti al mondo.
+Se la fortuna non gira &mdash;perché solo di fortuna si parla&mdash; e quello/a che cercavi non si presenta dopo 3 - 4 mesi, __perdi la fiducia nel sistema e t’incazzi__. 
 
 #### La situazione attuale 
 Si è creato un’ambiente di _diffidenza_ tra datore e programmatore. 
 
-Il datore di lavoro non vuole neanche parlare al telefono con i candidati. Ti manda il compito per casa da fare e, solamente se lo passi, ti contatta.
+Il datore di lavoro non vuole neanche parlare al telefono con i candidati. Manda il compito per casa da completare e contatta il programmatore solamente se quest'ultimo lo passa.
 
 Non sono contrario al compito per casa. Ma il messaggio che manda è sbagliato!
 
-In pratica __ti considera un demente__, non si fida di te, e si degna di considerarti solamente dopo il test.
+In pratica __ti considera un demente__, non si fida di te, e si degna di considerarti solamente dopo un test.
 
-Ma stiamo scherzando?
+Ma stiamo scherzando? Manco fosse Google!
 
-Inizialmente me la prendevo con loro. Poi mi sono reso conto che è solamente colpa del lupo se siamo giunti a questo scenario assurdo.
+Inizialmente me la prendevo con le aziende. Poi mi sono reso conto che è solamente colpa del lupo se siamo giunti a questo scenario assurdo.
 
-#### La soluzione
-_Evitali_. Se proprio vuoi affidarti ai reclutatori, prima scopri di che razza sono. __Se trovi il professionista, tienitelo stretto__ perché é raro.
+#### La (mia) soluzione
+_Evitali_. Se proprio vuoi affidarti ai reclutatori, prima scopri di che razza sono. __Se trovi il professionista, tienitelo stretto__ perché è raro.
 
-Puoi contattare direttamete le aziende che stanno cercando. 
+Considera inoltre che i lavori nelle loro zampe sono spesso mediocri. Se vuoi qualcosa di più interessante e stimolante devi usare altri canali.
+
+Puoi contattare direttamente le aziende che stanno cercando. 
 Affidarti ad aggregatori sul Web che raccolgono offerte di lavoro, ordinate per settore, salario e tipo. 
 Oppure iscriverti a siti dove ti “espongono in vetrina” per 1 - 2 settimane, e le aziende ti chiamano se gli interessi.
 
@@ -101,6 +102,7 @@ Ecco alcuni link:
 - [unicornhunt.io](https://unicornhunt.io)
 - [underdog.io](https://www.underdog.io/)
 - [hired.co.uk](https://hired.co.uk)
+- [workshape.io](https://www.workshape.io)
 
 
 #### Disclaimer
