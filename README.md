@@ -17,7 +17,6 @@ Main settings for the site
 * **description**: description of your site
 * **logo**: small logo for the site (300px * 300px)
 * **cover**: large background image on the index page 
-
 * **name**: name site owner
 * **email**: mail address of the site owner
 * **author**: author name
