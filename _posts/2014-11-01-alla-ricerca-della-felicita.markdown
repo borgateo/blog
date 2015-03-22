@@ -121,4 +121,4 @@ Ma questa volta sarai tu, con il sorriso sulle labbra, a dire: &laquo;Hello Worl
 [meetup]: http://www.meetup.com/
 [Couch Surfing]: https://www.couchsurfing.org/
 ["Hello, World!"]: http://it.wikipedia.org/wiki/Hello_world
-["Stefano"]: http://stecb.ninja
+[Stefano]: http://stecb.ninja
