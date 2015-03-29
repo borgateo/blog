@@ -19,7 +19,13 @@ layout: default
 
   <div class="cf frame">
    {% for post in paginator.posts %}
-    <article class="post-index" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+    <article 
+      class="post-index" 
+      itemscope 
+      itemtype="http://schema.org/BlogPosting" 
+      role="article"
+      style="background-image: url({{ post.image }})"
+    >
       <a href="{{ post.url }}" itemprop="url" class="article-link">
         <div class="post-meta-index">
           <time datetime="{{ post.date | date: "%F %R" }}">
@@ -48,7 +54,6 @@ layout: default
           <span class="disqus-comment-count" data-disqus-url="http://blog.matteoborgato.com{{ post.url }}/">0</span>
         </div>
         <header class="post-header">
-          <div class="thumbnail-image" style="background-image: url({{ post.image-thumbnail }})"></div>
           <h2 class="post-title" itemprop="name">
             {{ post.title }}
           </h2>

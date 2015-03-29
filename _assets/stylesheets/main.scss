@@ -170,11 +170,55 @@ a {
   }
 
   .post-index {
+    font-size: 1.35rem;
     position: relative;
+    background-size: cover;
+    background-color: #555;
+    background-position: center;
+    -moz-transition: all .5s ease-out;
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    padding: .5em;
+    .post-header {
+      margin: 5em 0 0;
+      background-color: rgba(255,255,255,0.85);
+    }
+    .post-title {
+      letter-spacing: -0.03em;
+    }
+    .post-excerpt {
+      background-color: rgba(255,255,255,0.85);
+      margin: 5px 0 10px 0;
+    }
+    .post-subtitle {
+      letter-spacing: -0.03em;
+      font-weight: 300;
+      font-style: normal;
+      line-height: 1.2;
+      font-size: 0.85em;
+      color: #667;
+      padding: .1em;
+    }
+    &:hover {
+      -moz-transform: perspective( 600px ) rotateX( 45deg );
+      -webkit-transform: perspective( 600px ) rotateX( 10deg );
+      transform: perspective( 600px ) rotateX( 10deg );
+      z-index: 99999;
+    }
   }
+
+
+  @include respond-to(600) {
+    .post-index {
+      font-size: 1.15 rem;
+    }
+  }
+
   article {
     padding: 10px 0;
-    border-top: 1px solid #e2e2e0;
     text-align: center;
     &:last-child {
       border-bottom: 1px solid #e2e2e0;
@@ -187,10 +231,9 @@ a {
       font-weight: 700;
       font-style: normal;
       line-height: 1.1;
-      font-size: 1.5rem;
       margin: 0;
       text-align: center;
-      margin: .5em 0 .5em 0;
+      padding: .5em 0 .5em 0;
       color: #333;
     }
     .post-subtitle {
@@ -225,13 +268,14 @@ a {
       font-size: 14px;
     }
     .post-meta-index {
+      display: none;
+      font-size: 0.85em;
       position: absolute;
       color: rgb(200, 200, 200);
       padding: 0 .4em .2em .4em;
-      background-color: #FFF;
+      background-color: rgb(255,255,255);
       line-height: 1;
-      border-radius: .2em;
-      border: 1px solid #f2f2f0;
+      border-radius: .1em;
       text-align: center;
       font-family: Linux Libertine;
       color: rgba(90, 207, 245, 0.5);
@@ -245,12 +289,12 @@ a {
     }
 
     .comments-bubble {
-      line-height: 1;
-      background: rgba(90, 207, 245, 0.5);
-      position: absolute;
+      line-height: 0;
+      background: rgb(90, 207, 245);
+      float: right;
       right: 0;
-      padding: .7em 1.2em;
-      border-radius: .2em;
+      padding: 1em 1em 0.65em;
+      border-radius: .1em;
       color: #FFF;
       span {
         font-size: 1.3em;
@@ -258,15 +302,15 @@ a {
     }
     .comments-bubble::after {
       border-left: 0 none;
-      border-right: 10px solid transparent;
-      border-top: 10px solid rgba(90, 207, 245, 0.5);
+      border-right: .55em solid transparent;
+      border-top: .55em solid rgb(90, 207, 245);
       content: "";
       position: absolute;
       height: 0;
       width: 0;
-      left: .7em;
-      top: 2.7em;
-      }
+      right: 2.3em;
+      top: 2.6em;
+    }
   }
 }
 
@@ -498,6 +542,12 @@ a {
     h1, h2 {
       font-family: $font-sans;
       text-shadow: 2px 2px 0 #FFF;
+      font-size: 3.8em;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      line-height: .9;
+      text-align: center;
     }
     h3, h4, h5, h6 {
       letter-spacing: -0.02em;
@@ -532,15 +582,6 @@ a {
       padding-top: .2em;
       padding-bottom: .4em;
       font-family: $font-serif;
-      text-align: center;
-    }
-    h2, h1 {
-      font-size: 3.8em;
-      font-style: normal;
-      font-weight: 700;
-      letter-spacing: -0.04em;
-      line-height: .9;
-      margin-bottom: .4em;
       text-align: center;
     }
     p {
