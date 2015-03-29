@@ -408,6 +408,17 @@ a {
       right: 2.3em;
       top: 2.6em; }
 
+.article-link {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: transparent; }
+  .article-link:active, .article-link:hover {
+    background-color: rgba(90, 207, 245, 0.1); }
+
 .container.featured {
   padding-bottom: 40px; }
 
