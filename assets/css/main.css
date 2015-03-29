@@ -395,18 +395,18 @@ a {
       padding: 1em 1em 0.65em;
       border-radius: 0.1em;
       color: #FFF; }
-      .content article .comments-bubble span {
-        font-size: 1.3em; }
+      .content article .comments-bubble p {
+        font-size: 1.25em;
+        margin: 0; }
     .content article .comments-bubble::after {
       border-left: 0 none;
       border-right: 0.55em solid transparent;
       border-top: 0.55em solid #5acff5;
       content: "";
-      position: absolute;
-      height: 0;
-      width: 0;
-      right: 2.3em;
-      top: 2.6em; }
+      float: right;
+      position: relative;
+      right: 0.65em;
+      top: 25px; }
 
 .article-link {
   position: absolute;

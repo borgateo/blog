@@ -296,8 +296,9 @@ a {
       padding: 1em 1em 0.65em;
       border-radius: .1em;
       color: #FFF;
-      span {
-        font-size: 1.3em;
+      p {
+        font-size: 1.25em;
+        margin: 0;
       }
     }
     .comments-bubble::after {
@@ -305,11 +306,10 @@ a {
       border-right: .55em solid transparent;
       border-top: .55em solid rgb(90, 207, 245);
       content: "";
-      position: absolute;
-      height: 0;
-      width: 0;
-      right: 2.3em;
-      top: 2.6em;
+      float: right;
+      position: relative;
+      right: .65em;
+      top: 25px;
     }
   }
 }
