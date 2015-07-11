@@ -10,14 +10,13 @@ image: /assets/article_images/2014-11-23-analisi-costo-vita-all-estero/costo-vit
 image-thumbnail: /assets/article_images/2014-11-23-analisi-costo-vita-all-estero/costo-vita-thumb.gif
 ---
 
-Tutti sappiamo come la società odierna sia sostanzialmente fondata sul *denaro*. 
-Sembra che l’unica metrica per valutare una persona, sia il conto che ha in banca.
+Londra. Eletta la [metropoli più cara del mondo].
+Città in cui vivo e ideale per la mia analisi.
 
-Una tale pressione, ci ha condotti a dedicare la nostra esistenza al vano *scopo di diventare ricchi*.
+Un posto sicuramente spietato. Che filtra in modo ingiusto e spietato i neo-immigrati europei. 
+Tanto promettente, quanto crudele.
 
-Diciamolo pure, è un sistema malato. Sapientemente cucito  Volenti o nolenti però, se vogliamo sopravvivere, dobbiamo seguirlo. È un'ambizione imposta.
-
-Visto che dobbiamo tutti *pedalare*, ti vorrei mostrare **quanto costa vivere nella [città più cara del mondo]** e se ne vale la pena.
+In questo articolo ti mostro se, oltre ad espandere il tuo bagaglio conoscitivo, **riesci a mettere da parte qualche soldo** vivendo all'estero.
 
 
 #### L’ICT è più forte che mai
@@ -25,34 +24,16 @@ Il celebre economista [Joseph Stiglitz] afferma che **ICT, finanza e settore far
 
 Quindi se sei un programmatore, ti consiglio di andartene dall’Italia. Almeno per qualche anno. 
 
-Londra, Berlino, Amsterdam, Stoccolma &mdash;e sembra che Parigi ci stia arrivando&mdash; sono importanti *poli informatici in Europa*. Potresti puntare ad una di queste.
-
-#### Il tuo capo sa che non hai le palle
-Gli italiani, anche se si lamentano continuamente del proprio Paese, lo amano.
-
-La famiglia, gli amici, il bar e le abitudini sono spesso radici difficili da tagliare.
-Per giunta, **la mentalità ottusa** di giudicare chi se ne va, come lo sfigato che abbandona il proprio Paese, non aiuta.
-
-**Il tuo datore di lavoro italiano lo sa molto bene**. Lui sa che all’estero saresti pagato molto di più e trattato meglio.
-
-Ma semplicemente se ne **frega** allegramente. E continua a sfruttarti.
-
-Del resto, lui pensa:
->Io imprenditore sono quello che rischia tutto, ogni giorno.
->Gli stipendi sono così in Italia. Perché dovrei svuotarmi le tasce per pagare i dipendenti?
->Trovo sempre il neo-laureto senza esperienza che accetta queste condizioni. I programmatori sono gli operai moderni: intercambiabili.
-
-Quindi, per chiudere in bellezza con la frase fatta degli ultimi anni:
-> Eh…anche perché c’è la crisi!
-
-**È il sistema che è rotto**. Mostragli che hai le palle di *ribellarti*.
-Quando vedranno che tutti i cervelli se ne sono scappati, magari qualcosa cambierà.
+Londra, Berlino, Amsterdam, Stoccolma &mdash;e sembra che Parigi ci stia arrivando&mdash; sono importanti *poli informatici in Europa*. Potresti optare ad una di queste.
 
 
 #### La proporzione
-Sappiamo che i **programmatori sono sempre più ricercati**. E possiamo intuire che le città “care” retribuiscono bene. Ragion per cui, se un programmatore vuole **mettere da parte qualcosa, dovrebbe vivere in una di queste città**.
+I soldi che girano attorno all'ICT sono molti e sempre in aumento. L'offerta di lavoro tantissima. Si stima che ci sarà una crescita del [22% fino al 2020](http://www.computerworld.com/article/2502348/it-management/it-jobs-will-grow-22--through-2020--says-u-s-.html).
+In altre parole i **programmatori sono sempre più ricercati**. 
 
-Il motivo è molto semplice e te lo spiego con un confronto:
+I salari sono molto buoni e sicuramente superiori alla media degli altri settori. Ecco quindi che **vale sicuramente la pena lavorare all'estero**, anche in città all'apparenza *molto care*.
+
+Il motivo è molto semplice e te lo spiego con un *confronto*:
 
 ![In Italia arrivi a fine mese con pochi spiccioli](/assets/article_images/2014-11-23-analisi-costo-vita-all-estero/comparazione.gif)
 
@@ -61,10 +42,10 @@ Se in Italia prendi 1500&euro; al mese, e spendi ipoteticamente il 50% per viver
 Ma se all'estero prendi 4000&euro; al mese, e ne spendi 50% per gli stessi bisogni (che solitamente sono più cari) hai comunque un netto di 2000&euro;.
 
 
-Quindi **la vita costerà anche il doppio**, ma ricorda che **guadagni più del doppio**!
+Quindi **la vita costerà anche il doppio**, ma ricorda che **guadagni anche il doppio**!
 
 #### Le cifre di Londra
-Uno stipendio medio per un programmatore Junior è di 1900&pound; (2400&euro;) e Senior 3000&pound; (3800&euro;).
+Uno stipendio medio per un programmatore Junior è di 1900&pound; (2400&euro;) e Senior 3000&pound; (3800&euro;) al mese.
 
 Quindi come reddito mensile: 2400-3800&euro;
 
@@ -81,7 +62,7 @@ Prendere il treno, *che passa ogni 5 minuti ed è sempre in orario*, è sicurame
 La sera poi, posso *bere quanto mi pare*, tanto non devo guidare.
 
 ##### Cibo
-Sinceramente **non ho notato una grande differenza di prezzi** con l’Italia. In Inghilterra la qualità media è sicuramente inferiore. Per avere cibo organico, biologico e altre cagate commerciali, occorre pagare un po’ di più.
+Sinceramente **non ho notato una grande differenza di prezzi** con l’Italia. In Inghilterra la qualità media è sicuramente inferiore. Per avere cibo organico, biologico e Km 0, occorre pagare un po’ di più. Ma si mangia discretamente bene.
 
 
 ##### Vestiti
@@ -101,18 +82,21 @@ Molto costosi, 30-50&pound; a testa. Evitabili.
 
 Io amo cucinare a casa con mia moglie e raramente mangiamo fuori. Sinceramente non la considero una spesa primaria. L’ho messa perché molti miei colleghi single non mangiano mai a casa.
 
+##### Divertimenti e vita notturna 
+Eh cazzo, è Londra... 🍻
+
 ![Costo vita Londra vs Città Italiane ~ fonte: http://www.expatistan.com](/assets/article_images/2014-11-23-analisi-costo-vita-all-estero/citta.gif)
 
 
 #### Conclusione
-L’**affitto è quindi la spesa più pesante da affrontare**. Ma questo vale solamente per Londra. Per esempio Berlino ed Amsterdam hanno affitti molto più accessibili, e il lavoro è comunque retribuito molto bene.
+L’**affitto è quindi la spesa più pesante da affrontare**. Ma questo vale solamente per Londra. Per esempio Amsterdam (c'ho vissuto 2 anni) e Berlino hanno affitti molto più accessibili, e il lavoro è comunque retribuito molto bene.
 
-Vivere all'estero vale sicuramente la pena. Sia per **te stesso come singolo, ma anche per la comunità dei programmatori**. 
+**Vivere all'estero da programmatore vale sicuramente la pena.**
 
-Se mostriamo all'Italia che *non abbiamo paura di andarcene dove ci pagano meglio*, magari qualcosa cambierà...e se non cambia? 
-Noi rispondiamo: &laquo;Eh...c’è la crisi!&raquo;
+Se stai leggendo questo articolo l'ha già preso in considerazione. 
 
+*Fallo!*<br/>Non te ne pentirai. 😉
 
 
 [Joseph Stiglitz]: http://www.josephstiglitz.com/
-[città più cara del mondo]: http://www.theguardian.com/uk-news/2014/sep/23/london-overtakes-hong-kong-worlds-most-expensive-city
+[metropoli più cara del mondo]: http://www.theguardian.com/uk-news/2014/sep/23/london-overtakes-hong-kong-worlds-most-expensive-city

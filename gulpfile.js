@@ -7,8 +7,8 @@ var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
-var concat     = require('gulp-concat');
-var uglify     = require('gulp-uglifyjs');
+var concat      = require('gulp-concat');
+var uglify      = require('gulp-uglifyjs');
 
 
 var messages = {
@@ -61,13 +61,7 @@ gulp.task('sass', function () {
 gulp.task('js', function() {
   gulp.src(['_assets/javascript/zepto.js', '_assets/javascript/main.js'])
     .pipe(concat('main.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest('_site/assets/js/'))
-    .pipe(browserSync.reload({stream:true}))
-    .pipe(gulp.dest('assets/js'));
-
-  gulp.src('_assets/javascript/post.js')
-    .pipe(uglify())
+    //.pipe(uglify())
     .pipe(gulp.dest('_site/assets/js/'))
     .pipe(browserSync.reload({stream:true}))
     .pipe(gulp.dest('assets/js'));

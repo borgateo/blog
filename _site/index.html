@@ -23,29 +23,45 @@
   <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:300,400,400i,700,700i">
 
   <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
 </head>
 
 
   <body>
-    <a href="http://blog.matteoborgato.com" class="logo-mb">
+    <div class="logo-mb" id="toggle-nav" href="" >
   <span class="logo" style="background-image: url(/assets/images/logoMB.png)"></span>
-</a>
+</div>
+
+<div class="menu-wrap">
+  <nav class="menu" role="navigation">
+    <ul>
+      
+        <li class="active"><a href="#">Home</a></li>
+      
+      
+        <li><a href="/recensioni">Recensioni</a></li>
+      
+      <li>
+        <a href="http://matteoborgato.com" target="_blank">Portfolio</a>
+      </li>
+      
+        <li><a href="/chi-sono">Chi sono</a></li>
+      
+    </ul>
+  </nav>
+</div>
 
 
     <!-- content start -->
     <div class="page-content">
       <div class="wrapper">
-        <header class="blog-header">
+        <header class="blog-header" role="banner">
   <!-- 
     <a class="blog-logo" href="http://blog.matteoborgato.com" style="background-image: url('/assets/images/logoMB.png')">Matteo Borgato Blog</a>
    -->
   <h1 class="blog-title">Matteo Borgato Blog</h1>
   <h2 class="blog-description">Il mondo visto dagli occhi miopi di un programmatore.</h2>
-  <div class="custom-links">
-    <a href="/chi-sono">Chi sono</a>
-    &middot;
-    <a href="http://matteoborgato.com">Portfolio</a>
-  </div>
 </header>
 
 <main class="content" role="main">
@@ -81,7 +97,7 @@
       </header>
       <section class="post-excerpt" itemprop="description">
         <p class="post-subtitle">
-          Semplici ma efficaci dritte per imparare a nuotare in questo mare di idiomi
+          Semplici ma efficaci dritte per imparare a nuotare in questo mare di idiomi.
           <!-- Quando provo a convincere qualcuno a vivere un’esperienza all’estero, ricevo sempre la stessa risposta: Mi piacerebbe tanto, ma non so l’inglese, come faccio ad imparare una lingua a quest’età? Per noi italiani, l’inglese è certamente il primo e grande ostacolo da affrontare quando vogliamo uscire dal Paese. Essere spaventati e... -->            
         </p>
       </section>
@@ -187,7 +203,7 @@
       <section class="post-excerpt" itemprop="description">
         <p class="post-subtitle">
           Scappare dall’Italia sta diventando una moda. Se sei un programmatore dovrebbe essere un’esigenza.
-          <!-- Tutti sappiamo come la società odierna sia sostanzialmente fondata sul denaro. Sembra che l’unica metrica per valutare una persona, sia il conto che ha in banca. Una tale pressione, ci ha condotti a dedicare la nostra esistenza al vano scopo di diventare ricchi. Diciamolo pure, è un sistema malato. Sapientemente... -->            
+          <!-- Londra. Eletta la metropoli più cara del mondo. Città in cui vivo e ideale per la mia analisi. Un posto sicuramente spietato. Che filtra in modo ingiusto e spietato i neo-immigrati europei. Tanto promettente, quanto crudele. In questo articolo ti mostro se, oltre ad espandere il tuo bagaglio conoscitivo, riesci... -->            
         </p>
       </section>
     </article>
@@ -248,25 +264,28 @@
 
 </main>
 
-<!--  -->
-<script type="text/javascript" data-cfasync="false"  src="//filamentapp.s3.amazonaws.com/b4ccd30c33d52de8cae804e1333a7f8c.js" async="async"></script>
-
-<!--  -->
-<script type="text/javascript">
-var disqus_shortname = 'blogmatteoborgatocom';
-
-(function () {
-  var s = document.createElement('script'); s.async = true;
-  s.type = 'text/javascript';
-  s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-}());
-</script> 
-
       </div>
     </div>
     <!-- content end -->
 
+    <script type="text/javascript">
+  var disqus_shortname = 'blogmatteoborgatocom';
+</script>
+
+<script type="text/javascript" src="/assets/js/main.js"></script>
+
+<script data-cfasync="false" type="text/javascript" src="//filamentapp.s3.amazonaws.com/b4ccd30c33d52de8cae804e1333a7f8c.js" async="async"></script>
+
+    <!--  -->
+    <script type="text/javascript">
+      (function () {
+        var s = document.createElement('script'); 
+        s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
+    </script> 
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -277,6 +296,7 @@ var disqus_shortname = 'blogmatteoborgatocom';
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
 </script>
+
 
   </body>
 

@@ -1,0 +1,113 @@
+#books,
+#films,
+#games {
+  margin: 4.5em 0;
+}
+
+.h-scrollable {
+  width: 100%;
+  height: auto;
+  overflow-y: hidden;
+  overflow-x: auto;
+  background: rgba(79, 167, 196, 0.2);
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 5000px;
+  }
+  .img-cover {
+    width: 100%;
+    height: 325px;
+    cursor: pointer;
+  }
+  li {
+    position: relative;
+    padding: 0;
+    margin: 0 35px 0 0;
+    display: inline-block;
+    width: 275px;
+    vertical-align: top;
+  }
+  li:first-child {
+    margin-left: 35px;
+  }
+
+  .details {
+    height: 80px;
+  }
+  .book-title {
+    line-height: 1.2;
+    margin-bottom: 0;
+  }
+  .book-author {
+    margin-top: .5em;
+    font-size: .75em;
+    font-style: italic;
+  }
+
+  .date {
+    font-size: .75em;
+    padding-bottom: .5em;
+    span {
+      margin-right: .35em;
+    }
+  }
+  .stars {
+    padding-bottom: .75em;
+  }
+
+  .review {
+    opacity: 0;
+    visibility: hidden;
+    height: 325px;
+    position: absolute;
+    top: 99px;
+    width: 100%;
+    padding: 2em .5em .5em .5em;
+    font-size: .85em;
+    background: rgba(255, 255, 255, .95);
+    opacity: 0;
+    text-align: justify;
+    @include transition(opacity 0.15s ease 0s);
+  }
+  .review.active {
+    z-index: 100;
+    opacity: 1;
+    visibility: visible;
+  }
+  .close-review {
+    position: absolute;
+    top: .5em;
+    right: .5em;
+    cursor: pointer;
+  }
+
+}
+
+
+.item-status,
+.item-type {
+  position: absolute;
+  top: 107px;
+  right: 0;
+  padding: .3em .5em;
+  font-size: .8em;
+  background: rgba(255,255,255, 0.8);
+  line-height: 1;
+}
+.item-status {
+  top: 140px;
+}
+
+
+  
+
+.green {
+  color: green;
+}
+
+
+.section-title {
+  font-size: 2.4em;
+}

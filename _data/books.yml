@@ -1,0 +1,79 @@
+- id: The Pragmatic Programmer
+  author: Andrew Hunt, David Thomas
+  publishing: Addison Wesley
+  cover: pragmatic-programmer.jpg
+  type: libro
+  status: 34
+  date: Marzo 15
+  review: Sembra più dettagliato e approfondito de 'The Passionate Programmer'. Mi sta piacendo di più. Lo sto leggendo con calma.
+  stars: 4
+
+- id: The Passionate Programmer
+  author: Chad Fowler
+  publishing: Pragmatic Bookshelf
+  cover: passionate-programmer.jpg
+  type: libro
+  status: letto
+  date: Gennaio 15
+  review: "Libro abbastanza interessante. Copre molti aspetti della carriera di un programmatore. Sicuramente da tenere sullo scaffale e rileggere. Ho dato solamente 3 perché ho trovato solamente consigli relativamente scontati e che qualsiasi programmatore senior già conosce. Sarebbe stato d'aiuto qualche anno fa, quando ero un neo-programmatore."
+  stars: 3
+
+- id: Question Everything
+  author: Mick O'Hare
+  publishing: NewScientist
+  cover: question.jpg
+  type: libro
+  status: 50
+  date: Dicembre 14
+  review: "Libro che tengo nel comodino. Lo leggo e sfoglio molto volentieri prima di dormire. Contiene 132 domande e relative risposte di diversi esperi. Le categorie affrontare sono diverse: Fisica, Chimica, Meteorologia, Biologia, Culinaria, Trasporti e molto altro."
+  stars: 4
+
+- id: JavaScript Patterns
+  author: Stoyan Stefanov
+  publishing: O'Reilly
+  cover: javascript-stefanov.jpg
+  type: libro
+  status: letto
+  date: Novembre 14
+  review: "Mi è piaciuta la prima parte, ma la seconda l'ho trovata un po' noiosa. L'ho letto a fine 2014, quando ECMAScript 6 era aspettato con impazienza da tutti, e questo libro parla delle differenze tra 4 e 5. L'ho quindi trovato un po' obsoleto. Ci sono esempi lunghi di codice, utili come riferimento."
+  stars: 3
+
+- id: JavaScript Design Patterns
+  author: Addy Osmani
+  publishing: O'Reilly
+  cover: javascript-patterns.jpg
+  type: libro
+  status: letto
+  date: Ottobre 14
+  review: "Perfetto come riferimento per design patterns. Qualche giorno prima dei colloqui tecnici lo rileggo e ripasso. Grande riferimento anche per il lavoro di tutti i giorni. Lo tengo sempre nella borsa del portatile."
+  stars: 4
+
+- id: Il ritratto del diavolo
+  author: Anton Giulio Barrili
+  publishing: Project Gutenberg
+  cover: ritrattodeldiavolo.jpg
+  type: audiolibro
+  status: letto
+  date: Ottobre 14
+  review: "Bel romanzo storico. Emozionante. Parla della vita (inventata dall'autore) del pittore trecentesco, realmente esistito, Spinello Spinelli. Scorrevole e leggero. Il finale drammatico mi è piaciuto molto."
+  stars: 4
+
+- id: Il fu Mattia Pascal
+  author: Luigi Pirandello
+  publishing: Project Gutenberg
+  cover: ilfumattiapascal.jpg
+  type: audiolibro
+  status: letto
+  date: Settembre 14
+  review: "Primo audiolibro che ho ascoltato fino alla fine. Raffinato, saggio e profondo. La filosofia del lanternino, raccontata da Anselmo Paleari (un personaggio del libro), mi ha affascinato molto. La voce di Riccardo Fasol mi ha tenuto incollato alle cuffie per ore."
+  stars: 5
+
+- id: L'impero dei draghi
+  author: Valerio Manfredi
+  publishing: Mondadori
+  cover: impero.jpg
+  type: libro
+  status: letto
+  date: Agosto 14
+  review: "Libro inghiottito in pochi giorni. Avventura ambientata ai tempi dell'impero romano. Parla di un gruppo di soldati che deve affrontare un'interminabile serie di periperizie per sopravvivere. Ci si potrebbe fare un film in stile 'il Gladiatore'."
+  stars: 4

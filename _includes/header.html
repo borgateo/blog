@@ -1,3 +1,28 @@
-<a href="{{ site.url }}" class="logo-mb">
+<div class="logo-mb" id="toggle-nav" href="" >
   <span class="logo" style="background-image: url({{ site.logo }})"></span>
-</a>
+</div>
+
+<div class="menu-wrap">
+  <nav class="menu" role="navigation">
+    <ul>
+      {% if page.active == "home" %}
+        <li class="active"><a href="#">Home</a></li>
+      {% else %}
+        <li><a href="/">Home</a></li>
+      {% endif %}
+      {% if page.active == "recensioni" %}
+        <li class="active"><a href="/recensioni">Recensioni</a></li>
+      {% else %}
+        <li><a href="/recensioni">Recensioni</a></li>
+      {% endif %}
+      <li>
+        <a href="http://matteoborgato.com" target="_blank">Portfolio</a>
+      </li>
+      {% if page.active == "chi-sono" %}
+        <li class="active"><a href="/chi-sono">Chi sono</a></li>
+      {% else %}
+        <li><a href="/chi-sono">Chi sono</a></li>
+      {% endif %}
+    </ul>
+  </nav>
+</div>

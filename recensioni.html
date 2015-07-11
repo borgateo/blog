@@ -1,0 +1,133 @@
+---
+layout: review
+title: Recensioni
+permalink: /recensioni/
+active: recensioni
+---
+
+<header class="blog-header" role="banner">
+  <h1 class="blog-title">{{ page.title }}</h1>
+</header>
+
+<main class="wide-content" role="main">
+
+  <section id="books">
+    <h2 class="section-title centered">Libri</h2>
+    <div class="h-scrollable">
+      <ul>
+        {% for book in site.data.books %}
+          <li class="book">
+            <div class="details">
+              <h3 class="book-title centered">{{ book.id }}</h3>
+              <p class="book-author centered">{{ book.author }}</p>
+            </div>
+            {% if book.type == 'libro' %}
+              <span class="fa fa-book item-type"></span>
+            {% else %}
+              <span class="fa fa-headphones item-type"></span>
+            {% endif %}
+
+            {% if book.status == 'letto' %}
+              <span class="fa fa-check green item-status"></span>
+            {% else %}
+              <span class="item-status">pag {{ book.status }}</span>
+            {% endif %}
+
+            <img class="img-cover" src="/assets/review_images/{{ book.cover }}"/>
+
+            <div class="date centered">
+              <span class="fa fa-calendar"></span>
+              <span>{{ book.date }}</span>
+            </div>
+
+            <div class="stars centered">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              {% if book.stars >= 3 %}
+                <i class="fa fa-star"></i>
+              {% else %}
+                <i class="fa fa-star-o"></i>
+              {% endif %}
+              {% if book.stars >= 4 %}
+                <i class="fa fa-star"></i>
+              {% else %}
+                <i class="fa fa-star-o"></i>
+              {% endif %}
+              {% if book.stars >= 5 %}
+                <i class="fa fa-star"></i>
+              {% else %}
+                <i class="fa fa-star-o"></i>
+              {% endif %}
+            </div>
+
+            <div class="review">
+              <div class="close-review">
+                <i class="fa fa-times"></i>
+              </div>
+              {{ book.review }}
+            </div>
+
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+
+  <!--section id="films">
+    <h2 class="section-title centered">Film</h2>
+    <div class="h-scrollable">
+      <ul>
+        {% for film in site.data.films %}
+          <li class="film">
+            <div class="details">
+              <h3 class="book-title centered">{{ film.id }}</h3>
+              <p class="book-author centered">{{ film.author }}</p>
+            </div>
+            {% if film.type == 'libro' %}
+              <span class="fa fa-book item-type" title="cartaceo"></span>
+            {% else %}
+              <span class="fa fa-headphones item-type" title="audio"></span>
+            {% endif %}
+
+            {% if film.status == 'letto' %}
+              <span class="fa fa-check green item-status" title="letto"></span>
+            {% else %}
+              <span class="item-status" title="pagine lette">pag {{ film.status }}</span>
+            {% endif %}
+
+            <img src="/assets/review_images/{{ film.cover }}"/>
+
+            <div class="date centered">
+              <span class="fa fa-calendar"></span>
+              <span>{{ film.date }}</span>
+            </div>
+
+            <div class="stars centered">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              {% if film.stars >= 3 %}
+                <i class="fa fa-star"></i>
+              {% else %}
+                <i class="fa fa-star-o"></i>
+              {% endif %}
+              {% if film.stars >= 4 %}
+                <i class="fa fa-star"></i>
+              {% else %}
+                <i class="fa fa-star-o"></i>
+              {% endif %}
+              {% if film.stars >= 5 %}
+                <i class="fa fa-star"></i>
+              {% else %}
+                <i class="fa fa-star-o"></i>
+              {% endif %}
+            </div>
+
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </section-->
+
+</main>

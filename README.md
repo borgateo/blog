@@ -40,3 +40,32 @@ The Liquid template engine will magical combine the different parts to a share u
 http://twitter.com/share?text=post_title&amp;url=post_url
 ````
 
+
+## Commands - development
+
+Watch changes - browser-sync:
+
+`$ gulp` 
+
+Jekyll server:
+
+`$ jekyll serve` 
+
+Then visit `http://localhost:4000/`
+
+
+## Publish website
+
+Build the assets:
+
+`$ gulp build`
+
+
+Build Jekyll views:
+
+`$ jekyll build`
+
+
+Publish to S3:
+
+`$ s3_website push`

@@ -29,9 +29,9 @@ Zepto(function( $ ) {
 
 
   // Creates Captions from Alt tags
-  $(".post-content img").each(function() {
+  $('.post-content img').each(function() {
     // Let's put a caption if there is one
-    if($(this).attr("alt"))
+    if($(this).attr('alt'))
       $(this).wrap('<figure class="image"></figure>')
       .after('<figcaption>'+$(this).attr("alt")+'</figcaption>');
   });
@@ -42,8 +42,6 @@ Zepto(function( $ ) {
     }
     triggered = true;
 
-    console.log('DISQ');
-
     var dsq = document.createElement('script'); 
     dsq.type = 'text/javascript'; 
     dsq.async = true;
@@ -52,6 +50,47 @@ Zepto(function( $ ) {
   }
 
   // disqus event
-  el.on("click", initDisqus);
+  el.on('click', initDisqus);
+
+  // nav menu
+  var logo = $('#toggle-nav');
+  var body = $('body');
+
+  logo.on('click', function( ev ) {
+    ev.stopPropagation();
+    if ( body.is('.active-menu') ) {
+      body.removeClass('active-menu');
+    } else {
+      body.addClass('active-menu');
+    }
+  });
+
+  // clicking on the link, close the menu
+  $('nav.menu').find('a').on('click', function() {
+    body.removeClass('active-menu');
+  });
+
+  //review page 
+  var books     = $('#books');
+  var bookList  = books.find('.img-cover');
+  var films     = $('#films');
+  // var games     = $('#games');
+  var bookBox   = books.find('.h-scrollable ul');
+  var filmBox   = films.find('.h-scrollable ul');
+  // var gameBox   = games.find('.h-scrollable ul');
+
+  var itemWidth = 320;
+
+  bookBox.width( bookList.length * itemWidth );
+  filmBox.width( films.find('.film').length * itemWidth );
+  // gameBox.width( ( games.find('.book').length * itemWidth ) + 50 );
+
+  bookList.on('click', function( event ) {
+    $(this).closest('li').find('div.review').addClass('active');
+  });
+
+  $('.close-review').on('click', function() {
+    $(this).closest('div.review').removeClass('active');
+  });
 
 });

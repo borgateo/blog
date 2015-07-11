@@ -1,0 +1,71 @@
+- id: The Pragmatic Programmer
+  author: Andrew Hunt, David Thomas
+  publishing: Addison Wesley
+  cover: pragmatic-programmer.jpg
+  type: libro
+  status: 34
+  date: Marzo 15
+  stars: 4
+
+- id: The Passionate Programmer
+  author: Chad Fowler
+  publishing: Pragmatic Bookshelf
+  cover: passionate-programmer.jpg
+  type: libro
+  status: letto
+  date: Gennaio 15
+  stars: 3
+
+- id: Question Everything
+  author: Mick O'Hare
+  publishing: NewScientist
+  cover: question.jpg
+  type: libro
+  status: 50
+  date: Dicembre 14
+  stars: 4
+
+- id: JavaScript Patterns
+  author: Stoyan Stefanov
+  publishing: O'Reilly
+  cover: javascript-stefanov.jpg
+  type: libro
+  status: letto
+  date: Novembre 14
+  stars: 3
+
+- id: JavaScript Design Patterns
+  author: Addy Osmani
+  publishing: O'Reilly
+  cover: javascript-patterns.jpg
+  type: libro
+  status: letto
+  date: Ottobre 14
+  stars: 4
+
+- id: Il ritratto del diavolo
+  author: Anton Giulio Barrili
+  publishing: Project Gutenberg
+  cover: ritrattodeldiavolo.jpg
+  type: audiolibro
+  status: letto
+  date: Ottobre 14
+  stars: 4
+
+- id: Il fu Mattia Pascal
+  author: Luigi Pirandello
+  publishing: Project Gutenberg
+  cover: ilfumattiapascal.jpg
+  type: audiolibro
+  status: letto
+  date: Settembre 14
+  stars: 5
+
+- id: L'impero dei draghi
+  author: Valerio Manfredi
+  publishing: Mondadori
+  cover: impero.jpg
+  type: libro
+  status: letto
+  date: Agosto 14
+  stars: 4

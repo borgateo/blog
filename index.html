@@ -1,18 +1,14 @@
 ---
 layout: default
+active: home
 ---
 
-<header class="blog-header">
+<header class="blog-header" role="banner">
   <!-- {% if site.logo %}
     <a class="blog-logo" href="{{site.url}}" style="background-image: url('{{ site.logo }}')">{{ site.title }}</a>
   {% endif %} -->
   <h1 class="blog-title">{{ site.title }}</h1>
   <h2 class="blog-description">{{ site.description }}</h2>
-  <div class="custom-links">
-    <a href="/chi-sono">Chi sono</a>
-    &middot;
-    <a href="http://matteoborgato.com">Portfolio</a>
-  </div>
 </header>
 
 <main class="content" role="main">
@@ -92,18 +88,3 @@ layout: default
   </div>
 
 </main>
-
-<!-- {{!! Filament }} -->
-<script type="text/javascript" data-cfasync="false"  src="//filamentapp.s3.amazonaws.com/b4ccd30c33d52de8cae804e1333a7f8c.js" async="async"></script>
-
-<!-- {{!! Count messages disqus }} -->
-<script type="text/javascript">
-var disqus_shortname = 'blogmatteoborgatocom';
-
-(function () {
-  var s = document.createElement('script'); s.async = true;
-  s.type = 'text/javascript';
-  s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-}());
-</script> 
