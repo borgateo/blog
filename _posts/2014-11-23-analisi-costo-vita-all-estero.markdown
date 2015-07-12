@@ -13,7 +13,7 @@ image-thumbnail: /assets/article_images/2014-11-23-analisi-costo-vita-all-estero
 Londra. Eletta la [metropoli più cara del mondo].
 Città in cui vivo e ideale per la mia analisi.
 
-Un posto sicuramente spietato. Che filtra in modo ingiusto e spietato i neo-immigrati europei. 
+Un posto sicuramente spietato. Che filtra in modo ingiusto i neo-immigrati europei. 
 Tanto promettente, quanto crudele.
 
 In questo articolo ti mostro se, oltre ad espandere il tuo bagaglio conoscitivo, **riesci a mettere da parte qualche soldo** vivendo all'estero.
@@ -31,18 +31,18 @@ Londra, Berlino, Amsterdam, Stoccolma &mdash;e sembra che Parigi ci stia arrivan
 I soldi che girano attorno all'ICT sono molti e sempre in aumento. L'offerta di lavoro tantissima. Si stima che ci sarà una crescita del [22% fino al 2020](http://www.computerworld.com/article/2502348/it-management/it-jobs-will-grow-22--through-2020--says-u-s-.html).
 In altre parole i **programmatori sono sempre più ricercati**. 
 
-I salari sono molto buoni e sicuramente superiori alla media degli altri settori. Ecco quindi che **vale sicuramente la pena lavorare all'estero**, anche in città all'apparenza *molto care*.
+I salari sono molto buoni. Superiori alla media degli altri settori. Ecco quindi che **vale sicuramente la pena lavorare all'estero**, anche in città all'apparenza *molto care*.
 
 Il motivo è molto semplice e te lo spiego con un *confronto*:
 
 ![In Italia arrivi a fine mese con pochi spiccioli](/assets/article_images/2014-11-23-analisi-costo-vita-all-estero/comparazione.gif)
 
-Se in Italia prendi 1500&euro; al mese, e spendi ipoteticamente il 50% per viverci, a fine mese metti da parte 750&euro;.
+Se in Italia prendi 1500&euro; al mese, e spendi *ipoteticamente* il 50% per viverci, a fine mese metti da parte 750&euro;.
 
 Ma se all'estero prendi 4000&euro; al mese, e ne spendi 50% per gli stessi bisogni (che solitamente sono più cari) hai comunque un netto di 2000&euro;.
 
 
-Quindi **la vita costerà anche il doppio**, ma ricorda che **guadagni anche il doppio**!
+Il concetto è abbastanza semplice: **la vita costerà anche il doppio**, ma ricorda che **guadagni (più de) il doppio**!
 
 #### Le cifre di Londra
 Uno stipendio medio per un programmatore Junior è di 1900&pound; (2400&euro;) e Senior 3000&pound; (3800&euro;) al mese.
@@ -52,17 +52,19 @@ Quindi come reddito mensile: 2400-3800&euro;
 ![Rapporto Stipendi (Italia - Inghilterra)](/assets/article_images/2014-11-23-analisi-costo-vita-all-estero/stipendi-barchart.gif)
 
 ##### Trasporti
-La **macchina non ti serve**. Bollo, assicurazione, benzina, revisioni, ecc… non li devi pagare. 
+Molto **cari** a Londra. Variano dalla distanza che percorri (zone). In media un abbonamento costa 130&pound; (165&euro;) al mese.
 
-I **trasporti sono molto cari** a Londra e variano dalla distanza che percorri (zone). In media un abbonamento costa 130&pound; (165&euro;) al mese.
+La qualità dei servizi pubblici è indiscutibile. Metro, treno, tram e bus coprono ogni angolo della città. Ci sono perfino le [bici noleggiabili](https://tfl.gov.uk/modes/cycling/santander-cycles).
+
+In altre parole, la **macchina non ti serve**. Bollo, assicurazione, benzina, revisioni, ecc… non li devi pagare.
 
 Non amavo molto guidare in Italia e per me il traffico era fonte di stress. 
-Prendere il treno, *che passa ogni 5 minuti ed è sempre in orario*, è sicuramente meglio.
+Prendere un mezzo pubblico, che *passa ogni 5 minuti ed è sempre in orario*, è una liberazione.
 
 La sera poi, posso *bere quanto mi pare*, tanto non devo guidare.
 
 ##### Cibo
-Sinceramente **non ho notato una grande differenza di prezzi** con l’Italia. In Inghilterra la qualità media è sicuramente inferiore. Per avere cibo organico, biologico e Km 0, occorre pagare un po’ di più. Ma si mangia discretamente bene.
+Sinceramente **non ho notato una grande differenza di prezzi** con l’Italia. In Inghilterra la qualità media è sicuramente inferiore. Per avere cibo organico, biologico e Km 0, occorre pagare un po’ di più. Ma tutto sommato si mangia bene.
 
 
 ##### Vestiti
@@ -91,7 +93,7 @@ Eh cazzo, è Londra... 🍻
 #### Conclusione
 L’**affitto è quindi la spesa più pesante da affrontare**. Ma questo vale solamente per Londra. Per esempio Amsterdam (c'ho vissuto 2 anni) e Berlino hanno affitti molto più accessibili, e il lavoro è comunque retribuito molto bene.
 
-**Vivere all'estero da programmatore vale sicuramente la pena.**
+**Vivere all'estero da programmatore vale la pena.**
 
 Se stai leggendo questo articolo l'ha già preso in considerazione. 
 
