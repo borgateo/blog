@@ -9,14 +9,15 @@
   "author": "Matteo Borgato",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.8.8",
-    "gulp-sass": "^0.7.3",
     "browser-sync": "^1.3.7",
+    "gulp": "^3.8.8",
     "gulp-autoprefixer": "^1.0.0",
-    "node-bourbon": "^1.0.0",
     "gulp-concat": "^2.3.4",
+    "gulp-foreach": "^0.1.0",
+    "gulp-pako": "^0.1.1",
+    "gulp-sass": "^0.7.3",
     "gulp-uglifyjs": "^0.4.2",
-    "gulp-pako": "^0.1.1"
+    "node-bourbon": "^1.0.0"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,10 @@
     "gulp",
     "sass",
     "browsersync"
-  ]
+  ],
+  "dependencies": {
+    "browserify": "^11.0.1",
+    "require-dir": "^0.3.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
 }

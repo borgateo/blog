@@ -5,7 +5,7 @@ subtitle:   "Scappare dall’Italia sta diventando una moda. Se sei un programma
 date:       2014-11-23 19:30:00
 categories: lavoro
 tags: colloquio
-eta: "4:24"
+eta: "4"
 image: /assets/article_images/2014-11-23-analisi-costo-vita-all-estero/costo-vita.gif
 image-thumbnail: /assets/article_images/2014-11-23-analisi-costo-vita-all-estero/costo-vita-thumb.gif
 ---
@@ -24,7 +24,7 @@ Il celebre economista [Joseph Stiglitz] afferma che **ICT, finanza e settore far
 
 Quindi se sei un programmatore, ti consiglio di andartene dall’Italia. Almeno per qualche anno. 
 
-Londra, Berlino, Amsterdam, Stoccolma &mdash;e sembra che Parigi ci stia arrivando&mdash; sono importanti *poli informatici in Europa*. Potresti optare ad una di queste.
+Amsterdam, Berlino, Dublino, Londra, Stoccolma &mdash;e sembra che Parigi ci stia arrivando&mdash; sono importanti *poli informatici in Europa*. Potresti optare ad una di queste.
 
 
 #### La proporzione
@@ -54,7 +54,7 @@ Quindi come reddito mensile: 2400-3800&euro;
 ##### Trasporti
 Molto **cari** a Londra. Variano dalla distanza che percorri (zone). In media un abbonamento costa 130&pound; (165&euro;) al mese.
 
-La qualità dei servizi pubblici è indiscutibile. Metro, treno, tram e bus coprono ogni angolo della città. Ci sono perfino le [bici noleggiabili](https://tfl.gov.uk/modes/cycling/santander-cycles).
+La **qualità dei servizi pubblici è indiscutibile**. Metro, treno, tram e bus coprono ogni angolo della città. Ci sono perfino le [bici noleggiabili](https://tfl.gov.uk/modes/cycling/santander-cycles) 🚲
 
 In altre parole, la **macchina non ti serve**. Bollo, assicurazione, benzina, revisioni, ecc… non li devi pagare.
 
@@ -68,7 +68,7 @@ Sinceramente **non ho notato una grande differenza di prezzi** con l’Italia. I
 
 
 ##### Vestiti
-**Costano meno** in Inghilterra. Ovviamente agli italiani piace vestire bene e di marca, ma quello costa tanto ovunque. Considera comunque che a Londra c’è talmente tanta gente, che nessuno ti guarda.  Potresti uscire tranquillamente in pigiama senza essere notato, e ti assicuro che qua se ne vedono di stranezze.
+**Costano meno** in Inghilterra. Ovviamente agli italiani piace vestire bene e di marca, ma quello costa tanto ovunque. Considera comunque che a Londra c’è talmente tanta gente, che nessuno ti guarda.  Potresti uscire tranquillamente in pigiama senza essere notato. Ti assicuro che qua se ne vedono di stranezze.
 
 ##### Affitti
 La **nota dolente ed un problema che il governo inglese non sa/riesce risolvere**. Un monolocale da 40mq in centro costa 1500-2000&pound; (1.900-2.500&euro;) al mese. In zona 2-3 si paga un po' meno: 800-1500&pound; (1.000-1.900&euro;).

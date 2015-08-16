@@ -7,11 +7,16 @@ $rs: 16px;
 $font-serif: Linux Libertine;
 $font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
 
+$blue: rgba(90, 207, 245, 0.4);
+$blue-hover: rgba(90, 207, 245, 0.6);
+
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
     @content;
   }
 }
+
+// ======================================= //
 
 // Only needed for syntax highlighting
 %vertical-rhythm {
@@ -39,11 +44,17 @@ body {
 a {
   color: #333;
   text-decoration: none;
-  background-color: rgba(90, 207, 245, 0.4);
+  background-color: $blue;
+  box-shadow: 3px 0px 0px $blue, -3px 0px 0px $blue;
   &:active,
   &:hover {
-    background-color: rgba(90, 207, 245, 0.6);
+    background-color: $blue-hover;
+    box-shadow: 3px 0px 0px $blue-hover, -3px 0px 0px $blue-hover;
   }
+}
+
+.centered {
+  text-align: center;
 }
 
 .logo-mb {
@@ -71,24 +82,6 @@ a {
     background-color: #333;
     border-radius: 50%;
     box-shadow: 0 0 0 .25em rgba(255,255,255, 0.3);
-  }
-}
-
-.teaserimage {
-  height: 450px;
-  position: relative;
-  overflow: hidden;
-  background-color: black;
-  .teaserimage-image {
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    text-indent: -9999px;
   }
 }
 
@@ -170,50 +163,6 @@ a {
     padding: 0 $rs * 2;
   }
 
-  .post-index {
-    font-size: 1.35rem;
-    position: relative;
-    background-size: cover;
-    background-color: #555;
-    background-position: center;
-    @include transition( all .25s ease-in-out );
-    padding: .5em;
-    .post-header {
-      margin: 5em 0 0;
-      background-color: rgba(255, 255, 255, .95);
-    }
-    .post-title {
-      letter-spacing: -0.03em;
-    }
-    .post-excerpt {
-      background-color: rgba(255, 255, 255, .95);
-      margin: 5px 0 10px 0;
-    }
-    .post-subtitle {
-      letter-spacing: -0.03em;
-      font-weight: 300;
-      font-style: normal;
-      line-height: 1.2;
-      font-size: 0.85em;
-      color: #667;
-      padding: .1em;
-    }
-    &:hover {
-      @include transform( perspective( 700px ) rotateX( 13deg ) );
-      z-index: 10;
-    }
-    &:active {
-      @include transform( perspective( 700px ) rotateX( 25deg ) );
-    }
-  }
-
-
-  @include respond-to(800) {
-    .post-index {
-      font-size: 1.15 rem;
-    }
-  }
-
   article {
     padding: 10px 0;
     text-align: center;
@@ -241,13 +190,6 @@ a {
       font-size: 1.2rem;
       color: #666;
       margin: 5px 0 10px 0;
-    }
-    .post-excerpt {
-      position: relative;
-      text-align: center;
-      & a {
-        text-decoration: none;
-      }
     }
 
     .thumbnail-image {
@@ -355,37 +297,33 @@ a {
 .pagination {
   text-align: center;
   padding: $rs * 3 0 0;
-  font-size: $rs / 4 * 3;
+  font-size: $rs / 1.1;
+  margin-bottom: $rs;
   a {
-    color: #999;
+    color: #333;
     text-decoration: none;
+    margin: 0 5px;
     &:hover {
-      color: #333;
+      color: #444;
     }
   }
 }
 
-.post-reading {
+.post-TLS {
   position: absolute;
-  top: 10px;
-  right: 30px;
-  line-height: 44px;
-  display: inline-block;
-  white-space: nowrap;
-  color: rgba(0, 0, 0, 0.25);
-  font-size: 14px;
-  letter-spacing: -0.02em;
-  font-weight: 400;
-  font-style: normal;
+  right: .5em;
+  bottom: .5em;
+  text-align: right;
   font-family: $font-sans;
-  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #667;
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+  padding: .1em .2em;
 }
-
-.tag-articleimage .post-reading {
-  color: rgba(255, 255, 255, 0.9);
-  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 1px rgba(0, 0, 0, 0.5);
-}
-
 
 .site-footer {
   margin: 0;
@@ -410,140 +348,33 @@ a {
   }
 }
 
-.post {
-  .article-image {
+#article-image {
+  position: absolute;
+  background-color: black;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  height: 100%;
+  z-index: -1;
+  .post-image {
+    background-size: cover;
     position: absolute;
-    background-color: black;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    overflow: hidden;
-    height: 100%;
-    z-index: -1;
-    .post-image {
-      background-size: cover;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      text-indent: -9999px;
-      z-index: 1;
-      @include respond-to(800) {
-        left: -50%;
-      }
-    }
-    .post-meta {
-      position: absolute;
-      bottom: $rs * 5;
-      left: 30%;
-      right: 30%;
-      z-index: 9;
-      font-family: $font-sans;
-      @include box-sizing(border-box);
-      @include respond-to(800) {
-        left: $rs;
-        right: $rs;
-      }
-    }
-    .post-title {
-      font-weight: 700;
-      font-style: normal;
-      letter-spacing: -0.04em;
-      font-size: 60px;
-      line-height: 1.1;
-      color: white;
-      margin-bottom: 16px;
-    }
-    .author-image {
-      display: inline-block;
-      width: 30px;
-      height: 30px;
-      line-height: 30px;
-      margin-right: 8px;
-      margin-bottom: -10px;
-      float: left;
-      background-size: cover;
-      border-radius: 100%;
-      text-indent: -9999px;
-    }
-    .author-name {
-      display: inline;
-    }
-    .post-meta-text {
-      color: rgba(255, 255, 255, 0.75);
-      letter-spacing: -0.02em;
-      font-weight: 400;
-      font-style: normal;
-      text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 1px rgba(0, 0, 0, 0.5);
-      font-size: 14px;
-      overflow: hidden;
-      font-family: $font-sans;
-      white-space: nowrap;
-      text-overflow: ellipsis;
-      a {
-        color: rgba(255, 255, 255, 0.75);
-        &:hover {
-          color: rgba(255, 255, 255, 1);
-        }
-      }
-    }
-    .fa-angle-down {
-      font-size: 32px;
-      margin: 64px auto 0;
-      color: rgba(255, 255, 255, 0.75);
-      &:hover {
-        color: white;
-      }
-    }
-    .topofpage {
-      text-decoration: underline;
+    text-indent: -9999px;
+    z-index: 1;
+    @include respond-to(800) {
+      left: -50%;
     }
   }
-  .noarticleimage {
-    .post-meta {
-      font-family: $font-sans;
-      padding-top: 60px;
-    }
-    .post-title {
-      font-weight: 700;
-      font-style: normal;
-      letter-spacing: -0.04em;
-      font-size: 50px;
-      line-height: 1.1;
-      color: #333332;
-      margin-bottom: 16px;
-    }
-    .author-image {
-      display: inline-block;
-      width: 30px;
-      height: 30px;
-      line-height: 30px;
-      margin-right: 8px;
-      margin-bottom: -10px;
-      float: left;
-      background-size: cover;
-      border-radius: 100%;
-      text-indent: -9999px;
-    }
-    .author-name {
-      display: inline;
-    }
-    .post-meta-text {
-      color: #b3b3b1;
-      letter-spacing: -0.02em;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 14px;
-      overflow: hidden;
-      font-family: $font-sans;
-      white-space: nowrap;
-      text-overflow: ellipsis;
-    }
-  }
+}
+
+article {
   .post-content {
-    margin-top: 75px;  /* will be overridden by JS */
     font-size: 1rem;
     width: 100%;
     font-family: $font-serif;
@@ -644,7 +475,7 @@ a {
         letter-spacing: 0.01rem;
         font-weight: 400;
         font-style: italic;
-        border-left: 3px solid #57ad68;
+        box-shadow: inset 5px 0px 0px rgba(90, 207, 245, 0.4);
         padding-left: 20px;
         margin-left: -26px;
         padding-bottom: 3px;
@@ -678,6 +509,15 @@ a {
   .post > p:first-of-type {
     margin-top: 1.8em; 
   }
+  /* blog post */
+  .post {
+    margin-top: 600px;  /* will be overridden by JS */
+  }
+  /* page: About me */
+  .page {
+    margin-top: 75px;  
+  }
+
   .bottom-teaser {
     padding: 50px 0;
     font-family: $font-sans;
@@ -850,10 +690,8 @@ a {
 
 pre,
 code {
-  font-size: 15px;
-  border: 1px solid #e8e8e8;
-  border-radius: 3px;
-  background-color: #eef;
+  font-size: .8em;
+  border: 1px solid rgba(0, 0, 0, .07);
 }
 
 code {
@@ -892,56 +730,8 @@ pre {
   }
 }
 
-.post-reading {
-  width: 3em;
-  font-size: 0.8rem;
-  height: 3em;
-  text-align: center;
-  line-height: 2.5;
-  border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
-  background: rgba(225, 225, 255, 0.95);
-  color: #333;
-}
-
-.post-reading span {
-  display: block;
-  font-size: 0.8em;
-  position: relative;
-  top: -1.7em;
-}
-
 .single-post .entry-content {
   right: 0;
-}
-
-.flare[data-flare-skin="modern"][data-orientation="vertical"][data-position="edge"][data-align="right"] {
-  right: 0 !important;
-}
-
-
-.friends-link {
-  background-color: #eee;
-  border-top: 1px solid white;
-  border-top-left-radius: 0.2em;
-  border-top-right-radius: 0.2em;
-  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
-  font-size: 0.75rem;
-  margin: 50px 0 0;
-  padding: 1em 0;
-  text-align: center;
-  p {
-    margin: 0;
-    color: #777;
-  }
-  a {
-    color: #555; 
-  }
-}
-
-.centered {
-  text-align: center;
 }
 
 
@@ -949,24 +739,20 @@ pre {
 @-webkit-keyframes fade-in-down {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px);
+    @include transform(translate3d(0, -15px, 0));
   }
   100% {
     opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+    @include transform(translate3d(0, 0, 0));
   }
 }
 @keyframes fade-in-down {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px);
+    @include transform(translate3d(0, -15px, 0));
   }
   100% {
     opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+    @include transform(translate3d(0, 0, 0));
   }
 }

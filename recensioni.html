@@ -22,18 +22,18 @@ active: recensioni
               <p class="book-author centered">{{ book.author }}</p>
             </div>
             {% if book.type == 'libro' %}
-              <span class="fa fa-book item-type"></span>
+              <div class="fa fa-book item-type"> <span>Libro</span></div>
             {% else %}
-              <span class="fa fa-headphones item-type"></span>
+              <div class="fa fa-headphones item-type"> <span>Audiolibro</span></div>
             {% endif %}
 
             {% if book.status == 'letto' %}
-              <span class="fa fa-check green item-status"></span>
+              <div class="fa fa-check green item-status"> <span>Libro letto</span></div>
             {% else %}
-              <span class="item-status">pag {{ book.status }}</span>
+              <div class="item-status">pag {{ book.status }} <span>Pagine lette</span></div>
             {% endif %}
 
-            <img class="img-cover" src="/assets/review_images/{{ book.cover }}"/>
+            <img class="img-cover" src="/assets/images/loader.svg" data-src="/assets/review_images/{{ book.cover }}"/>
 
             <div class="date centered">
               <span class="fa fa-calendar"></span>

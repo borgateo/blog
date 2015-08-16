@@ -9,41 +9,26 @@
     {% include header.html %}
 
     <main class="content" role="main">
-      <article class="post">
-        {% if page.image %}
-        <section class="article-image">
+      <article>
+        <section id="article-image">
           <div class="post-image" style="background-image: url({{ page.image }})"></div>
-          <div class="post-meta">
+          <!-- <div class="post-meta">
             <div class="cf post-meta-text">
-              <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} -->
+              , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} 
             </div>
-          </div>
+          </div>-->
         </section>
-        {% else %}
-        <section class="noarticleimage">
-          <div class="post-meta">
-            <h1 class="post-title">{{ page.title }}</h1>
-            <div class="cf post-meta-text">
-              <div class="author-image" style="background-image: url({{ site.author_image }})">Blog Logo</div>
-              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ page.author }}</h4>
-              on
-              <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
-              <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} -->
-            </div>
-          </div>
-        </section>
-        {% endif %}
 
         <section class="post post-content">
-          <div title="tempo lettura stimato" class="post-reading">
-            {{ page.eta }}
-            <span>min</span>
-          </div>
           <a name="topofpage"></a>
+          <div title="tempo lettura stimato" class="post-TLS">
+            Articolo che puoi leggere in {{ page.eta }} min
+          </div>
           <h2 class="post-title">{{ page.title }}</h2>
           <h3 class="post-subtitle">{{ page.subtitle }}</h3>
           {{content}}
         </section>
+
         <!--footer class="post-footer">
           <section class="share">
             {% for social in site.social %}
@@ -102,13 +87,53 @@
           </div>
         </div>
       </article>
-      
+
+      <div id="share-it">
+        <div class="share-counter">
+          Condivisioni
+          <span></span>
+        </div>
+
+        <div class="share-box">
+          <a 
+            class="facebook-share"
+            target="_blank" 
+            href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.id}}"
+            data-source="http://graph.facebook.com/{{site.url}}{{page.id}}"
+          >Facebook</a>
+        </div>
+
+        <div class="share-box">
+          <a 
+            class="twitter-share"
+            target="_blank" 
+            href="https://twitter.com/intent/tweet?url={{site.url}}{{page.id}}&text={{site.title}}:&nbsp;{{page.title}}&original_referer={{site.url}}{{page.id}}">Twitter</a>
+        </div>
+
+        <div class="share-box">
+          <a 
+            class="linkedin-share"
+            target="_blank" 
+            href="https://www.linkedin.com/cws/share?url={{site.url}}{{page.id}}">LinkedIn</a>
+        </div>
+
+        <div class="share-box">
+          <a 
+            class="google-share"
+            target="_blank" 
+            href="https://plus.google.com/share?url={{site.url}}{{page.id}}">Google +</a>
+        </div>
+        
+        <div class="share-box">
+          <a class="mail-to-share" href="mailto:?body=%0D%0A%0D%0A{{site.url}}{{page.id}}&amp;subject=Check out this great article I found!">Mail</a>
+        </div>
+      </div>
+
       <div>
         <button id="show-comments">Mostra i commenti</button>
       </div>
 
       <div id="disqus_thread"></div>
-
 
     </main>
 
@@ -121,7 +146,7 @@
       </div>
     </div>
     
-    {% include footer.html %}
+    {% include footer-post.html %}
     {% include analytics.html %}
   
   </body>

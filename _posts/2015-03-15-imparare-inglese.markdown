@@ -5,7 +5,7 @@ subtitle:   "Semplici ma efficaci dritte per imparare a nuotare in questo mare d
 date:       2015-03-15 22:31:00
 categories: lingua
 tags: imparare
-eta: "3:32"
+eta: "3"
 image: /assets/article_images/2015-03-15-imparare-inglese/immersione.gif
 image-thumbnail: /assets/article_images/2015-03-15-imparare-inglese/immersione-thumb.gif
 ---

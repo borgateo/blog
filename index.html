@@ -11,7 +11,7 @@ active: home
   <h2 class="blog-description">{{ site.description }}</h2>
 </header>
 
-<main class="content" role="main">
+<main class="content content-index" role="main">
 
   <div class="cf frame">
    {% for post in paginator.posts %}
@@ -66,25 +66,19 @@ active: home
 
   <nav class="pagination" role="navigation">
    {% if paginator.next_page %}
-    <a class="newer-posts" href="/page{{paginator.next_page}}">&larr; Vecchi pensieri</a>
+    <a class="older-posts" href="/page{{paginator.next_page}}">&larr; Vecchi pensieri</a>
    {% endif %}
    <span class="page-number">Pagina {{ paginator.page }} di {{ paginator.total_pages }}</span>
    {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-     <a class="older-posts" href="/">Nuovi pensieri &rarr;</a>
+     <a class="newer-posts" href="/">Nuovi pensieri &rarr;</a>
     {% else %}
-     <a class="older-posts" href="/page{{paginator.previous_page}}">Nuovi pensieri &rarr;</a>
+     <a class="newer-posts" href="/page{{paginator.previous_page}}">Nuovi pensieri &rarr;</a>
     {% endif %}
    {% endif %}
   </nav>
 
   <!-- {{!! After all the posts, we have the previous/next pagination links }}
   {{pagination}} -->  
-
-  <div class="friends-link">
-  <p>Blog Amici:</p>
-  <a href="http://www.andreabarbon.it">Il Blog di Andrea Barbon</a> &middot;
-  <a href="http://www.ilminimalista.net">Il Minimalista</a>
-  </div>
 
 </main>

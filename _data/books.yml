@@ -1,3 +1,25 @@
+
+- id: You Don't Know JS (Scope &amp; Closures)
+  author: Kyle Simpson
+  publishing: O'Reilly Media
+  cover: scope.jpg
+  type: libro
+  status: 50
+  date: Luglio 15
+  review: "Ho imparato JavaScript (e continuo a farlo) semplicemente usandolo. Alcune funzionalità e comportamenti sono a volte difficili da interpretare e poco intuitivi. Questo libro aiuta a coprire queste lacune e spiega in dettaglio cosa accede 'dietro le quinte'. <br/> <strong>Obiettivo:</strong> completare la serie (5 libri)."
+  stars: 5
+
+
+- id: Remote - Office Not Required
+  author: Jason Fried, David H. Handsson
+  publishing: Vermillion
+  cover: remote.jpg
+  type: libro
+  status: letto
+  date: Aprile 15
+  review: "Chiaro, corto e scorrevole, pieno di spunti e argomenti interessanti che mostrano quanto vantaggioso sia il lavoro in remoto, sia per il datore di lavoro che per i dipendenti/colleghi. Il libro poi descrive alcune strategie per convincere il capo a farci lavorare da casa, passo dopo passo. E una volta raggiunta questa libertà-responsabilità, come gestirla nel migliore dei modi. Le illustrazioni sono molto carine."
+  stars: 5
+
 - id: The Pragmatic Programmer
   author: Andrew Hunt, David Thomas
   publishing: Addison Wesley
