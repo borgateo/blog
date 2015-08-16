@@ -4,6 +4,8 @@ markdown: redcarpet
 # Site settings
 title: "Matteo Borgato Blog"
 description: "Il mondo visto dagli occhi miopi di un programmatore."
+description_long: "Il mondo visto dagli occhi miopi di un programmatore che ama vivere all'estero."
+keywords: "lavorare all'estero, vivere all'estero, sviluppatore web, programmatore, italiano a Londra, italiano a Amsterdam, colloquio di lavoro"
 
 email: 
 #blog logo
@@ -15,7 +17,7 @@ name: "Matteo Borgato"
 author: "Matteo Borgato"
 author_image: "/assets/images/matt.jpg"
 
-paginate:	6
+paginate:	5
 
 url: "http://blog.matteoborgato.com" 
 baseurl: ""
