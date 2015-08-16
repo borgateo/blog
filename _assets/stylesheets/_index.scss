@@ -28,14 +28,6 @@ $height-post-index: 370px;
     .post-title {
       letter-spacing: -0.03em;
     }
-    .post-excerpt {
-      background-color: rgba(255, 255, 255, .95);
-      position: absolute;
-      top: $height-post-index + 10px;
-      @include transition(transform 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.15s);
-      opacity: 0;
-      text-align: left;
-    }
     .post-subtitle {
       letter-spacing: -0.03em;
       font-weight: 300;
@@ -44,6 +36,14 @@ $height-post-index: 370px;
       font-size: 0.85em;
       color: #667;
       padding: .1em;
+    }
+    .post-excerpt {
+      background-color: rgba(255, 255, 255, .95);
+      position: absolute;
+      top: $height-post-index + 10px;
+      @include transition(transform 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.15s);
+      opacity: 0;
+      text-align: left;
     }
     &:hover .post-header {
       @include transform(translate3d(0, -75px, 0));

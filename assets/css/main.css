@@ -818,14 +818,6 @@ pre {
       transition: transform 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s; }
     .content-index .post-index .post-title {
       letter-spacing: -0.03em; }
-    .content-index .post-index .post-excerpt {
-      background-color: rgba(255, 255, 255, 0.95);
-      position: absolute;
-      top: 380px;
-      -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.15s;
-      transition: transform 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.15s;
-      opacity: 0;
-      text-align: left; }
     .content-index .post-index .post-subtitle {
       letter-spacing: -0.03em;
       font-weight: 300;
@@ -834,6 +826,14 @@ pre {
       font-size: 0.85em;
       color: #667;
       padding: 0.1em; }
+    .content-index .post-index .post-excerpt {
+      background-color: rgba(255, 255, 255, 0.95);
+      position: absolute;
+      top: 380px;
+      -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.15s;
+      transition: transform 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.15s;
+      opacity: 0;
+      text-align: left; }
     .content-index .post-index:hover .post-header {
       -webkit-transform: translate3d(0, -75px, 0);
       -ms-transform: translate3d(0, -75px, 0);
