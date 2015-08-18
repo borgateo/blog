@@ -6,22 +6,29 @@
   <nav class="menu" role="navigation">
     <ul>
       {% if page.active == "home" %}
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a title="home" href="#">Home</a></li>
       {% else %}
-        <li><a href="/">Home</a></li>
+        <li><a title="torna alla home" href="/">Home</a></li>
       {% endif %}
+      
       {% if page.active == "recensioni" %}
-        <li class="active"><a href="/recensioni">Recensioni</a></li>
+        <li class="active"><a title="offerte di lavoro" href="/offerte-lavoro">Lavoro</a></li>
       {% else %}
-        <li><a href="/recensioni">Recensioni</a></li>
+        <li><a title="offerte di lavoro" href="/offerte-lavoro">Lavoro</a></li>
+      {% endif %}
+
+      {% if page.active == "recensioni" %}
+        <li class="active"><a title="recensioni" href="/recensioni">Recensioni</a></li>
+      {% else %}
+        <li><a title="recensioni" href="/recensioni">Recensioni</a></li>
       {% endif %}
       <li>
-        <a href="http://matteoborgato.com" target="_blank">Portfolio</a>
+        <a title="il mio portfolio" href="http://matteoborgato.com" target="_blank">Portfolio</a>
       </li>
       {% if page.active == "chi-sono" %}
-        <li class="active"><a href="/chi-sono">Chi sono</a></li>
+        <li class="active"><a title="chi sono" href="/chi-sono">Chi sono</a></li>
       {% else %}
-        <li><a href="/chi-sono">Chi sono</a></li>
+        <li><a title="chi sono" href="/chi-sono">Chi sono</a></li>
       {% endif %}
     </ul>
   </nav>
