@@ -20,22 +20,25 @@ Zepto(function( $ ) {
   var el               = $('#show-comments');
   var triggered        = false;
 
-  $window.on('scroll', function() {
-    var top = $window.scrollTop();
+  // $window.on('scroll', function() {
+  //   var top = $window.scrollTop();
 
-    if ( top < 0 || top > 1500 ) { 
-      return; 
-    }
+  //   if ( top < 0 || top > 1500 ) { 
+  //     return; 
+  //   }
 
-    $image
-      .css('transform', 'translate3d(0, '+top/2.5+'px, 0)')
-      .css('opacity', 1-Math.max(top/1200, 0));
-  });
+    
+  //   $image
+  //     //.css('transform', 'translate3d(0, '+top/10.5+'px, 0)')
+  //     //.css('opacity', 1-Math.max(top/1000, 0));
+  //     .css('transform', 'rotateY(' +top/10.5 + 'deg)');
+      
+  // });
 
-  $window.trigger('scroll');
+  // $window.trigger('scroll');
 
-  var height = $('#article-image').height();
-  $('.post-content').css('margin-top', height + 'px');
+  var height = $('#article-image').height() + 75;
+  $('.post').css('margin-top', height + 'px');
 
 
   // Creates Captions from Alt tags
@@ -43,7 +46,7 @@ Zepto(function( $ ) {
     // Let's put a caption if there is one
     if( $(this).attr('alt') )
       $(this).wrap('<figure class="image"></figure>')
-      .after('<figcaption>'+$(this).attr("alt")+'</figcaption>');
+      .after('<figcaption>' +$(this).attr('alt')+ '</figcaption>');
   });
 
   var initDisqus = function() {
@@ -65,7 +68,7 @@ Zepto(function( $ ) {
 
   var fb       = $('#share-it');
   var fbSource = fb.find('.facebook-share').attr('data-source');
-  var shares   = Math.floor( Math.random() * (13 - 11) + 11 );
+  var shares   = Math.floor( Math.random() * (5 - 3) + 1 );
 
   var updateShares = function( s ) {
     fb.find('.share-counter span').html( s );
@@ -78,13 +81,13 @@ Zepto(function( $ ) {
     dataType: 'json',
     timeout: 300,
     context: $('body'),
-    success: function(data){
+    success: function( data ) {
       if ( data && data.shares && data.shares > shares ) {
         shares = data.shares;
       }
       updateShares( shares );
     },
-    error: function(xhr, type){
+    error: function( xhr, type ){
       console.log('error', type);
       updateShares( shares );
     }

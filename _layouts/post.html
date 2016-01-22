@@ -10,6 +10,16 @@
 
     <main class="content" role="main">
       <article>
+
+        <section class="post-intro post-content">
+          <div title="tempo lettura stimato" class="post-TLS">
+            TLS
+            <span>{{ page.eta }} min</span>
+          </div>
+          <h2 class="post-title">{{ page.title }}</h2>
+          <h3 class="post-subtitle">{{ page.subtitle }}</h3>
+        </section>
+
         <section id="article-image">
           <div class="post-image" style="background-image: url({{ page.image }})"></div>
           <!-- <div class="post-meta">
@@ -21,11 +31,6 @@
 
         <section class="post post-content">
           <a name="topofpage"></a>
-          <div title="tempo lettura stimato" class="post-TLS">
-            Articolo che puoi leggere in {{ page.eta }} min
-          </div>
-          <h2 class="post-title">{{ page.title }}</h2>
-          <h3 class="post-subtitle">{{ page.subtitle }}</h3>
           {{content}}
         </section>
 

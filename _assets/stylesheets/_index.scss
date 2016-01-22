@@ -18,42 +18,46 @@ $height-post-index: 370px;
     a {
       box-shadow: none;
     }
-    .post-header {
-      position: absolute;
-      bottom: .5em;
-      padding: 0 .125em;
-      background-color: rgba(255, 255, 255, .95);
-      @include transition(transform 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s);
-    }
-    .post-title {
-      letter-spacing: -0.03em;
-    }
-    .post-subtitle {
-      letter-spacing: -0.03em;
-      font-weight: 300;
-      font-style: normal;
-      line-height: 1.2;
-      font-size: 0.85em;
-      color: #667;
-      padding: .1em;
-    }
-    .post-excerpt {
-      background-color: rgba(255, 255, 255, .95);
-      position: absolute;
-      top: $height-post-index + 10px;
-      @include transition(transform 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.15s);
-      opacity: 0;
-      text-align: left;
-    }
-    &:hover .post-header {
+    &:hover .post-index-header {
       @include transform(translate3d(0, -75px, 0));
     }
-    &:hover .post-excerpt {
+    &:hover .post-index-subtitle {
       opacity: 1;
       @include transform(translate3d(0, -85px, 0));
     }
     &:hover {
       background-size: 105%;
+    }
+  }
+
+  .post-index-header {
+    position: absolute;
+    bottom: .5em;
+    padding: .3em .25em;
+    background-color: rgba(255, 255, 255, .95);
+    @include transition(transform .25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s);
+    h2 {
+      margin: 0;
+      letter-spacing: -0.03em;
+    }
+  }
+  
+  .post-index-subtitle {
+    background-color: rgba(255, 255, 255, .95);
+    position: absolute;
+    top: $height-post-index + 10px;
+    @include transition(transform 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.15s);
+    opacity: 0;
+    text-align: left;
+    padding: .35em .25em;
+    h3 {
+      letter-spacing: -0.03em;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 1.2;
+      font-size: 0.85em;
+      color: #667;
+      margin: 0;
     }
   }
 

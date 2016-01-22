@@ -50,7 +50,7 @@
   @include transform(translate3d(0, 0, 0));
 }
 
-$elements: 5;
+$elements: 6;
 @for $i from 0 to $elements {
   .active-menu .menu-wrap li:nth-child(#{$i}) {
     @include transition-delay( #{$i * 0.05 }s );  
