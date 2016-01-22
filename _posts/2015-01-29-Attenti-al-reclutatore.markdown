@@ -56,6 +56,8 @@ Quando ti contattano __non ti fanno alcuna domanda tecnica__ di screening. Testa
 
 Sono insistenti fino allo sfinimento sia con i candidati, nel spingerli ad andare a fare il colloquio, che con le aziende, nel farle incontrare con i programmatori.
 
+!["L'amicone lupo"](https://dl.dropboxusercontent.com/s/tdmywvpj1ch5ahh/lupo.gif)
+
 **Ogni lavoro che offrono è l’opportunità della tua vita, un’esperienza irripetibile, il paradiso in terra.**
 
 Ormai non imposto più la sveglia alla mattina. So che alle 8.10 mi chiama sempre lo stesso reclutatore con l’offerta di lavoro del millennio, in esclusiva, solo per me.
