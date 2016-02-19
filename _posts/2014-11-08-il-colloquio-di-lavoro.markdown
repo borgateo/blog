@@ -27,12 +27,13 @@ Le cose si complicano maggiormente se devi farlo in inglese.
 
 L’arte di fare un’ottima impressione ad un colloquio è qualcosa che va studiato, applicato, analizzato e quindi ripetuto.
 
+
+!["Il colloquio di Artemio"](https://dl.dropboxusercontent.com/s/5ika9xhyldcjoci/colloquio.gif)
+
 Negli ultimi tempi ho avuto la fortuna di vestire i panni de “*il tizio che sta dall’altra parte*” e fa le domande ai candidati. 
 Questo mi ha aperto gli occhi a molti aspetti che prima mi sembravano scontati o irrilevanti.
 
 Ecco quindi alcune dritte. Non sto dicendo che seguendole passerai ogni colloquio. Ma sono sicuro che ti potranno essere d’aiuto.
-
-![Il primo impatto è quello che conta](/assets/article_images/2014-11-08-il-colloquio-di-lavoro/omino.jpg)
 
 #### I programmatori mentono nel CV, e tutti già lo sanno
 

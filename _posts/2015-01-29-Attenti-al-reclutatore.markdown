@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Attenti al lup...reclutatore"
+title:      "Attenti al lup... reclutatore"
 subtitle:   "Una critica contro questo intermediario e qualche possibile soluzione."
 date:       2015-01-29 18:34:25
 categories: lavoro
@@ -18,8 +18,11 @@ Eppure sento troppo il desiderio di fare un’osservazione ad un sistema che sta
 Le mele marce ci sono in tutti gli ambienti e realtà. Ma cosa succede se questa piccola percentuale cresce a macchia d’olio e diventa la normalità?
 
 È come la storia della rana nella pentola, di [Daniel Quinn](http://it.wikipedia.org/wiki/Daniel_Quinn):
+
 > Prendi una pentola d’acqua e mettila a scaldare a fuoco lento.
 > Se immergi una rana quando l’acqua bolle, questa salterà fuori per salvarsi. Se la immergi quando l’acqua è tiepida, l’animaletto si farà bollire lentamente e morirà.
+
+!["La rana bollita"](https://dl.dropboxusercontent.com/s/cy1idvk2irpwip0/rana.gif)
 
 Meglio non farsi cucinare.
 

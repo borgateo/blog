@@ -29,7 +29,7 @@ Nelle precedenti aziende ho potuto sfruttare il classico giorno di *Lavoro Da Ca
 È un simbolico *dito medio al concetto di routine lavorativa nella società odierna*.
 
   
-!["Fantozzi prende il bus al volo"](https://dl.dropboxusercontent.com/s/po4imel0qesd2ni/fantozzi.gif)
+!["Fantozzi prende l'autobus al volo"](https://dl.dropboxusercontent.com/s/po4imel0qesd2ni/fantozzi.gif)
 
 
 Non più un'automa che va in ufficio alla stessa ora di tutti, mangia alla stessa ora di tutti, torna a casa alla stessa ora di tutti, bla, bla, bla... Che sollievo!
