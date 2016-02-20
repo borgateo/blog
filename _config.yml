@@ -31,29 +31,8 @@ social:
     share_title: ?text=
     share_link: "&amp;url="
 
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: //www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
-
-  - icon:	github
-    url:	https://github.com/borteo
-    desc:	Fork me on github
-    share_url:
-    share_title:
-    share_link:
-
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
-
 # Outputting
-permalink:     /:title
+permalink: /:title/
 paginate_path: /page:num
 
 
@@ -63,5 +42,6 @@ sass:
 
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
 
-exclude: ["Gemfile", "Gemfile.lock", "README.markdown", "s3_website.yml", "node_modules", "gulpfile.js", "package.json"]
+exclude: ["gulp-tasks", "Gemfile", "Gemfile.lock", "*.md", "s3_website.yml", "node_modules", "gulpfile.js", "package.json"]

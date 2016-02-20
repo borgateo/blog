@@ -1,19 +1,23 @@
 #toggle-nav {
-  @include transform(translate3d(0, 0, 0));
-  @include transition(transform 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s);
+  @include transform( translate3d( 0, 0, 0 ) );
+  @include transition-property( transform );
+  @include transition-duration( .25s );
+  @include transition-timing-function( $ease-in-out-back );
   cursor: pointer;
 }
 
 .active-menu #toggle-nav {
-  @include transform(translate3d(250px, 0, 0) rotate(90deg));
+  @include transform( translate3d(250px, 0, 0) rotate(90deg) );
 }
 
 .menu-wrap {
   box-sizing: border-box;
   height: 100%;
   position: fixed;
-  @include transform(translate3d(-380px, 0, 0));
-  @include transition(transform 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s);
+  @include transition-property( transform );
+  @include transition-duration( .25s );
+  @include transition-timing-function( $ease-in-out-back );
+  @include transform( translate3d( -380px, 0, 0 ) );
   width: 350px;
   z-index: 1001;
   background: #333;
@@ -29,15 +33,17 @@
   li {
     text-align: right;
     padding: 1em 0;
-    @include transition(transform 0.15s ease-out 0s);
-    @include transform(translate3d(-380px, 0, 0));
+    @include transition-property( transform );
+    @include transition-duration( .15s );
+    @include transition-timing-function( $ease-out-back );
+    @include transform( translate3d(-380px, 0, 0) );
   }
   a {
     padding: .5em 1em;
     box-shadow: none;
   }
   .active a {
-    background-color: rgba(90, 207, 245, .75);
+    background-color: rgba( 90, 207, 245, .75 );
   }
 
 }
@@ -50,10 +56,10 @@
   @include transform(translate3d(0, 0, 0));
 }
 
-$elements: 6;
+$elements: 5;
 @for $i from 0 to $elements {
   .active-menu .menu-wrap li:nth-child(#{$i}) {
-    @include transition-delay( #{$i * 0.05 }s );  
+    @include transition-delay( #{$i * 0.07 + 0.05 }s );  
   }
 }
 
@@ -78,14 +84,14 @@ main::before {
   opacity: 0;
   position: fixed;
   top: 0;
-  @include transform(translate3d(100%, 0, 0));
-  @include transition(opacity 0.3s ease 0s, transform 0s ease 0.3s);
+  @include transform( translate3d(100%, 0, 0) );
+  @include transition( opacity 0.3s ease 0s, transform 0s ease 0.3s );
   width: 100%;
   z-index: 10;
 }
 
 .active-menu main::before {
   opacity: 1;
-  @include transform(translate3d(0, 0, 0));
-  @include transition(opacity 0.3s ease 0s);
+  @include transform( translate3d(0, 0, 0) );
+  @include transition( opacity 0.3s ease 0s );
 }

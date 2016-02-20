@@ -8,6 +8,7 @@ tags: colloquio
 eta: "4"
 image: /assets/article_images/2014-11-23-analisi-costo-vita-all-estero/costo-vita.gif
 image-thumbnail: /assets/article_images/2014-11-23-analisi-costo-vita-all-estero/costo-vita-thumb.gif
+tag: featured
 ---
 
 Londra. Eletta la [metropoli più cara del mondo].
@@ -73,6 +74,8 @@ Sinceramente **non ho notato una grande differenza di prezzi** con l’Italia. I
 ##### Affitti
 La **nota dolente ed un problema che il governo inglese non sa/riesce risolvere**. Un monolocale da 40mq in centro costa 1500-2000&pound; (1.900-2.500&euro;) al mese. In zona 2-3 si paga un po' meno: 800-1500&pound; (1.000-1.900&euro;).
 
+!["affitto-salasso"](https://dl.dropboxusercontent.com/s/qzcd4epdjwcawu5/mini-flat.gif)
+
 Io vivo con mia moglie a Wimbledon (zona 3) e paghiamo 1300&pound; (1.600&euro;) per un monolocale da 75mq con giardino.
 
 
@@ -80,14 +83,15 @@ Tanti neo-immigrati si aggregano e spesso prendono in affitto case o appartament
 Si risparmia molto e si arriva a spendere 300-500&pound; (380-630&euro;) al mese. Ma non è sempre facile condividere la casa con semi-estranei.
 
 ##### Ristoranti
-Molto costosi, 30-50&pound; a testa. Evitabili.
+Abbastanza cari. In media 30-50&pound; a testa.
 
-Io amo cucinare a casa con mia moglie e raramente mangiamo fuori. Sinceramente non la considero una spesa primaria. L’ho messa perché molti miei colleghi single non mangiano mai a casa.
+Io amo cucinare a casa con mia moglie e non mangiamo fuori molto spesso. Sinceramente non la considero una spesa primaria. Molti miei colleghi e amici single non mangiano mai a casa.
 
 ##### Divertimenti e vita notturna 
-Eh cazzo, è Londra... 🍻
+C'é _sempre_ qualcosa da fare!
+Cazzo...è Londra! 🍻 
 
-![Costo vita Londra vs Città Italiane ~ fonte: http://www.expatistan.com](/assets/article_images/2014-11-23-analisi-costo-vita-all-estero/citta.gif)
+![Costo vita Londra vs Città Italiane (2015) ~ fonte: http://www.expatistan.com](/assets/article_images/2014-11-23-analisi-costo-vita-all-estero/citta.gif)
 
 
 #### Conclusione

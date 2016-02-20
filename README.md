@@ -7,7 +7,7 @@ A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme
 Configuration
 -----
 
-The main settings happen in side of the _config.yml 
+The main settings happen inside of the _config.yml 
 
 ## Commands - development
 

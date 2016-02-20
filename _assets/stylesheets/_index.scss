@@ -34,8 +34,10 @@ $height-post-index: 370px;
     position: absolute;
     bottom: .5em;
     padding: .3em .25em;
-    background-color: rgba(255, 255, 255, .95);
-    @include transition(transform .25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s);
+    background-color: rgba( 255, 255, 255, .95 );
+    @include transition-property( transform );
+    @include transition-duration( .25s );
+    @include transition-timing-function( $ease-in-out-back );
     h2 {
       margin: 0;
       letter-spacing: -0.03em;
@@ -46,7 +48,10 @@ $height-post-index: 370px;
     background-color: rgba(255, 255, 255, .95);
     position: absolute;
     top: $height-post-index + 10px;
-    @include transition(transform 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.15s);
+    @include transition-property( transform );
+    @include transition-duration( .25s );
+    @include transition-timing-function( $ease-in-out-back );
+    @include transition-delay( .10s );
     opacity: 0;
     text-align: left;
     padding: .35em .25em;
@@ -61,7 +66,7 @@ $height-post-index: 370px;
     }
   }
 
-  @include respond-to(1200) {
+  @include respond-to( 1200 ) {
     .post-index {
       background-size: cover;
     }
@@ -70,7 +75,7 @@ $height-post-index: 370px;
     }
   }
 
-  @include respond-to(800) {
+  @include respond-to( 800 ) {
     .post-index {
       font-size: 1.15 rem;
       float: none;
