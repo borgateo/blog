@@ -18,8 +18,8 @@ active: recensioni
         {% for book in site.data.books %}
           <li class="book">
             <div class="details">
-              <h3 class="book-title centered">{{ book.id }}</h3>
-              <p class="book-author centered">{{ book.author }}</p>
+              <h3 class="title centered">{{ book.id }}</h3>
+              <p class="author centered">{{ book.author }}</p>
             </div>
             {% if book.type == 'libro' %}
               <div class="fa fa-book item-type"> <span>Libro</span></div>
@@ -33,7 +33,23 @@ active: recensioni
               <div class="item-status">pag {{ book.status }} <span>Pagine lette</span></div>
             {% endif %}
 
-            <img class="img-cover" src="/assets/images/loader.svg" data-src="/assets/review_images/{{ book.cover }}"/>
+            <div class="cover">
+              <a class="open-review">
+                <i class="fa fa-search fa-5x"></i>
+              </a>
+              <div class="review">
+                <div class="close-review">
+                  <i class="fa fa-times"></i>
+                </div>
+                {{ book.review }}
+              </div>
+
+              <img 
+                class="img-cover"
+                src="/assets/images/loader.svg"
+                data-src="/assets/review_images/{{ book.cover }}"
+              />
+            </div>
 
             <div class="date centered">
               <span class="fa fa-calendar"></span>
@@ -60,13 +76,6 @@ active: recensioni
               {% endif %}
             </div>
 
-            <div class="review">
-              <div class="close-review">
-                <i class="fa fa-times"></i>
-              </div>
-              {{ book.review }}
-            </div>
-
           </li>
         {% endfor %}
       </ul>
@@ -74,29 +83,34 @@ active: recensioni
   </section>
 
 
-  <!--section id="films">
+  <section id="films">
     <h2 class="section-title centered">Film</h2>
     <div class="h-scrollable">
       <ul>
         {% for film in site.data.films %}
           <li class="film">
             <div class="details">
-              <h3 class="book-title centered">{{ film.id }}</h3>
-              <p class="book-author centered">{{ film.author }}</p>
+              <h3 class="title centered">{{ film.title }}</h3>
+              <p class="author centered">{{ film.director }}</p>
             </div>
-            {% if film.type == 'libro' %}
-              <span class="fa fa-book item-type" title="cartaceo"></span>
-            {% else %}
-              <span class="fa fa-headphones item-type" title="audio"></span>
-            {% endif %}
 
-            {% if film.status == 'letto' %}
-              <span class="fa fa-check green item-status" title="letto"></span>
-            {% else %}
-              <span class="item-status" title="pagine lette">pag {{ film.status }}</span>
-            {% endif %}
+            <div class="cover">
+              <a class="open-review">
+                <i class="fa fa-search fa-5x"></i>
+              </a>
+              <div class="review">
+                <div class="close-review">
+                  <i class="fa fa-times"></i>
+                </div>
+                {{ film.review }}
+              </div>
 
-            <img src="/assets/review_images/{{ film.cover }}"/>
+              <img 
+                class="img-cover" 
+                src="/assets/images/loader.svg"
+                data-src="/assets/review_images/{{ film.cover }}"
+              />
+            </div>
 
             <div class="date centered">
               <span class="fa fa-calendar"></span>
@@ -127,7 +141,6 @@ active: recensioni
         {% endfor %}
       </ul>
     </div>
-
-  </section-->
+  </section>
 
 </main>

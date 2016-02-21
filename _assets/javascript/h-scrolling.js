@@ -1,56 +1,111 @@
 module.exports = function() {
 
-  // ====== review page ======
+  var viewWidth   = window.innerWidth;
+  var booksObj    = {};
+  var filmsObj    = {};
 
-  var books     = $('#books');
-  var bookList  = books.find('.img-cover');
-  var films     = $('#films');
-  // var games     = $('#games');
-  var bookBox   = books.find('.h-scrollable ul');
-  var filmBox   = films.find('.h-scrollable ul');
-  // var gameBox   = games.find('.h-scrollable ul');
+  var books       = $('#books');
+  var films       = $('#films');
+  var bookList    = books.find('.img-cover');
+  var filmList    = films.find('.img-cover');
 
-  var itemWidth = 320;
+  var bookBox     = books.find('.h-scrollable ul');
+  var filmBox     = films.find('.h-scrollable ul');
 
-  bookBox.width( bookList.length * itemWidth );
-  filmBox.width( films.find('.film').length * itemWidth );
-  // gameBox.width( ( games.find('.book').length * itemWidth ) + 50 );
+  $('.open-review').on( 'click', handleClick );
+  $('.close-review').on( 'click', handleClose );
 
-  bookList.on('click', function() {
-    $(this).closest('li').find('div.review').addClass('active');
-  });
+  books.find('.h-scrollable').scroll( handleScrollBooks );
+  films.find('.h-scrollable').scroll( handleScrollFilms );
 
-  $('.close-review').on('click', function() {
-    $(this).closest('div.review').removeClass('active');
-  });
+  init();
 
-  
 
-  var loadImages = function( img ) {
+  function init() {
+    var itemWidth     = 320;
+    var bookListWidth = bookList.length * itemWidth;
+    var filmListWidth = filmList.length * itemWidth;
+
+    bookBox.width( bookListWidth );
+    filmBox.width( filmListWidth );
+
+    //var visibleFilms  = Math.ceil( viewWidth / itemWidth );
+
+    booksObj = {
+      pageLoaded: 1,
+      size: itemWidth,
+      itemsPerPage: Math.ceil( viewWidth / itemWidth ),
+    };
+    booksObj.pages = Math.ceil( bookList.length / booksObj.itemsPerPage );
+
+    filmsObj = {
+      pageLoaded: 1,
+      size: itemWidth,
+      itemsPerPage: Math.ceil( viewWidth / itemWidth ),
+    };
+    filmsObj.pages = Math.ceil( filmList.length / filmsObj.itemsPerPage );
+
+    // show visibile items
+    pagination( bookList.slice( 0, booksObj.itemsPerPage ) );
+    pagination( filmList.slice( 0, filmsObj.itemsPerPage ) );
+  }
+
+
+  // ----- Events ------
+
+  function handleScrollBooks( e ) {
+    var sx = $(this).scrollLeft();
+    var checkPages = ( booksObj.pageLoaded < booksObj.pages );
+    var checkPos = ( sx > booksObj.size * ( booksObj.itemsPerPage / 2 ) * booksObj.pageLoaded );
+
+    if ( checkPages && checkPos ) {
+      pagination( bookList.slice( booksObj.itemsPerPage * booksObj.pageLoaded, booksObj.itemsPerPage * ( booksObj.pageLoaded + 1 ) ) );
+      booksObj.pageLoaded++;
+    }
+  }
+
+  function handleScrollFilms( e ) {
+    var sx = $(this).scrollLeft();
+    var checkPages = ( filmsObj.pageLoaded < filmsObj.pages );
+    var checkPos = ( sx > filmsObj.size * ( filmsObj.itemsPerPage / 2 ) * filmsObj.pageLoaded );
+
+    if ( checkPages && checkPos ) {
+      pagination( filmList.slice( filmsObj.itemsPerPage * filmsObj.pageLoaded, filmsObj.itemsPerPage * ( filmsObj.pageLoaded + 1 ) ) );
+      filmsObj.pageLoaded++;
+    }
+  }
+
+
+
+  function handleClick() {
+    $(this)
+      .closest('li')
+      .find('div.review')
+      .addClass('active')
+    ;
+  }
+
+  function handleClose() {
+    $(this)
+      .closest('div.review')
+      .removeClass('active')
+    ;
+  }
+
+  // ----- Helpers -------
+  function loadImages( img ) {
     var downloadingImage = new Image();
     downloadingImage.src = $( img ).attr('data-src');
     downloadingImage.onload = function() {
       img.src = this.src;
       $( img ).addClass('loaded');
     };
-  };
+  }
 
-  var pagination = function( list ) {
+  function pagination( list ) {
     list.each(function() {
       loadImages( this );
     });
-  };
-  
-  var loaded = false;
-  books.find('.h-scrollable').scroll(function( e ) {
-    var sx = $(this).scrollLeft();
-    if ( !loaded && sx > 800 ) {
-      pagination( bookList.slice(5, 10) );
-      loaded = true;
-    }
-  });
-
-  // show visibile books (first 5)
-  pagination( bookList.slice(0, 5) );
+  }
 
 };

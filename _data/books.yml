@@ -1,14 +1,43 @@
 
-- id: You Don't Know JS (Scope &amp; Closures)
+- id: I viaggi di Gulliver
+  author: Jonathan Swift
+  publishing: Ad Alta Voce - Radio Rai
+  cover: gulliver.jpg
+  type: audiolibro
+  status: letto
+  date: Gennaio '16
+  review: "Pensavo fosse un libro da bambini. L'ho inziato ad ascoltare per curiosità. Volevo conoscere tutti i viaggi. Dopo pochi capitoli, mi sono accorto che non è per nulla scontato, e critica in modo tagliente e ironico la società, la giustizia, i modi di pensare e agire degli uomini. Peccato che l'audio-libro non copra l'ultima parte. Forse perché troppo cinica?!"
+  stars: 4
+
+- id: Hooked
+  author: Nir Eyal
+  publishing: Penguin
+  cover: hooked.jpg
+  type: libro
+  status: letto
+  date: Settembre '15
+  review: "Relativamente interessate. Analizza i requisiti necessari per lo sviluppo un'applicazione che generi dipendenza negli utenti. Una volta creata questa dipendenza, come non far scappare gli app-dipedenti. Gli esempi di Instagram e Pinterest diventano monotoni dopo qualche capitolo. Ci sono senz'altro molte altre applicazioni la fuori che potevano essere prese in esame."
+  stars: 3
+
+- id: CSS Secrets
+  author: Lea Verou
+  publishing: O'Reilly Media
+  cover: css-secrets.jpg
+  type: libro
+  status: 113
+  date: Novembre '15
+  review: "Ottimo riferimento per i fogli di stile. Contiene una valanga di esempi e immagini a colori. Mi è particolarmente piaciuta la parte delle animazioni e transazioni. Molto scorrevole."
+  stars: 4
+
+- id: You Don't Know JS
   author: Kyle Simpson
   publishing: O'Reilly Media
   cover: scope.jpg
   type: libro
   status: 50
-  date: Luglio 15
+  date: Luglio '15
   review: "Ho imparato JavaScript (e continuo a farlo) semplicemente usandolo. Alcune funzionalità e comportamenti sono a volte difficili da interpretare e poco intuitivi. Questo libro aiuta a coprire queste lacune e spiega in dettaglio cosa accede 'dietro le quinte'. <br/> <strong>Obiettivo:</strong> completare la serie (5 libri)."
   stars: 5
-
 
 - id: Remote - Office Not Required
   author: Jason Fried, David H. Handsson
@@ -16,7 +45,7 @@
   cover: remote.jpg
   type: libro
   status: letto
-  date: Aprile 15
+  date: Aprile '15
   review: "Chiaro, corto e scorrevole, pieno di spunti e argomenti interessanti che mostrano quanto vantaggioso sia il lavoro in remoto, sia per il datore di lavoro che per i dipendenti/colleghi. Il libro poi descrive alcune strategie per convincere il capo a farci lavorare da casa, passo dopo passo. E una volta raggiunta questa libertà-responsabilità, come gestirla nel migliore dei modi. Le illustrazioni sono molto carine."
   stars: 5
 
@@ -26,7 +55,7 @@
   cover: pragmatic-programmer.jpg
   type: libro
   status: 34
-  date: Marzo 15
+  date: Marzo '15
   review: Sembra più dettagliato e approfondito de 'The Passionate Programmer'. Mi sta piacendo di più. Lo sto leggendo con calma.
   stars: 4
 
@@ -36,7 +65,7 @@
   cover: passionate-programmer.jpg
   type: libro
   status: letto
-  date: Gennaio 15
+  date: Gennaio '15
   review: "Libro abbastanza interessante. Copre molti aspetti della carriera di un programmatore. Sicuramente da tenere sullo scaffale e rileggere. Ho dato solamente 3 perché ho trovato solamente consigli relativamente scontati e che qualsiasi programmatore senior già conosce. Sarebbe stato d'aiuto qualche anno fa, quando ero un neo-programmatore."
   stars: 3
 
@@ -46,7 +75,7 @@
   cover: question.jpg
   type: libro
   status: 50
-  date: Dicembre 14
+  date: Dicembre '14
   review: "Libro che tengo nel comodino. Lo leggo e sfoglio molto volentieri prima di dormire. Contiene 132 domande e relative risposte di diversi esperi. Le categorie affrontare sono diverse: Fisica, Chimica, Meteorologia, Biologia, Culinaria, Trasporti e molto altro."
   stars: 4
 
@@ -56,7 +85,7 @@
   cover: javascript-stefanov.jpg
   type: libro
   status: letto
-  date: Novembre 14
+  date: Novembre '14
   review: "Mi è piaciuta la prima parte, ma la seconda l'ho trovata un po' noiosa. L'ho letto a fine 2014, quando ECMAScript 6 era aspettato con impazienza da tutti, e questo libro parla delle differenze tra 4 e 5. L'ho quindi trovato un po' obsoleto. Ci sono esempi lunghi di codice, utili come riferimento."
   stars: 3
 
@@ -66,7 +95,7 @@
   cover: javascript-patterns.jpg
   type: libro
   status: letto
-  date: Ottobre 14
+  date: Ottobre '14
   review: "Perfetto come riferimento per design patterns. Qualche giorno prima dei colloqui tecnici lo rileggo e ripasso. Grande riferimento anche per il lavoro di tutti i giorni. Lo tengo sempre nella borsa del portatile."
   stars: 4
 
@@ -76,7 +105,7 @@
   cover: ritrattodeldiavolo.jpg
   type: audiolibro
   status: letto
-  date: Ottobre 14
+  date: Ottobre '14
   review: "Bel romanzo storico. Emozionante. Parla della vita (inventata dall'autore) del pittore trecentesco, realmente esistito, Spinello Spinelli. Scorrevole e leggero. Il finale drammatico mi è piaciuto molto."
   stars: 4
 
@@ -86,7 +115,7 @@
   cover: ilfumattiapascal.jpg
   type: audiolibro
   status: letto
-  date: Settembre 14
+  date: Settembre '14
   review: "Primo audiolibro che ho ascoltato fino alla fine. Raffinato, saggio e profondo. La filosofia del lanternino, raccontata da Anselmo Paleari (un personaggio del libro), mi ha affascinato molto. La voce di Riccardo Fasol mi ha tenuto incollato alle cuffie per ore."
   stars: 5
 
@@ -96,6 +125,6 @@
   cover: impero.jpg
   type: libro
   status: letto
-  date: Agosto 14
+  date: Agosto '14
   review: "Libro inghiottito in pochi giorni. Avventura ambientata ai tempi dell'impero romano. Parla di un gruppo di soldati che deve affrontare un'interminabile serie di periperizie per sopravvivere. Ci si potrebbe fare un film in stile 'il Gladiatore'."
   stars: 4
