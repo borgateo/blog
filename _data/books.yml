@@ -6,7 +6,7 @@
   type: audiolibro
   status: letto
   date: Gennaio '16
-  review: "Pensavo fosse un libro da bambini. L'ho inziato ad ascoltare per curiosità. Volevo conoscere tutti i viaggi. Dopo pochi capitoli, mi sono accorto che non è per nulla scontato, e critica in modo tagliente e ironico la società, la giustizia, i modi di pensare e agire degli uomini. Peccato che l'audio-libro non copra l'ultima parte. Forse perché troppo cinica?!"
+  review: "Pensavo fosse un libro per bambini. L'ho inziato ad ascoltare per curiosità. Dopo pochi capitoli, mi sono accorto che non è per nulla scontato, e critica in modo tagliente e ironico la società, la giustizia, i modi di pensare e agire degli uomini. Peccato che l'audio-libro non copra l'ultima parte. Forse perché troppo cinica?!"
   stars: 4
 
 - id: Hooked
@@ -16,7 +16,7 @@
   type: libro
   status: letto
   date: Settembre '15
-  review: "Relativamente interessate. Analizza i requisiti necessari per lo sviluppo un'applicazione che generi dipendenza negli utenti. Una volta creata questa dipendenza, come non far scappare gli app-dipedenti. Gli esempi di Instagram e Pinterest diventano monotoni dopo qualche capitolo. Ci sono senz'altro molte altre applicazioni la fuori che potevano essere prese in esame."
+  review: "Relativamente interessate. Analizza i requisiti necessari per lo sviluppo di un'applicazione che generi "dipendenza" negli utilizzatori. Una volta creata questa dipendenza, come non far scappare gli app-dipedenti. Gli esempi di Instagram e Pinterest diventano monotoni dopo qualche capitolo. Ci sono senz'altro molte altre applicazioni la fuori che potevano essere prese in esame."
   stars: 3
 
 - id: CSS Secrets
