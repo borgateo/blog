@@ -56,3 +56,5 @@ TODO:
 - automate gzipped assets deployment to S3
 - Move images to DB
 
+
+[![forthebadge](http://forthebadge.com/images/badges/made-with-crayons.svg)](http://forthebadge.com)
