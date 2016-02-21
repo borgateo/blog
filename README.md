@@ -8,7 +8,7 @@ A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme
 Features
 -----
 
-General features:
+### General features:
 
   - Ruby
   - Jekyll
@@ -18,16 +18,17 @@ General features:
   - Browserify
   - npm
 
-Ruby gems:
+#### Ruby gems:
   - Redcarpet (Markdown parser)
   - s3_website (push generated `_site` folder to S3)
+
 
 Configuration
 -----
 
 The main settings happen inside of the _config.yml 
 
-## Commands - development
+### Commands - development
 
 Watch changes - browser-sync:
 
@@ -36,12 +37,12 @@ Watch changes - browser-sync:
 Then visit `http://localhost:4000/`
 
 
-## Build assets and `_site` folder:
+### Build assets and `_site` folder:
 
 `$ npm run build`
 
 
-## Publish website
+### Publish website
 
 `$ npm run deploy`
 
