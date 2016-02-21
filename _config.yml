@@ -44,4 +44,4 @@ gems:
   - jekyll-sitemap
   - jekyll-paginate
 
-exclude: ["gulp-tasks", "Gemfile", "Gemfile.lock", "*.md", "s3_website.yml", "node_modules", "gulpfile.js", "package.json"]
+exclude: ["gulp-tasks", "Gemfile", "Gemfile.lock", "README.md", "s3_website.yml", "node_modules", "gulpfile.js", "package.json"]

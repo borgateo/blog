@@ -7,9 +7,9 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "jekyll serve",
+    "start": "jekyll serve & gulp",
     "build": "gulp build && jekyll build",
-    "watch": "jekyll serve & gulp"
+    "deploy" : "gulp build && jekyll build && s3_website push"
   },
   "devDependencies": {
     "browser-sync": "^1.3.7",
