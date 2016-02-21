@@ -1,5 +1,5 @@
 - id: 1
-  title: Forrest, The
+  title: "Forrest, The"
   director: Jason Zada
   cover: the-forrest.jpg
   genre: horror
@@ -9,7 +9,7 @@
   stars: 2
 
 - id: 2
-  title: Vanishing, The
+  title: "Vanishing, The"
   director: George Sluizer
   cover: the-vanishing.jpg
   genre: thriller

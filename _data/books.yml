@@ -16,7 +16,7 @@
   type: libro
   status: letto
   date: Settembre '15
-  review: "Relativamente interessate. Analizza i requisiti necessari per lo sviluppo di un'applicazione che generi "dipendenza" negli utilizzatori. Una volta creata questa dipendenza, come non far scappare gli app-dipedenti. Gli esempi di Instagram e Pinterest diventano monotoni dopo qualche capitolo. Ci sono senz'altro molte altre applicazioni la fuori che potevano essere prese in esame."
+  review: "Relativamente interessate. Non ci sono molte risorse che parlano di questo argomento. Analizza i requisiti necessari per lo sviluppo di un'applicazione che generi \"dipendenza\" negli utilizzatori. E, una volta creata questo bisogno, come non farli scappare. Gli esempi di Instagram e Pinterest diventano monotoni dopo qualche capitolo. Ci sono senz'altro molte altre applicazioni la fuori che potevano essere prese in esame."
   stars: 3
 
 - id: CSS Secrets
