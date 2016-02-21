@@ -1,3 +1,5 @@
+![Travis](https://travis-ci.org/borteo/blog.svg?branch=master)
+
 Matteo Borgato Blog
 ========
 
