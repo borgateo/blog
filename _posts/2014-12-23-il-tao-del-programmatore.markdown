@@ -4,10 +4,9 @@ title:      "Il tao del programmatore"
 subtitle:   "Qualche semplice regola da tenere a mente, per vivere meglio dentro e fuori l'ufficio."
 date:       2014-12-23 22:34:11
 categories: vita
-tags: suggerimenti
-eta: "5"
-image: /assets/article_images/2014-12-23-il-tao-del-programmatore/universo.gif
-image-thumbnail: /assets/article_images/2014-12-23-il-tao-del-programmatore/universo-thumb.gif
+tags: 			suggerimenti
+eta: 				"5"
+image: 			2014-12-23-il-tao-del-programmatore/universo.gif
 ---
 
 Vedo spesso attriti e situazioni difficili in ufficio, dissidi e dispetti tra colleghi. 

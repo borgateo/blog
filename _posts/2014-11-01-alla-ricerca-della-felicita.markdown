@@ -4,10 +4,9 @@ title:      "Alla ricerca della Felicità"
 subtitle:   "Magari è vero che il lavoro nobilita l’uomo. Ma preferei non diventare simile ad una bestia."
 date:       2014-11-1 18:34:25
 categories: lavoro
-tags: lavorare all’estero, felicità, corraggio di cambiare
-eta: "6"
-image: /assets/article_images/2014-11-01-alla-ricerca-della-felicita/viaggiare.gif
-image-thumbnail: /assets/article_images/2014-11-01-alla-ricerca-della-felicita/viaggiare-thumb.gif
+tags: 			lavorare all’estero, felicità, corraggio di cambiare
+eta: 				"6"
+image: 			2014-11-01-alla-ricerca-della-felicita/viaggiare.gif
 ---
 
 Ho trascorso 26 anni della mia vita in Italia. In un paesino di campagna a 35 Km da Venezia. Una vita che definivo normale, tranquilla, sicuramente non intensa o tanto stimolante. Non me ne lamentavo affatto. _Mi sentivo fortunato_.

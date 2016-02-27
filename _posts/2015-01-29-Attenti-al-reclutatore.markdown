@@ -4,10 +4,9 @@ title:      "Attenti al lup... reclutatore"
 subtitle:   "Una critica contro questo intermediario e qualche possibile soluzione."
 date:       2015-01-29 18:34:25
 categories: lavoro
-tags: agenzie per il lavoro
-eta: "5"
-image: /assets/article_images/2015-01-29-Attenti-al-lupo/attenti-al-lupo.gif
-image-thumbnail: /assets/article_images/2015-01-29-Attenti-al-lupo/attenti-al-lupo-thumb.gif
+tags: 			agenzie per il lavoro
+eta: 				"5"
+image: 			2015-01-29-Attenti-al-lupo/attenti-al-lupo.gif
 ---
 
 _Criticare_. La maggior parte delle volte produce l’effetto contrario a quello sperato. 
@@ -22,7 +21,7 @@ Le mele marce ci sono in tutti gli ambienti e realtà. Ma cosa succede se questa
 > Prendi una pentola d’acqua e mettila a scaldare a fuoco lento.
 > Se immergi una rana quando l’acqua bolle, questa salterà fuori per salvarsi. Se la immergi quando l’acqua è tiepida, l’animaletto si farà bollire lentamente e morirà.
 
-!["La rana bollita"](https://dl.dropboxusercontent.com/s/cy1idvk2irpwip0/rana.gif)
+!["La rana bollita"](https://dl.dropboxusercontent.com/u/1089758/Blog/GIFs/rana.gif)
 
 Meglio non farsi cucinare.
 
@@ -59,7 +58,7 @@ Quando ti contattano __non ti fanno alcuna domanda tecnica__ di screening. Testa
 
 Sono insistenti fino allo sfinimento sia con i candidati, nel spingerli ad andare a fare il colloquio, che con le aziende, nel farle incontrare con i programmatori.
 
-!["L'amicone lupo"](https://dl.dropboxusercontent.com/s/tdmywvpj1ch5ahh/lupo.gif)
+!["L'amicone lupo"](https://dl.dropboxusercontent.com/u/1089758/Blog/GIFs/lupo.gif)
 
 **Ogni lavoro che offrono è l’opportunità della tua vita, un’esperienza irripetibile, il paradiso in terra.**
 

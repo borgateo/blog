@@ -21,7 +21,7 @@
         </section>
 
         <section id="article-image">
-          <div class="post-image" style="background-image: url({{ page.image }})"></div>
+          <div class="post-image" style="background-image: url( {{ site.url_images }}{{ page.image }})"></div>
           <!-- <div class="post-meta">
             <div class="cf post-meta-text">
               , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} 

@@ -21,7 +21,7 @@ active: home
           itemscope 
           itemtype="http://schema.org/BlogPosting" 
           role="article"
-          style="background-image: url({{ post.image }})"
+          style="background-image: url('{{ site.url_images }}{{ post.image }}')"
         >
           <a href="{{ post.url }}" itemprop="url" class="article-link"></a>
           <div class="post-meta-index">
@@ -55,7 +55,7 @@ active: home
           itemscope 
           itemtype="http://schema.org/BlogPosting" 
           role="article"
-          style="background-image: url({{ post.image }})"
+          style="background-image: url('{{ site.url_images }}{{ post.image }}')"
         >
           <a href="{{ post.url }}" itemprop="url" class="article-link"></a>
           <div class="post-meta-index">

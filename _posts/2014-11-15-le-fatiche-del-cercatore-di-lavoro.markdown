@@ -4,10 +4,9 @@ title:      "Le fatiche del cercatore di lavoro"
 subtitle:   "Perché dimostrare quanto vali, non è mai una passeggiata."
 date:       2014-11-15 11:30:00
 categories: lavoro
-tags: colloquio
-eta: "4:35"
-image: /assets/article_images/2014-11-15-le-fatiche-del-cercatore-di-lavoro/maratona.gif
-image-thumbnail: /assets/article_images/2014-11-15-le-fatiche-del-cercatore-di-lavoro/maratona-thumb.gif
+tags: 			colloquio
+eta: 				"4"
+image: 			2014-11-15-le-fatiche-del-cercatore-di-lavoro/maratona.gif
 ---
 
 Tutti conoscono grandi nomi come Google, Facebook, Apple, Twitter.

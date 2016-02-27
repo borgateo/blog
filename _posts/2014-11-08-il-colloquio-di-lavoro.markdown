@@ -4,10 +4,9 @@ title:      "Il colloquio di lavoro"
 subtitle:   "Qualche dritta per passare con successo il prossimo colloquio in inglese."
 date:       2014-11-08 10:30:00
 categories: lavoro
-tags: cambiare lavoro, colloquio
-eta: "4"
-image: /assets/article_images/2014-11-08-il-colloquio-di-lavoro/colloquio.gif
-image-thumbnail: /assets/article_images/2014-11-08-il-colloquio-di-lavoro/colloquio-thumb.gif
+tags: 			cambiare lavoro, colloquio
+eta: 				"4"
+image: 			2014-11-08-il-colloquio-di-lavoro/colloquio.gif
 ---
 
 In Italia la gente ti prende sul serio solamente quando hai compiuto 35-40 anni.
@@ -28,7 +27,7 @@ Le cose si complicano maggiormente se devi farlo in inglese.
 L’arte di fare un’ottima impressione ad un colloquio è qualcosa che va studiato, applicato, analizzato e quindi ripetuto.
 
 
-!["Il colloquio di Artemio"](https://dl.dropboxusercontent.com/s/5ika9xhyldcjoci/colloquio.gif)
+!["Il colloquio di Artemio"](https://dl.dropboxusercontent.com/u/1089758/Blog/GIFs/colloquio.gif)
 
 Negli ultimi tempi ho avuto la fortuna di vestire i panni de “*il tizio che sta dall’altra parte*” e fa le domande ai candidati. 
 Questo mi ha aperto gli occhi a molti aspetti che prima mi sembravano scontati o irrilevanti.
