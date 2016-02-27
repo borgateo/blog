@@ -12,7 +12,7 @@ Features
 
 ### General features:
 
-	- Vanilla Javascript 🍦
+  - Vanilla Javascript `🍦`
   - Browserify
   - npm
   - Sass + Bourbon
