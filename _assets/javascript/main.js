@@ -1,13 +1,17 @@
 /*
 ** main.js
 **
-**  index page -- footer.html
+** index page -- footer.html
+**
 */
 
 var nav = require('./nav.js');
 
-Zepto(function( $ ) {
+document.onreadystatechange = function() {
+	if ( document.readyState === 'complete' ) {
 
-  nav();
+		nav.init();
 
-});
+	}
+};
+

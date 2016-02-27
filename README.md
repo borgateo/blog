@@ -12,13 +12,13 @@ Features
 
 ### General features:
 
-  - Ruby
-  - Jekyll
-  - Zepto.js
-  - Sass + Bourbon
-  - Gulp.js
+	- Vanilla Javascript 🍦
   - Browserify
   - npm
+  - Sass + Bourbon
+  - Gulp.js
+  - Jekyll
+  - Ruby
 
 #### Ruby gems:
   - Redcarpet (Markdown parser)

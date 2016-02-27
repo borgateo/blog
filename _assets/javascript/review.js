@@ -1,11 +1,14 @@
+'use strict';
+
 var hScrolling = require('./h-scrolling.js');
 var nav        = require('./nav.js');
 
 
-Zepto(function( $ ) {
-  'use strict';
+document.onreadystatechange = function() {
+  if ( document.readyState === 'complete' ) {
 
-  hScrolling();
-  nav();
-
-});
+    hScrolling.init();
+    nav.init();
+  
+  }
+};
