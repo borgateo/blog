@@ -84,10 +84,11 @@ Si risparmia molto e si arriva a spendere 300-500&pound; (380-630&euro;) al mese
 ##### Ristoranti
 Abbastanza cari. In media 30-50&pound; a testa.
 
-Io amo cucinare a casa con mia moglie e non mangiamo fuori molto spesso. Sinceramente non la considero una spesa primaria. Molti miei colleghi e amici single non mangiano mai a casa.
+Amo cucinare a casa con mia moglie, e non mangiamo fuori molto spesso. Sinceramente non la considero una spesa primaria. Ma molti miei colleghi e amici non mangiano mai a casa, mi sembra giusto menzionare anche questa spesa.
+
 
 ##### Divertimenti e vita notturna 
-C'é _sempre_ qualcosa da fare!
+C'é _sempre_ qualcosa da fare, vedere, partecipare!
 Cazzo...è Londra! 🍻 
 
 ![Costo vita Londra vs Città Italiane (2015) ~ fonte: http://www.expatistan.com](/assets/article_images/2014-11-23-analisi-costo-vita-all-estero/citta.gif)

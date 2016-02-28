@@ -20,29 +20,34 @@ active: recensioni
             <div class="details">
               <h3 class="title centered">{{ book.id }}</h3>
               <p class="author centered">{{ book.author }}</p>
+              
+              {% if book.status != 'letto' %}
+                <div class="item-status">
+                  @ &nbsp;
+                  {{ book.status }}
+                </div>
+              {% endif %}
             </div>
-            {% if book.type == 'libro' %}
-              <div class="fa fa-book item-type"> <span>Libro</span></div>
-            {% else %}
-              <div class="fa fa-headphones item-type"> <span>Audiolibro</span></div>
-            {% endif %}
-
-            {% if book.status == 'letto' %}
-              <div class="fa fa-check green item-status"> <span>Libro letto</span></div>
-            {% else %}
-              <div class="item-status">pag {{ book.status }} <span>Pagine lette</span></div>
-            {% endif %}
 
             <div class="cover">
-              <a class="open-review">
-                <i class="fa fa-search fa-5x"></i>
-              </a>
               <div class="review">
                 <div class="close-review">
                   <i class="fa fa-times"></i>
                 </div>
-                {{ book.review }}
+                <p>
+                  {% if book.type == 'audiolibro' %}
+                    <span class="fa fa-headphones"> </span>
+                    Audiolibro
+                  {% endif %}
+                </p>
+                <p>
+                  {{ book.review }}
+                </p>
               </div>
+
+              <a class="open-review">
+                <i class="fa fa-search fa-5x"></i>
+              </a>
 
               <img 
                 class="img-cover"
@@ -52,7 +57,7 @@ active: recensioni
             </div>
 
             <div class="date centered">
-              <span class="fa fa-calendar"></span>
+              <span class="fa fa-eye"></span>
               <span>{{ book.date }}</span>
             </div>
 
@@ -82,7 +87,6 @@ active: recensioni
     </div>
   </section>
 
-
   <section id="films">
     <h2 class="section-title centered">Film</h2>
     <div class="h-scrollable">
@@ -95,9 +99,6 @@ active: recensioni
             </div>
 
             <div class="cover">
-              <a class="open-review">
-                <i class="fa fa-search fa-5x"></i>
-              </a>
               <div class="review">
                 <div class="close-review">
                   <i class="fa fa-times"></i>
@@ -105,6 +106,10 @@ active: recensioni
                 {{ film.review }}
               </div>
 
+              <a class="open-review">
+                <i class="fa fa-search fa-5x"></i>
+              </a>
+              
               <img 
                 class="img-cover" 
                 src="/assets/images/loader.svg"
@@ -113,7 +118,7 @@ active: recensioni
             </div>
 
             <div class="date centered">
-              <span class="fa fa-calendar"></span>
+              <span class="fa fa-eye"></span>
               <span>{{ film.date }}</span>
             </div>
 
@@ -142,5 +147,13 @@ active: recensioni
       </ul>
     </div>
   </section>
+
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="filters">
+    <defs>
+      <filter id="blur" x="0" y="0">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+    </filter>
+    </defs>
+  </svg>
 
 </main>

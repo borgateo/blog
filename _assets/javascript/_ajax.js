@@ -7,13 +7,14 @@
 **
 */
 
-function lazyLoadImages( img ) {
+function lazyLoadImages( img, callback ) {
   
   var downloadingImage = new Image();
   downloadingImage.src = img.getAttribute('data-src');
   downloadingImage.onload = function() {
     img.src = this.src;
     img.className += ' loaded';
+    callback();
   };
 
 }

@@ -115,7 +115,10 @@ function handleClose() {
 function pagination( list ) {
 
   list.forEach(function( item ) {
-    ajax.lazyLoadImages( item );
+    ajax.lazyLoadImages( item, function() {
+      var container = trav.getClosest( item, 'li' );
+      container.className += ' loaded';
+    } );
   });
 
 }

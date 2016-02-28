@@ -1,19 +1,42 @@
-- id: 1
-  title: "Forrest, The"
-  director: Jason Zada
-  cover: the-forrest.jpg
-  genre: horror
-  imdb: 5/10
-  date: Febbraio '16
-  review: (2016) Una ragazza americana viagga in Giappone per cercare la sorella gemella emo che si è persa in una foresta (Aokigahara) infestata dai fantasmi. Come al solito, la protagonista è cogliona, e si va a cacciare in situazioni assurde e paranormali. Film horror come tanti altri. Non supera la sufficienza. Non fa neanche paura.
-  stars: 2
+- id: 4
+  title: "Abyss, The"
+  director: James Cameron
+  cover: the-abyss.jpg
+  genre: Sci-Fi
+  imdb: "7.6/10"
+  date: "Febbraio '16"
+  review: "(1989) Una squadra di ingegneri petroliferi si ritrova ad aiutare l'esercito americano. La missione top-secret è il recupero di un sottomarino nucleare affondato per cause sconosciute. Si trovano a dover affrontare un militare psicotico e scoprire una forma di vita aliena che proviene dalle profondità dell'Oceano. Effetti speciali fantastici considerando che il film ha 27 anni. Infatti vinse l'Oscar."
+  stars: 4
+
+- id: 3
+  title: "Backtrack"
+  director: Michael Petroni
+  cover: backtrack.jpg
+  genre: Mystery, Thriller
+  imdb: "5.6/10"
+  date: "Febbraio '16"
+  review: "(2015) La storia inizia con uno strizza-cervelli che segue diversi pazienti. Scopre che queste persone sono fantasmi. Non riuscendo a capire perché questi spettri lo tormentano, decide di tornare nella città di campagna dov'era cresciuto col padre. Inizia quindi a scavare nel passato, e scopre l'origine del tormento. Lieto il finale."
+  stars: 3
+  
 
 - id: 2
   title: "Vanishing, The"
   director: George Sluizer
   cover: the-vanishing.jpg
-  genre: thriller
-  imdb: 7/10
-  date: Febbraio '16
-  review: (1993) Una ragazza scompare in una stazione di servizio. Il fidanzato la cerca per molto tempo, ma solo dopo 3 anni, uno psicopatico (Jeff Bridges) si fa vivo ammettendo d'essere il responsabile del rapimento. Da qui si scatenano diversi colpi di scena. La prima metà è tranquilla, la seconda è più movimentata e violenta. Buona regia e fotografia. Film guardabile. <br/><strong>Nota:</strong> è un remake, l'originale (1988) non ha un lieto fine.
-  stars: 3
+  genre: Thriller
+  imdb: "6.3/10"
+  date: "Febbraio '16"
+  review: "(1993) Una ragazza scompare in una stazione di servizio. Il fidanzato la cerca per molto tempo, ma solo dopo 3 anni, uno psicopatico (Jeff Bridges) si fa vivo ammettendo d'essere il responsabile del rapimento. Da qui si scatenano diversi colpi di scena. La prima metà è tranquilla, la seconda è più movimentata e violenta. Buona regia e fotografia. Film guardabile. <br/><strong>Nota:</strong> è un remake, l'originale (1988) non ha un lieto fine."
+  stars: 4
+
+- id: 1
+  title: "Forrest, The"
+  director: Jason Zada
+  cover: the-forrest.jpg
+  genre: Horror
+  imdb: "4.9/10"
+  date: "Febbraio '16"
+  review: "(2016) Una ragazza americana viagga in Giappone per cercare la sorella gemella emo che si è persa in una foresta (Aokigahara) infestata dai fantasmi. Come al solito, la protagonista è cogliona, e si va a cacciare in situazioni assurde e paranormali. Film horror come tanti altri. Non supera la sufficienza. Non fa neanche paura."
+  stars: 2
+
+  

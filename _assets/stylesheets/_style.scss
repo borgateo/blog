@@ -630,9 +630,9 @@ article {
   .background-closer-image {
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
     text-indent: -9999px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -691,6 +691,22 @@ article {
       padding: 0 18px;
     }
   }
+}
+
+.bottom-closer .background-closer-image {
+  @include transition(all .5s ease);
+  opacity: .95;
+  -webkit-filter: url('#blur');
+          filter: url('#blur');
+}
+.bottom-closer:hover .background-closer-image {
+  opacity: 1;
+  -webkit-filter: none;
+          filter: none;
+}
+.filters {
+  width: 25px;
+  height: 25px;
 }
 
 #disqus_thread {
