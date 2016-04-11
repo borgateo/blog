@@ -54,7 +54,7 @@ TODO:
 
 - Gzip js and deflate CSS using gulp-pako
 - automate gzipped assets deployment to S3
-- Move images to DB
+- Move images to third-party
 
 
 [![forthebadge](http://forthebadge.com/images/badges/made-with-crayons.svg)](http://forthebadge.com)
