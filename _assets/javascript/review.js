@@ -10,11 +10,11 @@ var templates  = require('./templates.js');
 var dataURL   = 'https://dl.dropboxusercontent.com/s/mwl7tnt8i83lebh/recensioni.json';
 
 document.onreadystatechange = function() {
-  if ( document.readyState === 'complete' ) {
-
-  	init();
   
+  if ( document.readyState === 'complete' ) {
+  	init();
   }
+  
 };
 
 

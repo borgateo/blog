@@ -19,6 +19,7 @@ Features
   - Gulp.js
   - Jekyll
   - Ruby
+  - Dropbox as a Database (JSON files - WIP)
 
 #### Ruby gems:
   - Redcarpet (Markdown parser)
@@ -54,7 +55,6 @@ TODO:
 
 - Gzip js and deflate CSS using gulp-pako
 - automate gzipped assets deployment to S3
-- Move images to third-party
 
 
 [![forthebadge](http://forthebadge.com/images/badges/made-with-crayons.svg)](http://forthebadge.com)
