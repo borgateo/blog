@@ -22,9 +22,9 @@ function updateShares( data ) {
   var counter = fb.getElementsByClassName('share-counter');
   var span = counter[0].getElementsByTagName('span');
   span[0].innerHTML = sharesNumber;
-};
+}
 
 
 module.exports = {
   init: init
-}
+};

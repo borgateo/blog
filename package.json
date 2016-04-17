@@ -36,6 +36,7 @@
     "sass"
   ],
   "dependencies": {
+    "mustache": "^2.2.1",
     "normalize-scss": "^4.0.3"
   }
 }

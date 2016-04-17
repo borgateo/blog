@@ -59,14 +59,14 @@
   }
   .open-review .fa {
     padding: 125px 0 0 100px;
-    color: rgba(0, 0, 0, 0);
-    @include transition(all .3s linear .15s);
+    color: rgba( 0, 0, 0, 0 );
+    @include transition( all .3s linear .15s );
   }
   .open-review:hover {
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba( 255, 255, 255, .5 );
   }
   .open-review:hover .fa {
-    color: rgba(0, 0, 0, 0.45);
+    color: rgba( 0, 0, 0, .45 );
   }
   li {
     position: relative;
@@ -100,6 +100,7 @@
   }
   .stars {
     padding-bottom: 1em;
+    font-size: .9em;
     color: #68a9bf;
   }
   .review {
@@ -156,7 +157,7 @@
 }
 
 
-.open-review:hover + .img-cover {
-  -webkit-filter: url('#blur');
-          filter: url('#blur');
-}
+  // .open-review:hover + .img-cover {
+  //   -webkit-filter: url('#blur');
+  //           filter: url('#blur');
+  // }

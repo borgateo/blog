@@ -4,12 +4,14 @@
 */
 
 var disqus_shortname = 'blogmatteoborgatocom';
-var showComments     = document.getElementById('show-comments');
 var triggered        = false;
 
 // disqus event
 function init() {
-  showComments.addEventListener('click', setDisqus, false);
+  document
+    .getElementById('show-comments')
+    .addEventListener('click', setDisqus, false)
+  ;
 }
 
 function setDisqus() {

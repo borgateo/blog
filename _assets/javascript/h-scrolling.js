@@ -6,46 +6,47 @@
 var trav = require('./_traversing.js');
 var ajax = require('./_ajax.js');
 
-var viewWidth   = window.innerWidth;
-var booksObj    = {};
-var filmsObj    = {};
-
-var books       = document.getElementById('books');
-var films       = document.getElementById('films');
-var bookList    = books.getElementsByClassName('img-cover');
-var filmList    = films.getElementsByClassName('img-cover');
-var openReview  = document.getElementsByClassName('open-review');
-var closeReview = document.getElementsByClassName('close-review');
-
-var bookScroll  = books.getElementsByClassName('h-scrollable');
-var filmScroll  = films.getElementsByClassName('h-scrollable');
-var bookBox     = bookScroll[0].getElementsByTagName('ul');
-var filmBox     = filmScroll[0].getElementsByTagName('ul');
-
-// Get Arrays
-bookList        = Array.prototype.slice.call( bookList, 0 );
-filmList        = Array.prototype.slice.call( filmList, 0 );
-openReview      = Array.prototype.slice.call( openReview, 0 );
-closeReview     = Array.prototype.slice.call( closeReview, 0 );
-
-
-// Listeners
-openReview.forEach(function( item ) {
-  item.addEventListener( 'click', handleClick, false );
-})
-
-closeReview.forEach(function( item ) {
-  item.addEventListener( 'click', handleClose, false );
-})
-
-bookScroll[0].addEventListener( 'scroll', handleScrollBooks );
-filmScroll[0].addEventListener( 'scroll', handleScrollFilms );
-
+var viewWidth = window.innerWidth;
+var booksObj  = {};
+var filmsObj  = {};
+var bookList;
+var filmList;
 
 // ===== Public functions =====
 
 function init() {
-  var itemWidth     = 320;
+  var itemWidth   = 320;
+  var books       = document.getElementById('books');
+  var films       = document.getElementById('films');
+  bookList        = books.getElementsByClassName('img-cover');
+  filmList        = films.getElementsByClassName('img-cover');
+  var openReview  = document.getElementsByClassName('open-review');
+  var closeReview = document.getElementsByClassName('close-review');
+
+  var bookScroll  = books.getElementsByClassName('h-scrollable');
+  var filmScroll  = films.getElementsByClassName('h-scrollable');
+  var bookBox     = bookScroll[0].getElementsByTagName('ul');
+  var filmBox     = filmScroll[0].getElementsByTagName('ul');
+
+  // Get Arrays
+  bookList        = [].slice.call( bookList, 0 );
+  filmList        = [].slice.call( filmList, 0 );
+  openReview      = [].slice.call( openReview, 0 );
+  closeReview     = [].slice.call( closeReview, 0 );
+
+  // Listeners
+  openReview.forEach(function( item ) {
+    item.addEventListener( 'click', handleClick, false );
+  })
+
+  closeReview.forEach(function( item ) {
+    item.addEventListener( 'click', handleClose, false );
+  })
+
+  bookScroll[0].addEventListener( 'scroll', handleScrollBooks );
+  filmScroll[0].addEventListener( 'scroll', handleScrollFilms );
+
+  
   var bookListWidth = bookList.length * itemWidth;
   var filmListWidth = filmList.length * itemWidth;
 
