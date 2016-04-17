@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Un’analisi sul costo della vita all’estero"
-subtitle:   "Scappare dall’Italia sta diventando una moda. Se sei un programmatore dovrebbe essere un’esigenza."
+subtitle:   "Scappare dall’Italia sta diventando una moda. Forse per un programmatore, dovrebbe essere un’esigenza."
 date:       2014-11-23 19:30:00
 categories: lavoro
 tags: 			colloquio

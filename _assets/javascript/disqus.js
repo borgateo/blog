@@ -1,9 +1,7 @@
 /*
 ** disqus.js
 **
-** Vanilla JS
 */
-
 
 var disqus_shortname = 'blogmatteoborgatocom';
 var showComments     = document.getElementById('show-comments');
@@ -25,8 +23,8 @@ function setDisqus() {
   dsq.async = true;
   dsq.src = '//'+ disqus_shortname +'.disqus.com/embed.js';
   ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( dsq );
-};
+}
 
 module.exports = {
   init: init
-}
+};

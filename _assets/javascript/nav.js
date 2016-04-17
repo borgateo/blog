@@ -3,11 +3,13 @@
 **
 */
 
-'use strict';
+"use strict";
+
+var trav = require('./_traversing.js');
 
 var body = document.body;
-var logo = document.getElementById("toggle-nav");
-var menu = document.getElementsByClassName("menu");
+var logo = document.getElementById('toggle-nav');
+var menu = document.getElementsByClassName('menu');
 var links;
 
 
@@ -30,15 +32,10 @@ function init() {
 }
 
 function handleClickMenu() {
-  body.className = hasClass( body, 'active-menu' ) === true ? "" : "active-menu";
-}
-
-// Helper
-function hasClass( element, cls ) {
-  return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
+  body.className = trav.hasClass( body, 'active-menu' ) === true ? '' : 'active-menu';
 }
 
 
 module.exports = {
   init: init
-}
+};

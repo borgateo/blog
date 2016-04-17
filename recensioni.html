@@ -22,7 +22,7 @@ active: recensioni
               <p class="author centered">{{ book.author }}</p>
               
               {% if book.status != 'letto' %}
-                <div class="item-status">
+                <div class="item-status" title="pagine lette">
                   @ &nbsp;
                   {{ book.status }}
                 </div>
@@ -109,7 +109,7 @@ active: recensioni
               <a class="open-review">
                 <i class="fa fa-search fa-5x"></i>
               </a>
-              
+
               <img 
                 class="img-cover" 
                 src="/assets/images/loader.svg"

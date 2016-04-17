@@ -24,7 +24,7 @@ function setCaptions() {
       var wrapper = document.createElement('figure');
       wrapper.className = "image";
       var figcaption = document.createElement('figcaption');
-      figcaption.innerHTML = img.getAttribute('alt')
+      figcaption.innerHTML = img.getAttribute('alt');
       img.parentNode.insertBefore( wrapper, img );
       wrapper.appendChild( img );
       wrapper.appendChild( figcaption );
@@ -35,4 +35,4 @@ function setCaptions() {
 module.exports = {
   setArticleImage: setArticleImage,
   setCaptions: setCaptions
-}
+};

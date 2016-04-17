@@ -3,12 +3,10 @@
 }
 
 $rs: 16px;
-
 $font-serif: Linux Libertine;
-$font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
-
-$blue: rgba(90, 207, 245, 0.4);
-$blue-hover: rgba(90, 207, 245, 0.6);
+$font-sans: Open Sans, MundoSans, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+$blue: rgba(90, 207, 245, .4);
+$blue-hover: rgba(90, 207, 245, .6);
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
@@ -29,27 +27,28 @@ $blue-hover: rgba(90, 207, 245, 0.6);
 
 body {
   font-family: $font-sans;
-  color: #333;
   margin: 0;
   padding: 0;
+  color: #333;
+
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-font-feature-settings: "liga=1, dlig=1";
-  -ms-font-feature-settings: "liga", "dlig";
-  -webkit-font-feature-settings: "liga", "dlig";
-  -o-font-feature-settings: "liga", "dlig";
-  font-feature-settings: "liga", "dlig";
+     -moz-font-feature-settings: 'liga=1, dlig=1';
+      -ms-font-feature-settings: 'liga', 'dlig';
+  -webkit-font-feature-settings: 'liga', 'dlig';
+       -o-font-feature-settings: 'liga', 'dlig';
+          font-feature-settings: 'liga', 'dlig';
 }
 
 a {
-  color: #333;
   text-decoration: none;
+  color: #333;
   background-color: $blue;
-  box-shadow: 3px 0px 0px $blue, -3px 0px 0px $blue;
+  box-shadow: 3px 0 0 $blue, -3px 0 0 $blue;
   &:active,
   &:hover {
     background-color: $blue-hover;
-    box-shadow: 3px 0px 0px $blue-hover, -3px 0px 0px $blue-hover;
+    box-shadow: 3px 0 0 $blue-hover, -3px 0 0 $blue-hover;
   }
 }
 
@@ -59,91 +58,85 @@ a {
 
 .logo-mb {
   position: fixed;
-  left: 0;
+  z-index: 99999;
   top: 0;
+  left: 0;
+  overflow: hidden;
   width: $rs * 4;
   height: $rs * 4;
-  overflow: hidden;
-  z-index: 99999;
   background-color: transparent;
   &:active,
   &:hover {
     background-color: transparent;
   }
   .logo {
-    display: block;
     position: absolute;
     top: $rs / 2;
     left: $rs / 2;
+    display: block;
     width: $rs * 3;
     height: $rs * 3;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #333;
     border-radius: 50%;
-    box-shadow: 0 0 0 .25em rgba(255,255,255, 0.3);
+    background-color: #333;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 0 .25em rgba(255,255,255, .3);
   }
 }
 
 .blog-header {
+  position: relative;
   width: 100%;
   max-width: 640px;
   margin: 0 auto;
-  position: relative;
   padding: $rs * 5.25 $rs $rs;
+
   @include box-sizing(border-box);
   @include respond-to(800) {
     padding-top: $rs * 3.75;
   }
-
   .blog-logo {
-    width: $rs * 7.5;
-    height: $rs * 7.5;
     position: absolute;
+    z-index: 99;
     top: -$rs * 3.75;
     right: 50%;
+    width: $rs * 7.5;
+    height: $rs * 7.5;
     margin-right: -$rs * 3.75;
-    background-size: cover;
-    border-radius: 50%;
-    z-index: 99;
     text-indent: -9999px;
     border: 3px solid white;
+    border-radius: 50%;
     background-color: white;
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .3);
   }
   .blog-title,
   .page-title {
+    font-size: 3.9em;
+    font-weight: 700;
+    line-height: 1;
     margin: 0;
     padding: 0 0 $rs/2 0;
-    font-size: 3.9em;
     text-align: center;
-    font-weight: 700;
     letter-spacing: -2px;
-    outline: 0;
-    line-height: 1;
     word-break: break-word;
     color: #333;
+    outline: 0;
 
-    -webkit-animation: fade-in-down 0.6s;
-    animation: fade-in-down 0.6s;
-    -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s;
+    @include animation( fade-in-down .6s );
+    @include animation-delay( .25s );
   }
   .blog-description {
+    font-size: $rs / 8 * 10;
+    font-weight: 400;
+    line-height: 1.3;
     margin: 0 0 20px;
     padding: $rs / 3 $rs * 2;
-    font-size: $rs / 8 * 10;
-    line-height: 1.3;
-    color: #666;
     text-align: center;
-    font-weight: 400;
+    color: #666;
 
-    -webkit-animation: fade-in-down 0.6s;
-    animation: fade-in-down 0.6s;
-    -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s;
+    @include animation( fade-in-down .6s );
+    @include animation-delay( .25s );
   }
   .custom-links {
     margin: 0 0 50px;
@@ -158,11 +151,11 @@ a {
   width: 100%;
   max-width: 640px;
   margin: 0 auto;
+
   @include box-sizing(border-box);
   @include respond-to(800) {
     padding: 0 $rs * 2;
   }
-
   article {
     padding: 10px 0;
     text-align: center;
@@ -173,57 +166,38 @@ a {
       text-decoration: none;
     }
     .post-title {
-      letter-spacing: -0.05em;
-      font-weight: 700;
-      font-style: normal;
-      margin: 0;
-      text-align: center;
-      padding: .5em 0 .35em 0;
-      color: #333;
-      -webkit-animation: fade-in-down 0.6s;
-      animation: fade-in-down 0.6s;
-      -webkit-animation-delay: 0.25s;
-      animation-delay: 0.25s;
+      @include animation( fade-in-down .6s );
+      @include animation-delay( .10s );
     }
     .post-subtitle {
-      letter-spacing: -0.02em;
-      font-weight: 200;
-      font-style: normal;
-      font-size: 1.35rem;
-      color: #777;
-      margin: 0;
-      -webkit-animation: fade-in-down 0.6s;
-      animation: fade-in-down 0.6s;
-      -webkit-animation-delay: 0.25s;
-      animation-delay: 0.25s;
+      @include animation( fade-in-down .6s );
+      @include animation-delay( .25s );
     }
-
     .thumbnail-image {
-      background-size: cover;
-      background-color: #EDEDED;
-      background-position: center;
-      box-shadow: 0px 1px 2px #333;
       width: 150px;
       height: 150px;
       margin: 0 auto;
       border-radius: .2em;
+      background-color: #ededed;
+      background-position: center;
+      background-size: cover;
+      box-shadow: 0 1px 2px #333;
     }
-
     .post-meta {
       font-size: 14px;
     }
     .post-meta-index {
-      display: none;
-      font-size: 0.85em;
-      position: absolute;
-      color: rgb(200, 200, 200);
-      padding: 0 .4em .2em .4em;
-      background-color: rgb(255,255,255);
-      line-height: 1;
-      border-radius: .1em;
-      text-align: center;
       font-family: Linux Libertine;
-      color: rgba(90, 207, 245, 0.5);
+      font-size: .85em;
+      line-height: 1;
+      position: absolute;
+      display: none;
+      padding: 0 .4em .2em .4em;
+      text-align: center;
+      color: rgb(200, 200, 200);
+      color: rgba(90, 207, 245, .5);
+      border-radius: .1em;
+      background-color: rgb(255,255,255);
       span {
         display: block;
       }
@@ -232,46 +206,45 @@ a {
         border-bottom: 1px solid #f2f2f0;
       }
     }
-
     .comments-bubble {
       line-height: 0;
-      background: rgb(90, 207, 245);
-      float: right;
       right: 0;
-      padding: 1em 1em 0.65em;
-      border-radius: .1em;
-      color: #FFF;
+      float: right;
+      padding: 1em 1em .65em;
+      color: #fff;
+      border-radius: .15em;
+      background: rgb(90, 207, 245);
       p {
         font-size: 1.25em;
         margin: 0;
       }
     }
-    .comments-bubble::after {
-      border-left: 0 none;
-      border-right: .55em solid transparent;
-      border-top: .55em solid rgb(90, 207, 245);
-      content: "";
-      float: right;
+    .comments-bubble:after {
       position: relative;
+      top: 22px;
       right: .65em;
-      top: 25px;
+      float: right;
+      content: '';
+      border-top: .55em solid rgb(90, 207, 245);
+      border-right: .55em solid transparent;
+      border-left: 0 none;
     }
   }
 }
 
 .article-link {
   position: absolute;
-  bottom: 0;
-  display: block;
-  left: 0;
-  right: 0;
-  top: 0;
-  background-color: transparent;
   z-index: 10;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
   transition: background-color 300ms ease-out 0s;
+  background-color: transparent;
   &:active,
   &:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, .1);
   }
 }
 
@@ -284,14 +257,14 @@ a {
 }
 
 .index-headline {
-  border-top: 1px solid #dededc;
   margin: 0;
   padding: 16px 0;
+  border-top: 1px solid #dededc;
   span {
-    color: #b3b3b1;
     font-size: $rs / 8 * 5;
-    text-transform: uppercase;
     letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #b3b3b1;
   }
 }
 
@@ -302,14 +275,14 @@ a {
 }
 
 .pagination {
-  text-align: center;
-  padding: $rs * 3 0 0;
   font-size: $rs / 1.1;
   margin-bottom: $rs;
+  padding: $rs * 3 0 0;
+  text-align: center;
   a {
-    color: #333;
-    text-decoration: none;
     margin: 0 5px;
+    text-decoration: none;
+    color: #333;
     &:hover {
       color: #444;
     }
@@ -317,67 +290,67 @@ a {
 }
 
 .post-TLS {
-  position: absolute;
-  right: .5em;
-  top: .5em;
-  text-align: right;
   font-family: $font-sans;
-  background-color: rgba(255, 255, 255, 0.95);
-  color: #667;
   font-size: 1em;
-  font-style: normal;
   font-weight: 200;
-  letter-spacing: -0.03em;
+  font-style: normal;
   line-height: 1.2;
+  position: absolute;
+  top: .5em;
+  right: .5em;
   padding: .1em .2em;
+  text-align: right;
   text-align: center;
+  letter-spacing: -.03em;
+  color: #667;
+  background-color: rgba(255, 255, 255, .95);
   span {
     display: block;
   }
 }
 
 .site-footer {
-  margin: 0;
-  padding: 0;
-  color: #333;
-  text-align: center;
   font-size: 14px;
   line-height: 1.3;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333;
   color: #999;
   a {
-    color: #333;
     text-decoration: none;
+    color: #333;
     &:hover {
       text-decoration: underline;
     }
   }
   .poweredby {
+    font-weight: 700;
     display: block;
     padding-bottom: 18px;
-    font-weight: 700;
     color: #333;
   }
 }
 
 #article-image {
-  background-color: black;
-  overflow: hidden;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
   position: absolute;
+  z-index: -1;
   left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
   margin-top: 25px;
-
+  background-color: black;
   .post-image {
-    background-size: cover;
     position: absolute;
+    z-index: 1;
     top: 0;
-    left: 0;
     right: 0;
     bottom: 0;
+    left: 0;
     text-indent: -9999px;
-    z-index: 1;
+    background-size: cover;
+
     @include respond-to(800) {
       left: -50%;
     }
@@ -392,48 +365,56 @@ article {
     margin-top: 250px;  // default -- overidden by script
   }
   .post-content {
+    font-family: $font-serif;
     font-size: 1rem;
     width: 100%;
-    font-family: $font-serif;
     color: #333;
+
     @include respond-to(800) {
       font-size: .8rem;
     }
-    h1, h2 {
+    h1,
+    h2 {
       font-family: $font-sans;
-      text-shadow: 2px 2px 0 #FFF;
-      font-size: 3.8em;
-      font-style: normal;
+      font-size: 3.85rem;
       font-weight: 700;
-      letter-spacing: -0.04em;
-      line-height: .9;
+      font-style: normal;
+      line-height: 4rem;
+      margin: 0;
+      padding: .5em 0 .35em 0;
       text-align: center;
+      letter-spacing: -.05em;
     }
-    h3, h4, h5, h6 {
+    h3,
+    h4,
+    h5,
+    h6 {
       font-family: $font-sans;
-      text-shadow: 1px 1px 0 #FFF;
-      letter-spacing: -0.02em;
       font-weight: 700;
       font-style: normal;
-      line-height: 1.3;
       margin: 0;
       margin-bottom: 4px;
+      letter-spacing: -.02em;
     }
     h3 {
-      color: rgba(0, 0, 0, 0.44);
-      font-size: 1.63em;
+      font-family: $font-serif;
+      font-size: 1.25rem;
+      font-weight: 200;
       font-style: normal;
-      font-weight: 300;
+      line-height: 1.6rem;
+      padding-bottom: 1.5em;
+      padding-top: .5em;
       text-align: center;
-      line-height: 1.25;
-      padding-bottom: 1em;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+      color: #667;
     }
     h4 {
+      font-size: 2.3em;
+      margin-bottom: .4em;
       padding-top: .5em;
       padding-bottom: .2em;
-      font-size: 2.3em;
       text-align: center;
-      margin-bottom: .4em;
     }
     h5 {
       font-size: 2em;
@@ -442,16 +423,16 @@ article {
       text-align: center;
     }
     p {
+      font-size: 1.62em;
       font-weight: 400;
       font-style: normal;
-      font-size: 1.62em;
       line-height: 1.35em;
       margin: 0;
       padding-bottom: 30px;
-      color: #333;
       -webkit-hyphens: auto;
-      -moz-hyphens: auto;
-      hyphens: auto;
+         -moz-hyphens: auto;
+              hyphens: auto;
+      color: #333;
     }
     img {
       max-width: 100%;
@@ -463,49 +444,49 @@ article {
       text-align: center;
     }
     figcaption {
+      font-size: 16px;
       font-weight: 400;
       font-style: italic;
-      font-size: 16px;
       line-height: 1.3;
-      color: #665;
-      outline: 0;
       z-index: 300;
       text-align: center;
+      color: #665;
+      outline: 0;
     }
     hr {
-      border: 0;
-      padding: 0;
       display: block;
       width: 15%;
       margin: 30px auto;
-      border: 0px solid #DDD;
-      border-top: 1px solid #DDD;
+      padding: 0;
+      border: 0;
+      border: 0 solid #ddd;
+      border-top: 1px solid #ddd;
     }
     blockquote {
       margin: 0 0 30px;
       border: none;
       p {
-        letter-spacing: 0.01rem;
         font-weight: 400;
         font-style: italic;
-        box-shadow: inset 5px 0px 0px rgba(90, 207, 245, 0.4);
-        padding-left: 20px;
         margin-left: -26px;
         padding-bottom: 3px;
+        padding-left: 20px;
+        letter-spacing: .01rem;
+        box-shadow: inset 5px 0 0 rgba(90, 207, 245, .4);
       }
     }
-    & > ul, 
+    & > ul,
     & > ol {
-      padding: 0;
-      margin: 0 auto;
-      text-align: left;
-      width: 90%;
+      font-size: 1.62em;
       font-weight: 400;
       line-height: 1.35em;
-      font-size: 1.62em;
+      width: 90%;
+      margin: 0 auto;
+      padding: 0 0 1.25em 0;
+      text-align: left;
       li {
-        padding: 0;
         margin-bottom: .1em;
+        padding: 0;
         padding-top: 2px;
         p {
           padding: 0 0 golden-ratio(1rem, 1);
@@ -520,7 +501,7 @@ article {
     font-size: 4em;
   }
   .post > p:first-of-type {
-    margin-top: 1.8em; 
+    margin-top: 1.8em;
   }
   /* blog post */
   .post {
@@ -528,64 +509,63 @@ article {
   }
   /* page: About me */
   .page {
-    margin-top: 75px;  
+    margin-top: 75px;
   }
-
   .bottom-teaser {
-    padding: 50px 0;
     font-family: $font-sans;
+    padding: 50px 0;
     hr {
-      border: 0;
-      padding: 0;
       display: block;
       width: 18%;
       margin: 16px auto;
-      border: 0px solid #DDD;
-      border-top: 1px solid #DDD;
+      padding: 0;
+      border: 0;
+      border: 0 solid #ddd;
+      border-top: 1px solid #ddd;
     }
     .isLeft {
       float: left;
       width: 47%;
+
       @include box-sizing(border-box);
       @include respond-to(800) {
         width: 100%;
         padding-bottom: $rs * 2;
       }
-
       .index-headline {
         padding-bottom: 32px;
       }
       a {
-        color: black;
         text-decoration: none;
+        color: black;
         &:hover {
-          color: #333;
           text-decoration: underline;
+          color: #333;
         }
       }
       .author-image {
         display: block;
+        float: left;
         width: 80px;
         height: 80px;
-        float: left;
-        background-size: cover;
-        border-radius: 100%;
         text-indent: -9999px;
+        border-radius: 100%;
+        background-size: cover;
       }
       h4 {
         font-size: 18px;
-        line-height: 1.1;
         font-weight: 700;
-        padding: 0;
+        line-height: 1.1;
         margin: 0;
+        padding: 0;
         padding-left: 100px;
       }
       p {
         font-size: 14px;
-        line-height: 1.3;
         font-weight: 400;
-        padding: 0;
+        line-height: 1.3;
         margin: 0;
+        padding: 0;
         padding-left: 100px;
         &.published {
           color: #999;
@@ -595,11 +575,11 @@ article {
     .isRight {
       float: right;
       width: 47%;
+
       @include box-sizing(border-box);
       @include respond-to(800) {
         width: 100%;
       }
-
       .index-headline {
         padding-bottom: 32px;
       }
@@ -608,12 +588,12 @@ article {
 }
 
 .share {
-  text-align: right;
   padding: 20px 0 0;
+  text-align: right;
   a {
+    padding-left: 12px;
     text-decoration: none;
     color: #bbb;
-    padding-left: 12px;
     .hidden {
       display: none;
     }
@@ -624,85 +604,80 @@ article {
 }
 
 .bottom-closer {
-  width: 100%;
   position: relative;
   overflow: hidden;
+  width: 100%;
   .background-closer-image {
     position: absolute;
     top: 0;
-    left: -10px;
     right: -10px;
     bottom: -10px;
+    left: -10px;
     text-indent: -9999px;
-    background-size: cover;
+    background-image: url('/assets/images/lavorando.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('/assets/images/lavorando.jpg');
+    background-size: cover;
   }
   .inner {
-    width: 100%;
     position: relative;
     z-index: 99;
+    width: 100%;
     max-width: 640px;
+    margin: 0 auto;
     padding: 120px 0 90px;
     text-align: center;
-    margin: 0 auto;
     .blog-title {
-      color: #EFEFEF;
-      margin: 0;
       font-size: 3.8em;
-      text-align: center;
       font-weight: 700;
-      letter-spacing: -2px;
-      outline: 0;
       line-height: 1.5;
+      margin: 0;
+      text-align: center;
+      letter-spacing: -2px;
       word-break: break-word;
-      text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5);
+      outline: 0;
+      background-color: rgba(255,255,255,.95);
     }
     .blog-description {
-      color: #EFEFEF;
-      margin: 0 0 50px;
-      padding: 0 $rs * 2;
       font-size: ($rs / 8) * 11;
-      line-height: 1.5;
-      text-align: center;
       font-weight: 400;
-      text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5);
+      line-height: 1.5;
+      margin: 12px 0 50px 0;
+      padding: $rs / 2 $rs;
+      text-align: center;
+      background-color: rgba(255,255,255,.95);
     }
     .custom-links {
       margin: 0 0 50px;
     }
     .btn {
-      display: inline-block;
-      text-align: center;
-      letter-spacing: -0.02em;
       font-size: 15px;
       font-weight: 400;
       font-style: normal;
-      text-decoration: none;
-      cursor: pointer;
-      height: 44px;
-      background: #57ad68;
-      color: white;
-      vertical-align: middle;
-      box-sizing: border-box;
-      border-radius: 999em;
       line-height: 44px;
+      display: inline-block;
+      box-sizing: border-box;
+      height: 44px;
       padding: 0 18px;
+      cursor: pointer;
+      text-align: center;
+      vertical-align: middle;
+      text-decoration: none;
+      letter-spacing: -.02em;
+      color: white;
+      border-radius: 999em;
+      background: #57ad68;
     }
   }
 }
 
 .bottom-closer .background-closer-image {
-  @include transition(all .5s ease);
   opacity: .95;
-  -webkit-filter: url('#blur');
-          filter: url('#blur');
+
+  @include transition(all .5s ease);
 }
 .bottom-closer:hover .background-closer-image {
   opacity: 1;
-  -webkit-filter: none;
-          filter: none;
 }
 .filters {
   width: 25px;
@@ -728,32 +703,31 @@ code {
 }
 
 pre {
-  padding: 8px 12px;
   overflow-x: scroll;
+  padding: 8px 12px;
   > code {
-    border: 0;
     padding-right: 0;
     padding-left: 0;
+    border: 0;
   }
 }
 
 #show-comments {
-  background-color: #008cba;
-  border-color: #007295;
-  border-style: solid;
-  border-width: 0;
-  color: white;
-  cursor: pointer;
+  font-size: 1.25rem;
+  position: relative;
+  width: 100%;
   margin: 0 0 1.25rem;
   padding: 1rem 2rem;
-  position: relative;
+  cursor: pointer;
+  transition: background-color 300ms ease-out 0s;
   text-align: center;
   text-decoration: none;
-  transition: background-color 300ms ease-out 0s;
-  width: 100%;
-  font-size: 1.25rem;
+  color: white;
+  border-width: 0;
+  border-style: solid;
+  border-color: #007295;
   border-radius: 2px;
-
+  background-color: #008cba;
   &:hover {
     background-color: #007295;
   }
@@ -768,20 +742,24 @@ pre {
 @-webkit-keyframes fade-in-down {
   0% {
     opacity: 0;
+
     @include transform(translate3d(0, -15px, 0));
   }
   100% {
     opacity: 1;
+
     @include transform(translate3d(0, 0, 0));
   }
 }
 @keyframes fade-in-down {
   0% {
     opacity: 0;
+
     @include transform(translate3d(0, -15px, 0));
   }
   100% {
     opacity: 1;
+
     @include transform(translate3d(0, 0, 0));
   }
 }

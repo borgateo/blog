@@ -47,7 +47,12 @@ function getClosest( elem, selector ) {
 }
 
 
+function hasClass( element, cls ) {
+  return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
+}
+
 // ---- Expose functions ----
 module.exports = {
-  getClosest: getClosest
-}
+  getClosest: getClosest,
+  hasClass: hasClass
+};

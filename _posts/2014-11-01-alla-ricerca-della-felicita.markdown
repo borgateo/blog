@@ -46,19 +46,21 @@ Grazie ad un amico che aveva contatti con clienti esteri, inizio a lavorare anch
 #### Scopro che all’estero i programmatori sono pagati bene
 
 Arrivano i primi contatti con olandesi, indiani, inglesi.
-Mi accorgo subito conto che __il mio inglese fa schifo.__
+Mi rendo subito conto che __il mio inglese fa schifo.__
 
->I programmatori passano il 90% del loro tempo a leggere. Leggiamo il nostro codice, il codice degli altri, documentazioni, blog. Quindi diciamo che riuscivo anche a leggerlo l’inglese, ma a scriverlo...scriverlo proprio no.
+Diciamo che riuscivo anche a leggere e capire, ma a scriverlo...scriverlo proprio zero.
 
 Riprendo in mano i libri delle superiori cercando di ricordare il poco inglese che avevo imparato.
 
 #### Quindi succede qualcosa di inaspettato
 
-Per caso, forse senza volerlo, chiacchiero con [Stefano], un amico che lavora per una [startup] ad Amsterdam. Mi chiede se voglio fare un colloquio con il capo, tanto per provare. Accetto.
+Per caso, chiacchiero con [Stefano], un amico che lavora per una [startup] ad Amsterdam. Mi chiede se voglio fare un colloquio con il capo. Accetto.
 
 ![Il primo colloquio in inglese: emozionante](/assets/article_images/2014-11-01-alla-ricerca-della-felicita/colloquio.jpg)
 
-Il mio inglese parlato era orribile, ma avevo imparato a memoria tutte le possibili risposte ad un colloquio. Mi chiamano al telefono e va bene. Ricevo il contratto da firmare. Questa volta:
+Il mio inglese parlato era orribile, ma avevo imparato a memoria tutte le possibili risposte ad un colloquio. Mi chiamano al telefono e va bene. Passo i test tecnici. 
+
+Quindi ricevo il contratto da firmare. Questa volta:
 
 > Contratto a Tempo Determinato: 1 anno. Euro 2249 (netti) al mese.
 
@@ -70,10 +72,10 @@ Mi fermo 5 secondi a pensare:
 - un beneficio per Curriculum Vitae e carriera
 - stipendio doppio
 
-**Mi licenzio il giorno stesso**. 
+**Mi licenzio il giorno stesso.**
 
-La smania dura poco. I primi mesi non sono affatto facili. Non capisco quasi nulla e fatico a parlare. 
-Fatico a comprendere la cultura e la gente. Non sapendomi esprimere, *mi sento un’idiota*.
+La _smania dura poco_. I primi mesi non sono affatto facili. Non capisco quasi nulla e fatico ad esprimermi. 
+Anche la cultura e i modi di fare mi sono totalmente estranei. **Mi sento un pesce fuor d'acqua**. Praticamente un’idiota.
 
 Non mi demoralizzo, ad Amsterdam tutti parlano un ottimo inglese. Decido quindi di studiare seriamente questa lingua. Nel tempo libero vado a [meetup], incontro gente, faccio qualche corso. Mi iscrivo a [Couch Surfing] e inizio ad ospitare gente dal Canada, Stati Uniti, Germania, Russia, ecc… 
 **Sembrava che tutti sapessero parlare un inglese decente, tranne me**. Mi convinco che per osmosi, stando vicino a gente che parla questa dannata lingua, prima o poi la dovrei masticare anch’io. E così è stato... moar or less.
@@ -116,8 +118,8 @@ Ma questa volta sarai tu, con il sorriso sulle labbra, a dire: &laquo;Hello Worl
 
 [ICT]: http://it.wikipedia.org/wiki/Tecnologie_dell%27informazione_e_della_comunicazione
 [Generazione 1000 Euro]:  http://www.imdb.com/title/tt1272014/
-[startup]: http://it.wikipedia.org/wiki/Startup_%28economia%29
-[meetup]: http://www.meetup.com/
-[Couch Surfing]: https://www.couchsurfing.org/
+[startup]: https://fitmo.com
+[meetup]: http://www.meetup.com
+[Couch Surfing]: https://www.couchsurfing.org
 ["Hello, World!"]: http://it.wikipedia.org/wiki/Hello_world
 [Stefano]: http://stecb.ninja

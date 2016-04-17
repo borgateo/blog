@@ -54,9 +54,9 @@ Leggo **Remote Work** di *37signals*, blog e commenti di gente che lavora a casa
 
 #### Quarto mese
 Mi *godo la libertà*.
-Inizio a viaggiare. Lavorando. E scopro un modo di lavorare diverso da come lo concepivo prima. 🏖
+Inizio a viaggiare. Lavorando. E scopro un modo di lavorare diverso da come lo concepivo prima.
 
-La sensazione di **poter andare da dove voglio** mi da una grande carica e, anche se lavoro meno ore del solito, sono molto più produttivo.
+La sensazione di **poter andare dove voglio** mi da una grande carica e, anche se lavoro meno ore del solito, sono molto più produttivo.
 
 La _varietà di ambienti_, mi regala **occhi diversi** per affrontare gli ostacoli e i problemi quotidiani. Parlo sia a livello di codice prodotto, ma anche in rapporto ai colleghi ed alle idee.
 
