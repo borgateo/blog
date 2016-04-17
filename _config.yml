@@ -1,6 +1,6 @@
 # Build settings
 markdown: redcarpet
-  extensions: ["link_attributes"]
+extensions: ["link_attributes"]
 
 # Site settings
 title: "Matteo Borgato Blog"
