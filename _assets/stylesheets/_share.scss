@@ -3,6 +3,7 @@
   margin: 0 auto;
   margin-bottom: 1.5em;
   width: (48+6)*5+(3*6px);
+  height: 50px;
 
   .share-counter {
     left: -125px;
@@ -17,17 +18,23 @@
     }
   }
 
+  .adblocker {
+    font-size: .9em;
+    line-height: 1.2;
+    position: absolute;
+    padding-top: 3px;
+  }
+
   .share-box {
     display: inline-block;
-    height: 48px;
-    width: 48px;
+    height: 54px;
+    width: 54px;
     background-color: #008cba;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
     position: relative;
-    margin-right: 3px;
-    margin-left: 3px;
+    border: 3px solid white;
     a {
       bottom: 0;
       box-shadow: none;

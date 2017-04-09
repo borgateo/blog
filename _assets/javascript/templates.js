@@ -11,7 +11,7 @@ var books = [
         '{{ #books }}',
           '<li class="book">',
             '<div class="details">',
-              '<h3 class="title centered">{{ id }}</h3>',
+              '<h3 class="title centered"><a href="{{ link }}" target="_blank">{{ id }}</a></h3>',
               '<p class="author centered">{{ author }}</p>',
               '{{ ^is-read }}',
                 '<div class="item-status" title="pagine lette">',

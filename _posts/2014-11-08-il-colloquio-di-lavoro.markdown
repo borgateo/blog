@@ -27,7 +27,7 @@ Le cose si complicano maggiormente se devi farlo in inglese.
 L’arte di fare un’ottima impressione ad un colloquio è qualcosa che va studiato, applicato, analizzato e quindi ripetuto.
 
 
-!["Il colloquio di Artemio"](https://dl.dropboxusercontent.com/u/1089758/Blog/GIFs/colloquio.gif)
+!["Il colloquio di Artemio"](/assets/article_images/2014-11-08-il-colloquio-di-lavoro/colloquio-pozzetto.gif)
 
 Negli ultimi tempi ho avuto la fortuna di vestire i panni de “*il tizio che sta dall’altra parte*” e fa le domande ai candidati. 
 Questo mi ha aperto gli occhi a molti aspetti che prima mi sembravano scontati o irrilevanti.

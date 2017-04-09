@@ -22,7 +22,7 @@ paginate:	5
 url: "http://blog.matteoborgato.com" 
 baseurl: ""
 
-url_images: "https://dl.dropboxusercontent.com/u/1089758/Blog/article-images/"
+url_images: "/assets/article_images/"
 
 # social icons and sharing options
 social:

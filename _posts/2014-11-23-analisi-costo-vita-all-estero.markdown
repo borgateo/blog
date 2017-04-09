@@ -73,7 +73,7 @@ Sinceramente **non ho notato una grande differenza di prezzi** con l’Italia. I
 ##### Affitti
 La **nota dolente ed un problema che il governo inglese non sa/riesce risolvere**. Un monolocale da 40mq in centro costa 1500-2000&pound; (1.900-2.500&euro;) al mese. In zona 2-3 si paga un po' meno: 800-1500&pound; (1.000-1.900&euro;).
 
-!["affitto-salasso"](https://dl.dropboxusercontent.com/u/1089758/Blog/GIFs/mini-flat.gif)
+!["affitto-salasso"](/assets/article_images/2014-11-23-analisi-costo-vita-all-estero/mini-flat.gif)
 
 Io vivo con mia moglie a Wimbledon (zona 3) e paghiamo 1300&pound; (1.600&euro;) per un monolocale da 75mq con giardino.
 
