@@ -34,7 +34,7 @@ Nel mio precedente lavoro avevo _convinto_ il capo a concedermi un giorno di *la
 È un simbolico *dito medio al concetto di routine lavorativa nella società odierna*.
 
   
-!["Fantozzi prende l’autobus al volo"](/assets/article_images/2016-01-16-lavorare-in-remoto/fantozzi.gif)
+!["Fantozzi prende l’autobus al volo"](/assets/article_images/2016-01-16-lavorare-in-remoto/01-STATIC-fantozzi.gif)
 
 
 Non più un’automa che va in ufficio alla stessa ora di tutti, mangia alla stessa ora di tutti, torna a casa alla stessa ora di tutti, bla, bla, bla... Che sollievo!

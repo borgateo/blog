@@ -1,13 +1,73 @@
+
 #toggle-nav {
   @include transform( translate3d( 0, 0, 0 ) );
   @include transition-property( transform );
-  @include transition-duration( .25s );
+  @include transition-duration( 0.5s );
   @include transition-timing-function( $ease-in-out-back );
   cursor: pointer;
+  position: fixed;
+  z-index: 99999;
+  overflow: hidden;
+  top: $rs / 1.25;
+  left: $rs / 1.25;
+  display: block;
+  width: $rs * 3;
+  height: $rs * 3;
+  border-radius: $rs * 3;
+  background-color: rgb(51, 51, 51);
+  box-shadow: 0 0 0 .3em rgba(255,255,255, .5);
+
+  &:active,
+  &:hover {
+    background-color: rgba(51, 51, 51, .95);
+    .show-menu:after {
+      top: 11px;
+    }
+    .show-menu:before {
+      top: -11px;
+    }
+  }
+  
+  .show-menu,
+  .show-menu:after,
+  .show-menu:before {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    display: block;
+    position: absolute;
+    top: 22px;
+    left: 12px;
+    border-radius: 5px;
+    transition: all 300ms ease-out;
+  }
+
+  .show-menu:after, 
+  .show-menu:before {
+    content: "";
+    left: 0;
+  }
+
+  .show-menu:after {
+    top: 9px;
+  }
+  .show-menu:before {
+    top: -9px;
+  }
 }
 
 .active-menu #toggle-nav {
-  @include transform( translate3d(250px, 0, 0) rotate(90deg) );
+  @include transform( translate3d(247px, 0, 0) rotate(-180deg) );
+  .show-menu:after {
+    top: 0;
+    @include transform( rotate(90deg) );
+  }
+  .show-menu:before {
+    display: none;
+  }
+  .show-menu {
+    @include transform( rotate(-45deg) );
+  }
 }
 
 .menu-wrap {

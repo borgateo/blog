@@ -19,6 +19,21 @@ function lazyLoadImages( img, callback ) {
 
 }
 
+function lazyLoadGif( img, index, callback) {
+  
+  // the trick is to change STATIC to ANIMATED and load the heavy GIF
+  var src = img.getAttribute('src').replace("STATIC", "ANIMATED");
+  
+  var downloadingImage = new Image();
+  downloadingImage.src = src;
+  downloadingImage.onload = function() {
+    img.src = this.src;
+    img.className += ' loaded';
+    callback();
+  };
+  
+}
+
 function get( url, success ) {
 
   var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
@@ -36,5 +51,6 @@ function get( url, success ) {
 
 module.exports = {
   lazyLoadImages: lazyLoadImages,
+  lazyLoadGif: lazyLoadGif,
   get: get
 }

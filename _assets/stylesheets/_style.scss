@@ -56,34 +56,6 @@ a {
   text-align: center;
 }
 
-.logo-mb {
-  position: fixed;
-  z-index: 99999;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  width: $rs * 4;
-  height: $rs * 4;
-  background-color: transparent;
-  &:active,
-  &:hover {
-    background-color: transparent;
-  }
-  .logo {
-    position: absolute;
-    top: $rs / 2;
-    left: $rs / 2;
-    display: block;
-    width: $rs * 3;
-    height: $rs * 3;
-    border-radius: 50%;
-    background-color: #333;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0 0 0 .25em rgba(255,255,255, .3);
-  }
-}
-
 .blog-header {
   position: relative;
   width: 100%;

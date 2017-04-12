@@ -31,6 +31,16 @@ Configuration
 
 The main settings happen inside of the _config.yml 
 
+
+### Prerequisites
+
+Ruby 2.2.3, rubygem and npm are required:
+
+`rbenv local 2.2.3`
+`gem install bundle`
+`bundle install`
+`npm i`
+
 ### Commands - development
 
 Watch changes - browser-sync:

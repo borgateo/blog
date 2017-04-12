@@ -21,7 +21,7 @@ Le mele marce ci sono in tutti gli ambienti e realtà. Ma cosa succede se questa
 > Prendi una pentola d’acqua e mettila a scaldare a fuoco lento.
 > Se immergi una rana quando l’acqua bolle, questa salterà fuori per salvarsi. Se la immergi quando l’acqua è tiepida, l’animaletto si farà bollire lentamente e morirà.
 
-!["La rana bollita"](/assets/article_images/2015-01-29-Attenti-al-lupo/rana.gif)
+!["La rana bollita"](/assets/article_images/2015-01-29-Attenti-al-lupo/01-STATIC-rana.gif)
 
 Meglio non farsi cucinare.
 
@@ -58,7 +58,7 @@ Quando ti contattano __non ti fanno alcuna domanda tecnica__ di screening. Testa
 
 Sono insistenti fino allo sfinimento sia con i candidati, nel spingerli ad andare a fare il colloquio, che con le aziende, nel farle incontrare con i programmatori.
 
-!["L'amicone lupo"](/assets/article_images/2015-01-29-Attenti-al-lupo/lupo.gif)
+!["L'amicone lupo"](/assets/article_images/2015-01-29-Attenti-al-lupo/01-STATIC-lupo.gif)
 
 **Ogni lavoro che offrono è l’opportunità della tua vita, un’esperienza irripetibile, il paradiso in terra.**
 

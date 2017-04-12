@@ -3,6 +3,7 @@
 ** 
 */
 
+var ajax = require('./_ajax.js');
 var post = document.getElementsByClassName('post');
 
 // --- Fuctions ---
@@ -14,8 +15,11 @@ function setArticleImage( offset ) {
   post[0].setAttribute( 'style', 'margin-top:' + imageHeight + 'px' );
 }
 
+var images = null;
+
 function setCaptions() {
-  var images = post[0].getElementsByTagName('img');
+  var STATIC_TAG = "STATIC";
+  images = post[0].getElementsByTagName('img');
   images = Array.prototype.slice.call( images, 0 );
 
   // Creates Captions from Alt tags
@@ -28,6 +32,9 @@ function setCaptions() {
       img.parentNode.insertBefore( wrapper, img );
       wrapper.appendChild( img );
       wrapper.appendChild( figcaption );
+    }
+    if ( img.hasAttribute('src') && img.getAttribute('src').indexOf(STATIC_TAG) !== -1 ) {
+      ajax.lazyLoadGif( img, function noop() {} );
     }
   });  
 }
