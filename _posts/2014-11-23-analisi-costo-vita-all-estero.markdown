@@ -6,7 +6,6 @@ date:       2014-11-23 19:30:00
 categories: lavoro
 tags: 			colloquio
 eta: 				"4"
-tag: 				featured
 image: 			2014-11-23-analisi-costo-vita-all-estero/costo-vita.gif
 ---
 

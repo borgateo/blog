@@ -5,24 +5,17 @@ permalink: /chi-sono/
 active: chi-sono
 ---
 
-#### Formalmente
+__Software Engineer__ @ [inVisionApp]
 
-__Founder__ @ [CreativeBorg] &mdash; Londra (GB) <br/>
-__Front-end Engineer__ @ [inVisionApp] &mdash; New York (US)
+Un nomade digitale, anticonformista, felicemente sposato e sempre affamato di scoprire, imparare e conoscere.
 
-#### inFormalmente
+&hearts; mia moglie, il mio lavoro, nuove tecnologie, design, videogames, viaggare e vivere all'estero, filmmaking e fotografia, musica e molto altro.
 
-Un [geek] anticonformista, felicemente sposato e sempre affamato di esperienze, sapere, conoscenze.
+Parlo &mdash; spesso male &mdash; 3 lingue: italiano, inglese e portoghese.
 
-&hearts; la mia Thamy, il mio lavoro, nuove tecnologie, design, videogames, viaggare e vivere all'estero, fotografia, arti marziali, musica e molto altro.
-
-Parlo &mdash;non sempre bene&mdash; in italiano, inglese e portoghese.
-
-Ho vissuto in Italia, Olanda, Brasile. Adesso in Inghilterra...Chissà per quanto ancora. 
+Ho vissuto in Italia, Olanda, Inghilterra e Malta. Adesso sono in Brasile...Chissà per quanto ancora. 🎒 Sempre in movimento, sempre all'avventura.
 
 L'importante è non fermarsi mai e imparare ogni giorno qualcosa di nuovo.
 
 
-[CreativeBorg]: http://CreativeBorg.co
 [inVisionApp]: http://inVisionApp.com
-[geek]: http://it.wikipedia.org/wiki/Geek
