@@ -6,12 +6,12 @@ active: chi-sono
 ---
 
 
-## Lavoro
+#### Lavoro
 
 Senior Software Engineer @ [inVisionApp]
 
 
-## Tempo Libero
+#### Tempo Libero
 
 Un nomade digitale 🎒, anticonformista 🔥, felicemente sposato 😍 e sempre affamato di sapere come le cose e la psicologia umana funzionano 🤓
 
@@ -24,7 +24,7 @@ Ho vissuto in Italia 🇮🇹, Olanda 🇳🇱, Inghilterra 🇬🇧 e Malta �
 La monotonia e la routine mi annoiano profondamente.
 
 
-## Filosofia di vita
+#### Filosofia di vita
 
 Cercare di __rendere il Mondo un posto migliore__, rispettando il prossimo e la natura, imparando ogni giorno qualcosa di nuovo e apprezzando le piccole cose.
 
