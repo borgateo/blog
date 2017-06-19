@@ -5,17 +5,29 @@ permalink: /chi-sono/
 active: chi-sono
 ---
 
-__Software Engineer__ @ [inVisionApp]
 
-Un nomade digitale, anticonformista, felicemente sposato e sempre affamato di scoprire, imparare e conoscere.
+## Lavoro
 
-&hearts; mia moglie, il mio lavoro, nuove tecnologie, design, videogames, viaggare e vivere all'estero, filmmaking e fotografia, musica e molto altro.
+Senior Software Engineer @ [inVisionApp]
 
-Parlo &mdash; spesso male &mdash; 3 lingue: italiano, inglese e portoghese.
 
-Ho vissuto in Italia, Olanda, Inghilterra e Malta. Adesso sono in Brasile...Chissà per quanto ancora. 🎒 Sempre in movimento, sempre all'avventura.
+## Tempo Libero
 
-L'importante è non fermarsi mai e imparare ogni giorno qualcosa di nuovo.
+Un nomade digitale 🎒, anticonformista 🔥, felicemente sposato 😍 e sempre affamato di sapere come le cose e la psicologia umana funzionano 🤓
 
+Amo ❤️ mia moglie, il mio lavoro, nuove tecnologie, design, videogames, viaggare e vivere all'estero, filmmaking [VLOG](https://www.youtube.com/user/matteoborgato) e [fotografia](https://www.flickr.com/photos/borteo), trekking, natura, musica e molto altro...
+
+Parlo &mdash; spesso male 😅 &mdash; 3 lingue: italiano, inglese e portoghese.
+
+Ho vissuto in Italia 🇮🇹, Olanda 🇳🇱, Inghilterra 🇬🇧 e Malta 🇲🇹. Adesso sono in Brasile 🇧🇷 Chissà per quanto ancora. 
+
+La monotonia e la routine mi annoiano profondamente.
+
+
+## Filosofia di vita
+
+Cercare di __rendere il Mondo un posto migliore__, rispettando il prossimo e la natura, imparando ogni giorno qualcosa di nuovo e apprezzando le piccole cose.
+
+Un giorno, quando sarò vecchio, spero di avere tanti bei ricordi da rivivere e raccontare.
 
 [inVisionApp]: http://inVisionApp.com
