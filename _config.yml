@@ -17,7 +17,7 @@ name: "Matteo Borgato"
 author: "Matteo Borgato"
 author_image: "/assets/images/matt.jpg"
 
-paginate:	5
+paginate:	7
 
 url: "http://blog.matteoborgato.com" 
 baseurl: ""

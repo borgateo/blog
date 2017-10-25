@@ -30,6 +30,7 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
+  background-color: #FCFDFA;
 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -223,10 +224,6 @@ a {
   }
 }
 
-.container.featured {
-  padding-bottom: 40px;
-}
-
 .post-template .content {
   max-width: 700px;
 }
@@ -307,37 +304,16 @@ a {
   }
 }
 
-#article-image {
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  margin-top: 25px;
-  background-color: black;
-  .post-image {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    text-indent: -9999px;
-    background-size: cover;
-
-    @include respond-to(800) {
-      left: -50%;
-    }
-  }
-}
-
 article {
   .post-intro {
     margin-top: 25px;
   }
+  .post-image {
+    width: 100%;
+  }
+
   .post {
-    margin-top: 250px;  // default -- overidden by script
+    margin-top: 2.5em;
   }
   .post-content {
     font-family: $font-serif;
@@ -478,10 +454,7 @@ article {
   .post > p:first-of-type {
     margin-top: 1.8em;
   }
-  /* blog post */
-  .post {
-    margin-top: 600px;  /* will be overridden by JS */
-  }
+
   /* page: About me */
   .page {
     margin-top: 75px;

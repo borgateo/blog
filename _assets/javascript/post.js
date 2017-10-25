@@ -23,10 +23,6 @@ document.onreadystatechange = function() {
     disqus.init();
     shares.init();
 
-    function adBlockNotDetected() {
-      alert('AdBlock is not enabled');
-    }
-
     if(typeof fuckAdBlock === 'undefined') {
       adBlockDetected();
     } else {

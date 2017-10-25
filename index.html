@@ -11,48 +11,43 @@ active: home
 <main class="content content-index" role="main">
 
   {% if paginator.page == 1 %}
-    <div class="cf frame featured">
+    <div class="frame featured">
       {% for post in site.tags.featured %}
         <article 
           class="post-index" 
           itemscope 
           itemtype="http://schema.org/BlogPosting" 
           role="article"
-          style="background-image: url('{{ site.url_images }}{{ post.image }}')"
         >
-          <a href="{{ post.url }}" itemprop="url" class="article-link"></a>
+          <!-- <a href="{{ post.url }}" itemprop="url" class="article-link"></a> -->
           <div class="post-meta-index">
             <time datetime="{{ post.date | date: "%F %R" }}"></time>
           </div>
-          <div title="commenti" class="comments-bubble">
-            <p class="disqus-comment-count" data-disqus-url="http://blog.matteoborgato.com{{ post.url }}">0</p>
+          <div
+            class="post-index-image"
+            style="background-image: url('{{ site.url_images }}{{ post.image }}')">
           </div>
           <header class="post-index-header">
             <h2 itemprop="name">
               {{ post.title }}
             </h2>
-          </header>
-          <section class="post-index-subtitle">
             <h3 itemprop="subtitle">
               {{ post.subtitle }}
             </h3>
-          </section>
+          </header>
         </article>
       {% endfor %}
     </div>
   {% endif %}
 
-
-
-  <div class="cf frame">
+  <div class="frame frame-index">
     {% for post in paginator.posts %}
-      {% if post.tag == null %}
+      {% if post.featured == null %}
         <article 
           class="post-index" 
           itemscope 
           itemtype="http://schema.org/BlogPosting" 
           role="article"
-          style="background-image: url('{{ site.url_images }}{{ post.image }}')"
         >
           <a href="{{ post.url }}" itemprop="url" class="article-link"></a>
           <div class="post-meta-index">
@@ -78,10 +73,12 @@ active: home
             </time>
     <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
           </div>
-          <div title="commenti" class="comments-bubble">
-            <p class="disqus-comment-count" data-disqus-url="http://blog.matteoborgato.com{{ post.url }}">0</p>
-          </div>
+
           <header class="post-index-header">
+            <div
+              class="post-index-image"
+              style="background-image: url('{{ site.url_images }}{{ post.image }}')">
+            </div>
             <h2 itemprop="name">
               {{ post.title }}
             </h2>
@@ -90,6 +87,9 @@ active: home
             <h3 itemprop="subtitle">
               {{ post.subtitle }}
             </h3>
+            <!-- <div title="commenti" class="comments-bubble">
+              <p class="disqus-comment-count" data-disqus-url="http://blog.matteoborgato.com{{ post.url }}">0</p>
+            </div> -->
           </section>
           <!-- {{ post.content | strip_html | truncatewords: 250 }} -->
         </article>

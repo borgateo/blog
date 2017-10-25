@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      "Il tao del programmatore"
+title:      "Il tao del developer"
 subtitle:   "Qualche semplice regola da tenere a mente, per vivere meglio dentro e fuori l'ufficio."
 date:       2014-12-23 22:34:11
-categories: vita
+categories: stile di vita, relax, 
 tags: 			suggerimenti
 eta: 				"5"
 image: 			2014-12-23-il-tao-del-programmatore/universo.gif

@@ -1,94 +1,139 @@
-$height-post-index: 370px;
+$height-post-index: 550px;
+$width-post-index: 24%;
 
 .content-index {
-  max-width: 1600px;
+  max-width: 800px;
+
+  .frame-index {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 
   .post-index {
     overflow: hidden;
     font-size: 1.35rem;
     position: relative;
-    background-size: 100%;
-    background-color: #555;
+    background-color: #FFF;
     background-position: center;
-    @include transition( all .5s );
-    transform: rotate( 1deg );
-    padding: 10px;
-    width: 65%;
-    margin: 1.3em auto;
+    @include transition( all 150ms );
+    padding: 0;
+    margin: 15px 0;
+    width: $width-post-index;
+    min-width: 250px;
     height: $height-post-index;
-    box-shadow: 0 5px 25px rgba(0,0,0,0.25);
-    a {
-      box-shadow: none;
-    }
-    &:hover .post-index-header {
-      @include transform(translate3d(0, -75px, 0));
-    }
-    &:hover .post-index-subtitle {
-      opacity: 1;
-      @include transform(translate3d(0, -85px, 0));
-    }
+    border: 1px solid rgba( 0, 0, 0, .09);
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,.05);
+
     &:hover {
-      background-size: 105%;
-      transform: rotate( 0deg );
+      top: -5px;
+      box-shadow: 0 8px 24px 0 rgba(0,0,0,.15);
     }
+  }
+  .post-index-image {
+    display: block;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
   }
 
   .post-index-header {
-    position: absolute;
-    bottom: .5em;
-    padding: .3rem .25rem;
-    background-color: rgba( 255, 255, 255, .95 );
-    @include transition-property( transform );
-    @include transition-duration( .25s );
-    @include transition-timing-function( $ease-in-out-back );
     h2 {
+      padding: 1rem 1.25rem;
+      text-align: left;
       margin: 0;
       letter-spacing: -0.03em;
+      position: relative;
+    }
+    h2:after {
+      content: "";
+      width: 55px;
+      height: 5px;
+      background: $blue;
+      position: absolute;
+      bottom: -12px;
+      left: 1.25rem;
     }
   }
   
   .post-index-subtitle {
     background-color: rgba(255, 255, 255, .95);
-    position: absolute;
-    top: $height-post-index + 10px;
-    @include transition-property( transform );
-    @include transition-duration( .25s );
-    @include transition-timing-function( $ease-in-out-back );
-    @include transition-delay( .10s );
-    opacity: 0;
     text-align: left;
-    padding: .3rem .25rem;
+    padding: .3rem 1.25rem;
     h3 {
-      line-height: 1.3rem;
-      font-size: .85rem;
-      margin: 0;
-      font-family: $font-sans;
+      line-height: 1.25rem;
+      font-size: 1.1rem;
+      margin-top: 25px;
+      font-family: $font-serif;
       font-weight: 400;
       font-style: normal;
-      letter-spacing: .13em;
-      text-transform: uppercase;
       color: #667;
-    }
-  }
-
-  @include respond-to( 1200 ) {
-    .post-index {
-      background-size: cover;
-    }
-    .post-index:hover {
-      background-size: cover;
     }
   }
 
   @include respond-to( 800 ) {
     .post-index {
       font-size: 1.15rem;
-      float: none;
+      display: block;
       width: 100%;
+      height: $height-post-index - 180px;
     }
     .post-index-subtitle {
       font-size: .65rem;
       line-height: 1.1rem;
+    }
+    .post-index-header {
+      h2 {
+        padding: 0.5rem 1.25rem;
+      }
+      h2:after {
+        display: none;
+      }
+    }
+    .post-index-subtitle h3 {
+      margin: 0;
+    }
+  }
+
+}
+
+.featured {
+  margin-top: 15px;
+
+  .post-index-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .post-index {
+    width: 100%;
+    background-size: contain;
+  }
+
+  .post-index-image,
+  .post-index-header {
+    display: inline-block;
+  }
+
+  .post-index-header {
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    color: #fff;
+    text-align: left;
+    h2 {
+      padding: 0 1.5em;
+    }
+    h2:after {
+      width: 0px;
+      height: 0px;
+    }
+    h3 {
+      display: none;
     }
   }
 

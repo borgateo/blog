@@ -50,7 +50,7 @@ Stare a casa tutto il giorno, da solo, non è un granché. Anche se sono abbasta
 
 #### Terzo mese
 Ritorna l’*eccitazione*.
-Leggo **Remote Work** di *37signals*, blog e commenti di gente che lavora a casa da anni, e inizio a seguire i loro consigli. `/* TODO: scrivere un post a riguardo. */`
+Leggo **Remote Work** di *37signals*, blog e commenti di gente che lavora a casa da anni, e inizio a seguire i loro consigli.
 
 #### Quarto mese
 Mi *godo la libertà*.

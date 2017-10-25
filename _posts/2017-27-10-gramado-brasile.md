@@ -1,12 +1,13 @@
 ---
 layout:     post
-title:      "Azienda in Brasile"
-subtitle:   "Riflessioni sui possibili vantaggi e svantaggi nell'avere una (micro)azienda in Brasile 🇧🇷"
+title:      "Gramado, Brasile (RS)"
+subtitle:   "dksannj knskj"
 date:       2017-06-09 12:31:01
 categories: lavoro
-tags:       remoto
+tags:       featured
 eta:        "3"
 image:      2017-06-09-azienda-brasile/azienda-brasile.gif
+featured:   true
 ---
 
 

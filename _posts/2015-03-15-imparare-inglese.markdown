@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Imparare l'inglese (e altre lingue)"
+title:      "Imparare l'inglese"
 subtitle:   "Semplici ma efficaci dritte per imparare a nuotare in questo mare di idiomi."
 date:       2015-03-15 22:31:00
 categories: lingua

@@ -10,47 +10,34 @@
 
     <main class="content" role="main">
       <article>
-
         <section class="post-intro post-content">
           <div title="tempo lettura stimato" class="post-TLS">
-            Lettura di
-            <span>{{ page.eta }} min</span>
+            Lettura di <span>{{ page.eta }} min</span>
           </div>
           <h2 class="post-title">{{ page.title }}</h2>
           <h3 class="post-subtitle">{{ page.subtitle }}</h3>
         </section>
 
-        <section id="article-image">
-          <div class="post-image" style="background-image: url( {{ site.url_images }}{{ page.image }})"></div>
-          <!-- <div class="post-meta">
-            <div class="cf post-meta-text">
-              , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} 
-            </div>
-          </div>-->
-        </section>
-
         <section class="post post-content">
           <a name="topofpage"></a>
+          <img
+            class="post-image"
+            alt="{{ site.image }}"
+            src="{{ site.url_images }}{{ page.image }}"
+          />
           {{content}}
         </section>
 
-        <!--footer class="post-footer">
-          <section class="share">
-            {% for social in site.social %}
-              {% if social.share_url != null %}
-                <a class="icon-{{ social.icon }}" href="{{ social.share_url }}{{ social.share_title }}{{page.title | cgi_escape}}{{ social.share_link }}{{site.url}}{{page.id}}"
-                  onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
-                <i class="fa fa-{{ social.icon }}"></i><span class="hidden">{{ social.icon }}</span>
-                </a>
-              {% endif %}
-            {% endfor %}
-          </section>
-        </footer-->
         <div class="bottom-teaser cf">
           <div class="isLeft">
             <h5 class="index-headline featured"><span>Scritto da</span></h5>
             <section class="author">
-              <div class="author-image" style="background-image: url({{site.author_image}})">Blog Logo</div>
+              <div
+                class="author-image"
+                style="background-image: url({{site.author_image}})"
+              >
+                Blog Logo
+              </div>
               <h4>{{ site.author }}</h4>
               <p class="bio">{{author.bio}}</p>
               <hr>
