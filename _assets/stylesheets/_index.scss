@@ -17,18 +17,18 @@ $width-post-index: 24%;
     position: relative;
     background-color: #FFF;
     background-position: center;
-    @include transition( all 150ms );
+    @include transition(all 0.15s linear);
     padding: 0;
-    margin: 15px 0;
+    margin: 12px 0;
     width: $width-post-index;
     min-width: 250px;
     height: $height-post-index;
     border: 1px solid rgba( 0, 0, 0, .09);
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,.05);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .05);
 
     &:hover {
-      top: -5px;
-      box-shadow: 0 8px 24px 0 rgba(0,0,0,.15);
+      transform: translateY(-5px);
+      box-shadow: 0 8px 24px 0 rgba(0, 0, 0, .15);
     }
   }
   .post-index-image {
@@ -121,12 +121,13 @@ $width-post-index: 24%;
 
   .post-index-header {
     position: absolute;
-    bottom: 50px;
+    bottom: 1.5em;
     right: 0;
     color: #fff;
     text-align: left;
     h2 {
-      padding: 0 1.5em;
+      padding: 0 1em;
+      text-shadow: 0 0 5px #000;
     }
     h2:after {
       width: 0px;
@@ -137,4 +138,8 @@ $width-post-index: 24%;
     }
   }
 
+}
+
+.map {
+  margin-bottom: 25px;
 }
