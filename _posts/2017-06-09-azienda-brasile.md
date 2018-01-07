@@ -6,7 +6,7 @@ date:       2017-06-09 12:31:01
 categories: lavoro
 tags:       remoto
 eta:        "3"
-image:      2017-06-09-azienda-brasile/azienda-brasile.gif
+image:      2017-06-09-azienda-brasile/azienda-brasile.jpg
 ---
 
 
@@ -27,12 +27,16 @@ Prima di tutto, voglio elencare i punti che _personalmente_ ritengo importanti p
 #### Corporation tax ✅
 
 Tutti sappiamo quanto alta è l'imposta sui redditi d'impresa in Italia (dal 27.90% al 31.30%), e come opprima i piccoli imprenditori. 
-Sai quant'è in Brasile? Dal 10 al 16% per le microimprese!
+Sai quant'è in Brasile? Dal 10% al 16% per le microimprese!
 
 Una *microimpresa* non è altro che un'azienda con un fatturato inferiore ai 360.000 R$ (~100.000 Euro) in un anno solare.
 
 Anche in Brasile si pagano differenti percentuali di tasse a seconda del fatturato annuale.
-Più alti sono gli introiti dell'azienda e più alte saranno le tasse da pagare al fisco.
+Più alti sono gli introiti dell'azienda e più alta è la percentuale di tasse da pagare al fisco.
+
+Ma in aggiunta, ad ogni settore viene applicata una percentuale diversa. 
+Per esempio un ristorante ed un avvocato che fatturano lo stesso identico quantitavivo, pagano
+percentuali diverse di _Simples Nacional_.
 
 Ogni startup nasce come microimpresa e solo quando il fatturato supera determinate soglie, vengono applicate maggiori tasse.
 
@@ -59,7 +63,7 @@ Fin'ora mi sono trovato molto bene.
 
 
 #### Cavilli burocratici ❌
-Tutto sembra promettente fino ad ora, ma come avrai già intuito, la __nota dolente è la burocrazia__. Lenta e macchinosa.
+Tutto sembra promettente fino ad ora, ma come avrai già intuito, la __nota dolente è la burocrazia__. Lenta e macchinosa. Forse peggiore dell'Italiana.
 
 Essere straniero, senza lavoro, senza un indirizzo fisso e un conto bancario è stato un ulteriore freno al processo.
 
@@ -67,20 +71,21 @@ Ecco la __cronologia__ con relativi costi:
 
 Alcune premesse:
 anche in Brasile c'è il concetto di _bolli_ e _timbri vari_.
-Quando vedi la dicitura "certificato", significa che sono dovuto andare dal notaio (chiamato cartorio) ad applicare un bollo al documento per certificarne l'autenticità. Du' palle! 🙄
+Quando vedi la dicitura "certificato", significa che sono dovuto andare dal notaio (chiamato _cartorio_) ad applicare un bollo al documento per certificarne l'autenticità. Du' palle! 🙄
 
-Un'azienda non può avere sede in un luogo non commerciale (come un domicilio), quindi ho affittato una postazione in un ufficio open space vicino casa. Sinceramente non so se in Italia sia uguale.
+Un'azienda non può avere sede in un luogo non commerciale (come un domicilio), quindi ho affittato una postazione in un ufficio co-workig space vicino casa. Sinceramente non so se in Italia sia uguale.
+(OT: in Inghilterra puoi avere l'ufficio in casa e scaricare l'affitto e spese di luce/gas)
 
 1. Registrazione certificata della firma digitale dal notaio: 5 R$
 2. Prova di residenza certificata: 2.30 R$
 3. Passaporto e CPF (simile al nostro codice fiscale) certificati: 24 R$
 4. Apertura contratto con ufficio open space: 120R$ / mese
 4. Dichiarazionne apertura impresa certificata: 60 R$
-5. Apertura azienda:
+5. Apertura azienda (15 giorni)
     - Fisco R$ 208,00
     - Commercialista R$ 507,00
 6. Smart Card (e-CNPJ) per facilitare dichiarazione dei redditi per uno straniero: 430 R$ (spesa forse evitale)
-7. Apertura C/C aziendale in banca (varia dai 40 ai 180 R$ / mese)
+7. Apertura C/C aziendale in banca (varia dai 40 ai 180 R$ / mese) (1 mese)
 
 Totale:
   1360 R$ (~450 Euro) e quasi 2 mesi per completare tutto il processo.

@@ -6,7 +6,7 @@ date:       2014-12-23 22:34:11
 categories: stile di vita, relax, 
 tags: 			suggerimenti
 eta: 				"5"
-image: 			2014-12-23-il-tao-del-programmatore/universo.gif
+image: 			2014-12-23-il-tao-del-programmatore/equilibrio.jpg
 ---
 
 Vedo spesso attriti e situazioni difficili in ufficio, dissidi e dispetti tra colleghi. 

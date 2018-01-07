@@ -6,7 +6,7 @@ date:       2015-01-29 18:34:25
 categories: lavoro
 tags: 			agenzie per il lavoro
 eta: 				"5"
-image: 			2015-01-29-Attenti-al-lupo/attenti-al-lupo.gif
+image: 			2015-01-29-Attenti-al-lupo/attenti-al-lupo.jpg
 ---
 
 _Criticare_. La maggior parte delle volte produce l’effetto contrario a quello sperato. 

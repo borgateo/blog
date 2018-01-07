@@ -17,17 +17,19 @@ document.onreadystatechange = function() {
   if ( document.readyState === 'complete' ) {
 
     nav.init();
-    images.setArticleImage( 80 );
+    // images.setArticleImage( 80 );
     images.setCaptions();
 
     disqus.init();
     shares.init();
 
+    /*
     if(typeof fuckAdBlock === 'undefined') {
       adBlockDetected();
     } else {
       fuckAdBlock.onDetected(adBlockDetected);
     }
+    */
 
   }
 };

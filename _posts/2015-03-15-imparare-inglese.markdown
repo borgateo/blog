@@ -6,7 +6,7 @@ date:       2015-03-15 22:31:00
 categories: lingua
 tags: 			imparare
 eta: 				"3"
-image: 			2015-03-15-imparare-inglese/immersione.gif
+image: 			2015-03-15-imparare-inglese/immersione.jpg
 ---
 
 Quando provo a convincere qualcuno a vivere un’esperienza all’estero, ricevo sempre la stessa risposta: 

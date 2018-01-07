@@ -6,7 +6,7 @@ date:       2016-01-16 22:31:00
 categories: lavoro
 tags:       remoto
 eta: 				"4"
-image: 			2016-01-16-lavorare-in-remoto/lavoro-remoto.gif
+image: 			2016-01-16-lavorare-in-remoto/lavoro-remoto.jpg
 ---
 
 Lavorare da casa.
