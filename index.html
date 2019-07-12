@@ -71,7 +71,6 @@ active: home
                 '{{ post.date | date: "%y" }}
               </span>
             </time>
-    <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
           </div>
 
           <header class="post-index-header">
@@ -87,9 +86,6 @@ active: home
             <h3 itemprop="subtitle">
               {{ post.subtitle }}
             </h3>
-            <!-- <div title="commenti" class="comments-bubble">
-              <p class="disqus-comment-count" data-disqus-url="http://blog.matteoborgato.com{{ post.url }}">0</p>
-            </div> -->
           </section>
           <!-- {{ post.content | strip_html | truncatewords: 250 }} -->
         </article>

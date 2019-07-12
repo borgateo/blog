@@ -15,7 +15,7 @@ $width-post-index: 24%;
     overflow: hidden;
     font-size: 1.35rem;
     position: relative;
-    background-color: #FFF;
+    background-color: #fff;
     background-position: center;
     @include transition(all 0.15s linear);
     padding: 0;
@@ -23,12 +23,12 @@ $width-post-index: 24%;
     width: $width-post-index;
     min-width: 250px;
     height: $height-post-index;
-    border: 1px solid rgba( 0, 0, 0, .09);
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .05);
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.05);
 
     &:hover {
       transform: translateY(-5px);
-      box-shadow: 0 8px 24px 0 rgba(0, 0, 0, .15);
+      box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.15);
     }
   }
   .post-index-image {
@@ -56,11 +56,11 @@ $width-post-index: 24%;
       left: 1.25rem;
     }
   }
-  
+
   .post-index-subtitle {
-    background-color: rgba(255, 255, 255, .95);
+    background-color: rgba(255, 255, 255, 0.95);
     text-align: left;
-    padding: .3rem 1.25rem;
+    padding: 0.3rem 1.25rem;
     h3 {
       line-height: 1.25rem;
       font-size: 1.1rem;
@@ -72,7 +72,7 @@ $width-post-index: 24%;
     }
   }
 
-  @include respond-to( 800 ) {
+  @include respond-to(800) {
     .post-index {
       font-size: 1.15rem;
       display: block;
@@ -80,7 +80,7 @@ $width-post-index: 24%;
       height: $height-post-index - 180px;
     }
     .post-index-subtitle {
-      font-size: .65rem;
+      font-size: 0.65rem;
       line-height: 1.1rem;
     }
     .post-index-header {
@@ -95,7 +95,6 @@ $width-post-index: 24%;
       margin: 0;
     }
   }
-
 }
 
 .featured {
@@ -107,6 +106,18 @@ $width-post-index: 24%;
     width: 100%;
     top: 0;
     left: 0;
+  }
+  .post-index-image::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    @include linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.21) 66%,
+      rgba(0, 0, 0, 0.65) 100%
+    );
   }
 
   .post-index {
@@ -137,7 +148,6 @@ $width-post-index: 24%;
       display: none;
     }
   }
-
 }
 
 .map {

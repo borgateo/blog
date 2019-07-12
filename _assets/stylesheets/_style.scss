@@ -4,9 +4,9 @@
 
 $rs: 16px;
 $font-serif: Linux Libertine;
-$font-sans: Open Sans, MundoSans, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-$blue: rgba(90, 207, 245, .4);
-$blue-hover: rgba(90, 207, 245, .6);
+$font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+$blue: rgba(90, 207, 245, 0.4);
+$blue-hover: rgba(90, 207, 245, 0.6);
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
@@ -30,15 +30,15 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #FCFDFA;
+  background-color: #fcfdfa;
 
   text-rendering: optimizeLegibility;
-         -webkit-font-smoothing: antialiased;
-     -moz-font-feature-settings: 'liga=1, dlig=1';
-      -ms-font-feature-settings: 'liga', 'dlig';
-  -webkit-font-feature-settings: 'liga', 'dlig';
-       -o-font-feature-settings: 'liga', 'dlig';
-          font-feature-settings: 'liga', 'dlig';
+  -webkit-font-smoothing: antialiased;
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga", "dlig";
+  -webkit-font-feature-settings: "liga", "dlig";
+  -o-font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga", "dlig";
 }
 
 a {
@@ -81,7 +81,7 @@ a {
     border-radius: 50%;
     background-color: white;
     background-size: cover;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
   }
   .blog-title,
   .page-title {
@@ -96,8 +96,8 @@ a {
     color: #333;
     outline: 0;
 
-    @include animation( fade-in-down .6s );
-    @include animation-delay( .25s );
+    @include animation(fade-in-down 0.6s);
+    @include animation-delay(0.25s);
   }
   .blog-description {
     font-size: $rs * 1.2;
@@ -111,14 +111,14 @@ a {
     color: #888;
     text-transform: uppercase;
 
-    @include animation( fade-in-down .6s );
-    @include animation-delay( .25s );
+    @include animation(fade-in-down 0.6s);
+    @include animation-delay(0.25s);
   }
   .custom-links {
     margin: 0 0 50px;
     text-align: center;
     a {
-      padding: .08em .45em;
+      padding: 0.08em 0.45em;
     }
   }
 }
@@ -142,18 +142,18 @@ a {
       text-decoration: none;
     }
     .post-title {
-      @include animation( fade-in-down .6s );
-      @include animation-delay( .10s );
+      @include animation(fade-in-down 0.6s);
+      @include animation-delay(0.1s);
     }
     .post-subtitle {
-      @include animation( fade-in-down .6s );
-      @include animation-delay( .25s );
+      @include animation(fade-in-down 0.6s);
+      @include animation-delay(0.25s);
     }
     .thumbnail-image {
       width: 150px;
       height: 150px;
       margin: 0 auto;
-      border-radius: .2em;
+      border-radius: 0.2em;
       background-color: #ededed;
       background-position: center;
       background-size: cover;
@@ -164,16 +164,16 @@ a {
     }
     .post-meta-index {
       font-family: Linux Libertine;
-      font-size: .85em;
+      font-size: 0.85em;
       line-height: 1;
       position: absolute;
       display: none;
-      padding: 0 .4em .2em .4em;
+      padding: 0 0.4em 0.2em 0.4em;
       text-align: center;
       color: rgb(200, 200, 200);
-      color: rgba(90, 207, 245, .5);
-      border-radius: .1em;
-      background-color: rgb(255,255,255);
+      color: rgba(90, 207, 245, 0.5);
+      border-radius: 0.1em;
+      background-color: rgb(255, 255, 255);
       span {
         display: block;
       }
@@ -186,9 +186,9 @@ a {
       line-height: 0;
       right: 0;
       float: right;
-      padding: 1em 1em .65em;
+      padding: 1em 1em 0.65em;
       color: #fff;
-      border-radius: .15em;
+      border-radius: 0.15em;
       background: rgb(90, 207, 245);
       p {
         font-size: 1.25em;
@@ -198,11 +198,11 @@ a {
     .comments-bubble:after {
       position: relative;
       top: 22px;
-      right: .65em;
+      right: 0.65em;
       float: right;
-      content: '';
-      border-top: .55em solid rgb(90, 207, 245);
-      border-right: .55em solid transparent;
+      content: "";
+      border-top: 0.55em solid rgb(90, 207, 245);
+      border-right: 0.55em solid transparent;
       border-left: 0 none;
     }
   }
@@ -220,7 +220,7 @@ a {
   background-color: transparent;
   &:active,
   &:hover {
-    background-color: rgba(255, 255, 255, .1);
+    background-color: rgba(255, 255, 255, 0.1);
   }
 }
 
@@ -268,14 +268,14 @@ a {
   font-style: normal;
   line-height: 1.2;
   position: absolute;
-  top: .5em;
-  right: .5em;
-  padding: .1em .2em;
+  top: 0.5em;
+  right: 0.5em;
+  padding: 0.1em 0.2em;
   text-align: right;
   text-align: center;
-  letter-spacing: -.03em;
+  letter-spacing: -0.03em;
   color: #667;
-  background-color: rgba(255, 255, 255, .95);
+  background-color: rgba(255, 255, 255, 0.95);
   span {
     display: block;
   }
@@ -322,7 +322,7 @@ article {
     color: #333;
 
     @include respond-to(800) {
-      font-size: .8rem;
+      font-size: 0.8rem;
     }
     h1,
     h2 {
@@ -332,9 +332,9 @@ article {
       font-style: normal;
       line-height: 3rem;
       margin: 0;
-      padding: .5em 0 .35em 0;
+      padding: 0.5em 0 0.35em 0;
       text-align: center;
-      letter-spacing: -.05em;
+      letter-spacing: -0.05em;
     }
     h3,
     h4,
@@ -345,7 +345,7 @@ article {
       font-style: normal;
       margin: 0;
       margin-bottom: 4px;
-      letter-spacing: -.02em;
+      letter-spacing: -0.02em;
     }
     h3 {
       font-family: $font-sans;
@@ -354,23 +354,23 @@ article {
       font-style: normal;
       line-height: 1.6rem;
       padding-bottom: 1.5em;
-      padding-top: .5em;
+      padding-top: 0.5em;
       text-align: center;
-      letter-spacing: .13em;
+      letter-spacing: 0.13em;
       text-transform: uppercase;
       color: #777;
     }
     h4 {
       font-size: 2.3em;
-      margin-bottom: .4em;
-      padding-top: .5em;
-      padding-bottom: .2em;
+      margin-bottom: 0.4em;
+      padding-top: 0.5em;
+      padding-bottom: 0.2em;
       text-align: center;
     }
     h5 {
       font-size: 2em;
-      padding-top: .2em;
-      padding-bottom: .4em;
+      padding-top: 0.2em;
+      padding-bottom: 0.4em;
       text-align: center;
     }
     p {
@@ -381,8 +381,8 @@ article {
       margin: 0;
       padding-bottom: 30px;
       -webkit-hyphens: auto;
-         -moz-hyphens: auto;
-              hyphens: auto;
+      -moz-hyphens: auto;
+      hyphens: auto;
       color: #333;
     }
     img {
@@ -422,8 +422,8 @@ article {
         margin-left: -26px;
         padding-bottom: 3px;
         padding-left: 20px;
-        letter-spacing: .01rem;
-        box-shadow: inset 5px 0 0 rgba(90, 207, 245, .4);
+        letter-spacing: 0.01rem;
+        box-shadow: inset 5px 0 0 rgba(90, 207, 245, 0.4);
       }
     }
     & > ul,
@@ -436,7 +436,7 @@ article {
       padding: 0 0 1.25em 0;
       text-align: left;
       li {
-        margin-bottom: .1em;
+        margin-bottom: 0.1em;
         padding: 0;
         padding-top: 2px;
         p {
@@ -562,7 +562,7 @@ article {
     bottom: -10px;
     left: -10px;
     text-indent: -9999px;
-    background-image: url('/assets/images/lavorando.jpg');
+    background-image: url("/assets/images/lavorando.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -584,7 +584,7 @@ article {
       letter-spacing: -2px;
       word-break: break-word;
       outline: 0;
-      background-color: rgba(255,255,255,.95);
+      background-color: rgba(255, 255, 255, 0.95);
     }
     .blog-description {
       font-size: ($rs / 8) * 11;
@@ -593,7 +593,7 @@ article {
       margin: 12px 0 50px 0;
       padding: $rs / 2 $rs;
       text-align: center;
-      background-color: rgba(255,255,255,.95);
+      background-color: rgba(255, 255, 255, 0.95);
     }
     .custom-links {
       margin: 0 0 50px;
@@ -611,7 +611,7 @@ article {
       text-align: center;
       vertical-align: middle;
       text-decoration: none;
-      letter-spacing: -.02em;
+      letter-spacing: -0.02em;
       color: white;
       border-radius: 999em;
       background: #57ad68;
@@ -621,9 +621,9 @@ article {
 }
 
 .bottom-closer .background-closer-image {
-  opacity: .95;
+  opacity: 0.95;
 
-  @include transition(all .5s ease);
+  @include transition(all 0.5s ease);
 }
 .bottom-closer:hover .background-closer-image {
   opacity: 1;
@@ -633,18 +633,14 @@ article {
   height: 25px;
 }
 
-#disqus_thread {
-  margin-top: 50px;
-}
-
 .post-tag-articleimage {
   display: none;
 }
 
 pre,
 code {
-  font-size: .8em;
-  border: 1px solid rgba(0, 0, 0, .07);
+  font-size: 0.8em;
+  border: 1px solid rgba(0, 0, 0, 0.07);
 }
 
 code {
@@ -685,7 +681,6 @@ pre {
 .single-post .entry-content {
   right: 0;
 }
-
 
 /**** Animations ****/
 @-webkit-keyframes fade-in-down {

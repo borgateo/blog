@@ -9,8 +9,7 @@
 
 var nav = require('./nav.js');
 var images = require('./images.js');
-var disqus = require('./disqus.js');
-var shares = require('./shares.js');
+// var shares = require('./shares.js');
 
 
 document.onreadystatechange = function() {
@@ -20,8 +19,7 @@ document.onreadystatechange = function() {
     // images.setArticleImage( 80 );
     images.setCaptions();
 
-    disqus.init();
-    shares.init();
+    // shares.init();
 
     /*
     if(typeof fuckAdBlock === 'undefined') {
